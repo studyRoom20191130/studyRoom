@@ -169,6 +169,3 @@ const convertTimeToHour = (str) => {
     return result
 }
 
-const toggleClass = (className) => {
-
-}
