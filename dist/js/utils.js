@@ -168,3 +168,7 @@ const convertTimeToHour = (str) => {
     let result = year + '年' + getZero(month) + '月' + getZero(day) + '日' + ' ' + getZero(hours)
     return result
 }
+
+const toggleClass = (className) => {
+
+}
