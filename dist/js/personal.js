@@ -203,6 +203,7 @@ const generateTimeline = () => {
             <a href="#">显示更多</a>
         </div>
     `
+    html = html + last
     let container = e('.timeline-container')
     appendHtml(container, html)
 }
