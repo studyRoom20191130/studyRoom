@@ -13,8 +13,15 @@ const bindOtherTime = () => {
     })
 }
 
+const bindPlanButton = () => {
+    $(".plan-button").click(function(){
+        $(".make-plan").toggle();
+    });
+}
+
 const bindEvents = () => {
     bindOtherTime()
+    bindPlanButton()
 }
 
 
