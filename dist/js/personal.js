@@ -20,6 +20,7 @@ const timeTemplate = (array) => {
     })
     return r
 }
+
 const timelineTemplate = (object) => {
     let o = object
     // log('o', o)
@@ -208,13 +209,16 @@ const generateTimeline = () => {
     appendHtml(container, html)
 }
 
-const bindEvents = () => {
-
+const datePicker = () => {
+    // let myDatepicker = $('#date-picker').datepicker().data('datepicker')
+    // let s = myDatepicker.selectedDates
+    // log('s', $el)
 }
 
 
 const __main = () => {
     generateTimeline()
+    datePicker()
 }
 
 __main()
