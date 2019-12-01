@@ -169,3 +169,8 @@ const convertTimeToHour = (str) => {
     return result
 }
 
+const getRandomInt = (max) => {
+    let r = Math.floor(Math.random() * Math.floor(max))
+    return r
+}
+
