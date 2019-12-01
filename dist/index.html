@@ -41,11 +41,11 @@
             <div class="other-time hidden">
                 <div>
                     <span>开始时间: </span>
-                    <input type="text" placeholder="直接输入hhmm，如930">
+                    <input type="text" class="form-control" placeholder="直接输入hhmm，如 930">
                 </div>
                 <div class="inline-block">
                     <span>结束时间: </span>
-                    <input type="text" placeholder="直接输入hhmm，如1030">
+                    <input type="text" class="form-control" placeholder="直接输入hhmm，如 1030">
                 </div>
                 <div>
                     <textarea class="form-control" rows="10" placeholder="学习或备注内容"></textarea>
@@ -278,32 +278,39 @@
                   评论(2)
               </div>
           </article>
-          
+
       </div>
       <div class="right title-weight">
-          <div class="title">
-              每日计划
+          <div class="plan-button">
+              <button type="button" id="plan-button" class="btn btn-primary">制定今日计划</button>
           </div>
-          <div class="plan-content">
-              <ol class="not-center">
-                  <li>看《代码大全》</li>
-                  <li>学习 React </li>
-                  <li>跑步</li>
-              </ol>
-          </div>
-          <div class="plan-checkbox">
-              <div class="not-center">
-                  <span>看《代码大全》</span>
-                  <span>看《高级程序设计》</span>
-                  <span>跟 B 站直播</span>
-                  <span>看《ES6 标准入门》</span>
-                  <span>跑步</span>
-                  <span>学习 React </span>
-                  <span>学习 Vue </span>
-                  <span>学习 Angular </span>
-                  <span>学习 FEP</span>
+          <div class="make-plan">
+              <div class="title">
+                  今日计划
+              </div>
+              <div class="plan-content">
+                  <ol class="not-center">
+                      <li>看《代码大全》</li>
+                      <li>学习 React </li>
+                      <li>跑步</li>
+                  </ol>
+              </div>
+              <input type="text" class="form-control" placeholder="输入事项">
+              <div class="plan-checkbox">
+                  <div class="not-center">
+                      <span>看《代码大全》</span>
+                      <span>看《高级程序设计》</span>
+                      <span>跟 B 站直播</span>
+                      <span>看《ES6 标准入门》</span>
+                      <span>跑步</span>
+                      <span>学习 React </span>
+                      <span>学习 Vue </span>
+                      <span>学习 Angular </span>
+                      <span>学习 FEP</span>
+                  </div>
               </div>
           </div>
+
       </div>
   </div>
 
