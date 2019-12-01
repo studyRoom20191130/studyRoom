@@ -1,4 +1,3 @@
-
 const getBlob = () => {
     let arr = [
         {
@@ -27,20 +26,49 @@ const getBlob = () => {
 
     let index = getRandomInt(7)
     let r = arr[index]
-    log('r', index)
+    // log('r', index)
     return r
 }
 
-const annualTemplate = (object) => {
-    let o = object
+const annualTemplate = (year) => {
+    // let o = object
     let blob = getBlob()
     let t = `
         <div class="blob">
             <svg  class='${blob.className}' xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600    600"><path d='${blob.d}' fill="#FE840E"/></svg>
-            <h1 class="annual-${o.year}">${o.year}</h1>
+            <h1 class="annual-${year}">${year}</h1>
         </div>
     `
     return t
+}
+
+const getYears = () => {
+    let year = [2019, 2020,2021]
+    return year
+}
+
+const generateAnnual = () => {
+    let years = getYears()
+    let html = ''
+    years.forEach((y) => {
+        let t = annualTemplate(y)
+        html += t
+    })
+    let element = e('.blob-wrapper')
+    appendHtml(element, html)
+}
+
+const bindYear = () => {
+    let yearElements = es('h1')
+    yearElements.forEach((element) => {
+        bindEvent(element, 'click', (event) => {
+            let target = event.target
+            log('target', target)
+            let blob = closest(target, '.blob')
+            log('blob', blob)
+        })
+    })
+
 }
 
 const fakeData = () => {
@@ -188,20 +216,138 @@ const fakeData = () => {
 
 }
 
-const generateAnnual = () => {
-    let array = fakeData()
-    let html = ''
-    array.forEach((obj) => {
-        let t = annualTemplate(obj)
-        html += t
-    })
-    let element = e('.blob-wrapper')
-    appendHtml(element, html)
+const mock = () => {
+    let result = [
+        {
+            year: 2020,
+            // passedDays: 0,
+            // restDays: 0,
+            userSum: 2,
+            users: [{
+                userId: 1,
+                userName: 'Life',
+                studyTimes: '0',
+                plans: [],
+                comments: '',
+            }, {
+                userId: 2,
+                userName: '风行',
+                studyTimes: '0',
+                plans: [],
+                comments: '',
+            }]
+        },
+        {
+            year: 2019,
+            // passedDays: 250,
+            // restDays: 0,
+            userSum: 3,
+            users: [{
+                userId: 1,
+                userName: 'Life',
+                studyTimes: '1000 小时',
+                plans: [{
+                    index: 1,
+                    content: '二刷 angular 官网',
+                    statusCode: 2,
+                    status: '完成',
+                    duration: '',
+                    mood: '',
+                }, {
+                    index: 2,
+                    content: '二刷 「angular 权威指南」',
+                    statusCode: 2,
+                    status: '完成',
+                    duration: '',
+                    mood: '需要再看',
+                }, {
+                    index: 3,
+                    content: '学习 webpack',
+                    statusCode: 3,
+                    status: '暂停',
+                    duration: '',
+                    mood: '已经大概了解了，以后业务中用到时再仔细研究',
+                }, {
+                    index: 4,
+                    content: '看10本技术书',
+                    statusCode: 4,
+                    status: '进行中',
+                    duration: '',
+                    mood: '',
+                }, {
+                    index: 5,
+                    content: '二刷 高程',
+                    statusCode: 2,
+                    status: '完成',
+                    duration: '25 小时',
+                    mood: '',
+                }, {
+                    index: 6,
+                    content: '跟完萧大 b 站视频',
+                    statusCode: 2,
+                    status: '完成',
+                    duration: '124 小时',
+                    mood: '跟完直播视频的总代码量在 2000 行左右，实际完成起来比想象中要容易很多，不要畏难。我采用的方法是快速看一遍，大致了解这一集要完成的功能有哪些（一般一集只有两三个功能），第二遍跟写的时候，可以尝试先自己实现一下功能，看看自己写的和萧大的写的差距在哪，写不出来的时候参考萧大的思路和实现，这样效果很好。最后的植物大战僵尸包含的功能在前面都已经实现过，可以尝试独立完成',
+                }, {
+                    index: 7,
+                    content: '刷完「Jquery 基础教程」',
+                    statusCode: 3,
+                    status: '暂停',
+                    duration: '',
+                    mood: '',
+                }, {
+                    index: 8,
+                    content: '看一遍「sql 必知必会」',
+                    statusCode: 2,
+                    status: '完成',
+                    duration: '',
+                    mood: '',
+                }, {
+                    index: 9,
+                    content: '学习并熟练使用 vue',
+                    statusCode: 2,
+                    status: '完成',
+                    duration: '',
+                    mood: '刷官网，做好工作，过 vue 实战那本书',
+                }, {
+                    index: 10,
+                    content: '学习 node',
+                    statusCode: 2,
+                    status: 'done',
+                    duration: '',
+                    mood: '我看完了 node与express开发这本书，但是没觉得比上课的内容有太多的拓展，还有一个感觉是，要学精它的话，光靠这一本书是不行的，但现在也不知道该看什么资料。。不过好歹有进一步的概念了，先专心学好前端的东西吧',
+                }],
+                comments: '',
+            }, {
+                userId: 2,
+                userName: '点点',
+                studyTimes: '888 小时 33 分 22 秒',
+                plans: [],
+                comments: '',
+
+            }, {
+                userId: 3,
+                userName: '风行',
+                studyTimes: '666 小时 23 分 33 秒',
+                plans: [],
+                comments: '',
+            }],
+        },
+    ]
+
+    return result
+
 }
 
 
+
+const bindAllEvents = () => {
+    bindYear()
+}
+
 const __main = () => {
     generateAnnual()
+    bindAllEvents()
 }
 
 __main()
