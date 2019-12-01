@@ -210,9 +210,11 @@ const generateTimeline = () => {
 }
 
 const datePicker = () => {
-    // let myDatepicker = $('#date-picker').datepicker().data('datepicker')
-    // let s = myDatepicker.selectedDates
-    // log('s', $el)
+    $('#datepicker').datepicker({
+        onSelect: function(formattedDate, date, inst) {
+            log('拿到日期', formattedDate, typeof formattedDate)
+        }
+    })
 }
 
 
