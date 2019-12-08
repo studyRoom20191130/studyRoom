@@ -282,20 +282,20 @@
       </div>
       <div class="right title-weight">
           <div class="plan-button">
-              <button type="button" id="plan-button" class="btn btn-primary">制定今日计划</button>
+              <button type="button" id="plan-button" class="btn btn-primary"><span class="button-text">制定今日计划</span></button>
           </div>
           <div class="make-plan">
               <div class="title">
                   今日计划
               </div>
               <div class="plan-content">
-                  <ol class="not-center">
-                      <li>看《代码大全》</li>
-                      <li>学习 React </li>
-                      <li>跑步</li>
+                  <ol class="not-center" id="ol">
                   </ol>
               </div>
-              <input type="text" class="form-control" placeholder="输入事项">
+              <input id="input-todo" type="text" class="form-control" placeholder="输入事项，按回车键确定">
+              <div class="">
+                  <button type="button" id="clear-button" class="btn btn-primary">清除计划</button>
+              </div>
               <div class="plan-checkbox">
                   <div class="not-center">
                       <span>看《代码大全》</span>
@@ -310,7 +310,6 @@
                   </div>
               </div>
           </div>
-
       </div>
   </div>
 
@@ -319,6 +318,7 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
     <script src="js/utils.js"></script>
     <script src="js/plugins.js"></script>
+    <script src="js/todo.js"></script>
     <script src="js/main.js"></script>
 </body>
 

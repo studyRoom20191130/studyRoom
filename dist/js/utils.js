@@ -174,3 +174,12 @@ const getRandomInt = (max) => {
     return r
 }
 
+const setLocalStorage = (key, value) => {
+    localStorage.setItem(key,window.btoa(window.encodeURIComponent(JSON.stringify(value))))
+}
+
+const getLocalStorage = (key) => {
+    if (localStorage.getItem(key)) {
+        return JSON.parse(decodeURIComponent(window.atob(localStorage.getItem(key))));
+    }
+}
