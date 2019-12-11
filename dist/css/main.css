@@ -144,12 +144,11 @@
 }
 
 li {
-    display: flex;
-    justify-content: space-between;
+    clear: both;
 }
 
 li button {
-
+    float: right;
 }
 
 li .btn {
