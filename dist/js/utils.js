@@ -114,6 +114,14 @@ const closest = (element, selector) => {
     }
 }
 
+const toggleClass = (element, className) => {
+    if (element.classList.contains(className)) {
+        element.classList.remove(className)
+    } else {
+        element.classList.add(className)
+    }
+}
+
 // 补0操作
 const getZero = (num) => {
     if (parseInt(num) < 10) {

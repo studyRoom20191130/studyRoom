@@ -6,8 +6,8 @@ const bindTodoInputEvent = () => {
         if(event.keyCode == 13){
             const input = $("#input-todo")
             const val = input.val()
-            addHtmlToOlElement(val)
             saveTodoListInStorage(val)
+            addHtmlToOlElement()
             input.val('')
         }
     })
@@ -26,20 +26,25 @@ const bindTodoInputEvent = () => {
 const bindSpanClickEvent = () => {
     $('.not-center span').click(function(event){
         const val = event.target.innerHTML
-        addHtmlToOlElement(val)
         saveTodoListInStorage(val)
+        addHtmlToOlElement()
     });
 }
 
-const addHtmlToOlElement = (todoList) => {
-    todoList = Array.isArray(todoList) ? todoList : [todoList]
-    let olContent = $("#ol").innerHTML || ''
+const getTodoListLength = () => {
+    let t = getLocalStorage('todoList') || []
+    return t.length - 1
+}
+
+const addHtmlToOlElement = () => {
+    todoList = getLocalStorage('todoList') || []
     let html = ''
-    let index = 0
-    for (val of todoList) {
-        index++
-        html += `${olContent}<li><span>${index}. ${val}</span><button class="btn btn-success btn-small">完成</button></li>`
+    for (var i = 0; i < todoList.length; i++) {
+        let val = todoList[i]
+        let index = i + 1
+        html += `<li><div><span>${index}.</span><span>${val}</span></div><button class="btn btn-success btn-small">完成</button></li>`
     }
+    $('ol').empty()
     appendHtml(e("#ol"), html)
 }
 
@@ -57,3 +62,14 @@ const bindClearButton = () => {
         localStorage.setItem('todoList', [])
     });
 }
+
+
+bindEvent(e('ol'), 'click', e => {
+    if (e.target.classList.contains('btn')) {
+        const button = $(e.target)
+        button.text() === '完成' ? button.text('取消') : button.text('完成')
+        let li = closestTag(e.target, 'li')
+        let span = li.querySelectorAll('span')[1]
+        toggleClass(span, 'text-decoration')
+    }
+})

@@ -31,7 +31,7 @@ const bindEvents = () => {
 
 const getTodoList = () => {
     const todoList = getLocalStorage('todoList') || []
-    addHtmlToOlElement(todoList)
+    addHtmlToOlElement()
 }
 
 const shouldShowTodo = () => {
