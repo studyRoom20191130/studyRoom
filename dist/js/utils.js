@@ -133,12 +133,13 @@ const getZero = (num) => {
 
 // 时间戳转换成 年月日
 const getDate = (str) => {
-    let d = new Date(str)
+    // 新增了 没传 str 的情况
+    let d = str ? new Date(str) : new Date()
     let year = d.getFullYear()
     let month = d.getMonth() + 1
     let day = d.getDate()
     //最后拼接时间
-    let result = year + '年' + getZero(month) + '月' + getZero(day) + '日'
+    let result = str ? year + '年' + getZero(month) + '月' + getZero(day) + '日' :  year + '' + getZero(month) + getZero(day)
     return result
 }
 

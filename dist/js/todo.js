@@ -48,7 +48,6 @@ const saveTodoListInStorage = (val) => {
 }
 
 const bindClearButton = () => {
-    log(1)
     $('#clear-button').click(function(){
         log(2)
         $("#ol").empty()

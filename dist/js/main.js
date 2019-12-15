@@ -34,6 +34,11 @@ const getTodoList = () => {
     addHtmlToOlElement(todoList)
 }
 
+const getstudyDataList =() => {
+    const studyDataList = getLocalStorage('studyDataList') || []
+    addHtmlToMainDiv(studyDataList)
+}
+
 const shouldShowTodo = () => {
     // 如果有计划，直接展示 totoList
     // 如果没有计划，显示制定今日计划按钮
@@ -49,6 +54,7 @@ const shouldShowTodo = () => {
 
 const __main = () => {
     bindEvents()
+    getstudyDataList()
     getTodoList()
     shouldShowTodo()
 }
