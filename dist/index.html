@@ -62,32 +62,71 @@
 
       </div>
       <div class="right title-weight">
-          <div class="plan-button">
-              <button type="button" id="plan-button" class="btn btn-primary"><span class="button-text">制定今日计划</span></button>
+          <div class="daily margin-bottom">
+              <div class="margin-bottom">
+                  <button type="button" id="daily-btn" data-type="daily" class="btn-callback btn btn-primary">制定今日计划</button>
+              </div>
+              <div class="make-daily-plan">
+                  <div class="daily-plan">
+                      <div class="title">
+                          今日计划
+                      </div>
+                      <div class="plan-content">
+                          <ol class="not-center" id="ol">
+                          </ol>
+                      </div>
+                      <br>
+                      <input id="input-todo-daily" type="text" class="form-control" placeholder="输入事项，按回车键确定">
+                      <div class="margin-bottom">
+                          <button type="button" data-type="todoListDaily" class="clear-data btn btn-primary">清除计划</button>
+                      </div>
+                      <div class="plan-checkbox">
+                          <div class="not-center">
+                              <span>看《代码大全》</span>
+                              <span>看《高级程序设计》</span>
+                              <span>跟 B 站直播</span>
+                              <span>看《ES6 标准入门》</span>
+                              <span>跑步</span>
+                              <span>学习 React </span>
+                              <span>学习 Vue </span>
+                              <span>学习 Angular </span>
+                              <span>学习 FEP</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <div class="make-plan">
-              <div class="title">
-                  今日计划
+          <div class="weekly">
+              <div class="weekly-button">
+                  <button type="button" id="weekly-btn" data-type="weekly" class="btn-callback btn btn-primary"><span class="weekly-btn-text">制定本周计划</span></button>
               </div>
-              <div class="plan-content">
-                  <ol class="not-center" id="ol">
-                  </ol>
-              </div>
-              <input id="input-todo" type="text" class="form-control" placeholder="输入事项，按回车键确定">
-              <div class="">
-                  <button type="button" id="clear-button" class="btn btn-primary">清除计划</button>
-              </div>
-              <div class="plan-checkbox">
-                  <div class="not-center">
-                      <span>看《代码大全》</span>
-                      <span>看《高级程序设计》</span>
-                      <span>跟 B 站直播</span>
-                      <span>看《ES6 标准入门》</span>
-                      <span>跑步</span>
-                      <span>学习 React </span>
-                      <span>学习 Vue </span>
-                      <span>学习 Angular </span>
-                      <span>学习 FEP</span>
+              <div class="make-weekly-plan">
+                  <div class="weekly-plan">
+                      <div class="title">
+                          本周计划
+                      </div>
+                      <div class="plan-content">
+                          <ol class="not-center" id="ol-weekly">
+                          </ol>
+                      </div>
+                      <br>
+                      <input id="input-todo-weekly" type="text" class="form-control" placeholder="输入事项，按回车键确定">
+                      <div class="margin-bottom">
+                          <button type="button" data-type="todoListWeekly" class="clear-data btn btn-primary">清除计划</button>
+                      </div>
+                      <div class="plan-checkbox">
+                          <div class="not-center">
+                              <span>看《代码大全》</span>
+                              <span>看《高级程序设计》</span>
+                              <span>跟 B 站直播</span>
+                              <span>看《ES6 标准入门》</span>
+                              <span>跑步</span>
+                              <span>学习 React </span>
+                              <span>学习 Vue </span>
+                              <span>学习 Angular </span>
+                              <span>学习 FEP</span>
+                          </div>
+                      </div>
                   </div>
               </div>
           </div>

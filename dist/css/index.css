@@ -1,3 +1,4 @@
+/* 首页样式 */
 .nav__placeholder {
     height: 58px;
 }
@@ -48,6 +49,8 @@
     margin-left: 28px;
     position: fixed;
     right: 0;
+    height: 100%;
+    overflow: auto;
 }
 
 .main {
@@ -114,9 +117,18 @@
     margin-top: 10px;
 }
 
-.make-plan {
+.make-daily-plan {
     display: none;
     margin-top: 25px;
+}
+
+.make-weekly-plan {
+    display: none;
+    margin-top: 25px;
+}
+
+.margin-bottom {
+    margin-bottom: 15px;
 }
 
 .other-time input {
@@ -124,7 +136,7 @@
     display: inline-block;
 }
 
-.make-plan input {
+.right input {
     width: 260px;
     display: inline-block;
     margin-bottom: 20px;
@@ -150,6 +162,10 @@ li .btn {
 
 .text-decoration {
     text-decoration: line-through;
+}
+
+.daily {
+    border-bottom: 1px solid #edf0f5;
 }
 
 html {
