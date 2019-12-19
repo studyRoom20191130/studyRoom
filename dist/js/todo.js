@@ -6,100 +6,69 @@ const todoInit = () => {
 const shouldShowTodo = () => {
     // 如果有计划，直接展示 totoList
     // 如果没有计划，显示制定计划按钮
-    let map = [
-        {
-            type: 'todoListDaily',
-            element: 'daily',
-            word: '今日',
-        },
-        {
-            type: 'todoListWeekly',
-            element: 'weekly',
-            word: '本周',
-        },
-    ]
-    for (obj of map) {
-        const  todoList = getLocalStorage(obj.type) || []
-        const hasTodoList = todoList.length === 0 ? false : true
+    let todoList = ['daily', 'weekly']
+    for (const type of todoList) {
+        let storageKey = type + 'TodoList'
+        let todoList = getLocalStorage(storageKey) || []
+        let hasTodoList = todoList.length !== 0
+        let word = type === 'daily' ? '当日' : '本周'
+        let divClassName = `.make-${type}-plan`
+        let btn = `#${type}-btn`
         if (hasTodoList) {
-            $(`#${obj.element}-btn`).text(`收起${obj.word}计划`);
-            $(`.make-${obj.element}-plan`).toggle();
+            $(btn).text(`收起${word}计划`);
+            $(divClassName).toggle();
         } else {
-            $(`#${obj.element}-btn`).text(`制定${obj.word}计划`);
+            $(btn).text(`制定${word}计划`);
         }
     }
 }
 
 const getTodoList = () => {
-    let map = [
-        {
-            type: 'todoListDaily',
-            element: '#ol',
-        },
-        {
-            type: 'todoListWeekly',
-            element: '#ol-weekly',
-        },
-    ]
-    for (obj of map) {
-        const  todoList = getLocalStorage(obj.type) || []
-        addHtmlToOlElement(todoList, obj.element)
+    let todoList = ['daily', 'weekly']
+    for (const type of todoList) {
+        let parentElement = '#ol-' + type
+        let storageKey = type + 'TodoList'
+        let todoList = getLocalStorage(storageKey) || []
+        addHtmlToOlElement(todoList, parentElement)
     }
 }
 
-const bindRightDivBtnEvent = () => {
+const bindRightDivEvents = () => {
     bindEvent(e('.right'), 'click', event => {
         let target = event.target
-        let type = target.dataset.type
-        let contains = target.classList.contains.bind(target.classList)
-        let map = {
-            'btn-callback': btnCallback,
-            'clear-data': clearBtnCallback
-        }
-        for (let key in map) {
-            if (contains(key)) {
-                map[key](type)
-            }
-        }
+        btnEvents(target)
+        spanClickEvents(target)
     })
 }
 
-const clearBtnCallback = (type) => {
-        let element = type === 'todoListWeekly' ? '#ol-weekly' : '#ol'
-        $(element).empty()
-        localStorage.setItem(type, [])
-}
-
-// 输入框事件
-const bindTodoInputEvent = () => {
-    // 这里用 dataset 优化
-    let inputList = [
-        {
-            element: "#input-todo-daily",
-            ol: "#ol",
-            todoList: "todoListDaily",
-        },
-        {
-            element: "#input-todo-weekly",
-            ol: "#ol-weekly",
-            todoList: "todoListWeekly",
-        },
-    ]
-    for (let obj of inputList) {
-        $(obj.element).keyup(function(){
-            if(event.keyCode == 13){
-                let input = $(obj.element)
-                let val = input.val()
-                log(2, obj.ol)
-                addHtmlToOlElement(val, obj.ol)
-                saveTodoListInStorage(val, obj.todoList)
-                input.val('')
-            }
-        })
+// 常用事项点击事件
+const spanClickEvents = (target) => {
+    let div = $(target).parent()[0]
+    let parentElementId = div.dataset.type
+    let list = div.dataset.list
+    if (parentElementId === '#ol-daily' || parentElementId === '#ol-weekly') {
+        const val = target.innerHTML
+        addHtmlToOlElement(val, parentElementId)
+        saveTodoListInStorage(val, list)
     }
 }
 
-const btnCallback = (type) => {
+const btnEvents = (target) => {
+    let contains = target.classList.contains.bind(target.classList)
+    let map = {
+        'btn-callback': toggleBtnCallback,
+        'clear-data': clearBtnCallback,
+        'done': doneBtnCallback,
+    }
+    for (let key in map) {
+        if (contains(key)) {
+            map[key](target)
+        }
+    }
+}
+
+const toggleBtnCallback = (target) => {
+        let type = target.dataset.type
         let id = `#${type}-btn`
         let button = $(id)
         let t1 = '今日'
@@ -112,13 +81,39 @@ const btnCallback = (type) => {
         $(`.make-${t2}-plan`).toggle();
 }
 
-// 常用事项点击事件
-const bindSpanClickEvent = () => {
-    $('.not-center span').click(function(event){
-        const val = event.target.innerHTML
-        addHtmlToOlElement(val)
-        saveTodoListDailyInStorage(val)
-    });
+const doneBtnCallback = (target) => {
+    const button = $(target)
+    button.text() === '完成' ? button.text('取消') : button.text('完成')
+    let li = closestTag(target, 'li')
+    let span = li.querySelector('span')
+    toggleClass(span, 'text-decoration')
+}
+
+const clearBtnCallback = (target) => {
+        let type = target.dataset.type
+        let element = type === 'weekly' ? '#ol-weekly' : '#ol-daily'
+        $(element).empty()
+        localStorage.setItem(type, [])
+}
+
+// 输入框事件
+const bindTodoInputEvent = () => {
+    // 这里应该用 dataset 的
+    let inputList = ['daily', 'weekly']
+    for (let type of inputList) {
+        let inputId = '#input-todo-' + type
+        let input = $(inputId)
+        $(input).keyup(function(){
+            if(event.keyCode === 13){
+                let val = input.val()
+                let parentElementId = '#ol-' + type
+                addHtmlToOlElement(val, parentElementId)
+                let storageKey = type + 'TodoList'
+                saveTodoListInStorage(val, storageKey)
+                input.val('')
+            }
+        })
+    }
 }
 
 const addHtmlToOlElement = (todoList, element) => {
@@ -126,23 +121,13 @@ const addHtmlToOlElement = (todoList, element) => {
     let olContent = $(element).innerHTML || ''
     let html = ''
     for (val of todoList) {
-        html += `${olContent}<li><span>${val}</span><button class="btn btn-success btn-small">完成</button></li>`
+        html += `${olContent}<li><span>${val}</span><button class="done btn btn-success btn-small">完成</button></li>`
     }
     appendHtml(e(element), html)
 }
 
-const saveTodoListInStorage = (val, type) => {
-    let todoListDaily = getLocalStorage(type) || []
-    todoListDaily.push(val)
-    setLocalStorage(type, todoListDaily)
+const saveTodoListInStorage = (val, list) => {
+    let dailyTodoList = getLocalStorage(list) || []
+    dailyTodoList.push(val)
+    setLocalStorage(list, dailyTodoList)
 }
-
-bindEvent(e('ol'), 'click', e => {
-    if (e.target.classList.contains('btn')) {
-        const button = $(e.target)
-        button.text() === '完成' ? button.text('取消') : button.text('完成')
-        let li = closestTag(e.target, 'li')
-        let span = li.querySelector('span')
-        toggleClass(span, 'text-decoration')
-    }
-})

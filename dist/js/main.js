@@ -16,9 +16,8 @@ const bindOtherTime = () => {
 const bindEvents = () => {
     bindOtherTime()
     bindTodoInputEvent()
-    bindSpanClickEvent()
     bindLeftDivBtnEvent()
-    bindRightDivBtnEvent()
+    bindRightDivEvents()
 }
 
 

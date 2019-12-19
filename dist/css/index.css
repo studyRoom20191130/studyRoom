@@ -165,7 +165,12 @@ li .btn {
 }
 
 .daily {
-    border-bottom: 1px solid #edf0f5;
+    border-bottom: 2px solid #edf0f5;
+    padding-bottom: 10px;
+}
+
+.weekly {
+    margin-bottom: 100px;
 }
 
 html {
