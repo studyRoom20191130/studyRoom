@@ -212,13 +212,14 @@ const generateTimeline = () => {
 const datePicker = () => {
     $('#datepicker').datepicker({
         onSelect: function(formattedDate, date, inst) {
-            log('拿到日期', formattedDate, typeof formattedDate)
+            log('拿到日期', formattedDate, date, typeof formattedDate)
         }
     })
 }
 
 
 const __main = () => {
+    $('#datepicker').datepicker({dateFormat:'yy-mm'})
     generateTimeline()
     datePicker()
 }
