@@ -21,6 +21,12 @@
  * Customize the background color to match your design.
  */
 
+body {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
