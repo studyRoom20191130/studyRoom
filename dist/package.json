@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "node express_demo.js"
+  }
+}
