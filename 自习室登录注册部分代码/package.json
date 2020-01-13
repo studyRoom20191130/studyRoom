@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^5.0.0-alpha.7",
+    "express-session": "^1.17.0",
+    "http-assert": "^1.4.1",
+    "mongoose": "^5.8.6",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  }
+}

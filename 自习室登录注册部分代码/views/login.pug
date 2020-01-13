@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content
+    .w-full.max-w-xs
+        form.bg-white.shadow-md.rounded.px-8.pt-6.pb-8.mb-4(action="/login", method="post")
+            h1.block.text-gray-700.text-3xl.font-bold.text-center
+                | 登录
+            .mb-4
+                label.block.text-gray-700.text-sm.font-bold.mb-2(for='username')
+                    | 用户名
+                input#username.shadow.appearance-none.border.rounded.w-full.py-2.px-3.text-gray-700.leading-tight(class='focus:outline-none focus:shadow-outline' type='text' placeholder='用户名' name='username')
+            .mb-4
+                label.block.text-gray-700.text-sm.font-bold.mb-2(for='password')
+                    | 密码
+                input#password.shadow.appearance-none.border.rounded.w-full.py-2.px-3.text-gray-700.mb-3.leading-tight(class='focus:outline-none focus:shadow-outline' type='password' placeholder='******************' name='password')
+            .flex.items-center.justify-between
+                button.bg-blue-500.text-white.font-bold.py-2.px-4.rounded(class='hover:bg-blue-700 focus:outline-none focus:shadow-outline')
+                    | 登录
+                a.inline-block.align-baseline.font-bold.text-sm.text-blue-500(class='hover:text-blue-800' href='#')
+                    | 忘记密码？
