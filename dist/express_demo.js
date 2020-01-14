@@ -35,7 +35,7 @@ const sendHtml = (path, response) => {
         encoding: 'utf-8',
     }
     fs.readFile(path, options, (error, data) => {
-        log(`读取的 html 文件 ${path} 内容是`, data)
+
         response.send(data)
     })
 }
@@ -51,8 +51,60 @@ app.get('/', (request, response) => {
     //     console.log(`读取的 html 文件 ${path} 内容是`, data)
     //     response.send(data)
     // })
-    let path = 'index.html'
+    let path = 'login.html'
     sendHtml(path, response)
+})
+
+const writeFile = (fileName) => {
+    fs.writeFile(fileName, "", {flag:"w"}, function (err) {
+        if(err){
+            return console.log(err);
+        }else {
+            console.log("写入成功");
+        }
+    })
+}
+
+
+
+app.post('/login', (request, response) => {
+    let body = request.body
+    let userData = body.username + '-' + body.password
+
+    // 先看下有没有这个文件，没有的话就创建
+    fs.readdir("./static/user-data",function (err, data) {
+        if(err){
+            response.send(err)
+            return;
+        }else {
+            let uesrNotExist = !(data.includes(userData+'.json'))
+            if (uesrNotExist) {
+                let fileName = `./static/user-data/${userData}.json`
+                writeFile(fileName)
+            }
+        }
+    })
+    response.send(userData)
+})
+
+app.post('/getStudyDataList', (request, response) => {
+    let body = request.body
+    let today = body.today
+
+    // 先看下有没有今天的记录文件，有的话发送内容，没有的话就创建
+    fs.readdir("./static/record-data",function (err, data) {
+        if(err){
+            response.send(err)
+            return;
+        }else {
+            let uesrNotExist = !(data.includes(today+'.json'))
+            if (uesrNotExist) {
+                let fileName = `./static/record-data/${today}.json`
+                writeFile(fileName)
+            }
+        }
+    })
+    response.send(userData)
 })
 
 app.get('/todo/all', (request, response) => {
@@ -118,7 +170,7 @@ const main = () => {
     // 默认的端口是 80
     // 所以如果你监听 80 端口的话，浏览器就不需要输入端口了
     // 但是 1024 以下的端口是系统保留端口，需要管理员权限才能使用
-    let server = app.listen(3600, () => {
+    let server = app.listen(3500, () => {
         let host = server.address().address
         let port = server.address().port
 

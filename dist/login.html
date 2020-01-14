@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="../js/utils.js"></script>
+    <script src="../js/vendor/sweetalert2.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="dialog dialog-shadow">
+            <h4 class="">
+                欢迎进入自习室
+            </h4>
+            <div class="">
+                <input id="username" type="text"  placeholder="请输入账号">
+                <input id="password" type="text"  placeholder="请输入密码">
+                <button id="send-data">登录/注册</button>
+            </div>
+            <div class="agreement">
+                其他账号登录：
+                <img src="../img/weixin.png">
+                <img src="../img/weibo.png">
+                <img src="../img/qq.png">
+                <img src="../img/ali.png" class="ali">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="timeline-container">
+    </div>
+
+    <script>
+
+        // window.location = "./html/index.html";
+        // userdata 文件夹
+        // 账号密码提交到一个api
+        // 如果没有这个用户文件，创建一个 json 文件（文件名为用户名-密码）
+        // 当天总数据文件同上
+        // 如果有，不创建，跳转页面
+        // 返回一个 数据 存在 sl 用户名-密码，如果有这个东西，下次直接跳
+
+        // if(getLocalStorage('userInfo')){
+        //     window.location = "./html/index.html";
+        // }
+
+
+        $("#send-data").click(function(){
+            let username = $("#username").val()
+            let password = $("#password").val()
+            let data = {
+                username,
+                password,
+            }
+
+            $.ajax({
+                //请求方式
+                type : "POST",
+                //请求的媒体类型
+                contentType: "application/json;charset=UTF-8",
+                //请求地址
+                url : "/login",
+                //数据，json字符串
+                data : JSON.stringify(data),
+                //请求成功
+                success : function(result) {
+                    setLocalStorage('userInfo', result)
+                    window.location = "./html/index.html";
+                },
+                //请求失败，包含具体的错误信息
+                error : function(e){
+                    swal({
+                        title: '提交失败',
+                        text: e,
+                        timer: 2000,
+                    }).then(function () {}, function () {})
+                }
+            })
+
+        });
+
+
+
+
+
+    </script>
+</body>
+</html>
