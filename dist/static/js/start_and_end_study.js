@@ -16,12 +16,13 @@ bindEvent(e('.left'), 'click', event => {
 
 const startBtnHandle = () => {
     // 点击开始，开始计时
-     start()
-     window.startHourAndMinute= getNowHourAndMinute()
-     window.startTime = getTime()
+    start()
+    window.startHourAndMinute= getNowHourAndMinute()
+    window.startTime = getTime()
 }
 
 const endBtnHandle = () => {
+    console.log(544444);
     let studyContent = e('#textarea-study-content').value
     if (noStudyContent(studyContent)) {
         return
@@ -30,61 +31,38 @@ const endBtnHandle = () => {
     let segmentation = getSegmentation()
     let [hourDuration, minuteDuration] = getDuration()
     let user = getLocalStorage('userInfo').split('-')[0]
-    const studyContentRecord = {
+    let time = new Date();
+    let id = time.getTime()
+    let today = moment().format("YYYY年MM月DD日")
+    const singleRecord = {
         studyDate: getDate(), // 当天日期
         segmentation, // 12:30 - 13:30
         minuteDuration, // 60
         hourDuration, // 1
         studyContent, // 学习内容/备注
-        id: '123',
+    }
+    let userData = getLocalStorage('userInfo')
+    const studyContentRecord = {
+        userData,
+        today: '2020年01月16日',
         user,
+        id,
+        table: [singleRecord],
     }
 
-    ajax(studyContentRecord, "/sendRecorData", (res) => {
-        log('res', res)
+    ajax(studyContentRecord, "/sendRecordData", (res) => {
+        // 获取数据，更新页面
+        let studyDataList = res || []
+        addHtmlToMainDiv(studyDataList)
+        reset()
     })
 
 
-
-
-
-    // 这里如果是真实 api 的话，直接发送本次数据就可以，但是用 storage，要先获取之前所有的数据，再发送
-    let studyDataList = getLocalStorage('studyDataList') || []
-    // 找到数组中对应的 user，把本次数据插入到数组
-    if (studyDataList.length === 0) {
-        let studyData = {
-            user: '风行',
-            id: '123',
-            table: [
-                studyContentRecord
-            ]
-        }
-        studyDataList.push(studyData)
-    }
-
-    setLocalStorage('studyDataList', studyDataList)
-    // 获取数据，更新页面
-    addHtmlToMainDiv(studyDataList)
-    reset()
 }
 
 const addHtmlToMainDiv = (studyDataList) => {
-    studyDataList = Array.isArray(studyDataList) ? studyDataList : [studyDataList]
+    log('studyDataList', studyDataList)
     let mainDiv = e(".main").innerHTML || ''
-    // 发送数据
-    // [
-    //   {
-    //       user: name,
-    //       id: '123'
-    //       table: [
-    //           {
-    //               segmentation: 12:30 - 13:30,
-    //               minuteDuration: 60,
-    //               hourDuration, 1,
-    //               studyContent: 'dsfs',
-    //           }
-    //       ]
-    //   }
     let html = ''
     let tr = `
         <tr>
@@ -115,6 +93,7 @@ const addHtmlToMainDiv = (studyDataList) => {
             </div>
         </article>`
     }
+    $(".main").empty()
     appendHtml(e(".main"), html)
 }
 
@@ -166,25 +145,25 @@ const reset = () => {
 
 // 开始计时
 const start = () => {
-  int=setInterval(timer,250);
+    int=setInterval(timer,250);
 }
 
 const timer = () => {
-  millisecond=millisecond+250;
-  if(millisecond>=1000) {
-    millisecond=0;
-    second=second+1;
-  }
-  if(second>=60) {
-    second=0;
-    minute=minute+1;
-  }
+    millisecond=millisecond+250;
+    if(millisecond>=1000) {
+        millisecond=0;
+        second=second+1;
+    }
+    if(second>=60) {
+        second=0;
+        minute=minute+1;
+    }
 
-  if(minute>=60) {
-    minute=0;
-    hour=hour+1;
-  }
-  let arr = [hour, minute, second]
-  arr = arr.map(val => getZero(val))
-  e('.timer').innerHTML=arr[0]+'时'+arr[1]+'分'+arr[2]+'秒';
+    if(minute>=60) {
+        minute=0;
+        hour=hour+1;
+    }
+    let arr = [hour, minute, second]
+    arr = arr.map(val => getZero(val))
+    e('.timer').innerHTML=arr[0]+'时'+arr[1]+'分'+arr[2]+'秒';
 } 

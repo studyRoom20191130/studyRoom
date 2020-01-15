@@ -7,7 +7,7 @@
 //编辑 todo
 
 
-
+global.today = ''
 
 // express_demo.js 文件
 const fs = require('fs')
@@ -55,8 +55,8 @@ app.get('/', (request, response) => {
     sendHtml(path, response)
 })
 
-const writeFile = (fileName) => {
-    fs.writeFile(fileName, "", {flag:"w"}, function (err) {
+const writeFile = (fileName, content) => {
+    fs.writeFile(fileName, content, {flag:"w"}, function (err) {
         if(err){
             return console.log(err);
         }else {
@@ -80,106 +80,118 @@ app.post('/login', (request, response) => {
             let uesrNotExist = !(data.includes(userData+'.json'))
             if (uesrNotExist) {
                 let fileName = `./static/user-data/${userData}.json`
-                writeFile(fileName)
+                writeFile(fileName, '')
             }
         }
     })
     response.send(userData)
 })
 
-app.post('/sendRecorData', (request, response) => {
+app.post('/sendRecordData', (request, response) => {
     let recorDataObj = request.body
-    // 写入个人（放在数组最前面）和总数据（放在数组最前面）
-    log(111, typeof recorDataObj)
+    log('recorDataObj', recorDataObj)
+    // 读取， 更新，写入 个人文件
+    let fileName = `./static/user-data/${recorDataObj.userData}.json`
+    fs.readFile(fileName, 'utf-8', function (err,data) {
+        if(err){
+            console.log(err);
+        }else {
+            // 读取，更新
+            let dataList = []
+            log('data', data)
+            if (data) {
+                log('????')
+                dataList = JSON.parse(data)
+            }
+            let init = dataList.length === 0
+            if (init) {
+                dataList.unshift(recorDataObj)
+            } else {
+                let todayObj = dataList[0]
+                if (todayObj.today === recorDataObj.today) {
+                    todayObj.table.push(recorDataObj.table[0])
+                    dataList[0] = todayObj
+                } else {
+                    dataList.unshift(recorDataObj)
+                }
+
+            }
+            let t = JSON.stringify(dataList, null, '    ')
+            // 更新完毕，重新写入个人文件
+            writeFile(fileName, t)
+
+            // 读取， 更新，写入 当日文件
+            let path = `./static/study-record-data/${recorDataObj.today}.json`
+            fs.readFile(path, 'utf-8', function (err,data) {
+                if(err){
+                    console.log(err);
+                }else {
+                    // 读取，更新
+                    let dataArray = []
+                    if (data) {
+                        dataArray = JSON.parse(data)
+                        log('dataArray1', dataArray)
+                    }
+                    log('dataArray2', dataArray)
+                    for (const index in dataArray) {
+                        let obj = dataArray[index]
+                        log(1111, obj.userData, recorDataObj.userData)
+                        if (obj.userData === recorDataObj.userData) {
+                            dataArray.splice(index, 1)
+                        }
+                    }
+                    log('dataList', dataList)
+                    dataArray.unshift(dataList[0])
+                    log('dataArray', dataArray)
+                    let d = JSON.stringify(dataArray, null, '    ')
+                    // 更新完毕，重新写入个人文件
+                    log('d', d)
+                    writeFile(path, d)
+                    response.send(dataArray)
+                }
+            })
+        }
+    })
+
+
+
+
 })
 
 app.post('/getStudyDataList', (request, response) => {
     let body = request.body
-    let today = body.today
-    let recordData = '111'
+    let recordData = ''
     // 先看下有没有今天的记录文件，有的话发送内容，没有的话就创建
     fs.readdir("./static/study-record-data",function (err, data) {
         if(err){
             response.send(err)
             return;
         }else {
-            let fileName = `./static/study-record-data/${today}.json`
-            let uesrNotExist = !(data.includes(today+'.json'))
-            if (uesrNotExist) {
-                writeFile(fileName)
-            } else {
-                // 存在
-                fs.readFile(fileName,function (err,data) {
-                    if(err){
-                        console.log(err);
-                    }else {
-                        recordData = data.toString();
-                        response.send(recordData)
-                    }
-                })
-            }
+            getTodayAllData(response, recordData, data, body.today)
         }
     })
 })
 
-
-
-app.get('/todo/all', (request, response) => {
-    let r = JSON.stringify(todoList)
-    response.send(r)
-})
-
-app.post('/todo/add', (request, response) => {
-    // request.body 就是客户端发送过来的数据，用之前需使用 body-parser 解析成 json 格式
-    let data = request.body
-    if (todoList.length === 0) {
-        data.id = 1
+const getTodayAllData = (response, recordData, data, today) => {
+    let fileName = `./static/study-record-data/${today}.json`
+    let uesrNotExist = !(data.includes(today+'.json'))
+    if (uesrNotExist) {
+        writeFile(fileName)
     } else {
-        let tail = todoList.slice(-1)[0]
-        data.id = tail.id + 1
-    }
-    todoList.push(data)
-    response.send(data)
-})
-
-app.get('/todo/delete/:id', (request, response) => {
-    let todoId = Number(request.params.id)
-    for(let todo of todoList) {
-        if (todo.id === todoId) {
-            let data = todoList.splice(todoId - 1, 1)
-            response.send(data[0])
-            break
-        }
-    }
-})
-
-app.post('/todo/edit/:id', (request, response) => {
-    let todoId = Number(request.params.id)
-    let todoContent = request.body
-    for(let todo of todoList) {
-        if (todo.id === todoId) {
-            todo.task = todoContent.task
-        }
-    }
-})
-
-const isDone = (todo) => {
-    if (todo.done === true) {
-        todo.done = false
-    }  else {
-        todo.done = true
+        // 存在
+        fs.readFile(fileName,function (err,data) {
+            if(err){
+                console.log(err);
+            }else {
+                response.send(data)
+            }
+        })
     }
 }
 
-app.get('/todo/complete/:id', (request, response) => {
-    let todoId = Number(request.params.id)
-    for(let todo of todoList) {
-        if (todo.id === todoId) {
-            isDone(todo)
-        }
-    }
 
-})
+
+
 
 const main = () => {
     // listen 函数的第一个参数是我们要监听的端口
@@ -187,7 +199,7 @@ const main = () => {
     // 默认的端口是 80
     // 所以如果你监听 80 端口的话，浏览器就不需要输入端口了
     // 但是 1024 以下的端口是系统保留端口，需要管理员权限才能使用
-    let server = app.listen(3500, () => {
+    let server = app.listen(3600, () => {
         let host = server.address().address
         let port = server.address().port
 

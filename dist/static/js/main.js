@@ -35,14 +35,15 @@ const getTodoList = () => {
 }
 
 const getstudyDataList =() => {
-    // const studyDataList = getLocalStorage('studyDataList') || []
-    // addHtmlToMainDiv(studyDataList)
     let today = moment().format("YYYY年MM月DD日")
     let data = {
         today,
     }
     ajax(data, "/getStudyDataList", (res) => {
-        const studyDataList = res
+        let studyDataList = []
+        if (res) {
+            studyDataList = JSON.parse(res)
+        }
         addHtmlToMainDiv(studyDataList)
     })
 }
