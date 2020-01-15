@@ -87,25 +87,42 @@ app.post('/login', (request, response) => {
     response.send(userData)
 })
 
+app.post('/sendRecorData', (request, response) => {
+    let recorDataObj = request.body
+    // 写入个人（放在数组最前面）和总数据（放在数组最前面）
+    log(111, typeof recorDataObj)
+})
+
 app.post('/getStudyDataList', (request, response) => {
     let body = request.body
     let today = body.today
-
+    let recordData = '111'
     // 先看下有没有今天的记录文件，有的话发送内容，没有的话就创建
-    fs.readdir("./static/record-data",function (err, data) {
+    fs.readdir("./static/study-record-data",function (err, data) {
         if(err){
             response.send(err)
             return;
         }else {
+            let fileName = `./static/study-record-data/${today}.json`
             let uesrNotExist = !(data.includes(today+'.json'))
             if (uesrNotExist) {
-                let fileName = `./static/record-data/${today}.json`
                 writeFile(fileName)
+            } else {
+                // 存在
+                fs.readFile(fileName,function (err,data) {
+                    if(err){
+                        console.log(err);
+                    }else {
+                        recordData = data.toString();
+                        response.send(recordData)
+                    }
+                })
             }
         }
     })
-    response.send(userData)
 })
+
+
 
 app.get('/todo/all', (request, response) => {
     let r = JSON.stringify(todoList)

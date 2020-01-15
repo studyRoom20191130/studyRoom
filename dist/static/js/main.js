@@ -30,7 +30,6 @@ const bindEvents = () => {
 }
 
 const getTodoList = () => {
-
     const todoList = getLocalStorage('todoList') || []
     addHtmlToOlElement(todoList)
 }
@@ -42,28 +41,9 @@ const getstudyDataList =() => {
     let data = {
         today,
     }
-    $.ajax({
-        //请求方式
-        type : "POST",
-        //请求的媒体类型
-        contentType: "application/json;charset=UTF-8",
-        //请求地址
-        url : "/getStudyDataList",
-        //数据，json字符串
-        data : JSON.stringify(data),
-        //请求成功
-        success : function(result) {
-            setLocalStorage('userInfo', result)
-            window.location = "./html/index.html";
-        },
-        //请求失败，包含具体的错误信息
-        error : function(e){
-            swal({
-                title: '提交失败',
-                text: e,
-                timer: 2000,
-            }).then(function () {}, function () {})
-        }
+    ajax(data, "/getStudyDataList", (res) => {
+        const studyDataList = res
+        addHtmlToMainDiv(studyDataList)
     })
 }
 

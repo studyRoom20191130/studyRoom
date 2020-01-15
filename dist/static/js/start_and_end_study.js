@@ -29,6 +29,7 @@ const endBtnHandle = () => {
     // 计算并转换时间数据
     let segmentation = getSegmentation()
     let [hourDuration, minuteDuration] = getDuration()
+    let user = getLocalStorage('userInfo').split('-')[0]
     const studyContentRecord = {
         studyDate: getDate(), // 当天日期
         segmentation, // 12:30 - 13:30
@@ -36,10 +37,16 @@ const endBtnHandle = () => {
         hourDuration, // 1
         studyContent, // 学习内容/备注
         id: '123',
-        user: '风行',
+        user,
     }
 
-    // ]
+    ajax(studyContentRecord, "/sendRecorData", (res) => {
+        log('res', res)
+    })
+
+
+
+
 
     // 这里如果是真实 api 的话，直接发送本次数据就可以，但是用 storage，要先获取之前所有的数据，再发送
     let studyDataList = getLocalStorage('studyDataList') || []
