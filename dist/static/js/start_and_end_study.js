@@ -65,7 +65,7 @@ const addHtmlToMainDiv = (studyDataList) => {
     let mainDiv = e(".main").innerHTML || ''
     let html = ''
     let tr = `
-        <tr>
+        <tr class="success">
             <th>时间段</th>
             <th>时长</th>
             <th>内容/备注</th>
@@ -73,10 +73,11 @@ const addHtmlToMainDiv = (studyDataList) => {
     for (studyData of studyDataList) {
         for (obj of studyData.table) {
             tr += `<tr>
-                    <td>${obj.segmentation}</td>
-                    <td>${obj.minuteDuration}</td>
+                    <td class="td-time">${obj.segmentation}</td>
+                    <td class="td-hour">${obj.minuteDuration}</td>
                     <td class="td-width">${obj.studyContent}</td>
                 </tr>`
+
         }
         html += `
         <article class="main-article">
@@ -84,14 +85,20 @@ const addHtmlToMainDiv = (studyDataList) => {
                 ${studyData.user}
             </div>
             <div class="study-record">
-               <table class="table table-bordered">
+               <table class="table table-bordered table-striped table-hover table-condensed">
                    ${tr}
                </table>
             </div>
             <div class="comment">
-                评论(3)
+                <!--评论(3)-->
             </div>
         </article>`
+         tr = `
+        <tr class="success">
+            <th>时间段</th>
+            <th>时长</th>
+            <th>内容/备注</th>
+        </tr>`
     }
     $(".main").empty()
     appendHtml(e(".main"), html)

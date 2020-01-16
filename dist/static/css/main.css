@@ -84,7 +84,21 @@
 
 .table {
     margin-bottom: 8px;
+    text-align: center;
 }
+
+.table .td-time {
+    width: 110px;
+}
+
+.td-hour {
+    width: 56px;
+}
+
+.table th {
+    text-align: center;
+}
+
 
 .main-article {
     border-bottom: 1px solid #edf0f5;

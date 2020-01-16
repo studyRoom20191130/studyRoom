@@ -44,6 +44,7 @@ const getstudyDataList =() => {
         if (res) {
             studyDataList = JSON.parse(res)
         }
+        log('studyDataList', studyDataList)
         addHtmlToMainDiv(studyDataList)
     })
 }
