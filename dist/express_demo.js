@@ -104,7 +104,7 @@ app.post('/sendRecordData', (request, response) => {
             let t = JSON.stringify(dataList, null, '    ')
             writeFile(fileName, t)
 
-            log(99999)
+            log('recorDataObj.today', recorDataObj.today)
             let path = `./static/study-record-data/${recorDataObj.today}.json`
             fs.readFile(path, 'utf-8', function (err,data) {
                 if(err){
@@ -154,16 +154,20 @@ app.post('/getStudyDataList', (request, response) => {
 
 const getTodayAllData = (response, recordData, data, today) => {
     let fileName = `./static/study-record-data/${today}.json`
+    log('fileName', fileName)
     let uesrNotExist = !(data.includes(today+'.json'))
+    log('uesrNotExist', uesrNotExist)
     if (uesrNotExist) {
+        log(111)
         writeFile(fileName, '')
     } else {
-
+        log(2222)
         fs.readFile(fileName,function (err,data) {
             if(err){
                 console.log(err);
             }else {
-                response.send(data)
+                log('data', data.toString())
+                response.send(data.toString())
             }
         })
     }

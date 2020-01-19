@@ -1,18 +1,21 @@
 
 
 // 首页左边区域（开始学习、结束学习、补录时间）的功能逻辑
-bindEvent(e('.left'), 'click', event => {
-    let target = event.target
-    if (target.classList.contains('btn')) {
-        let button = target.dataset.button
-        if (button === 'start') {
-            startBtnHandle()
-        } else if (button === 'end') {
-            endBtnHandle()
-        }
+const bindLeftDivBtnEvent = () => {
+    bindEvent(e('.left'), 'click', event => {
+        let target = event.target
+        let contains = target.classList.contains.bind(target.classList)
+        if (contains('btn')) {
+            let button = target.dataset.button
+            if (button === 'start') {
+                startBtnHandle()
+            } else if (button === 'end') {
+                endBtnHandle()
+            }
 
-    }
-})
+        }
+    })
+}
 
 const startBtnHandle = () => {
     // 点击开始，开始计时
@@ -22,7 +25,6 @@ const startBtnHandle = () => {
 }
 
 const endBtnHandle = () => {
-    console.log(544444);
     let studyContent = e('#textarea-study-content').value
     if (noStudyContent(studyContent)) {
         return
@@ -34,6 +36,7 @@ const endBtnHandle = () => {
     let time = new Date();
     let id = time.getTime()
     let today = moment().format("YYYY年MM月DD日")
+    log('today', today)
     const singleRecord = {
         studyDate: getDate(), // 当天日期
         segmentation, // 12:30 - 13:30
@@ -44,7 +47,7 @@ const endBtnHandle = () => {
     let userData = getLocalStorage('userInfo')
     const studyContentRecord = {
         userData,
-        today: '2020年01月16日',
+        today,
         user,
         id,
         table: [singleRecord],
@@ -54,10 +57,24 @@ const endBtnHandle = () => {
         // 获取数据，更新页面
         let studyDataList = res || []
         addHtmlToMainDiv(studyDataList)
+        alertTip(singleRecord.minuteDuration)
         reset()
     })
+}
 
-
+const alertTip = (minuteDuration) => {
+    let tip = `本次学习投入 ${minuteDuration} 分钟~`
+    let m = Number(minuteDuration)
+    if (60 < m && m < 120) {
+        tip = `本次学习怒砸 ${minuteDuration} 分钟~`
+    } else if (m >= 120) {
+        tip = `一口气竟然学习了 ${minuteDuration} 分钟，好好休息一下~`
+    }
+    Swal.fire(
+        tip,
+        `距离目标又缩短了 ${minuteDuration} 分钟的距离`,
+        'success'
+    )
 }
 
 const addHtmlToMainDiv = (studyDataList) => {

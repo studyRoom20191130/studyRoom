@@ -13,25 +13,13 @@ const bindOtherTime = () => {
     })
 }
 
-const bindPlanButton = () => {
-    $(".plan-button").click(function(){
-        const button = $(".button-text")
-        button.text() === '收起计划' ? button.text('制定今日计划') : button.text('收起计划')
-        $(".make-plan").toggle();
-    });
-}
+
 
 const bindEvents = () => {
     bindOtherTime()
-    bindPlanButton()
     bindTodoInputEvent()
-    bindSpanClickEvent()
-    bindClearButton()
-}
-
-const getTodoList = () => {
-    const todoList = getLocalStorage('todoList') || []
-    addHtmlToOlElement(todoList)
+    bindLeftDivBtnEvent()
+    bindRightDivEvents()
 }
 
 const getstudyDataList =() => {
@@ -49,24 +37,10 @@ const getstudyDataList =() => {
     })
 }
 
-const shouldShowTodo = () => {
-    // 如果有计划，直接展示 totoList
-    // 如果没有计划，显示制定今日计划按钮
-    const todoList = getLocalStorage('todoList') || []
-    const hasTodoList = todoList.length === 0 ? false : true
-    if (hasTodoList) {
-        $(".button-text").text('收起计划');
-        $(".make-plan").toggle();
-    } else {
-        $(".button-text").text('制定今日计划');
-    }
-}
-
 const __main = () => {
     bindEvents()
     getstudyDataList()
-    getTodoList()
-    shouldShowTodo()
+    todoInit()
 }
 
 __main()
