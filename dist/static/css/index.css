@@ -196,6 +196,45 @@ li .btn {
     margin-bottom: 100px;
 }
 
+.user-circle {
+    width: 10px;
+    height: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block;
+
+    background-color: #43c31d;
+    border-color: #43c31d;
+    border-radius: 50%;
+
+}
+
+/*.online {*/
+    /*margin-left: -20px;*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*flex-wrap: wrap;*/
+/*}*/
+
+.online-user {
+    /*width: 33%;*/
+    margin-left: -20px;
+}
+
+.title {
+    margin-bottom: 6px;
+}
+
+.online a {
+    width: 17px;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
 html {
     color: #222;
     font-size: 1em;

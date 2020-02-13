@@ -23,23 +23,33 @@ const bindEvents = () => {
 }
 
 const getstudyDataList =() => {
+    log(111)
     let today = moment().format("YYYY年MM月DD日")
+    let user = getLocalStorage('userInfo').split('-')[0]
     let data = {
         today,
+        user,
     }
     ajax(data, "/getStudyDataList", (res) => {
         let studyDataList = []
         if (res) {
             studyDataList = JSON.parse(res)
         }
-        log('studyDataList', studyDataList)
         addHtmlToMainDiv(studyDataList)
     })
+
+
+}
+
+const autoRefresh = () => {
+    let 每十五分钟自动刷新一次 = 1000 * 60 * 15
+    setInterval(() => getstudyDataList(), 每十五分钟自动刷新一次)
 }
 
 const __main = () => {
     bindEvents()
     getstudyDataList()
+    autoRefresh()
     todoInit()
 }
 

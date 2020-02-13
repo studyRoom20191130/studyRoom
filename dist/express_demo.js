@@ -77,7 +77,7 @@ app.post('/login', (request, response) => {
 
 app.post('/sendRecordData', (request, response) => {
     let recorDataObj = request.body
-    log('recorDataObj', recorDataObj)
+
     let fileName = `./static/user-data/${recorDataObj.userData}.json`
     fs.readFile(fileName, 'utf-8', function (err,data) {
         if(err){
@@ -92,8 +92,7 @@ app.post('/sendRecordData', (request, response) => {
                 dataList.unshift(recorDataObj)
             } else {
                 let todayObj = dataList[0]
-                if (todayObj.user === recorDataObj.user) {
-                    log('222', todayObj.user, recorDataObj.user)
+                if (todayObj.today === recorDataObj.today) {
                     todayObj.table.push(recorDataObj.table[0])
                     dataList[0] = todayObj
                 } else {
@@ -104,7 +103,6 @@ app.post('/sendRecordData', (request, response) => {
             let t = JSON.stringify(dataList, null, '    ')
             writeFile(fileName, t)
 
-            log('recorDataObj.today', recorDataObj.today)
             let path = `./static/study-record-data/${recorDataObj.today}.json`
             fs.readFile(path, 'utf-8', function (err,data) {
                 if(err){

@@ -78,8 +78,7 @@ const alertTip = (minuteDuration) => {
 }
 
 const addHtmlToMainDiv = (studyDataList) => {
-    log('studyDataList', studyDataList)
-    let mainDiv = e(".main").innerHTML || ''
+    addOnlineUser(studyDataList)
     let html = ''
     let tr = `
         <tr class="success">
@@ -119,6 +118,19 @@ const addHtmlToMainDiv = (studyDataList) => {
     }
     $(".main").empty()
     appendHtml(e(".main"), html)
+}
+
+const addOnlineUser = (studyDataList) => {
+    let html = ''
+    for (studyData of studyDataList) {
+        html += `<div class="online-user">
+                    <span class="user-circle"></span>
+                    <a>${studyData.user}</a>
+                </div>`
+    }
+
+    $(".online").empty()
+    appendHtml(e(".online"), html)
 }
 
 const getNowHourAndMinute = () => {
