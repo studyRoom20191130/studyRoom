@@ -43,6 +43,58 @@ app.get('/', (request, response) => {
     sendHtml(path, response)
 })
 
+app.post('/removeOfflineUser', (request, response) => {
+    log('删除在线')
+    let user = request.body.user
+    log('user', user)
+    let fileName = `./static/online-list/user.json`
+    fs.readFile(fileName, 'utf-8', function (err,data) {
+        if(err){
+            console.log(err);
+        }else {
+            log('删除在线')
+            let dataList = JSON.parse(data)
+            if (dataList.includes(user)) {
+                log('在里面')
+                log('dataList', dataList)
+                let index = dataList.indexOf(user)
+                log('index', index)
+
+                dataList.splice(index, 1)
+                log('dataList2', dataList)
+            }
+
+            let t = JSON.stringify(dataList)
+            writeFile(fileName, t)
+        }
+    })
+})
+
+app.post('/getOnlineUser', (request, response) => {
+    let user = request.body.user
+    log('getOnlineUser', user)
+    let fileName = `./static/online-list/user.json`
+    fs.readFile(fileName, 'utf-8', function (err,data) {
+        if(err){
+            console.log(err);
+        }else {
+            let dataList = JSON.parse(data)
+            log('初始化的在线名单', dataList)
+            let init = dataList.length === 0
+            let notInclude = !dataList.includes(user)
+            if (init || notInclude) {
+                log('增加了')
+                dataList.unshift(user)
+                let t = JSON.stringify(dataList)
+                writeFile(fileName, t)
+            }
+            response.send(dataList)
+        }
+    })
+})
+
+
+
 const writeFile = (fileName, content) => {
     fs.writeFile(fileName, content, {flag:"w"}, function (err) {
         if(err){
@@ -111,18 +163,18 @@ app.post('/sendRecordData', (request, response) => {
                     let dataArray = []
                     if (data) {
                         dataArray = JSON.parse(data)
-                        log('dataArray1', dataArray)
+
                     }
-                    log('dataArray2', dataArray)
+
                     for (const index in dataArray) {
                         let obj = dataArray[index]
                         if (obj.userData === recorDataObj.userData) {
                             dataArray.splice(index, 1)
                         }
                     }
-                    log('dataList', dataList)
+
                     dataArray.unshift(dataList[0])
-                    log('dataArray', dataArray)
+
                     let d = JSON.stringify(dataArray, null, '    ')
                     writeFile(path, d)
                     response.send(dataArray)
@@ -152,19 +204,17 @@ app.post('/getStudyDataList', (request, response) => {
 
 const getTodayAllData = (response, recordData, data, today) => {
     let fileName = `./static/study-record-data/${today}.json`
-    log('fileName', fileName)
+
     let uesrNotExist = !(data.includes(today+'.json'))
-    log('uesrNotExist', uesrNotExist)
+
     if (uesrNotExist) {
-        log(111)
         writeFile(fileName, '')
     } else {
-        log(2222)
         fs.readFile(fileName,function (err,data) {
             if(err){
                 console.log(err);
             }else {
-                log('data', data.toString())
+
                 response.send(data.toString())
             }
         })
@@ -176,7 +226,7 @@ const getTodayAllData = (response, recordData, data, today) => {
 
 
 const main = () => {
-    let server = app.listen(3600, () => {
+    let server = app.listen(5555, () => {
         let host = server.address().address
         let port = server.address().port
 

@@ -78,7 +78,6 @@ const alertTip = (minuteDuration) => {
 }
 
 const addHtmlToMainDiv = (studyDataList) => {
-    addOnlineUser(studyDataList)
     let html = ''
     let tr = `
         <tr class="success">
@@ -120,12 +119,14 @@ const addHtmlToMainDiv = (studyDataList) => {
     appendHtml(e(".main"), html)
 }
 
-const addOnlineUser = (studyDataList) => {
+const addOnlineUser = (onlineUserList) => {
+    log('onlineUserList', onlineUserList)
     let html = ''
-    for (studyData of studyDataList) {
+    for (const user of onlineUserList) {
+        log(999)
         html += `<div class="online-user">
                     <span class="user-circle"></span>
-                    <a>${studyData.user}</a>
+                    <a>${user}</a>
                 </div>`
     }
 

@@ -23,12 +23,10 @@ const bindEvents = () => {
 }
 
 const getstudyDataList =() => {
-    log(111)
     let today = moment().format("YYYY年MM月DD日")
-    let user = getLocalStorage('userInfo').split('-')[0]
+
     let data = {
         today,
-        user,
     }
     ajax(data, "/getStudyDataList", (res) => {
         let studyDataList = []
@@ -37,20 +35,54 @@ const getstudyDataList =() => {
         }
         addHtmlToMainDiv(studyDataList)
     })
-
-
 }
 
 const autoRefresh = () => {
     let 每十五分钟自动刷新一次 = 1000 * 60 * 15
-    setInterval(() => getstudyDataList(), 每十五分钟自动刷新一次)
+    setInterval(() => dataInit(), 每十五分钟自动刷新一次)
+}
+
+const getOnlineUser = () => {
+    let user = getLocalStorage('userInfo').split('-')[0]
+    let data = {
+        user,
+    }
+    ajax(data, "/getOnlineUser", (res) => {
+        let onlineUserList = res || []
+        log()
+        addOnlineUser(onlineUserList)
+    })
+}
+
+const dataInit = () => {
+    getstudyDataList()
+    getOnlineUser()
+}
+
+const removeOfflineUser = () => {
+    window.onunload  = () => {
+        let user = getLocalStorage('userInfo').split('-')[0]
+        let data = {
+            user,
+        }
+        ajax(data, "/removeOfflineUser", (res) => {})
+    }
+    window.onbeforeunload   = () => {
+        let user = getLocalStorage('userInfo').split('-')[0]
+        let data = {
+            user,
+        }
+        ajax(data, "/removeOfflineUser", (res) => {})
+    }
+
 }
 
 const __main = () => {
     bindEvents()
-    getstudyDataList()
-    autoRefresh()
+    dataInit()
     todoInit()
+    autoRefresh()
+    removeOfflineUser()
 }
 
 __main()
