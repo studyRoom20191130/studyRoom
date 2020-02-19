@@ -98,7 +98,7 @@ const addHtmlToMainDiv = (studyDataList) => {
         html += `
         <article class="main-article">
             <div class="user-name title-weight">
-                ${studyData.user}
+                <a href="personal.html" class="personal-page">${studyData.user}</a>
             </div>
             <div class="study-record">
                <table class="table table-bordered table-striped table-hover table-condensed">
@@ -127,7 +127,7 @@ const addOnlineUser = (onlineUserList) => {
         log(999)
         html += `<div class="online-user">
                     <span class="user-circle"></span>
-                    <a>${user}</a>
+                    <a href="personal.html" class="personal-page">${user}</a>
                 </div>`
     }
 

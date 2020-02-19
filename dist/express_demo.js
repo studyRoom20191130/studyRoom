@@ -110,16 +110,17 @@ const writeFile = (fileName, content) => {
 
 app.post('/login', (request, response) => {
     let body = request.body
-    let userData = body.username + '-' + body.password
+    let username = body.username
+    let userData = username + '-' + body.password
 
     fs.readdir("./static/user-data",function (err, data) {
         if(err){
             response.send(err)
             return;
         }else {
-            let uesrNotExist = !(data.includes(userData+'.json'))
+            let uesrNotExist = !(data.includes(username +'.json'))
             if (uesrNotExist) {
-                let fileName = `./static/user-data/${userData}.json`
+                let fileName = `./static/user-data/${username}.json`
                 writeFile(fileName, '')
             }
         }
@@ -148,7 +149,7 @@ app.post('/getPersonalStudyData', (request, response) => {
 app.post('/sendRecordData', (request, response) => {
     let recorDataObj = request.body
 
-    let fileName = `./static/user-data/${recorDataObj.userData}.json`
+    let fileName = `./static/user-data/${recorDataObj.user}.json`
     fs.readFile(fileName, 'utf-8', function (err,data) {
         if(err){
             console.log(err);

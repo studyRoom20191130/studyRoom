@@ -55,6 +55,7 @@ const spanClickEvents = (target) => {
     }
 }
 
+// 2020年2月19号回来看的感想：封装抽象尼玛啊，完全看不懂啊……
 const btnEvents = (target) => {
     let contains = target.classList.contains.bind(target.classList)
     let map = {
@@ -69,8 +70,15 @@ const btnEvents = (target) => {
     }
 }
 
+// 首页导航栏的个人主页点击事件
 const bindPersonalPage = () => {
     bindEvent(e('#personal-page'), 'click', event => setLocalStorage('personal', getLocalStorage('userInfo')))
+}
+
+const bindOtherPersonalPage = () =>{
+    bindEvent(e('.personal-page'), 'click', event => {
+        setLocalStorage('personal', event.target.innerHTML)
+    })
 }
 
 const toggleBtnCallback = (target) => {

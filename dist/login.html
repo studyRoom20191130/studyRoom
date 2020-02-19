@@ -51,7 +51,6 @@
                 username,
                 password,
             }
-
             ajax(data, "/login", (res) => {
                 setLocalStorage('userInfo', res)
                 window.location = "./html/index.html";

@@ -16,11 +16,14 @@ const bindOtherTime = () => {
 
 
 const bindEvents = () => {
-    bindPersonalPage()
-    bindOtherTime()
-    bindTodoInputEvent()
-    bindLeftDivBtnEvent()
-    bindRightDivEvents()
+    setTimeout(() => {
+        bindOtherTime()
+        bindTodoInputEvent()
+        bindLeftDivBtnEvent()
+        bindRightDivEvents()
+        bindPersonalPage()
+        bindOtherPersonalPage()
+    }, 300)
 }
 
 const getstudyDataList =() => {
@@ -76,11 +79,11 @@ const removeOfflineUser = () => {
 }
 
 const __main = () => {
-    bindEvents()
     dataInit()
     todoInit()
     autoRefresh()
     removeOfflineUser()
+    bindEvents()
 }
 
 __main()

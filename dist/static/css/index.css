@@ -200,6 +200,14 @@ li .btn {
     text-align: left;
 }
 
+.user-name a {
+    color: black;
+}
+
+.user-name a:hover {
+    text-decoration: none;
+}
+
 html {
     color: #222;
     font-size: 1em;

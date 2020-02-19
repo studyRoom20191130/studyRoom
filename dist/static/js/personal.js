@@ -69,8 +69,8 @@ const timelineTemplate = (object) => {
 }
 
 const getPersonalStudyData = () => {
-    let user = getLocalStorage('personal')
-    e('#user-name').innerHTML = user.split('-')[0]
+    let user = getLocalStorage('personal').split('-')[0]
+    e('#user-name').innerHTML = user
     let data = {
         user,
     }
