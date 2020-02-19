@@ -76,7 +76,8 @@ const bindPersonalPage = () => {
 }
 
 const bindOtherPersonalPage = () =>{
-    bindEvent(e('.personal-page'), 'click', event => {
+    bindAll('.personal-page', 'click', event => {
+        log('名字', event.target.innerHTML)
         setLocalStorage('personal', event.target.innerHTML)
     })
 }
