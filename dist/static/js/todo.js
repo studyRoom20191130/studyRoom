@@ -69,6 +69,10 @@ const btnEvents = (target) => {
     }
 }
 
+const bindPersonalPage = () => {
+    bindEvent(e('#personal-page'), 'click', event => setLocalStorage('personal', getLocalStorage('userInfo')))
+}
+
 const toggleBtnCallback = (target) => {
     let type = target.dataset.type
     let id = `#${type}-btn`

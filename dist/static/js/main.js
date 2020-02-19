@@ -16,6 +16,7 @@ const bindOtherTime = () => {
 
 
 const bindEvents = () => {
+    bindPersonalPage()
     bindOtherTime()
     bindTodoInputEvent()
     bindLeftDivBtnEvent()
@@ -42,6 +43,16 @@ const autoRefresh = () => {
     setInterval(() => dataInit(), 每十五分钟自动刷新一次)
 }
 
+const dataInit = () => {
+    // 第一次创建当天记录文件的时候会清空在线人员名单，但是无法保证清空和写入的先后顺序
+    getstudyDataList()
+
+    // 所以用延时来确保先清空后写入
+    setTimeout(() =>{
+        getOnlineUser()
+    }, 50)
+}
+
 const getOnlineUser = () => {
     let user = getLocalStorage('userInfo').split('-')[0]
     let data = {
@@ -49,24 +60,12 @@ const getOnlineUser = () => {
     }
     ajax(data, "/getOnlineUser", (res) => {
         let onlineUserList = res || []
-        log()
         addOnlineUser(onlineUserList)
     })
 }
 
-const dataInit = () => {
-    getstudyDataList()
-    getOnlineUser()
-}
 
 const removeOfflineUser = () => {
-    window.onunload  = () => {
-        let user = getLocalStorage('userInfo').split('-')[0]
-        let data = {
-            user,
-        }
-        ajax(data, "/removeOfflineUser", (res) => {})
-    }
     window.onbeforeunload   = () => {
         let user = getLocalStorage('userInfo').split('-')[0]
         let data = {
@@ -74,7 +73,6 @@ const removeOfflineUser = () => {
         }
         ajax(data, "/removeOfflineUser", (res) => {})
     }
-
 }
 
 const __main = () => {

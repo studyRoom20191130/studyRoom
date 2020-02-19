@@ -196,9 +196,9 @@ const getLocalStorage = (key) => {
 const ajax = (data, url, callback) => {
     $.ajax({
         //请求方式
-        type : "POST",
+        type : 'post',
         //请求的媒体类型
-        contentType: "application/json;charset=UTF-8",
+        contentType: 'application/json;charset=UTF-8',
         //请求地址
         url,
         //数据，json字符串
@@ -208,7 +208,7 @@ const ajax = (data, url, callback) => {
         //请求失败，包含具体的错误信息
         error : function(e){
             swal({
-                title: '请求失败, 群里吱一声',
+                title: '请求失败了, 群里吱一声',
                 text: e,
                 timer: 2000,
             }).then(function () {}, function () {})

@@ -70,6 +70,7 @@ app.post('/removeOfflineUser', (request, response) => {
     })
 })
 
+
 app.post('/getOnlineUser', (request, response) => {
     let user = request.body.user
     log('getOnlineUser', user)
@@ -111,7 +112,6 @@ app.post('/login', (request, response) => {
     let body = request.body
     let userData = body.username + '-' + body.password
 
-
     fs.readdir("./static/user-data",function (err, data) {
         if(err){
             response.send(err)
@@ -125,6 +125,24 @@ app.post('/login', (request, response) => {
         }
     })
     response.send(userData)
+})
+
+app.post('/getPersonalStudyData', (request, response) => {
+    let user = request.body.user
+    let fileName = `./static/user-data/${user}.json`
+    log('fileName', fileName)
+    fs.readFile(fileName, 'utf-8', function (err,data) {
+        if (err) {
+            console.log(err);
+        } else {
+            let dataArray = []
+            if (data) {
+                dataArray = JSON.parse(data)
+            }
+            response.send(dataArray)
+
+        }
+    })
 })
 
 app.post('/sendRecordData', (request, response) => {
@@ -163,7 +181,6 @@ app.post('/sendRecordData', (request, response) => {
                     let dataArray = []
                     if (data) {
                         dataArray = JSON.parse(data)
-
                     }
 
                     for (const index in dataArray) {
@@ -208,7 +225,10 @@ const getTodayAllData = (response, recordData, data, today) => {
     let uesrNotExist = !(data.includes(today+'.json'))
 
     if (uesrNotExist) {
+
         writeFile(fileName, '')
+        // 每天重置在线同学的列表
+        writeFile('./static/online-list/user.json', JSON.stringify([]))
     } else {
         fs.readFile(fileName,function (err,data) {
             if(err){

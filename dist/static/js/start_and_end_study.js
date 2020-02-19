@@ -60,6 +60,7 @@ const endBtnHandle = () => {
         alertTip(singleRecord.minuteDuration)
         reset()
     })
+    getOnlineUser()
 }
 
 const alertTip = (minuteDuration) => {
