@@ -40,9 +40,9 @@
     </div>
 
     <script>
-        if(getLocalStorage('userInfo')){
-            window.location = "./html/index.html";
-        }
+        // if(getLocalStorage('userInfo')){
+        //     window.location = "i.html";
+        // }
 
         $("#send-data").click(function(){
             let username = $("#username").val()
@@ -53,7 +53,7 @@
             }
             ajax(data, "/login", (res) => {
                 setLocalStorage('userInfo', res)
-                window.location = "./html/index.html";
+                window.location = "i.html";
             })
 
         });

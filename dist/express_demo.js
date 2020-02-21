@@ -34,7 +34,7 @@ const sendHtml = (path, response) => {
 }
 
 app.get('/', (request, response) => {
-
+    log(111)
     let options = {
         encoding: 'utf-8',
     }
@@ -44,24 +44,16 @@ app.get('/', (request, response) => {
 })
 
 app.post('/removeOfflineUser', (request, response) => {
-    log('删除在线')
     let user = request.body.user
-    log('user', user)
     let fileName = `./static/online-list/user.json`
     fs.readFile(fileName, 'utf-8', function (err,data) {
         if(err){
             console.log(err);
         }else {
-            log('删除在线')
             let dataList = JSON.parse(data)
             if (dataList.includes(user)) {
-                log('在里面')
-                log('dataList', dataList)
                 let index = dataList.indexOf(user)
-                log('index', index)
-
                 dataList.splice(index, 1)
-                log('dataList2', dataList)
             }
 
             let t = JSON.stringify(dataList)
@@ -73,18 +65,15 @@ app.post('/removeOfflineUser', (request, response) => {
 
 app.post('/getOnlineUser', (request, response) => {
     let user = request.body.user
-    log('getOnlineUser', user)
     let fileName = `./static/online-list/user.json`
     fs.readFile(fileName, 'utf-8', function (err,data) {
         if(err){
             console.log(err);
         }else {
             let dataList = JSON.parse(data)
-            log('初始化的在线名单', dataList)
             let init = dataList.length === 0
             let notInclude = !dataList.includes(user)
             if (init || notInclude) {
-                log('增加了')
                 dataList.unshift(user)
                 let t = JSON.stringify(dataList)
                 writeFile(fileName, t)
@@ -109,6 +98,7 @@ const writeFile = (fileName, content) => {
 
 
 app.post('/login', (request, response) => {
+    log(222)
     let body = request.body
     let username = body.username
     let userData = username + '-' + body.password
@@ -131,7 +121,6 @@ app.post('/login', (request, response) => {
 app.post('/getPersonalStudyData', (request, response) => {
     let user = request.body.user
     let fileName = `./static/user-data/${user}.json`
-    log('fileName', fileName)
     fs.readFile(fileName, 'utf-8', function (err,data) {
         if (err) {
             console.log(err);
@@ -243,11 +232,8 @@ const getTodayAllData = (response, recordData, data, today) => {
 }
 
 
-
-
-
 const main = () => {
-    let server = app.listen(5555, () => {
+    let server = app.listen(80, () => {
         let host = server.address().address
         let port = server.address().port
 

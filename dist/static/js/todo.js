@@ -55,7 +55,7 @@ const spanClickEvents = (target) => {
     }
 }
 
-// 2020年2月19号回来看的感想：封装抽象尼玛啊，完全看不懂啊……
+// 2020年2月19号回来看的感想：封装抽象尼玛啊，自己写的都完全看不懂了……
 const btnEvents = (target) => {
     let contains = target.classList.contains.bind(target.classList)
     let map = {

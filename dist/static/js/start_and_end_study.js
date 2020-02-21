@@ -54,6 +54,7 @@ const endBtnHandle = () => {
     }
 
     ajax(studyContentRecord, "/sendRecordData", (res) => {
+        log(111, res)
         // 获取数据，更新页面
         let studyDataList = res || []
         addHtmlToMainDiv(studyDataList)
