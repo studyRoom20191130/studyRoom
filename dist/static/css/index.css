@@ -78,12 +78,14 @@
 
 .plan-checkbox span {
     font-size: 13px;
-    font-weight: 400;
-    background: lightgray;
+    font-weight: 600;
+    background: hsl(39, 100%, 50%);
     padding: 3px;
     cursor: pointer;
     margin: 3px;
     display: inline-block;
+    border-radius: 4px;
+    color: white;
 }
 
 .not-center {
@@ -138,13 +140,76 @@ li button {
 }
 
 li .btn {
-    padding: 3px 6px;
-    margin-right: 20px;
-    margin-top: 5px;
+     padding: 3px 6px;
+     margin-right: 20px;
+     margin-top: 5px;
+ }
+
+.btn-new {
+    color: hsl(208, 50%, 40%) !important;
+    background-color: hsl(208, 100%, 75%);
+    box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ hsl(208, 50%, 55%) 0 .1em 3px, hsl(208, 50%, 40%) 0 .3em 1px, /* color border */ rgba(0,0,0,0.2) 0 .5em 5px;
+    border-top: none;
+    border-radius: .5em / 1em;
 }
+
+.btn-common {
+    text-decoration: none;
+    outline:none!important;
+    font: 16px/1em 'Droid Sans', sans-serif;
+    font-weight: bold;
+    text-shadow: rgba(255,255,255,.5) 0 1px 0;
+    user-select: none;
+    margin: .5em;
+    display: inline-block;
+    position: relative;
+    border-radius: 8px;
+    border-top: 1px solid rgba(255,255,255,0.8);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    transition: background .2s ease-in-out;
+    background-image: -webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0.7) )), url(noise.png);
+}
+
+.btn-new:hover { 	background-color: hsl(208, 100%, 83%); }
+
+.btn-common:active {
+    background-image: 	-webkit-gradient(radial, 50% 0, 100, 50% 0, 0, from( rgba(255,255,255,0) ), to( rgba(255,255,255,0) )), url(noise.png);
+    rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+    rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+    rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+    rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+    box-shadow: 		inset rgba(255,255,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.2) 0 -0.1em .3em, /* inner shadow */
+    rgba(0,0,0,0.4) 0 .1em 1px, /* border */
+    rgba(0,0,0,0.2) 0 .2em 6px; /* drop shadow */
+    transform: 			translateY(.2em);
+    color: white;
+}
+
+.btn-todo {
+    color: hsl(88, 70%, 30%) !important;
+    background-color: hsl(88, 70%, 60%);
+    box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ hsl(88, 70%, 40%) 0 .1em 3px, hsl(88, 70%, 30%) 0 .3em 1px, /* color border */ rgba(0,0,0,0.2) 0 .5em 5px;
+}
+
+.btn-todo:hover { 	background-color: hsl(88, 70%, 75%); }
 
 #clear-button {
     margin-bottom: 20px;
+}
+
+.btn-clear {
+    color: hsl(39, 100%, 30%) !important;
+    background-color: hsl(39, 100%, 50%);
+    box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, /* inner shadow */ hsl(39, 100%, 40%) 0 .1em 3px, hsl(39, 100%, 30%) 0 .3em 1px, /* color border */ rgba(0,0,0,0.2) 0 .5em 5px;
+}
+
+.done {
+
+    color: hsl(208, 50%, 40%) !important;
+    background-color: hsl(208, 100%, 75%);
+    /*box-shadow: inset rgba(255,254,255,0.6) 0 0.3em .3em, inset rgba(0,0,0,0.15) 0 -0.1em .3em, !* inner shadow *! hsl(340, 70%, 50%) 0 .1em 3px, hsl(340, 80%, 40%) 0 .3em 1px, !* color border *! rgba(0,0,0,0.2) 0 .5em 5px;*/
+
+    font: 10px/1em 'Droid Sans', sans-serif;
 }
 
 .text-decoration {

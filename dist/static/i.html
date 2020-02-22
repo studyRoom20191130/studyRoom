@@ -23,6 +23,7 @@
 <body>
 
 <header>
+
     <div class="nav__placeholder"></div>
     <nav class="nav">
         <a href="#">自习室</a>
@@ -37,15 +38,15 @@
 <div class="main-container">
     <div class="left">
         <textarea id="textarea-study-content" class="form-control" rows="10" placeholder="学习或备注内容"></textarea>
-        <button type="button" data-button="start" class="btn btn-primary">开始学习</button>
-        <button type="button" data-button="end" class="btn btn-success">结束学习</button><br><br>
+        <button data-button="start" class="btn btn-common  btn-new ">开始</button>
+        <button data-button="end" class="btn btn-common btn-new ">结束</button><br><br>
         <div class="timer">
 
         </div><br>
         <div>
-            <button type="button" class="btn btn-info btn-other-time">补录时间</button>
-            <br>
-            <br>
+            <!--<button type="button" class="btn btn-info btn-other-time">补录时间</button>-->
+            <!--<br>-->
+            <!--<br>-->
             <div class="other-time hidden">
                 <div>
                     <span>开始时间: </span>
@@ -76,13 +77,13 @@
     <div class="right title-weight">
         <div class="daily margin-bottom">
             <div class="margin-bottom">
-                <button type="button" id="daily-btn" data-type="daily" class="btn-callback btn btn-primary">制定今日计划</button>
+                <button id="daily-btn" data-type="daily" class="btn-callback btn btn-todo btn-common">制定今日计划</button>
             </div>
             <div class="make-daily-plan">
                 <div class="daily-plan">
-                    <div class="title">
-                        今日计划
-                    </div>
+                    <!--<div class="title">-->
+                        <!--今日计划-->
+                    <!--</div>-->
                     <div class="plan-content">
                         <ol class="not-center" id="ol-daily">
                         </ol>
@@ -90,7 +91,7 @@
                     <br>
                     <input id="input-todo-daily" type="text" class="form-control" placeholder="输入事项，按回车键确定">
                     <div class="margin-bottom">
-                        <button type="button" data-type="daily" class="clear-data btn btn-primary">清除计划</button>
+                        <button type="button" data-type="daily" class="clear-data btn btn-common btn-clear">清除计划</button>
                     </div>
                     <div class="plan-checkbox">
                         <div class="not-center" data-type='#ol-daily' data-list='dailyTodoList'>
@@ -110,13 +111,13 @@
         </div>
         <div class="weekly">
             <div class="weekly-button">
-                <button type="button" id="weekly-btn" data-type="weekly" class="btn-callback btn btn-primary"><span class="weekly-btn-text">制定本周计划</span></button>
+                <button type="button" id="weekly-btn" data-type="weekly" class="btn-callback btn btn-todo btn-common"><span class="weekly-btn-text">制定本周计划</span></button>
             </div>
             <div class="make-weekly-plan plan-margin-bottom">
                 <div class="weekly-plan">
-                    <div class="title">
-                        本周计划
-                    </div>
+                    <!--<div class="title">-->
+                        <!--本周计划-->
+                    <!--</div>-->
                     <div class="plan-content">
                         <ol class="not-center" id="ol-weekly">
                         </ol>
@@ -124,7 +125,7 @@
                     <br>
                     <input id="input-todo-weekly" type="text" class="form-control" placeholder="输入事项，按回车键确定">
                     <div class="margin-bottom">
-                        <button type="button" data-type="weekly" class="clear-data btn btn-primary">清除计划</button>
+                        <button type="button" data-type="weekly" class="clear-data btn btn-common btn-clear">清除计划</button>
                     </div>
                     <div class="plan-checkbox">
                         <div class="not-center" data-type='#ol-weekly' data-list='weeklyTodoList'>
@@ -152,8 +153,8 @@
     <script src="js/vendor/moment.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/plugins.js"></script>
-    <script src="js/todo.js"></script>
-    <script src="js/start_and_end_study.js"></script>
+    <script src="js/index_right_area_events.js"></script>
+    <script src="js/index_left_area_events.js"></script>
     <script src="js/main.js"></script>
 </body>
 

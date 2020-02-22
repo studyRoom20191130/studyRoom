@@ -17,8 +17,16 @@ const bindLeftDivBtnEvent = () => {
     })
 }
 
+
+// 开始按钮防止重复点击
+window.forbidStartBtnClick = false
+
 const startBtnHandle = () => {
     // 点击开始，开始计时
+    if (window.forbidStartBtnClick) {
+        return
+    }
+    window.forbidStartBtnClick = true
     start()
     window.startHourAndMinute= getNowHourAndMinute()
     window.startTime = getTime()
@@ -29,6 +37,7 @@ const endBtnHandle = () => {
     if (noStudyContent(studyContent)) {
         return
     }
+    window.forbidStartBtnClick = false
     // 计算并转换时间数据
     let segmentation = getSegmentation()
     let [hourDuration, minuteDuration] = getDuration()

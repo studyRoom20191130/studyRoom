@@ -14,7 +14,7 @@
     display: flex;
     justify-content: space-around;
     /*background: slategray;*/
-    background: #ff0006 url(../img/navbg.png) no-repeat 50%;
+    /*background: #ff0006 url(../img/navbg.png) no-repeat 50%;*/
     position: fixed;
     left: 0;
     top: 0;
@@ -26,13 +26,16 @@
     width: 100px;
     display: inline-block;
     text-decoration: none;
-    color: #fff;
+    color: #409eff;
+    font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    opacity: 0.8;
 }
 
 .nav a:hover {
     width: 100px;
-    color: #fff;
-    background: slategray;
+    opacity: 1;
     text-decoration: none;
 }
 

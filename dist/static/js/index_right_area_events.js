@@ -11,7 +11,7 @@ const shouldShowTodo = () => {
         let storageKey = type + 'TodoList'
         let todoList = getLocalStorage(storageKey) || []
         let hasTodoList = todoList.length !== 0
-        let word = type === 'daily' ? '当日' : '本周'
+        let word = type === 'daily' ? '今日' : '本周'
         let divClassName = `.make-${type}-plan`
         let btn = `#${type}-btn`
         if (hasTodoList) {
@@ -92,6 +92,8 @@ const toggleBtnCallback = (target) => {
         t1 = '本周'
         t2 = 'weekly'
     }
+    log('t1', t1)
+    log('t1', button.text() === `收起${t1}计划`)
     button.text() === `收起${t1}计划` ? button.text(`制定${t1}计划`) : button.text(`收起${t1}计划`)
     $(`.make-${t2}-plan`).toggle();
 }
@@ -137,7 +139,7 @@ const addHtmlToOlElement = (todoList, element) => {
     let olContent = $(element).innerHTML || ''
     let html = ''
     for (val of todoList) {
-        html += `${olContent}<li><span>${val}</span><button class="done btn btn-success btn-small">完成</button></li>`
+        html += `${olContent}<li><span>${val}</span><button class="btn btn-common btn-new done">完成</button></li>`
     }
     appendHtml(e(element), html)
 }
