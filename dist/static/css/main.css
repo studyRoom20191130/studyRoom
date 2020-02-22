@@ -13,6 +13,7 @@
     border-bottom: 1px solid #dcdfe6;
     display: flex;
     justify-content: space-around;
+    background: #fff;
     /*background: slategray;*/
     /*background: #ff0006 url(../img/navbg.png) no-repeat 50%;*/
     position: fixed;

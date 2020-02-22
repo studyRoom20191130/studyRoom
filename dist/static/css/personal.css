@@ -18,19 +18,38 @@ p {
     font-size: .8rem;
 }
 
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .date-picker {
     margin-left: 30%;
 }
-.personal-introduction {
-    max-width: 1024px;
-    /*width: 90%;*/
-    margin-left: 30%;
+/*.left {*/
+/*    width: 250px;*/
+/*    left: 0;*/
+/*    font-size: 28px;*/
+/*    text-align: left;*/
+/*    overflow: hidden;*/
+/*}*/
 
+/*@media screen and (max-width: 436px) {*/
+/*    .left {*/
+/*        position: relative;*/
+/*        font-size: 28px;*/
+/*    }*/
+/*}*/
+.left {
+    width: 15%;
+    min-width: 150px;
+}
+.personal-introduction {
+    text-align: right;
 }
 .timeline-container {
     max-width: 1024px;
-    /*width: 90%;*/
-    margin-left: 30%;
 }
 
 .timeline-item {
@@ -91,3 +110,5 @@ td {
     font-weight: bolder;
     margin: 20px 0;
 }
+
+
