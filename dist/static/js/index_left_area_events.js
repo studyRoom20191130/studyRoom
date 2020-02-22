@@ -68,7 +68,7 @@ const endBtnHandle = () => {
         let studyDataList = res || []
         addHtmlToMainDiv(studyDataList)
         alertTip(singleRecord.minuteDuration)
-        reset()
+        window.stopInterval = true
     })
     getOnlineUser()
 }
@@ -151,11 +151,24 @@ const getNowHourAndMinute = () => {
 
 const getDuration = () => {
     let endTime = getTime()
-    let t1= moment(window.startTime);
-    let t2= moment(endTime);
-    let dura = t2.format('x') - t1.format('x');
-    let tempTime = this.moment.duration(dura);
-    return [tempTime.hours(), tempTime.minutes()]
+    endTimeList  = endTime.slice(11, 16).split(':')
+
+    let [endHour, endMinute] = endTimeList
+
+    let [startHour, startMinute] = window.startTime.slice(11, 16).split(':')
+
+    let hour = Number(endHour) - Number(startHour)
+
+    // 23:00  -  00:20 这种情况
+    if (startHour[0]=== '2' && endHour[0] === '0') {
+        log(Number(endHour[1]), Number(startHour[1]))
+        hour = Number(endHour[1]) + 24 -  Number(startHour)
+    }
+
+    let minutes = hour * 60
+    minutes += Number(endMinute) - Number(startMinute)
+    hour = Number((minutes / 60).toFixed(1))
+    return [hour, minutes]
 }
 
 const getSegmentation = () => {
@@ -183,35 +196,52 @@ const noStudyContent = (studyContent) => {
 let hour, minute , second;//时 分 秒
 hour = minute = second = 0;//初始化
 let millisecond = 0;//毫秒
-let int;
-//重置
-const reset = () => {
-    window.clearInterval(int);
-    millisecond=hour=minute=second=0;
-    e('.timer').innerHTML= ''
-}
+
+let countIndex = 1; // 倒计时任务执行次数
+let timeout = 250; // 触发倒计时任务的时间间隙
+
 
 // 开始计时
 const start = () => {
-    int=setInterval(timer,250);
+    window.stopInterval = false
+    window.getStartTime = new Date().getTime();
+    startCountdown(timeout);
 }
 
-const timer = () => {
-    millisecond=millisecond+250;
-    if(millisecond>=1000) {
-        millisecond=0;
-        second=second+1;
+function startCountdown(interval) {
+    if (window.stopInterval) {
+        e('.timer').innerHTML= ''
+        millisecond = hour = minute = second = 0
+        return
     }
-    if(second>=60) {
-        second=0;
-        minute=minute+1;
-    }
+    setTimeout(() => {
+        const endTime = new Date().getTime();
+        // 偏差值
+        let deviation = endTime - (window.getStartTime + countIndex * timeout);
+        if (deviation < 0) {deviation = 0}
+        log('deviation', deviation)
+        countIndex++;
 
-    if(minute>=60) {
-        minute=0;
-        hour=hour+1;
-    }
-    let arr = [hour, minute, second]
-    arr = arr.map(val => getZero(val))
-    e('.timer').innerHTML=arr[0]+'时'+arr[1]+'分'+arr[2]+'秒';
-} 
+        millisecond=millisecond+250;
+        if(millisecond>=1000) {
+            millisecond=0;
+            second=second+1;
+        }
+        if(second>=60) {
+            second=0;
+            minute=minute+1;
+        }
+
+        if(minute>=60) {
+            minute=0;
+            hour=hour+1;
+        }
+        let arr = [hour, minute, second]
+        arr = arr.map(val => getZero(val))
+        log('执行')
+        e('.timer').innerHTML= arr[0]+'时'+arr[1]+'分'+arr[2]+'秒';
+
+        // 下一次倒计时
+        startCountdown(timeout - deviation);
+    }, interval);
+}

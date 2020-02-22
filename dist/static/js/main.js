@@ -43,6 +43,7 @@ const getstudyDataList =() => {
 
 const autoRefresh = () => {
     let 每十五分钟自动刷新一次 = 1000 * 60 * 15
+
     setInterval(() => dataInit(), 每十五分钟自动刷新一次)
 }
 
