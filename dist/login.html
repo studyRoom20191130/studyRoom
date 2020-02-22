@@ -40,11 +40,11 @@
     </div>
 
     <script>
-        if(getLocalStorage('userInfo')){
-            window.location = "i.html";
-        }
+        // if(getLocalStorage('userInfo')){
+        //     window.location = "i.html";
+        // }
 
-        $("#send-data").click(function(){
+        const apiLogin = () => {
             let username = $("#username").val()
             let password = $("#password").val()
             let data = {
@@ -55,12 +55,17 @@
                 setLocalStorage('userInfo', res)
                 window.location = "i.html";
             })
+        }
 
+        e('#password').addEventListener('keydown', function(e){
+            if (e.code === 'Enter') {
+                apiLogin()
+            }
+        })
+
+        $("#send-data").click(function(){
+            apiLogin()
         });
-
-
-
-
 
     </script>
 </body>
