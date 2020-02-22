@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="../js/utils.js"></script>
+    <script src="../js/vendor/sweetalert2.js"></script>
+    <link rel="stylesheet" href="../css/login.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="dialog dialog-shadow">
+            <h4 class="">
+                欢迎进入自习室
+            </h4>
+            <div class="">
+                <input id="username" type="text"  placeholder="请输入账号">
+                <input id="password" type="text"  placeholder="请输入密码">
+                <button id="send-data">登录/注册</button>
+            </div>
+            <div class="agreement">
+                其他账号登录：
+                <img src="../img/weixin.png">
+                <img src="../img/weibo.png">
+                <img src="../img/qq.png">
+                <img src="../img/ali.png" class="ali">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="timeline-container">
+    </div>
+
+    <script>
+        if(getLocalStorage('userInfo')){
+            window.location = "i.html";
+        }
+
+        const apiLogin = () => {
+            let username = $("#username").val()
+            let password = $("#password").val()
+            let data = {
+                username,
+                password,
+            }
+            ajax(data, "/login", (res) => {
+                setLocalStorage('userInfo', res)
+                window.location = "i.html";
+            })
+        }
+
+        e('#password').addEventListener('keydown', function(e){
+            if (e.code === 'Enter') {
+                apiLogin()
+            }
+        })
+
+        $("#send-data").click(function(){
+            apiLogin()
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+body {
+    background-color: var(--jp);
+}
+
+.annual {
+    margin-top: 58px;
+}
+/* main wrapper */
+.blob-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50vw); /* vw = viewport width */
+    grid-auto-rows: 50vw;
+}
+
+/* blob containers h1 + svg */
+.blob {
+    display: grid;
+    grid-template-columns: repeat(10 , 5vw);
+    grid-template-rows: repeat(10 , 5vw);
+}
+
+
+/* quick media query for a vw 2 column to 4 collumn layout */
+@media all and (min-width:500px) {
+    .blob-wrapper {
+        grid-template-columns: repeat(2, 50vw);
+        grid-auto-rows: 25vw;
+    }
+
+    .blob {
+        grid-template-columns: repeat(10 , 2.5vw);
+        grid-template-rows: repeat(10 , 2.5vw);
+    }
+}
+
+
+/* reset svg to width of container, used blobmaker.app to make this and the viewbox comes with some padding */
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* gloabal headers */
+h1 {
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 24vw;
+    font-weight: 400;
+}
+
+@media all and (min-width:500px) {
+    h1 {
+        font-size: 14vw;
+    }
+}
+
+.blob h1 {
+    grid-column: 3;
+    grid-row: 3 / -1;
+}
+
+.blob h1:first-letter {
+    vertical-align: text-top;
+}
+
+.blob:nth-of-type(odd) h1:first-letter {
+    vertical-align: middle;
+}
+
+.blob svg {
+    grid-column: 1 / span 8;
+    grid-row-start: 2;
+    fill: #FE840E;
+    transition: 0.3s all;
+}
+
+
+/* shuffle position blob h1 */
+.blob:nth-of-type(odd) h1 {
+    grid-row-start: 1
+}
+
+.blob:nth-of-type(3) h1 {
+    grid-column-start: 5;
+    grid-row-start: 1
+}
+
+.blob:nth-of-type(3n + 2) h1 {
+    grid-column-start: 2;
+    grid-row-start: 4
+}
+
+/* shuffle colors blob svg */
+.blob:nth-of-type(even) svg path {
+    fill: var(--kim);
+}
+
+.blob:nth-of-type(2n + 5)  svg path {
+    fill: var(--abraham);
+}
+
+.blob:nth-of-type(3n + 2) svg path {
+    fill: var(--natalie);
+}
+
+
+.blob:nth-of-type(6n + 3) svg path {
+    fill: var(--jp2);
+}
+
+.blob:nth-of-type(odd) svg {
+    grid-column: 2 / span 8;
+}
+
+.blob:nth-of-type(7) svg  {
+    grid-column: 1 / span 9;
+    grid-row-start: 3 / span 7;
+}
+
+
+/* variables!! */
+:root {
+    --natalie: yellow;
+}
+
+:root {
+    --abraham: #5a70d9;
+}
+
+:root {
+    --kim: #87f6ff;
+}
+
+:root {
+    --jp: #ffefe0;
+}
+
+
+:root {
+    --jp2: #FE840E;
+}
+
+
+/* ----- bonus, hovers!!!! ------*/
+.blob h1,
+.blob svg,
+.blob:hover svg path {
+    transition: .5s all ease-in-out;
+}
+
+.blob:hover h1 {
+    transform: translate(2vw, -2vw);
+    cursor: pointer;
+}
+
+.blob:hover svg {
+    transition-delay: 0.2s;
+    transform: translate(-2vw, -2vw);
+}
+
+.blob:hover svg path {
+    transition-delay: 0.4s;
+    fill: white;
+}
