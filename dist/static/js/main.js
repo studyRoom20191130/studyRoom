@@ -23,7 +23,7 @@ const bindEvents = () => {
         bindRightDivEvents()
         bindPersonalPage()
         bindOtherPersonalPage()
-    }, 300)
+    }, 1500)
 }
 
 const getstudyDataList =() => {
