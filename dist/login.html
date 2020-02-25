@@ -10,6 +10,7 @@
     <script src="../js/utils.js"></script>
     <script src="../js/vendor/sweetalert2.js"></script>
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="css/sweetalert2.css">
 
 </head>
 
@@ -40,9 +41,9 @@
     </div>
 
     <script>
-        if(getLocalStorage('userInfo')){
-            window.location = "i.html";
-        }
+        // if(getLocalStorage('userInfo')){
+        //     window.location = "i.html";
+        // }
 
         const apiLogin = () => {
             let username = $("#username").val()
@@ -50,6 +51,10 @@
             let data = {
                 username,
                 password,
+            }
+            if (!username || !password) {
+                alert('额，填一下账户密码')
+                return
             }
             ajax(data, "/login", (res) => {
                 setLocalStorage('userInfo', res)
