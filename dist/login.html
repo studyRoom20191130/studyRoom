@@ -22,7 +22,8 @@
             </h4>
             <div class="">
                 <input id="username" type="text"  placeholder="请输入账号">
-                <input id="password" type="text"  placeholder="请输入密码">
+                <input id="password" type="password"  placeholder="请输入密码">
+                <input id="invite-code" type="password"  placeholder="请输入邀请码">
                 <button id="send-data">登录/注册</button>
             </div>
             <div class="agreement">
@@ -41,19 +42,24 @@
     </div>
 
     <script>
-        // if(getLocalStorage('userInfo')){
-        //     window.location = "i.html";
-        // }
+        if(getLocalStorage('userInfo')){
+            window.location = "i.html";
+        }
 
         const apiLogin = () => {
             let username = $("#username").val()
             let password = $("#password").val()
+            let invite = $("#invite-code").val()
             let data = {
                 username,
                 password,
             }
             if (!username || !password) {
                 alert('额，填一下账户密码')
+                return
+            }
+            if (invite !== '1701') {
+                alert('请输入邀请码')
                 return
             }
             ajax(data, "/login", (res) => {
@@ -63,6 +69,12 @@
         }
 
         e('#password').addEventListener('keydown', function(e){
+            if (e.code === 'Enter') {
+                apiLogin()
+            }
+        })
+
+        e('#invite-code').addEventListener('keydown', function(e){
             if (e.code === 'Enter') {
                 apiLogin()
             }

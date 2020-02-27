@@ -20,6 +20,7 @@ const bindLeftDivBtnEvent = () => {
 
 // 开始按钮防止重复点击
 window.forbidStartBtnClick = false
+window.forbidEndBtnClick = true
 
 const startBtnHandle = () => {
     // 点击开始，开始计时
@@ -27,12 +28,22 @@ const startBtnHandle = () => {
         return
     }
     window.forbidStartBtnClick = true
+    window.forbidEndBtnClick = false
     start()
     window.startHourAndMinute= getNowHourAndMinute()
     window.startTime = getTime()
 }
 
 const endBtnHandle = () => {
+    if (window.forbidEndBtnClick) {
+        swal({
+            title: '先要开始，才能结束',
+            text: '2秒后自动关闭',
+            timer: 2000,
+        }).then(function () {}, function () {})
+        return
+    }
+    window.forbidEndBtnClick = true
     let studyContent = e('#textarea-study-content').value
     if (noStudyContent(studyContent)) {
         return
@@ -100,7 +111,7 @@ const addHtmlToMainDiv = (studyDataList) => {
         for (obj of studyData.table) {
             tr += `<tr>
                     <td class="td-time">${obj.segmentation}</td>
-                    <td class="td-hour">${obj.minuteDuration}</td>
+                    <td class="td-hour">${obj.minuteDuration} min</td>
                     <td class="td-width">${obj.studyContent}</td>
                 </tr>`
 
