@@ -108,18 +108,22 @@ const addHtmlToMainDiv = (studyDataList) => {
             <th>内容/备注</th>
         </tr>`
     for (studyData of studyDataList) {
+        let totalHour = 0
+        let totalMinitue = 0
         for (obj of studyData.table) {
             tr += `<tr>
                     <td class="td-time">${obj.segmentation}</td>
                     <td class="td-hour">${obj.minuteDuration} min</td>
                     <td class="td-width">${obj.studyContent}</td>
                 </tr>`
-
+            totalHour += obj.hourDuration
+            totalMinitue += obj.minuteDuration
         }
+        totalHour = totalHour.toFixed(1)
         html += `
         <article class="main-article">
             <div class="user-name title-weight">
-                <a href="personal.html" class="personal-page">${studyData.user}</a>
+                <a href="personal.html" class="personal-page">${studyData.user} - ${totalMinitue} min / ${totalHour} h</a>
             </div>
             <div class="study-record">
                <table class="table table-bordered table-striped table-hover table-condensed">
@@ -178,7 +182,7 @@ const getDuration = () => {
 
     let minutes = hour * 60
     minutes += Number(endMinute) - Number(startMinute)
-    hour = Number((minutes / 60).toFixed(1))
+    hour = Number((minutes / 60).toFixed(2))
     return [hour, minutes]
 }
 

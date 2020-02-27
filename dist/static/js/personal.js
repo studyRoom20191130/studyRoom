@@ -33,9 +33,10 @@ const timelineTemplate = (object) => {
             totalMinitue += obj.minuteDuration
             totalHour += obj.hourDuration
         }
+        totalHour = totalHour.toFixed(1)
         let all = timeTemplate(o.table)
         t = `
-            <div class="timeline-item" date-is='${o.today}&nbsp;&nbsp;&nbsp;&nbsp;当天总共学习：${totalMinitue} 分钟(${totalHour}小时)'>
+            <div class="timeline-item" date-is='${o.today}&nbsp;&nbsp;&nbsp;&nbsp;当天总共学习：${totalMinitue} min (${totalHour} h)'>
                 <div class="study-record">
                     <table class="table table-bordered">
                         <tr>
