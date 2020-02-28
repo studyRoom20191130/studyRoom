@@ -6,6 +6,7 @@ global.today = ''
 
 const fs = require('fs')
 
+// const path = require("path");
 
 const express = require('express')
 const log = console.log.bind(console)
@@ -18,7 +19,7 @@ const todoList = []
 
 
 app.use(express.static('static'))
-
+// app.use(express.static(path.join('static', 'public'),{maxAge:1000*60*60*24*90}));
 
 app.use(bodyParser.json())
 

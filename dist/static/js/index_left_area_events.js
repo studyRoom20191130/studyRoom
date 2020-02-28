@@ -27,6 +27,11 @@ const startBtnHandle = () => {
     if (window.forbidStartBtnClick) {
         return
     }
+    swal({
+        title: '不要分心，做好眼下这件事',
+        text: '2秒后自动关闭',
+        timer: 2000,
+    }).then(function () {}, function () {})
     window.forbidStartBtnClick = true
     window.forbidEndBtnClick = false
     start()
@@ -100,6 +105,9 @@ const alertTip = (minuteDuration) => {
 }
 
 const addHtmlToMainDiv = (studyDataList) => {
+    // 增加龙王功能
+    let dragonKingObj = {}
+
     let html = ''
     let tr = `
         <tr class="success">
@@ -119,10 +127,11 @@ const addHtmlToMainDiv = (studyDataList) => {
             totalHour += obj.hourDuration
             totalMinitue += obj.minuteDuration
         }
+        dragonKingObj[studyData.user] = totalMinitue
         totalHour = totalHour.toFixed(1)
         html += `
         <article class="main-article">
-            <div class="user-name title-weight">
+            <div class="user-name title-weight ${studyData.user}">
                 <a href="personal.html" class="personal-page">${studyData.user} - ${totalMinitue} min / ${totalHour} h</a>
             </div>
             <div class="study-record">
@@ -143,6 +152,20 @@ const addHtmlToMainDiv = (studyDataList) => {
     }
     $(".main").empty()
     appendHtml(e(".main"), html)
+    // 算出谁龙王
+    whoIsDragonKing(dragonKingObj)
+}
+
+const whoIsDragonKing = (dragonKingObj) => {
+    let dragonKing = ''
+    let num = -1
+    for (let [key, value] of Object.entries(dragonKingObj)) {
+        if (value > num) {
+            num = value
+            dragonKing = '.' + key
+        }
+    }
+    if (dragonKing) {$(dragonKing).append(`<img src="dragon-king.jpg" style="width: 22px;margin-left: 5px;">`)}
 }
 
 const addOnlineUser = (onlineUserList) => {
