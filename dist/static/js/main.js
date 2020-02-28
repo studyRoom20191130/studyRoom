@@ -21,7 +21,7 @@ const bindEvents = () => {
         bindTodoInputEvent()
         bindLeftDivBtnEvent()
         bindRightDivEvents()
-        bindPersonalPage()
+        bindWeekTodo()
         bindOtherPersonalPage()
     }, 1500)
 }

@@ -71,8 +71,14 @@ const btnEvents = (target) => {
 }
 
 // 首页导航栏的个人主页点击事件
-const bindPersonalPage = () => {
-    bindEvent(e('#personal-page'), 'click', event => setLocalStorage('personal', getLocalStorage('userInfo')))
+const bindWeekTodo = () => {
+    bindEvent(e('#personal-page'), 'click', event => {
+        swal({
+            title: '展示每周计划，待开发',
+            text: '2秒后自动关闭',
+            timer: 2000,
+        }).then(function () {}, function () {})
+    })
 }
 
 const bindOtherPersonalPage = () =>{

@@ -165,7 +165,8 @@ const whoIsDragonKing = (dragonKingObj) => {
             dragonKing = '.' + key
         }
     }
-    if (dragonKing) {$(dragonKing).append(`<img src="dragon-king.jpg" style="width: 22px;margin-left: 5px;">`)}
+    if (dragonKing) {$(dragonKing).append(`<img src="dragon-king.png" style="width: 22px;margin-left: 5px;display: inline-block;
+    padding-bottom: 6px;">`)}
 }
 
 const addOnlineUser = (onlineUserList) => {

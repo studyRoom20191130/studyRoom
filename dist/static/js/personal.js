@@ -106,10 +106,21 @@ const datePicker = () => {
     })
 }
 
+const bindPersonalPage = () => {
+    bindEvent(e('#personal-page'), 'click', event => {
+        swal({
+            title: '展示每周计划，待开发',
+            text: '2秒后自动关闭',
+            timer: 2000,
+        }).then(function () {}, function () {})
+    })
+}
+
 
 const __main = () => {
     getPersonalStudyData()
     datePicker()
+    bindPersonalPage()
 }
 
 __main()
