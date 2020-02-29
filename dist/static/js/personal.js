@@ -106,7 +106,7 @@ const datePicker = () => {
     })
 }
 
-const bindPersonalPage = () => {
+const bindWeekTodo = () => {
     bindEvent(e('#personal-page'), 'click', event => {
         swal({
             title: '展示每周计划，待开发',
@@ -116,11 +116,56 @@ const bindPersonalPage = () => {
     })
 }
 
+// 获取个性签名
+const getSignature = () => {
+    let signature = getLocalStorage('signature') || '点击编辑签名，按回车确认'
+    e('#user-sign').innerHTML = signature
+}
+
+const bindEvents = () => {
+    bindWeekTodo()
+    bindSignatureEvent()
+}
+
+
+const bindSignatureEvent = () => {
+    let div = e('#user-sign')
+    div.addEventListener('click', event => {
+        div.contentEditable = true
+        div.focus()
+        // 点击全选
+        let range = document.createRange();
+        range.selectNodeContents(div);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+    })
+    div.addEventListener('keydown', event => {
+        if (event.key === 'Enter') {
+            event.preventDefault()
+            div.contentEditable = false
+            saveSignature(div)
+        }
+    })
+    div.addEventListener('blur', event => {
+        saveSignature(div)
+    })
+}
+
+const saveSignature = (div) => {
+    let signature = div.textContent
+    if (signature.trim()) {
+        setLocalStorage('signature', signature)
+    } else {
+        div.textContent = '点击编辑签名，按回车确认'
+    }
+}
+
 
 const __main = () => {
     getPersonalStudyData()
     datePicker()
-    bindPersonalPage()
+    getSignature()
+    bindEvents()
 }
 
 __main()

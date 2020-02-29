@@ -58,10 +58,12 @@ const endBtnHandle = () => {
     let segmentation = getSegmentation()
     let [hourDuration, minuteDuration] = getDuration()
     let user = getLocalStorage('userInfo').split('-')[0]
+    let signature = getLocalStorage('signature') || ''
+    log('signature', signature)
     let time = new Date();
     let id = time.getTime()
     let today = moment().format("YYYY年MM月DD日")
-    log('today', today)
+
     const singleRecord = {
         studyDate: getDate(), // 当天日期
         segmentation, // 12:30 - 13:30
@@ -74,6 +76,7 @@ const endBtnHandle = () => {
         userData,
         today,
         user,
+        signature,
         id,
         table: [singleRecord],
     }
@@ -134,6 +137,7 @@ const addHtmlToMainDiv = (studyDataList) => {
             <div class="user-name title-weight ${studyData.user}">
                 <a href="personal.html" class="personal-page">${studyData.user} - ${totalMinitue} min / ${totalHour} h</a>
             </div>
+            <div style="color: #409eff;margin: 5px 0;">${studyData.signature}</div>
             <div class="study-record">
                <table class="table table-bordered table-striped table-hover table-condensed">
                    ${tr}
@@ -154,6 +158,9 @@ const addHtmlToMainDiv = (studyDataList) => {
     appendHtml(e(".main"), html)
     // 算出谁龙王
     whoIsDragonKing(dragonKingObj)
+
+    // 获取个性签名，更新页面
+
 }
 
 const whoIsDragonKing = (dragonKingObj) => {
@@ -165,8 +172,8 @@ const whoIsDragonKing = (dragonKingObj) => {
             dragonKing = '.' + key
         }
     }
-    if (dragonKing) {$(dragonKing).append(`<img src="dragon-king.png" style="width: 22px;margin-left: 5px;display: inline-block;
-    padding-bottom: 6px;">`)}
+    if (dragonKing) {$(dragonKing).append(`<img src="dragon-king.png" style="width: 20px;height: 24.5px;margin-left: 5px;display: inline-block;
+    padding-bottom: 6px;margin-bottom: 2px;">`)}
 }
 
 const addOnlineUser = (onlineUserList) => {

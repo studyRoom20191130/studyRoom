@@ -84,6 +84,36 @@ app.post('/getOnlineUser', (request, response) => {
     })
 })
 
+// app.post('/saveSignature', (request, response) => {
+//     let user = request.body
+//     // 没有就直接写入，有就替换
+//     let fileName = `./static/userSignature/signature.json`
+//
+//     fs.readFile(fileName, 'utf-8', function (err,data) {
+//         if(err){
+//             log(333)
+//             console.log(err);
+//         }else {
+//             let dataArray = []
+//             if (data) {
+//                 dataArray = JSON.parse(data)
+//             }
+//             if (dataArray.length === 0) {
+//                 dataArray.push(user)
+//             } else {
+//                 for (const index in dataArray) {
+//                     let obj = dataArray[index]
+//                     if (obj.user === user.user) {
+//                         dataArray[index] = user
+//                     }
+//                 }
+//             }
+//             let d = JSON.stringify(dataArray, null, '    ')
+//             writeFile(fileName, d)
+//         }
+//     })
+// })
+
 
 
 const writeFile = (fileName, content) => {
@@ -155,6 +185,8 @@ app.post('/sendRecordData', (request, response) => {
                 let todayObj = dataList[0]
                 if (todayObj.today === recorDataObj.today) {
                     todayObj.table.push(recorDataObj.table[0])
+                    // 每次都替换一下 签名
+                    todayObj.signature = recorDataObj.signature
                     dataList[0] = todayObj
                 } else {
                     dataList.unshift(recorDataObj)
@@ -180,9 +212,7 @@ app.post('/sendRecordData', (request, response) => {
                             dataArray.splice(index, 1)
                         }
                     }
-
                     dataArray.unshift(dataList[0])
-
                     let d = JSON.stringify(dataArray, null, '    ')
                     writeFile(path, d)
                     response.send(dataArray)
