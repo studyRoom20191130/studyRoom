@@ -93,6 +93,10 @@ const generateTimeline = (res) => {
             <a href="#">显示更多</a>
         </div>
     `
+    // 获取个性签名
+    e('#user-sign').innerHTML = '点击编辑签名，按回车确认'
+    if (res[0]) {e('#user-sign').innerHTML = res[0].signature || '点击编辑签名，按回车确认'}
+
     html = html + last
     let container = e('.timeline-container')
     appendHtml(container, html)
@@ -116,11 +120,8 @@ const bindWeekTodo = () => {
     })
 }
 
-// 获取个性签名
-const getSignature = () => {
-    let signature = getLocalStorage('signature') || '点击编辑签名，按回车确认'
-    e('#user-sign').innerHTML = signature
-}
+
+
 
 const bindEvents = () => {
     bindWeekTodo()
@@ -164,7 +165,6 @@ const saveSignature = (div) => {
 const __main = () => {
     getPersonalStudyData()
     datePicker()
-    getSignature()
     bindEvents()
 }
 

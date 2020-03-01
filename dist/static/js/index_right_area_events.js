@@ -70,7 +70,7 @@ const btnEvents = (target) => {
     }
 }
 
-// 首页导航栏的个人主页点击事件
+// 首页导航栏的每周计划点击事件
 const bindWeekTodo = () => {
     bindEvent(e('#personal-page'), 'click', event => {
         swal({

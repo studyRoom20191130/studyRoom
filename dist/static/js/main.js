@@ -23,6 +23,7 @@ const bindEvents = () => {
         bindRightDivEvents()
         bindWeekTodo()
         bindOtherPersonalPage()
+        bindMainArticleEvent()
     }, 1500)
 }
 

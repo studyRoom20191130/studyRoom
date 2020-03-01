@@ -35,7 +35,6 @@ const sendHtml = (path, response) => {
 }
 
 app.get('/', (request, response) => {
-    log(111)
     let options = {
         encoding: 'utf-8',
     }
@@ -84,44 +83,11 @@ app.post('/getOnlineUser', (request, response) => {
     })
 })
 
-// app.post('/saveSignature', (request, response) => {
-//     let user = request.body
-//     // 没有就直接写入，有就替换
-//     let fileName = `./static/userSignature/signature.json`
-//
-//     fs.readFile(fileName, 'utf-8', function (err,data) {
-//         if(err){
-//             log(333)
-//             console.log(err);
-//         }else {
-//             let dataArray = []
-//             if (data) {
-//                 dataArray = JSON.parse(data)
-//             }
-//             if (dataArray.length === 0) {
-//                 dataArray.push(user)
-//             } else {
-//                 for (const index in dataArray) {
-//                     let obj = dataArray[index]
-//                     if (obj.user === user.user) {
-//                         dataArray[index] = user
-//                     }
-//                 }
-//             }
-//             let d = JSON.stringify(dataArray, null, '    ')
-//             writeFile(fileName, d)
-//         }
-//     })
-// })
-
-
 
 const writeFile = (fileName, content) => {
     fs.writeFile(fileName, content, {flag:"w"}, function (err) {
         if(err){
             return console.log(err);
-        }else {
-            console.log("写入成功");
         }
     })
 }
@@ -129,7 +95,6 @@ const writeFile = (fileName, content) => {
 
 
 app.post('/login', (request, response) => {
-    log(222)
     let body = request.body
     let username = body.username
     let userData = username + '-' + body.password
@@ -167,9 +132,8 @@ app.post('/getPersonalStudyData', (request, response) => {
 })
 
 app.post('/sendRecordData', (request, response) => {
-    let recorDataObj = request.body
-
-    let fileName = `./static/user-data/${recorDataObj.user}.json`
+    let requestObj = request.body
+    let fileName = `./static/user-data/${requestObj.user}.json`
     fs.readFile(fileName, 'utf-8', function (err,data) {
         if(err){
             console.log(err);
@@ -180,23 +144,23 @@ app.post('/sendRecordData', (request, response) => {
             }
             let init = dataList.length === 0
             if (init) {
-                dataList.unshift(recorDataObj)
+                dataList.unshift(requestObj)
             } else {
                 let todayObj = dataList[0]
-                if (todayObj.today === recorDataObj.today) {
-                    todayObj.table.push(recorDataObj.table[0])
+                if (todayObj.today === requestObj.today) {
+                    todayObj.table.push(requestObj.table[0])
                     // 每次都替换一下 签名
-                    todayObj.signature = recorDataObj.signature
+                    todayObj.signature = requestObj.signature
                     dataList[0] = todayObj
                 } else {
-                    dataList.unshift(recorDataObj)
+                    dataList.unshift(requestObj)
                 }
 
             }
             let t = JSON.stringify(dataList, null, '    ')
             writeFile(fileName, t)
 
-            let path = `./static/study-record-data/${recorDataObj.today}.json`
+            let path = `./static/study-record-data/${requestObj.today}.json`
             fs.readFile(path, 'utf-8', function (err,data) {
                 if(err){
                     console.log(err);
@@ -208,7 +172,7 @@ app.post('/sendRecordData', (request, response) => {
 
                     for (const index in dataArray) {
                         let obj = dataArray[index]
-                        if (obj.userData === recorDataObj.userData) {
+                        if (obj.userData === requestObj.userData) {
                             dataArray.splice(index, 1)
                         }
                     }
@@ -220,10 +184,54 @@ app.post('/sendRecordData', (request, response) => {
             })
         }
     })
+})
 
+app.post('/sendComment', (request, response) => {
+    let requestObj = request.body
 
+    let fileName = `./static/user-data/${requestObj.user}.json`
+    fs.readFile(fileName, 'utf-8', function (err,data) {
+        if(err){
+            console.log(err);
+        }else {
+            let dataList = JSON.parse(data)
+            let todayObj = dataList[0]
+            let commentObj = {
+                comment: requestObj.comment,
+                commenter: requestObj.commenter,
+                replyer: requestObj.replyer,
+            }
+            let commentArray = todayObj.commentArray || []
+            commentArray.push(commentObj)
+            dataList[0].commentArray = commentArray
+            let t = JSON.stringify(dataList, null, '    ')
+            writeFile(fileName, t)
 
+            // 如果想在页面中展示 评论时间，这里可以存进 json，但好像没有展示的必要
+            let s = requestObj.commentTime.slice(0, 10).split('-')
+            let today = s[0] + '年' + s[1] + '月' + s[2] + '日'
 
+            let path = `./static/study-record-data/${today}.json`
+            fs.readFile(path, 'utf-8', function (err,data) {
+                if(err){
+                    console.log(err);
+                }else {
+                    let dataArray = JSON.parse(data)
+
+                    for (const index in dataArray) {
+                        let obj = dataArray[index]
+                        if (obj.user === requestObj.user) {
+                            dataArray.splice(index, 1)
+                        }
+                    }
+                    dataArray.unshift(dataList[0])
+                    let d = JSON.stringify(dataArray, null, '    ')
+                    writeFile(path, d)
+                    response.send(dataArray)
+                }
+            })
+        }
+    })
 })
 
 app.post('/getStudyDataList', (request, response) => {
@@ -264,11 +272,9 @@ const getTodayAllData = (response, recordData, data, today) => {
 
 
 const main = () => {
-    let server = app.listen(5555, () => {
+    let server = app.listen(80, () => {
         let host = server.address().address
         let port = server.address().port
-
-        log(`应用实例，访问地址为 http://${host}:${port}`)
     })
 }
 

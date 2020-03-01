@@ -18,20 +18,17 @@ const bindLeftDivBtnEvent = () => {
 }
 
 
+
 // 开始按钮防止重复点击
 window.forbidStartBtnClick = false
 window.forbidEndBtnClick = true
+window.initToggle = true
 
 const startBtnHandle = () => {
     // 点击开始，开始计时
     if (window.forbidStartBtnClick) {
         return
     }
-    swal({
-        title: '不要分心，做好眼下这件事',
-        text: '2秒后自动关闭',
-        timer: 2000,
-    }).then(function () {}, function () {})
     window.forbidStartBtnClick = true
     window.forbidEndBtnClick = false
     start()
@@ -59,7 +56,6 @@ const endBtnHandle = () => {
     let [hourDuration, minuteDuration] = getDuration()
     let user = getLocalStorage('userInfo').split('-')[0]
     let signature = getLocalStorage('signature') || ''
-    log('signature', signature)
     let time = new Date();
     let id = time.getTime()
     let today = moment().format("YYYY年MM月DD日")
@@ -82,7 +78,6 @@ const endBtnHandle = () => {
     }
 
     ajax(studyContentRecord, "/sendRecordData", (res) => {
-        log(111, res)
         // 获取数据，更新页面
         let studyDataList = res || []
         addHtmlToMainDiv(studyDataList)
@@ -93,12 +88,10 @@ const endBtnHandle = () => {
 }
 
 const alertTip = (minuteDuration) => {
-    let tip = `本次学习投入 ${minuteDuration} 分钟~`
+    let tip = `本次学习 ${minuteDuration} 分钟~`
     let m = Number(minuteDuration)
-    if (60 < m && m < 120) {
-        tip = `本次学习怒砸 ${minuteDuration} 分钟~`
-    } else if (m >= 120) {
-        tip = `一口气竟然学习了 ${minuteDuration} 分钟，好好休息一下~`
+    if (m >= 60) {
+        tip = `一口气竟然学了 ${minuteDuration} 分钟，好好休息一下~`
     }
     Swal.fire(
         tip,
@@ -107,44 +100,83 @@ const alertTip = (minuteDuration) => {
     )
 }
 
-const addHtmlToMainDiv = (studyDataList) => {
-    // 增加龙王功能
-    let dragonKingObj = {}
+// 拼接评论部分的 html
+const getCommentHtml = (commentList, user) => {
+    let comment = ''
+    let commentArray = commentList || []
+    for (const obj of commentArray) {
+        // 回复的评论
+        if (obj.comment.includes('reply')) {
+            let content = obj.comment.slice(5)
+            comment += `<div data-user="${user}">
+                            <span class="comments-span">${obj.commenter} </span>回复 <span class="comments-span">${obj.replyer}: </span><span>${content} </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--<span class="reply-span">回复</span>
+                        </div>`
+        } else {
+            // 单纯评论
+            comment += `<div data-user="${user}">
+                            <span class="comments-span">${obj.commenter}: </span><span>${obj.comment} </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--<span class="reply-span">回复</span>
+                        </div>`
+        }
+    }
+    return comment
+}
 
-    let html = ''
+// 拼接表格数据部分的 html 并计算 分钟 和 小时
+const getTrHtml = (list) => {
     let tr = `
         <tr class="success">
             <th>时间段</th>
             <th>时长</th>
             <th>内容/备注</th>
         </tr>`
-    for (studyData of studyDataList) {
-        let totalHour = 0
-        let totalMinitue = 0
-        for (obj of studyData.table) {
-            tr += `<tr>
+    let totalHour = 0
+    let totalMinitue = 0
+    for (const obj of list) {
+        tr += `<tr>
                     <td class="td-time">${obj.segmentation}</td>
                     <td class="td-hour">${obj.minuteDuration} min</td>
                     <td class="td-width">${obj.studyContent}</td>
                 </tr>`
-            totalHour += obj.hourDuration
-            totalMinitue += obj.minuteDuration
-        }
+        totalHour += obj.hourDuration
+        totalMinitue += obj.minuteDuration
+    }
+    totalHour = totalHour.toFixed(1)
+    return [tr, totalHour, totalMinitue]
+}
+
+const addHtmlToMainDiv = (studyDataList) => {
+    // 增加龙王功能
+    let dragonKingObj = {}
+    let user = getLocalStorage('userInfo').split('-')[0]
+    let html = ''
+    for (const studyData of studyDataList) {
+        let signature = studyData.signature || ''
+        let [tr, totalHour, totalMinitue] = getTrHtml(studyData.table)
         dragonKingObj[studyData.user] = totalMinitue
-        totalHour = totalHour.toFixed(1)
+        let commentNum = studyData.commentArray ? `评论 (${studyData.commentArray.length})` : '评论'
+        let comment = getCommentHtml(studyData.commentArray, studyData.user)
+
         html += `
         <article class="main-article">
             <div class="user-name title-weight ${studyData.user}">
                 <a href="personal.html" class="personal-page">${studyData.user} - ${totalMinitue} min / ${totalHour} h</a>
             </div>
-            <div style="color: #409eff;margin: 5px 0;">${studyData.signature}</div>
+            <div style="color: #409eff;margin: 5px 0;">${signature}</div>
             <div class="study-record">
                <table class="table table-bordered table-striped table-hover table-condensed">
                    ${tr}
                </table>
             </div>
-            <div class="comment">
-                <!--评论(3)-->
+            <div class="comments">
+                <img src="reply.png" class="reply-icon"> ${commentNum}
+            </div>
+            <div class="comments-zone">
+                <div class="edit-input" data-user="${studyData.user}">
+                    <span class="comments-span">${user}</span> <textarea></textarea><button class="btn btn-common btn-new comment-submit">发布</button>
+                </div>
+                <div class="comments-content">
+                    ${comment}
+                </div>
             </div>
         </article>`
          tr = `
@@ -156,11 +188,20 @@ const addHtmlToMainDiv = (studyDataList) => {
     }
     $(".main").empty()
     appendHtml(e(".main"), html)
-    // 算出谁龙王
+
+    //
+    commentDivHide()
+    // 算出谁是龙王
     whoIsDragonKing(dragonKingObj)
+}
 
-    // 获取个性签名，更新页面
-
+const commentDivHide = () => {
+    if (window.initToggle) {
+        for (const element of es('.comments-zone')) {
+            $(element).toggle()
+        }
+        window.initToggle = false
+    }
 }
 
 const whoIsDragonKing = (dragonKingObj) => {
@@ -177,10 +218,8 @@ const whoIsDragonKing = (dragonKingObj) => {
 }
 
 const addOnlineUser = (onlineUserList) => {
-    log('onlineUserList', onlineUserList)
     let html = ''
     for (const user of onlineUserList) {
-        log(999)
         html += `<div class="online-user">
                     <span class="user-circle"></span>
                     <a href="personal.html" class="personal-page">${user}</a>
@@ -207,7 +246,6 @@ const getDuration = () => {
 
     // 23:00  -  00:20 这种情况
     if (startHour[0]=== '2' && endHour[0] === '0') {
-        log(Number(endHour[1]), Number(startHour[1]))
         hour = Number(endHour[1]) + 24 -  Number(startHour)
     }
 
