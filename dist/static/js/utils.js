@@ -1,5 +1,31 @@
 const log = console.log.bind(console)
 
+async function sleep () {
+  let a = await sleep2()
+
+  sleep2().then(res => {log(3)})
+
+  return a
+}
+
+function sleep2 () {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(3), 1500)
+  })
+}
+
+
+t3 = async () => {
+    log(1)
+    let a = await sleep()
+    log(2)
+    let b = await sleep2()
+    log(333)
+}
+
+t3()
+
+
 const e = (selector) => {
     const element = document.querySelector(selector)
     if (element == null) {

@@ -29,6 +29,7 @@ const startBtnHandle = () => {
     if (window.forbidStartBtnClick) {
         return
     }
+    window.initToggle = true
     window.forbidStartBtnClick = true
     window.forbidEndBtnClick = false
     start()

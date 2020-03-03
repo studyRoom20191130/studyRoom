@@ -287,12 +287,16 @@ li .btn {
 }
 
 .online a {
-    width: 100px;
+    width: 140px;
     display: inline-block;
     text-decoration: none;
     color: #000000;
     cursor: pointer;
     text-align: left;
+}
+
+.online {
+    padding-left: 40px;
 }
 
 .user-name a {

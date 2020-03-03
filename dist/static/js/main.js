@@ -85,7 +85,7 @@ const __main = () => {
     // 右侧 todo 数据初始化
     todoInit()
     // 轮询
-    autoRefresh()
+    // autoRefresh()
     // 关闭页面回调，移除在线
     removeOfflineUser()
     // 绑定页面所需的所有事件
