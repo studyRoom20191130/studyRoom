@@ -1,7 +1,6 @@
 // 评论功能
 const bindMainArticleEvent = () => {
     bindEvent(e('body'), 'click', event => {
-        log('e', event)
         let target = event.target
         // 展开收起评论区
         if (target.classList.contains('comments')) {

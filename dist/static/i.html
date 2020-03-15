@@ -71,6 +71,7 @@
         <div class="online">
 
         </div>
+
     </div>
 
     <div class="main">
@@ -96,16 +97,8 @@
                         <button type="button" data-type="daily" class="clear-data btn btn-common btn-clear">清除计划</button>
                     </div>
                     <div class="plan-checkbox">
-                        <div class="not-center" data-type='#ol-daily' data-list='dailyTodoList'>
-                            <span>看《代码大全》</span>
-                            <span>看《高级程序设计》</span>
-                            <span>跟 B 站直播</span>
-                            <span>看《ES6 标准入门》</span>
-                            <span>跑步</span>
-                            <span>学习 React </span>
-                            <span>学习 Vue </span>
-                            <span>学习 Angular </span>
-                            <span>学习 FEP</span>
+                        <div class="not-center daily-general-todo" data-type='#ol-daily' data-list='dailyTodoList'>
+
                         </div>
                     </div>
                 </div>
@@ -129,17 +122,10 @@
                     <div class="margin-bottom">
                         <button type="button" data-type="weekly" class="clear-data btn btn-common btn-clear">清除计划</button>
                     </div>
+
                     <div class="plan-checkbox">
-                        <div class="not-center" data-type='#ol-weekly' data-list='weeklyTodoList'>
-                            <span>看《代码大全》</span>
-                            <span>看《高级程序设计》</span>
-                            <span>跟 B 站直播</span>
-                            <span>看《ES6 标准入门》</span>
-                            <span>跑步</span>
-                            <span>学习 React </span>
-                            <span>学习 Vue </span>
-                            <span>学习 Angular </span>
-                            <span>学习 FEP</span>
+                        <div class="not-center weekly-general-todo" data-type='#ol-weekly' data-list='weeklyTodoList'>
+
                         </div>
                     </div>
                 </div>
@@ -154,6 +140,7 @@
     <script src="js/vendor/moment.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/plugins.js"></script>
+    <script src="js/spanEvent.js"></script>
     <script src="js/index_right_area_events.js"></script>
     <script src="js/index_left_area_events.js"></script>
     <script src="js/index_center_area_events.js"></script>

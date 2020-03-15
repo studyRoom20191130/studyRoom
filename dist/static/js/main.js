@@ -79,6 +79,25 @@ const removeOfflineUser = () => {
     }
 }
 
+const showTips =  () => {
+    let shouldShowTips = getLocalStorage('showTips') || 'show'
+    if (shouldShowTips === 'show') {
+        let html = `
+        <br>
+        <br>
+        <div style="text-align: left">
+            <p>右侧区域功能更新说明</p>
+            <p>1. 点击计划的内容，会自动填充到左边学习备注内容输入框</p>
+            <p>2. 双击黄色方块的常用事项，可以编辑</p>
+            <p>3. 三击黄色方块的常用事项，可以删除</p>
+            <p>4. 在输入框输入事项后，可以增加到常用事项</p>
+            <p class="tips" style="text-decoration: underline;cursor: pointer">不再提示</p>
+        </div>`
+        let div = e(`.left`)
+        div.insertAdjacentHTML('beforeend', html)
+    }
+}
+
 const __main = () => {
     // 数据初始化
     dataInit()
@@ -90,6 +109,8 @@ const __main = () => {
     removeOfflineUser()
     // 绑定页面所需的所有事件
     bindEvents()
+    //展现更新提示
+    showTips()
 }
 
 __main()

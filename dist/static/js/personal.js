@@ -23,7 +23,6 @@ const timeTemplate = (array) => {
 
 const timelineTemplate = (object) => {
     let o = object
-    // log('o', o)
     let t = ''
     if (o.table.length > 0) {
         //计算总当天总学习时间

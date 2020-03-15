@@ -15,6 +15,17 @@ const bindLeftDivBtnEvent = () => {
 
         }
     })
+    bindTipEvent()
+}
+
+const bindTipEvent= () => {
+    if (!e('.tips')) {return}
+    bindEvent(e('.tips'), 'click', event => {
+        let target = event.target
+        let div = $(target).parent()[0]
+        div.remove()
+        setLocalStorage('showTips', 'notShow')
+    })
 }
 
 
@@ -197,7 +208,7 @@ const addHtmlToMainDiv = (studyDataList) => {
 }
 
 const commentDivHide = () => {
-    if (window.initToggle) {
+    if (window.initToggle && es('.comments-zone')) {
         for (const element of es('.comments-zone')) {
             $(element).toggle()
         }
