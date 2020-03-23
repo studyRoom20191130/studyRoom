@@ -1,4 +1,28 @@
 const log = console.log.bind(console)
+b = 0
+t1 = async () => {
+    setTimeout(() => b = 9, 500)
+}
+
+t4 = async () => {
+    setTimeout(() => b = 9, 500)
+}
+
+t2 = async () => {
+    a = await t1()
+    setTimeout(() => b = 9, 2000)
+}
+
+t3 = async () => {
+    let a = await t2()
+    let b = await t4()
+    if (b == 9) {
+        log(999)
+    }
+    log(3)
+}
+
+t3()
 
 const e = (selector) => {
     const element = document.querySelector(selector)

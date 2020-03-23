@@ -219,7 +219,6 @@ function startCountdown(interval) {
         // 偏差值
         let deviation = endTime - (window.getStartTime + countIndex * timeout);
         if (deviation < 0) {deviation = 0}
-        log('deviation', deviation)
         countIndex++;
 
         millisecond=millisecond+250;
@@ -238,7 +237,6 @@ function startCountdown(interval) {
         }
         let arr = [hour, minute, second]
         arr = arr.map(val => getZero(val))
-        log('执行')
         e('.timer').innerHTML= arr[0]+'时'+arr[1]+'分'+arr[2]+'秒';
 
         // 下一次倒计时

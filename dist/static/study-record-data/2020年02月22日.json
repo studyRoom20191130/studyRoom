@@ -1,0 +1,311 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年02月22日",
+        "user": "life",
+        "id": 1582365216867,
+        "table": [
+            {
+                "studyDate": "20200222",
+                "segmentation": "17:53 - 17:53",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "123"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "19:59 - 19:59",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "11"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "20:02 - 20:02",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "撒扥"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:02",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "撒扥"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "20:03 - 20:03",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "1"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "20:03 - 20:03",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "11"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "20:03 - 20:27",
+                "minuteDuration": 24,
+                "hourDuration": 0,
+                "studyContent": "11"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "20:03 - 20:28",
+                "minuteDuration": 24,
+                "hourDuration": 0,
+                "studyContent": "11111"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:31",
+                "minuteDuration": 52,
+                "hourDuration": 0.9,
+                "studyContent": "11"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:32",
+                "minuteDuration": 52,
+                "hourDuration": 0.9,
+                "studyContent": "11"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:33",
+                "minuteDuration": 62,
+                "hourDuration": 1,
+                "studyContent": "11"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:44",
+                "minuteDuration": 1360,
+                "hourDuration": 22.7,
+                "studyContent": "1"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:45",
+                "minuteDuration": 1360,
+                "hourDuration": 22.7,
+                "studyContent": "1"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:46",
+                "minuteDuration": 1360,
+                "hourDuration": 22.7,
+                "studyContent": "1"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:46",
+                "minuteDuration": 1360,
+                "hourDuration": 22.7,
+                "studyContent": "33"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:47",
+                "minuteDuration": null,
+                "hourDuration": null,
+                "studyContent": "222"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:47",
+                "minuteDuration": null,
+                "hourDuration": null,
+                "studyContent": "444"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:48",
+                "minuteDuration": null,
+                "hourDuration": null,
+                "studyContent": "777"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:51",
+                "minuteDuration": 1280,
+                "hourDuration": 21.3,
+                "studyContent": "77"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:52",
+                "minuteDuration": 80,
+                "hourDuration": 1.3,
+                "studyContent": "44"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:54",
+                "minuteDuration": 80,
+                "hourDuration": 1.3,
+                "studyContent": "44"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:55",
+                "minuteDuration": 40,
+                "hourDuration": 0.7,
+                "studyContent": "33"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "undefined - 20:55",
+                "minuteDuration": 62,
+                "hourDuration": 1,
+                "studyContent": "3"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:25 - 21:25",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "333"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:27 - 21:27",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "1"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:27 - 21:27",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "1"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:28 - 21:28",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "3"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:29 - 21:29",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "33"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:31 - 21:31",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "2"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:31 - 21:31",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "2"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:32 - 21:32",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "1"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:32 - 21:32",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "11"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:33 - 21:33",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "111"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:33 - 21:33",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "111"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:35 - 21:35",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "111"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:35 - 21:35",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "111"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:35 - 21:35",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "44"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:38 - 21:39",
+                "minuteDuration": 1,
+                "hourDuration": 0,
+                "studyContent": "1"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:39 - 21:39",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "12"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:39 - 21:39",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "121"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:39 - 21:39",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "1211"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:39 - 21:39",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "1211"
+            },
+            {
+                "studyDate": "20200222",
+                "segmentation": "21:39 - 21:39",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "1211"
+            }
+        ]
+    }
+]

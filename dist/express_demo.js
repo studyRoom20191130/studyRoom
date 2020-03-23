@@ -233,7 +233,7 @@ const getTodayAllData = (response, recordData, data, today) => {
 
 
 const main = () => {
-    let server = app.listen(80, () => {
+    let server = app.listen(5555, () => {
         let host = server.address().address
         let port = server.address().port
 
