@@ -47,13 +47,17 @@ const getGeneralTodo = () => {
 window.clickNum  = 0
 window.oldTodo = ''
 window.enterKeydown = false
+window.editMod = false
 
 // 常用事项点击事件
 const spanClickEvents = (target) => {
     window.clickNum += 1
     setTimeout(() => {
         // 单击添加到上方
-        if (window.clickNum === 1) {
+        if (window.clickNum === 1 ) {
+            if (window.editMod) {
+                return
+            }
             let div = $(target).parent()[0]
             let parentElementId = div.dataset.type
             let list = div.dataset.list
@@ -65,6 +69,7 @@ const spanClickEvents = (target) => {
         }
         // 双击编辑
         if (window.clickNum === 2) {
+            window.editMod = true
             target.contentEditable = true
             target.focus()
             // 点击全选
@@ -101,6 +106,7 @@ const spanKeydownEvents = (event) => {
         window.enterKeydown = true
         event.preventDefault()
         target.contentEditable = false
+        window.editMod = false
         updateDailyTodo(target)
     }
 }
@@ -110,6 +116,7 @@ const spanBlurEvents = (target) => {
         window.enterKeydown = false
         return
     }
+    window.editMod = false
     updateDailyTodo(target)
 }
 
