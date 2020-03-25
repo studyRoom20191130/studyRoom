@@ -80,7 +80,7 @@ const removeOfflineUser = () => {
 }
 
 const showTips =  () => {
-    let shouldShowTips = getLocalStorage('showTips') || 'show'
+    let shouldShowTips = getLocalStorage('showTips1') || 'show'
     if (shouldShowTips === 'show') {
         let html = `
         <br>
@@ -93,7 +93,7 @@ const showTips =  () => {
             <p>4. 在输入框输入事项后，可以增加到常用事项</p>
             <p class="tips" style="text-decoration: underline;cursor: pointer">不再提示</p>
         </div>`
-        let div = e(`.left`)
+        let div = e(`.right`)
         div.insertAdjacentHTML('beforeend', html)
     }
 }

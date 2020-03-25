@@ -24,7 +24,7 @@ const bindTipEvent= () => {
         let target = event.target
         let div = $(target).parent()[0]
         div.remove()
-        setLocalStorage('showTips', 'notShow')
+        setLocalStorage('showTips1', 'notShow')
     })
 }
 
