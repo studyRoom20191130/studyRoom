@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>triangle</title>
+        <style>
+            canvas {
+                outline: 1px dashed lightskyblue;
+            }
+        </style>
+        <!-- 引入所有用到的文件 -->
+        <script src='renderer/gua_object.js'></script>
+        <script src='renderer/utils.js'></script>
+        <script src='renderer/vector.js'></script>
+        <script src='renderer/color.js'></script>
+        <script src='renderer/vertex.js'></script>
+        <script src='renderer/canvas.js'></script>
+        <script src='renderer/test.js'></script>
+    </head>
+    <body>
+        <canvas id="id-canvas" width="256" height="256"></canvas>
+<script>
+// 函数名应该用 const 修饰, 这样不会被意外修改
+const __main = function() {
+    let canvas = GuaCanvas.new('#id-canvas')
+    // 这是一个测试函数, 给你看原理的, 只是看看
+    // canvas.__debug_draw_demo()
+
+    // canvas.drawTriangle1(v1, v2, v3);
+    // canvas.drawTriangle1(v4, v5, v6);
+    // canvas.clear()
+    // drawPlane(canvas)
+
+    // 把文件读出来
+    // push 进 pxiel data，画出来
+    let request = {
+        url: "chestImg/chest.axeimage",
+        callback(r) {
+            log("r");
+            let pixelList = r.split('\n').slice(4)
+            let processList = []
+            for (let line of pixelList) {
+                // log('line', line.split('#'))
+                let a = line.split('#')
+                processList = processList.concat(a)
+            }
+
+            // let count = 0
+            // for (let pixel of temList) {
+            //     count++
+            //     if (count == 500) {return}
+            //     let p = pixel.split(' ')
+            //     processList = processList.concat(p)
+            // }
+
+            canvas.pixelList = processList
+            canvas.drawChestImgPixel()
+            canvas.render()
+        }
+    };
+    ajax(request);
+
+
+}
+
+
+__main()
+</script>
+    </body>
+</html>
