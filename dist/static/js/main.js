@@ -80,17 +80,16 @@ const removeOfflineUser = () => {
 }
 
 const showTips =  () => {
-    let shouldShowTips = getLocalStorage('showTips1') || 'show'
+    let shouldShowTips = getLocalStorage('showTips2') || 'show'
     if (shouldShowTips === 'show') {
         let html = `
         <br>
-        <br>
         <div style="text-align: left">
-            <p>右侧区域功能更新说明</p>
-            <p>1. 点击计划的内容，会自动填充到左边学习备注内容输入框</p>
-            <p>2. 双击黄色方块的常用事项，可以编辑</p>
-            <p>3. 三击黄色方块的常用事项，可以删除</p>
-            <p>4. 在输入框输入事项后，可以增加到常用事项</p>
+            <p>如果想要统计某一项内容的总时长，可以加上 - </p>
+            <p>比如 axe作业16-做作业</p>
+            <p>比如 重写guagame-视频1</p>
+            <p>这样，就可以在个人主页里用 echarts 展现各项内容具体的时长统计</p>
+            <p>如果有需要，可以先这么做，功能会尽快开发……</p>
             <p class="tips" style="text-decoration: underline;cursor: pointer">不再提示</p>
         </div>`
         let div = e(`.right`)

@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700");
 body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.42857143;
+    color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,7 +51,10 @@ p {
     text-align: left;
 }
 .timeline-container {
+
     max-width: 1024px;
+    flex: 1;
+
 }
 
 .timeline-item {
@@ -95,6 +100,18 @@ table {
     border-spacing: 0;
 }
 
+.head-tr {
+    background: #dff0d8;
+}
+
+.td-start-end {
+    width: 70px;
+}
+
+.td-time {
+    width: 50px;
+}
+
 th {
     text-align: center;
 }
@@ -103,6 +120,10 @@ td {
     text-align: center;
     vertical-align: middle;
     border: 1px solid gray;
+}
+
+.td-others {
+    width: 64px;
 }
 
 .user-name {

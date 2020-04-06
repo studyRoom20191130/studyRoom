@@ -8,7 +8,7 @@ const timeTemplate = (array) => {
             <td class="td-start-end">
                 <span>${l.segmentation}</span>
             </td>
-            <td class="td-time">${l.minuteDuration} 分钟</td>
+            <td class="td-time">${l.minuteDuration} min</td>
             <td class="td-content">${l.studyContent}</td>
             <td class="td-others">
                 <span>修改</span>
@@ -38,7 +38,7 @@ const timelineTemplate = (object) => {
             <div class="timeline-item" date-is='${o.today}&nbsp;&nbsp;&nbsp;&nbsp;当天总共学习：${totalMinitue} min (${totalHour} h)'>
                 <div class="study-record">
                     <table class="table table-bordered">
-                        <tr>
+                        <tr class="head-tr">
                             <th>时间段</th>
                             <th>时长</th>
                             <th>内容</th>
