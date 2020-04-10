@@ -164,14 +164,17 @@ const addHtmlToMainDiv = (studyDataList) => {
     for (const studyData of studyDataList) {
         let signature = studyData.signature || ''
         let [tr, totalHour, totalMinitue] = getTrHtml(studyData.table)
-        dragonKingObj[studyData.user] = totalMinitue
+        let s = studyData.user
+        let temp_s = studyData.user
+        if(s == 'H.K') { temp_s = 'H-K'}
+        dragonKingObj[temp_s] = totalMinitue
         let commentNum = studyData.commentArray ? `评论 (${studyData.commentArray.length})` : '评论'
-        let comment = getCommentHtml(studyData.commentArray, studyData.user)
+        let comment = getCommentHtml(studyData.commentArray, s)
 
         html += `
         <article class="main-article">
-            <div class="user-name title-weight ${studyData.user}">
-                <a href="personal.html" class="personal-page">${studyData.user} - ${totalMinitue} min / ${totalHour} h</a>
+            <div class="user-name title-weight ${temp_s}">
+                <a href="personal.html" class="personal-page">${s} - ${totalMinitue} min / ${totalHour} h</a>
             </div>
             <div style="color: #409eff;margin: 5px 0;">${signature}</div>
             <div class="study-record">
@@ -183,7 +186,7 @@ const addHtmlToMainDiv = (studyDataList) => {
                 <img src="reply.png" class="reply-icon"> ${commentNum}
             </div>
             <div class="comments-zone">
-                <div class="edit-input" data-user="${studyData.user}">
+                <div class="edit-input" data-user="${s}">
                     <span class="comments-span">${user}</span> <textarea></textarea><button class="btn btn-common btn-new comment-submit">发布</button>
                 </div>
                 <div class="comments-content">
