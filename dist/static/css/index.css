@@ -130,9 +130,15 @@
     margin-bottom: 15px;
 }
 
+.other-time {
+    display: none;
+    margin-bottom: 10px;
+}
+
 .other-time input {
     width: 185px;
     display: inline-block;
+
 }
 
 .right input {

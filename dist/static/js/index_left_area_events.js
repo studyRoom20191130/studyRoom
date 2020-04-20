@@ -11,11 +11,53 @@ const bindLeftDivBtnEvent = () => {
                 startBtnHandle()
             } else if (button === 'end') {
                 endBtnHandle()
+            } else if (button === 'additionalRecord') {
+                additionalRecord()
             }
 
         }
     })
     bindTipEvent()
+    bindAdditionalEndInput()
+}
+
+const bindAdditionalEndInput= () => {
+    let additionalEndInput = e('#additional-end')
+    additionalEndInput.addEventListener('keydown', event => {
+        if (event.key === 'Enter') {
+
+            event.preventDefault()
+            sendAdditionalRecord()
+        }
+    })
+    additionalEndInput.addEventListener('blur', event => {
+        sendAdditionalRecord()
+    })
+}
+
+const sendAdditionalRecord = () => {
+
+    let s = $('#additional-start').val()
+    let e = $('#additional-end').val()
+
+    if (s && e) {
+        // 计算并转换时间数据
+        let start = s.slice(0, 2) + ':' + s.slice(2)
+        let end = e.slice(0, 2) + ':' + e.slice(2)
+        window.initToggle = true
+        let segmentation = start + ' - ' + end
+
+        let [hourDuration, minuteDuration] = getDuration2(start, end)
+        sendRecord(segmentation, minuteDuration, hourDuration)
+        $('#additional-start').val('')
+        $('#additional-end').val('')
+    } else {
+        swal({
+            title: '请填写开始和结束的时间',
+            text: '2秒后自动关闭',
+            timer: 2000,
+        }).then(function () {}, function () {})
+    }
 }
 
 const bindTipEvent= () => {
@@ -24,48 +66,12 @@ const bindTipEvent= () => {
         let target = event.target
         let div = $(target).parent()[0]
         div.remove()
-        setLocalStorage('showTips2', 'notShow')
+        setLocalStorage('showTips3', 'notShow')
     })
 }
 
-
-
-// 开始按钮防止重复点击
-window.forbidStartBtnClick = false
-window.forbidEndBtnClick = true
-window.initToggle = true
-
-const startBtnHandle = () => {
-    // 点击开始，开始计时
-    if (window.forbidStartBtnClick) {
-        return
-    }
-    window.initToggle = true
-    window.forbidStartBtnClick = true
-    window.forbidEndBtnClick = false
-    start()
-    window.startHourAndMinute= getNowHourAndMinute()
-    window.startTime = getTime()
-}
-
-const endBtnHandle = () => {
-    if (window.forbidEndBtnClick) {
-        swal({
-            title: '先要开始，才能结束',
-            text: '2秒后自动关闭',
-            timer: 2000,
-        }).then(function () {}, function () {})
-        return
-    }
-    window.forbidEndBtnClick = true
-    let studyContent = e('#textarea-study-content').value
-    if (noStudyContent(studyContent)) {
-        return
-    }
-    window.forbidStartBtnClick = false
-    // 计算并转换时间数据
-    let segmentation = getSegmentation()
-    let [hourDuration, minuteDuration] = getDuration()
+const sendRecord= (segmentation, minuteDuration, hourDuration) => {
+    let studyContent = $('#textarea-study-content').val()
     let user = getLocalStorage('userInfo').split('-')[0]
     let signature = getLocalStorage('signature') || ''
     let time = new Date();
@@ -97,6 +103,54 @@ const endBtnHandle = () => {
         window.stopInterval = true
     })
     getOnlineUser()
+}
+
+// 开始按钮防止重复点击
+window.forbidStartBtnClick = false
+window.forbidEndBtnClick = true
+window.initToggle = true
+
+const startBtnHandle = () => {
+    // 点击开始，开始计时
+    if (window.forbidStartBtnClick) {
+        return
+    }
+    window.initToggle = true
+    window.forbidStartBtnClick = true
+    window.forbidEndBtnClick = false
+    start()
+    window.startHourAndMinute= getNowHourAndMinute()
+    window.startTime = getTime()
+}
+
+
+const additionalRecord = () => {
+    let studyContent = e('#textarea-study-content').value
+    if (noStudyContent(studyContent)) {
+        return
+    }
+    $('.other-time').toggle()
+
+}
+const endBtnHandle = () => {
+    if (window.forbidEndBtnClick) {
+        swal({
+            title: '先要开始，才能结束',
+            text: '2秒后自动关闭',
+            timer: 2000,
+        }).then(function () {}, function () {})
+        return
+    }
+    window.forbidEndBtnClick = true
+    let studyContent = e('#textarea-study-content').value
+    if (noStudyContent(studyContent)) {
+        return
+    }
+    window.forbidStartBtnClick = false
+    // 计算并转换时间数据
+    let segmentation = getSegmentation()
+    let [hourDuration, minuteDuration] = getDuration()
+    sendRecord(segmentation, minuteDuration, hourDuration)
 }
 
 const alertTip = (minuteDuration) => {
@@ -254,8 +308,26 @@ const getDuration = () => {
     endTimeList  = endTime.slice(11, 16).split(':')
 
     let [endHour, endMinute] = endTimeList
-
+    log('endHour', endHour, endMinute)
     let [startHour, startMinute] = window.startTime.slice(11, 16).split(':')
+    log('startHour', startHour, startMinute)
+    let hour = Number(endHour) - Number(startHour)
+
+    // 23:00  -  00:20 这种情况
+    if (startHour[0]=== '2' && endHour[0] === '0') {
+        hour = Number(endHour[1]) + 24 -  Number(startHour)
+    }
+
+    let minutes = hour * 60
+    minutes += Number(endMinute) - Number(startMinute)
+    hour = Number((minutes / 60).toFixed(2))
+    return [hour, minutes]
+}
+
+// 直接复制上面的稍作修改
+const getDuration2 = (start, end) => {
+    let [endHour, endMinute] = end.split(':')
+    let [startHour, startMinute] = start.split(':')
 
     let hour = Number(endHour) - Number(startHour)
 
