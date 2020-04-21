@@ -138,7 +138,19 @@
 .other-time input {
     width: 185px;
     display: inline-block;
+}
 
+#expectation {
+    width: 60px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 6px;
+}
+
+.btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .right input {

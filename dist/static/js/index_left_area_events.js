@@ -66,7 +66,7 @@ const bindTipEvent= () => {
         let target = event.target
         let div = $(target).parent()[0]
         div.remove()
-        setLocalStorage('showTips3', 'notShow')
+        setLocalStorage('showTips4', 'notShow')
     })
 }
 
@@ -77,6 +77,7 @@ const sendRecord= (segmentation, minuteDuration, hourDuration) => {
     let time = new Date();
     let id = time.getTime()
     let today = moment().format("YYYY年MM月DD日")
+    let expectation = $('#expectation').val()
 
     const singleRecord = {
         studyDate: getDate(), // 当天日期
@@ -84,6 +85,7 @@ const sendRecord= (segmentation, minuteDuration, hourDuration) => {
         minuteDuration, // 60
         hourDuration, // 1
         studyContent, // 学习内容/备注
+        expectation,
     }
     let userData = getLocalStorage('userInfo')
     const studyContentRecord = {
@@ -193,14 +195,20 @@ const getTrHtml = (list) => {
         <tr class="success">
             <th>时间段</th>
             <th>时长</th>
+            <th>预期</th>
             <th>内容/备注</th>
         </tr>`
     let totalHour = 0
     let totalMinitue = 0
     for (const obj of list) {
+        let expectation = ''
+        if (obj.expectation) {
+            expectation = obj.expectation + ' min'
+        }
         tr += `<tr>
                     <td class="td-time">${obj.segmentation}</td>
                     <td class="td-hour">${obj.minuteDuration} min</td>
+                    <td class="td-hour">${expectation} </td>
                     <td class="td-width">${obj.studyContent}</td>
                 </tr>`
         totalHour += obj.hourDuration

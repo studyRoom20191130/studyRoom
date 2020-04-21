@@ -3,12 +3,17 @@ const timeTemplate = (array) => {
 
     let r = ''
     learns.forEach((l) => {
+        let expectation = ''
+        if (l.expectation) {
+            expectation = l.expectation + ' min'
+        }
         let t = `
         <tr>
             <td class="td-start-end">
                 <span>${l.segmentation}</span>
             </td>
             <td class="td-time">${l.minuteDuration} min</td>
+            <td class="td-time">${expectation}</td>
             <td class="td-content">${l.studyContent}</td>
             <td class="td-others">
                 <span>修改</span>
@@ -41,6 +46,7 @@ const timelineTemplate = (object) => {
                         <tr class="head-tr">
                             <th>时间段</th>
                             <th>时长</th>
+                            <th>预期</th>
                             <th>内容</th>
                             <th>操作</th>
                         </tr>
@@ -166,5 +172,18 @@ const __main = () => {
     datePicker()
     bindEvents()
 }
+
+
+// 时间项统计 todo
+// 'ax - 1 -2'.split('-')
+// (3) ["ax ", " 1 ", "2"]
+// 'ax - 1 -2'.indexOf('-')
+// 3
+// a  = 'ax - 1 -2'
+// "ax - 1 -2"
+// a.slice(0, 3)
+// "ax "
+// a.slice(4)
+// " 1 -2"
 
 __main()

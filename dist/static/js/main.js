@@ -80,11 +80,13 @@ const removeOfflineUser = () => {
 }
 
 const showTips =  () => {
-    let shouldShowTips = getLocalStorage('showTips3') || 'show'
+    let shouldShowTips = getLocalStorage('showTips4') || 'show'
     if (shouldShowTips === 'show') {
         let html = `
         <br>
         <div style="text-align: left">
+            <p>新增了预期字段，输入预期完成时间，比如 30</p>
+            <hr>
             <p>新增了补录功能</p>
             <p>输入了补录的结束时间后直接按回车或点击输入框外完成补录</p>
             <hr>
