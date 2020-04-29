@@ -80,23 +80,27 @@ const removeOfflineUser = () => {
 }
 
 const showTips =  () => {
-    let shouldShowTips = getLocalStorage('showTips4') || 'show'
+    let shouldShowTips = getLocalStorage('showTips5') || 'show'
     if (shouldShowTips === 'show') {
         let html = `
         <br>
         <div style="text-align: left">
+
+            <hr>
+            <p>在在线名单或中间表格点击名字，进入个人主页</p>
+            <p>如果使用了 axe - 作业， 重写guagame - 视频1这种格式</p>
+            <p>那么可以看到进入自习室至今在 axe 和 重写guagame 投入的总时长</p>
+            <hr>
+            <p>右侧 todo 事项，单击、双击、三击黄色常用事项，分别对应添加、编辑和删除</p>
+            <hr>
             <p>新增了预期字段，输入预期完成时间，比如 30</p>
             <hr>
             <p>新增了补录功能</p>
             <p>输入了补录的结束时间后直接按回车或点击输入框外完成补录</p>
             <hr>
-            <p>如果想要统计某一项内容的总时长，可以加上 - </p>
-            <p>比如 axe作业16 - 做作业</p>
-            <p>比如 重写guagame - 视频1</p>
-            <p>这样，就可以在个人主页里用 echarts 展现各项内容具体的时长统计</p>
-            <p>如果有需要，可以先这么做，功能会尽快开发……</p>
             <p class="tips" style="text-decoration: underline;cursor: pointer">不再提示</p>
-        </div>`
+        </div>
+        <br><br><br><br><br><br><br>`
         let div = e(`.right`)
         div.insertAdjacentHTML('beforeend', html)
     }

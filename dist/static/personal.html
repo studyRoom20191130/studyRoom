@@ -1,54 +1,69 @@
 <!DOCTYPE html>
-<html >
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="UTF-8" />
     <title>个人主页</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
     <script src="js/vendor/jquery-3.4.1.min.js"></script>
-    <link rel="stylesheet" href="css/sweetalert2.css">
+    <link rel="stylesheet" href="css/sweetalert2.css" />
     <script src="js/vendor/sweetalert2.js"></script>
-    <link href="css/datepicker.min.css" rel="stylesheet" type="text/css">
+    <link href="css/datepicker.min.css" rel="stylesheet" type="text/css" />
     <script src="js/vendor/datepicker.min.js"></script>
     <script src="js/vendor/datepicker.zh.js"></script>
     <script src="js/utils.js"></script>
-    <link rel="stylesheet" href="css/personal.css">
+    <script
+      crossorigin="anonymous"
+      integrity="sha384-DX1FVVXdGcNR016Jj6c5WuxYmyUvkb2/0ZMXKwbXaXs8j9tPs3e4RUjNg4tViEj4"
+      src="https://lib.baomitu.com/echarts/4.7.0/echarts-en.common.js"
+    ></script>
+    <link rel="stylesheet" href="css/personal.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="nav__placeholder"></div>
     <header>
-        <nav class="nav">
-            <a href="i.html">自习室</a>
-            <a href="https://docs.qq.com/sheet/DSmZHZVNzUHRIVmN4?opendocxfrom=admin&tab=djs1kj&c=A84B0X0">学习交流</a>
-            <!--<a href="./annual_plan.html">年度计划</a>-->
-            <a href="https://docs.qq.com/sheet/DSmZHZVNzUHRIVmN4?opendocxfrom=admin&tab=xi2tlm&c=C4A0N0">年度计划</a>
-            <a href="https://docs.qq.com/sheet/DSmZHZVNzUHRIVmN4?opendocxfrom=admin&c=A84B0X0&tab=y1o0aj">资料室</a>
-            <a href="#" id="personal-page">每周计划</a>
-        </nav>
+      <nav class="nav">
+        <a href="i.html">自习室</a>
+        <a
+          href="https://docs.qq.com/sheet/DSmZHZVNzUHRIVmN4?opendocxfrom=admin&tab=djs1kj&c=A84B0X0"
+          >学习交流</a
+        >
+        <!--<a href="./annual_plan.html">年度计划</a>-->
+        <a
+          href="https://docs.qq.com/sheet/DSmZHZVNzUHRIVmN4?opendocxfrom=admin&tab=xi2tlm&c=C4A0N0"
+          >年度计划</a
+        >
+        <a
+          href="https://docs.qq.com/sheet/DSmZHZVNzUHRIVmN4?opendocxfrom=admin&c=A84B0X0&tab=y1o0aj"
+          >资料室</a
+        >
+        <a href="#" id="personal-page">每周计划</a>
+      </nav>
     </header>
     <div class="main-container">
-        <div class="personal-introduction left">
-            <div class="user-portrait">
-                <!--用户头像占位-->
-            </div>
-            <div class="user-name" id="user-name">
-
-            </div>
-            <div class="user-sign" id="user-sign">
-            </div>
+      <div class="personal-introduction left">
+        <div class="user-portrait">
+          <!--用户头像占位-->
         </div>
+        <div class="user-name" id="user-name"></div>
+        <div class="user-sign" id="user-sign"></div>
+      </div>
 
-        <!--<div class="date-picker">-->
-        <!--<input type='text' id="datepicker" class="datepicker-here" data-position="right top" data-language='zh' placeholder="选择时间" />-->
-        <!--</div>-->
+      <!--<div class="date-picker">-->
+      <!--<input type='text' id="datepicker" class="datepicker-here" data-position="right top" data-language='zh' placeholder="选择时间" />-->
+      <!--</div>-->
 
-        <div class="timeline-container"></div>
+      <div class="timeline-container"></div>
     </div>
     <script src="js/personal.js"></script>
-</body>
+  </body>
 </html>
