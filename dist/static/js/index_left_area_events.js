@@ -1,6 +1,9 @@
 
 
 // 首页左边区域（开始学习、结束学习、补录时间）的功能逻辑
+
+window.disabledSendAdditionalRecord = false
+
 const bindLeftDivBtnEvent = () => {
     bindEvent(e('.left'), 'click', event => {
         let target = event.target
@@ -28,17 +31,46 @@ const bindAdditionalEndInput= () => {
 
             event.preventDefault()
             sendAdditionalRecord()
+
         }
     })
     additionalEndInput.addEventListener('blur', event => {
         sendAdditionalRecord()
+
     })
 }
 
+const checkAdditionalRecordValue = (val) => {
+    let digt = '0123456789'
+    for (const str of val) {
+        if (!digt.includes(str) || val.length !== 4) {
+            swal({
+                title: '输入的补录时间格式不对',
+                text: '2秒后自动关闭',
+                timer: 2000,
+            }).then(function () {}, function () {})
+            return 'invalid'
+        }
+    }
+
+}
+
 const sendAdditionalRecord = () => {
+    // 两秒内禁止调用函数
+    if ( window.disabledSendAdditionalRecord) {
+        return
+    }
+    setTimeout(() => {
+        window.disabledSendAdditionalRecord = false
+    }, 2000)
+    window.disabledSendAdditionalRecord = true
 
     let s = $('#additional-start').val()
     let e = $('#additional-end').val()
+    for (const val of [s, e]) {
+        let checkResult = checkAdditionalRecordValue(val)
+        if (checkResult === 'invalid') { return }
+    }
 
     if (s && e) {
         // 计算并转换时间数据
@@ -51,6 +83,7 @@ const sendAdditionalRecord = () => {
         sendRecord(segmentation, minuteDuration, hourDuration)
         $('#additional-start').val('')
         $('#additional-end').val('')
+        $('.other-time').toggle()
     } else {
         swal({
             title: '请填写开始和结束的时间',
