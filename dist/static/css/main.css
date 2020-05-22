@@ -2,6 +2,47 @@
     height: 58px;
 }
 
+.self-questioning {
+    color: black;
+    font: 14px 'Open Sans',sans-serif;
+    width: 100%;
+    height: 58px;
+
+    opacity: 0.8;
+    /*line-height: 58px;*/
+    box-sizing: border-box;
+    border-bottom: 1px solid #dcdfe6;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    background: #fff;
+    /*background: slategray;*/
+    /*background: #ff0006 url(../img/navbg.png) no-repeat 50%;*/
+    position: fixed;
+    left: 0;
+    font-weight: 600;   
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 0 1px 0px rgba(0,0,0,0.3), 0 0 6px 2px rgba(0,0,0,0.15);
+}
+
+.self-questioning div {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.self-questioning div p{
+    width: 33%;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.self-questioning div span{
+    color: #409eff;
+
+}
+
 .nav {
     color: #fff;
     font: 17px/1.4 'Open Sans',sans-serif;
