@@ -43,6 +43,7 @@ const bindRightDivEvents = () => {
             spanClickEvents(target)
         }
         if (target.classList.contains('doing')) {
+
             spanDoingClickEvents(target)
         }
     })
@@ -59,8 +60,12 @@ const bindRightDivEvents = () => {
 }
 
 const spanDoingClickEvents = (target) => {
-    let val = target.innerHTML
-    e('#textarea-study-content').innerHTML = val
+    let t = target.innerHTML
+    let index = t.indexOf('-');
+    t = t.slice(0, index + 1)
+    $("#textarea-study-content").val(t)
+
+
 }
 
 // 2020年2月19号回来看的感想：封装抽象尼玛啊，自己写的都完全看不懂了……
@@ -79,19 +84,20 @@ const btnEvents = (target) => {
 }
 
 // 首页导航栏的每周计划点击事件
-const bindWeekTodo = () => {
-    bindEvent(e('#personal-page'), 'click', event => {
-        swal({
-            title: '展示每周计划，待开发',
-            text: '2秒后自动关闭',
-            timer: 2000,
-        }).then(function () {}, function () {})
-    })
-}
+// const bindWeekTodo = () => {
+//     bindEvent(e('#personal-page'), 'click', event => {
+//         swal({
+//             title: '展示每周计划，待开发',
+//             text: '2秒后自动关闭',
+//             timer: 2000,
+//         }).then(function () {}, function () {})
+//     })
+// }
 
 const bindOtherPersonalPage = () =>{
     bindAll('.personal-page', 'click', event => {
         setLocalStorage('personal', event.target.innerHTML)
+        window.location = "personal.html";
     })
 }
 

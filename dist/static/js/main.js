@@ -13,76 +13,74 @@
 //     })
 // }
 
-
-
 const bindEvents = () => {
-    setTimeout(() => {
-        // bindOtherTime()
-        bindTodoInputEvent()
-        bindLeftDivBtnEvent()
-        bindRightDivEvents()
-        bindWeekTodo()
-        bindOtherPersonalPage()
-        bindMainArticleEvent()
-    }, 1500)
-}
+  setTimeout(() => {
+    // bindOtherTime()
+    bindTodoInputEvent();
+    bindLeftDivBtnEvent();
+    bindRightDivEvents();
+    // bindWeekTodo()
+    bindOtherPersonalPage();
+    bindMainArticleEvent();
+  }, 1500);
+};
 
-const getstudyDataList =() => {
-    let today = moment().format("YYYY年MM月DD日")
-
-    let data = {
-        today,
+const getstudyDataList = () => {
+  let today = moment().format('YYYY年MM月DD日');
+  let user = getLocalStorage('userInfo').split('-')[0];
+  let data = {
+    today,
+    user,
+  };
+  ajax(data, '/getStudyDataList', (res) => {
+    let studyDataList = [];
+    if (res) {
+      studyDataList = JSON.parse(res);
     }
-    ajax(data, "/getStudyDataList", (res) => {
-        let studyDataList = []
-        if (res) {
-            studyDataList = JSON.parse(res)
-        }
-        addHtmlToMainDiv(studyDataList)
-    })
-}
+    addHtmlToMainDiv(studyDataList);
+  });
+};
 
 const autoRefresh = () => {
-    let 每十五分钟自动刷新一次 = 1000 * 60 * 15
-    setInterval(() => dataInit(), 每十五分钟自动刷新一次)
-}
+  let 每十五分钟自动刷新一次 = 1000 * 60 * 15;
+  setInterval(() => dataInit(), 每十五分钟自动刷新一次);
+};
 
 const dataInit = () => {
-    // 第一次创建当天记录文件的时候会清空在线人员名单，但是无法保证清空和写入的先后顺序
-    getstudyDataList()
+  // 第一次创建当天记录文件的时候会清空在线人员名单，但是无法保证清空和写入的先后顺序
+  getstudyDataList();
 
-    // 所以用延时来确保先清空后写入
-    setTimeout(() =>{
-        getOnlineUser()
-    }, 50)
-}
+  // 所以用延时来确保先清空后写入
+  setTimeout(() => {
+    getOnlineUser();
+  }, 50);
+};
 
 const getOnlineUser = () => {
-    let user = getLocalStorage('userInfo').split('-')[0]
-    let data = {
-        user,
-    }
-    ajax(data, "/getOnlineUser", (res) => {
-        let onlineUserList = res || []
-        addOnlineUser(onlineUserList)
-    })
-}
-
+  let user = getLocalStorage('userInfo').split('-')[0];
+  let data = {
+    user,
+  };
+  ajax(data, '/getOnlineUser', (res) => {
+    let onlineUserList = res || [];
+    addOnlineUser(onlineUserList);
+  });
+};
 
 const removeOfflineUser = () => {
-    window.onbeforeunload   = () => {
-        let user = getLocalStorage('userInfo').split('-')[0]
-        let data = {
-            user,
-        }
-        ajax(data, "/removeOfflineUser", (res) => {})
-    }
-}
+  window.onbeforeunload = () => {
+    let user = getLocalStorage('userInfo').split('-')[0];
+    let data = {
+      user,
+    };
+    ajax(data, '/removeOfflineUser', (res) => {});
+  };
+};
 
-const showTips =  () => {
-    let shouldShowTips = getLocalStorage('showTips5') || 'show'
-    if (shouldShowTips === 'show') {
-        let html = `
+const showTips = () => {
+  let shouldShowTips = getLocalStorage('showTips5') || 'show';
+  if (shouldShowTips === 'show') {
+    let html = `
         <br>
         <div style="text-align: left">
 
@@ -100,25 +98,51 @@ const showTips =  () => {
             <hr>
             <p class="tips" style="text-decoration: underline;cursor: pointer">不再提示</p>
         </div>
-        <br><br><br><br><br><br><br>`
-        let div = e(`.right`)
-        div.insertAdjacentHTML('beforeend', html)
-    }
+        <br><br><br><br><br><br><br>`;
+    let div = e(`.right`);
+    div.insertAdjacentHTML('beforeend', html);
+  }
+};
+
+const calculateTimeGoesBy = () => {
+  let remaing = getBeforeDate(`${new Date().getFullYear()},12,31`)
+  let r = (365 - remaing) / 365
+  // 转换百分比
+  r  = calculatePersent(r, 3)
+  $('.time-goes-by').css('width',r);
+  e('.time-goes-by').innerHTML = '2020 已过去 ' +  r
+}
+
+const addMailBtn = () => {
+  let user = getLocalStorage('userInfo').split('-')[0]
+  if (user === 'life') {
+    let html = `<button id="send-mail" style="margin-right: 28px;position: fixed;bottom: 0;right: 0;" class="btn btn-common  btn-new ">邮件</button>`
+    appendHtml(e('.right'), html);
+    bindEvent(e('#send-mail'), 'click', (event) => {
+      ajax({}, '/sendMail', (res) => {
+        log(res)
+      });
+    })
+  }
 }
 
 const __main = () => {
-    // 数据初始化
-    dataInit()
-    // 右侧 todo 数据初始化
-    todoInit()
-    // 轮询
-    // autoRefresh()
-    // 关闭页面回调，移除在线
-    removeOfflineUser()
-    // 绑定页面所需的所有事件
-    bindEvents()
-    //展现更新提示
-    showTips()
-}
+  // 数据初始化
+  dataInit();
+  // 右侧 todo 数据初始化
+  todoInit();
+  // 轮询
+  // autoRefresh()
+  // 关闭页面回调，移除在线
+  removeOfflineUser();
+  // 绑定页面所需的所有事件
+  bindEvents();
+  //展现更新提示
+  showTips();
+  // 显示年度进度条
+  calculateTimeGoesBy()
 
-__main()
+  addMailBtn()
+};
+
+__main();

@@ -168,3 +168,12 @@ td {
   opacity: 1;
   text-decoration: none;
 }
+
+.user-sign {
+  color: #409eff;
+  cursor: pointer;
+}
+
+.show-more a {
+  cursor: pointer;
+}

@@ -19,7 +19,7 @@
     /*background: #ff0006 url(../img/navbg.png) no-repeat 50%;*/
     position: fixed;
     left: 0;
-    font-weight: 600;   
+    font-weight: 600;
     top: 0;
     z-index: 100;
     box-shadow: 0 0 1px 0px rgba(0,0,0,0.3), 0 0 6px 2px rgba(0,0,0,0.15);
@@ -319,4 +319,38 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
+}
+
+.personal-page {
+    cursor: pointer;
+}
+
+.progress{
+     border-radius: 0;
+    height: 16px;
+}
+.progress-bar-success {
+    background: lightslategray;
+    line-height: 16px;
+}
+
+.main-article .progress {
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.pg-lightgray {
+    background: lightslategray;
+}
+.pg-green{
+    background: #5cb85c;
+}
+.pg-yellow {
+    background: #f0ad4e;
+}
+.pg-red {
+    background: #d9534f;
+}
+.pg-blue {
+    background: #5bc0de;
 }

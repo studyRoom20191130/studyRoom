@@ -74,15 +74,18 @@ const timelineTemplate = (object) => {
   return t;
 };
 
-const getPersonalStudyData = () => {
+const getPersonalStudyData = (num) => {
   let user = getLocalStorage('personal').split('-')[0].trim();
   e('#user-name').innerHTML = user;
   let data = {
     user,
+    num
   };
 
   ajax(data, '/getPersonalStudyData', (res) => {
     generateTimeline(res);
+    // 生成节点之后再绑定事件
+    bindLoadMore()
     showTotalHour(res);
   });
 };
@@ -92,23 +95,8 @@ const showTotalHour = (res) => {
   //   axe: 17.2;
   //   tf: 13;
 
-  let obj = {};
-  for (const record of res) {
-    let table = record.table;
-    for (const signalRecord of table) {
-      let studyContent = signalRecord.studyContent;
-      if (studyContent.includes('-')) {
-        let index = studyContent.indexOf('-');
-        let key = studyContent.slice(0, index).trim();
-        if (key in obj) {
-          obj[key] += signalRecord.hourDuration;
-        } else {
-          obj[key] = signalRecord.hourDuration;
-        }
-      }
-    }
-  }
-
+  let obj = res[0].totalHourObj
+  log('obj', obj)
   let html = `<br>
   <strong>加入自习室至今</strong>
   <br>`;
@@ -135,7 +123,7 @@ const showTotalHour = (res) => {
   let leftDiv = e('.left');
   appendHtml(leftDiv, html);
 
-  log('data', data);
+
   // ect
   let myChart = echarts.init(document.getElementById('ect'));
   option = {
@@ -179,13 +167,21 @@ const showTotalHour = (res) => {
 const generateTimeline = (res) => {
   let array = res;
   let html = '';
+  // 如果返回的是全部数据
+  log('res', res)
+  if (array[0].responseAllData) {
+    window.responseAllData = true
+    $('.timeline-container').empty()
+  }
   array.forEach((e) => {
     let t = timelineTemplate(e);
     html += t;
   });
+
   let last = `
         <div class="show-more">
-            <a href="#">显示更多</a>
+            <a>往后加载30天</a>
+            <a>加载全部</a>
         </div>
     `;
   // 获取个性签名
@@ -220,6 +216,40 @@ const bindWeekTodo = () => {
   });
 };
 
+const bindLoadMore = () => {
+  if (window.responseAllData && window.num != 30) {
+    swal({
+      title: '已加载全部数据',
+      text: '2秒后自动关闭',
+      timer: 2000,
+    }).then(
+        function () {},
+        function () {}
+    );
+  }
+  bindEvent(e('.show-more'), 'click', (event) => {
+    let a = event.target.innerHTML
+    if (a !== '往后加载30天' && a !== '加载全部') {
+      return
+    }
+    if (a === '往后加载30天') {
+      window.num += 30
+    }
+    if (a === '加载全部') {
+      window.num = 'all'
+    }
+  //  清空数据并 发请求
+  //  把最底部的节点删除
+  //  拼接传过来的30条数据
+  //  加上底部节点，并绑定事件
+    $(".show-more").remove();
+
+    getPersonalStudyData(window.num)
+  });
+};
+
+
+
 const bindEvents = () => {
   bindWeekTodo();
   bindSignatureEvent();
@@ -249,15 +279,30 @@ const bindSignatureEvent = () => {
 };
 
 const saveSignature = (div) => {
+  if (window.disabledSignature) {
+    setTimeout(()=> window.disabledSignature = false, 2000)
+    return
+  }
   let signature = div.textContent;
   if (signature.trim()) {
-    setLocalStorage('signature', signature);
+    // setLocalStorage('signature', signature);
+    let user = getLocalStorage('userInfo').split('-')[0];
+    let data = {
+      signature,
+      user,
+    };
+    ajax(data, '/saveSignature');
   } else {
     div.textContent = '点击编辑签名，按回车确认';
   }
+  window.disabledSignature = true
 };
 
+
 const __main = () => {
+  window.disabledSignature = false
+  window.num = 30
+  window.responseAllData = false
   getPersonalStudyData();
   datePicker();
   bindEvents();
