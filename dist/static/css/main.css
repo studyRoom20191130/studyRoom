@@ -354,3 +354,33 @@ textarea {
 .pg-blue {
     background: #5bc0de;
 }
+
+/*@media all and (min-width: 768px) and (max-width: 1024px) {*/
+/*    .right{*/
+/*        display: none;*/
+/*    }*/
+/*}*/
+@media screen and (min-width: 320px)and (max-width: 750px){
+
+    .nav__placeholder,
+    nav,
+    .title,
+    .online,
+    .right{
+        display: none;
+    }
+
+    .main-container {
+        display: block !important;
+    }
+    .left {
+        margin-right: 0 !important;
+        position: relative !important;
+        width: 100% !important;
+    }
+
+    .main {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
