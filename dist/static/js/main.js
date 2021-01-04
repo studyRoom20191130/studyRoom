@@ -16,12 +16,15 @@
 const bindEvents = () => {
   setTimeout(() => {
     // bindOtherTime()
-    bindTodoInputEvent();
-    bindLeftDivBtnEvent();
-    bindRightDivEvents();
+    bindTodoInputEvent()
+    bindLeftDivBtnEvent()
+    bindRightDivEvents()
     // bindWeekTodo()
-    bindOtherPersonalPage();
-    bindMainArticleEvent();
+    bindOtherPersonalPage()
+    bindMainArticleEvent()
+    bindEventLoadedShareImage()
+    bindShopToggleEvent()
+    chooseWeaponEvent()
   }, 1500);
 };
 
@@ -36,6 +39,7 @@ const getstudyDataList = () => {
     let studyDataList = [];
     if (res) {
       studyDataList = JSON.parse(res);
+      renderOnlineUser(studyDataList)
     }
     addHtmlToMainDiv(studyDataList);
   });
@@ -51,9 +55,9 @@ const dataInit = () => {
   getstudyDataList();
 
   // 所以用延时来确保先清空后写入
-  setTimeout(() => {
-    getOnlineUser();
-  }, 50);
+  // setTimeout(() => {
+  //   getOnlineUser();
+  // }, 50);
 };
 
 const getOnlineUser = () => {
@@ -119,7 +123,13 @@ const addMailBtn = () => {
     let html = `<button id="send-mail" style="margin-right: 28px;position: fixed;bottom: 0;right: 0;" class="btn btn-common  btn-new ">邮件</button>`
     appendHtml(e('.right'), html);
     bindEvent(e('#send-mail'), 'click', (event) => {
-      ajax({}, '/sendMail', (res) => {
+      let mailUsers = JSON.parse(localStorage.getItem('mailUsers'))
+      let mailAddress = JSON.parse(localStorage.getItem('mailAddress'))
+      var data = {
+        mailUsers,
+        mailAddress,
+      }
+      ajax(data, '/sendMail', (res) => {
         log(res)
       });
     })
@@ -134,7 +144,7 @@ const __main = () => {
   // 轮询
   // autoRefresh()
   // 关闭页面回调，移除在线
-  removeOfflineUser();
+  // removeOfflineUser();
   // 绑定页面所需的所有事件
   bindEvents();
   //展现更新提示
@@ -143,6 +153,9 @@ const __main = () => {
   calculateTimeGoesBy()
 
   addMailBtn()
+
+  generateDailyDiv()
+  renderShop()
 };
 
 __main();

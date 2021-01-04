@@ -75,8 +75,7 @@ const timelineTemplate = (object) => {
 };
 
 const getPersonalStudyData = (num) => {
-  let user = getLocalStorage('personal').split('-')[0].trim();
-  e('#user-name').innerHTML = user;
+
   let data = {
     user,
     num
@@ -96,7 +95,6 @@ const showTotalHour = (res) => {
   //   tf: 13;
 
   let obj = res[0].totalHourObj
-  log('obj', obj)
   let html = `<br>
   <strong>加入自习室至今</strong>
   <br>`;
@@ -120,7 +118,7 @@ const showTotalHour = (res) => {
     </div>`;
   }
   html += `<div id="ect" style="width: 300px;height:200px;"></div>`;
-  let leftDiv = e('.left');
+  let leftDiv = e('.detail');
   appendHtml(leftDiv, html);
 
 
@@ -164,11 +162,31 @@ const showTotalHour = (res) => {
   myChart.setOption(option);
 };
 
+const renderUserInfo = (obj) => {
+  // 获取个性签名
+  let signature = '点击编辑签名，按回车确认'
+  let src = ''
+  if (obj) {
+    signature = obj.signature || '点击编辑签名，按回车确认'
+    src = obj.hero
+  }
+  let img = src ? `<img class="hero-img" id="user-info-hero" src="./img/hero/${src}" >`
+      : `<img class="hero-img hide" id="user-info-hero" src="./img/hero/${src}" >`
+  let html = `
+      ${img}
+      <span class="user-name" id="user-name">${user}</span>
+      <span class="user-sign" id="user-sign">${signature}</span>
+  `
+  appendHtml(e('#user-info'), html)
+  bindSignatureEvent()
+  cancelHero()
+}
+
+
 const generateTimeline = (res) => {
   let array = res;
   let html = '';
   // 如果返回的是全部数据
-  log('res', res)
   if (array[0].responseAllData) {
     window.responseAllData = true
     $('.timeline-container').empty()
@@ -184,48 +202,31 @@ const generateTimeline = (res) => {
             <a>加载全部</a>
         </div>
     `;
-  // 获取个性签名
-  e('#user-sign').innerHTML = '点击编辑签名，按回车确认';
-  if (res[0]) {
-    e('#user-sign').innerHTML = res[0].signature || '点击编辑签名，按回车确认';
-  }
+
+  renderUserInfo(res[0])
+
 
   html = html + last;
   let container = e('.timeline-container');
   appendHtml(container, html);
 };
 
-const datePicker = () => {
-  $('#datepicker').datepicker({
-    onSelect: function (formattedDate, date, inst) {
-      log('拿到日期', formattedDate, typeof formattedDate);
-    },
-  });
-};
+// const datePicker = () => {
+//   $('#datepicker').datepicker({
+//     onSelect: function (formattedDate, date, inst) {
+//     },
+//   });
+// };
 
 const bindWeekTodo = () => {
   bindEvent(e('#personal-page'), 'click', (event) => {
-    swal({
-      title: '展示每周计划，待开发',
-      text: '2秒后自动关闭',
-      timer: 2000,
-    }).then(
-      function () {},
-      function () {}
-    );
+    alertMsg('展示每周计划，待开发')
   });
 };
 
 const bindLoadMore = () => {
   if (window.responseAllData && window.num != 30) {
-    swal({
-      title: '已加载全部数据',
-      text: '2秒后自动关闭',
-      timer: 2000,
-    }).then(
-        function () {},
-        function () {}
-    );
+    alertMsg('已加载全部数据')
   }
   bindEvent(e('.show-more'), 'click', (event) => {
     let a = event.target.innerHTML
@@ -249,11 +250,154 @@ const bindLoadMore = () => {
 };
 
 
+const bindSlideToggle= () => {
+  let div = e('#slide-toggle');
+  div.addEventListener('click', (event) => {
+  //    点击的时候，增加一个
+    let detail = e('.detail')
+    let hero = e('.hero-pick')
+    toggleClass(detail, 'animate-left')
+    toggleClass(detail, 'tran')
+    toggleClass(hero, 'animate-right')
+    toggleClass(hero, 'tran')
+    event.target.innerHTML = event.target.innerHTML === '选择英雄' ? '返回看板' : '选择英雄'
+    let tip = e('#hero-tip')
+    // event.target.innerHTML === '选择英雄' ? removeClass(tip, 'hide') : addClasstip, 'hide')
+    toggleClass(tip, 'hide')
+  //
+  //   let left = e('.timeline-container')
+  //   toggleClass(left, 'timeline-container2')
+  });
+}
+
+const cancelHero = () => {
+  if (notUserSelf()) {
+    return
+  }
+  let s = e('#cancel-hero')
+  s.addEventListener('click', (event) => {
+    let img = e('#user-info-hero')
+    if (img.classList.contains('hide')) {
+      return
+    }
+    let data = {
+      hero: '',
+      user,
+    }
+    ajax(data, '/chooseHero', (r) => {
+      addClass(img, 'hide')
+    });
+  });
+}
+
+
+const bigHeroImgToggle = (event) => {
+  let target = event.target
+  let parent = closestClass(target, 'hero-avatar-container')
+  let b = parent.querySelector('.big-hero')
+  toggleClass(b, 'hide')
+}
+
+const bindHeroMouseEvent = () => {
+  let s = ('.small-hero')
+  bindAll(s, 'mouseover', bigHeroImgToggle)
+  bindAll(s, 'mouseout', bigHeroImgToggle)
+}
+
+
+const chooseHeroApi = (event) => {
+  if (notUserSelf()) {
+    return
+  }
+  let target = event.target
+  let hero = target.dataset.hero
+  
+  let data = {
+    hero,
+    user,
+  }
+  ajax(data, '/chooseHero', (r) => {
+    let img = e('#user-info-hero')
+    img.src = `./img/hero/${hero}`
+    if (img.classList.contains('hide')) {
+        removeClass(img, 'hide')
+    }
+  });
+
+}
+
+const chooseHero = () => {
+  let s = ('.small-hero')
+  bindAll(s, 'click', chooseHeroApi)
+}
+
+const heroImgListHardCode = () => {
+  const heroImgList = [
+    'blhu.jpg',
+    'baihu2.jpg',
+    'blhu3.png',
+    'ifmo.jpg',
+    'burfui.jpg',
+    'bynv.jpg',
+    'dashu.jpg',
+    'dibu.jpg',
+    'ljmk.jpg',
+    'nqtb.jpg',
+    'sf.jpg',
+    'sf2.jpg',
+    'slark.jpg',
+    'spe.jpg',
+    'ta.jpg',
+    'uvren.jpg',
+    'aa.png',
+    'bh.png',
+    'carl.png',
+    'honv.png',
+    'spe2.png',
+    'ta2.png',
+    '/pkm/pkm6.jpg',
+    '/pkm/pkm8.jpg',
+    '/pkm/pkm7.png',
+    '/pkm/pkm13.jpg',
+    '/pkm/pkm9.png',
+    '/pkm/pkm2.png',
+    '/pkm/pkm3.png',
+    '/pkm/pkm4.jpg',
+    '/pkm/pkm10.png',
+    '/pkm/pkm11.jpg',
+    '/pkm/pkm12.jpg',
+  ]
+  return heroImgList
+}
+
+const renderHeroAvatar = () => {
+  const heroImgList = heroImgListHardCode()
+  let html = ''
+  for (const hero of heroImgList) {
+    html += `
+    <div class="hero-avatar-container">
+              <div class="hero-avatar pointer small-hero" >
+                <img data-hero=${hero} src="./img/hero/${hero}" >
+              </div>
+
+              <div class="big-hero hide">
+                <img src="./img/hero/${hero}"/>
+              </div>
+            </div>
+    `
+  }
+
+  appendHtml(e('.hero-pick'), html)
+  bindHeroMouseEvent()
+  chooseHero()
+}
+
+
 
 const bindEvents = () => {
   bindWeekTodo();
-  bindSignatureEvent();
-};
+  bindSlideToggle()
+}
 
 const bindSignatureEvent = () => {
   let div = e('#user-sign');
@@ -278,15 +422,21 @@ const bindSignatureEvent = () => {
   });
 };
 
+const notUserSelf = () => {
+  let self = getLocalStorage('userInfo').split('-')[0].trim()
+  return user !== self
+}
+
 const saveSignature = (div) => {
+  if (notUserSelf()) {
+      return
+  }
   if (window.disabledSignature) {
     setTimeout(()=> window.disabledSignature = false, 2000)
     return
   }
   let signature = div.textContent;
   if (signature.trim()) {
-    // setLocalStorage('signature', signature);
-    let user = getLocalStorage('userInfo').split('-')[0];
     let data = {
       signature,
       user,
@@ -303,9 +453,11 @@ const __main = () => {
   window.disabledSignature = false
   window.num = 30
   window.responseAllData = false
+  window.user = getLocalStorage('personal').split('-')[0].trim()
   getPersonalStudyData();
-  datePicker();
+  // datePicker();
   bindEvents();
+  renderHeroAvatar()
 };
 
 __main();

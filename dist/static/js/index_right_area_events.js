@@ -13,7 +13,7 @@ const shouldShowTodo = () => {
         let storageKey = type + 'TodoList'
         let todoList = getLocalStorage(storageKey) || []
         let hasTodoList = todoList.length !== 0
-        let word = type === 'daily' ? '今日' : '本周'
+        let word = type === 'daily' ? '今日' : '年度'
         let divClassName = `.make-${type}-plan`
         let btn = `#${type}-btn`
         if (hasTodoList) {
@@ -60,12 +60,40 @@ const bindRightDivEvents = () => {
 }
 
 const spanDoingClickEvents = (target) => {
+    copyTOLeft(target)
+    editSpan(target)
+}
+
+const editSpan = (target) => {
+    target.contentEditable = true;
+    target.focus()
+    target.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            target.contentEditable = false;
+            updateTodolist(target);
+        }
+    })
+}
+
+const updateTodolist = (target) => {
+    let dailyTodoList = getLocalStorage('dailyTodoList') || []
+    let newValue = target.innerHTML
+    let index = Number(target.dataset.index)
+    dailyTodoList[index] = newValue
+    if (newValue.length === 0) {
+        dailyTodoList.splice(index, 1)
+    }
+    setLocalStorage('dailyTodoList', dailyTodoList)
+    let parentElement = '#ol-daily'
+    addHtmlToOlElement(dailyTodoList, parentElement, true)
+}
+
+const copyTOLeft = (target) => {
     let t = target.innerHTML
     let index = t.indexOf('-');
-    t = t.slice(0, index + 1)
+    t = t.slice(0, index + 1) + ' '
     $("#textarea-study-content").val(t)
-
-
 }
 
 // 2020年2月19号回来看的感想：封装抽象尼玛啊，自己写的都完全看不懂了……
@@ -95,8 +123,15 @@ const btnEvents = (target) => {
 // }
 
 const bindOtherPersonalPage = () =>{
+    if (!e('.personal-page')) {
+        return
+    }
     bindAll('.personal-page', 'click', event => {
-        setLocalStorage('personal', event.target.innerHTML)
+        let username = event.target.innerHTML
+        if (username.includes('明日边缘')) {
+            username = 'life - '
+        }
+        setLocalStorage('personal', username)
         window.location = "personal.html";
     })
 }
@@ -108,7 +143,7 @@ const toggleBtnCallback = (target) => {
     let t1 = '今日'
     let t2 = 'daily'
     if (id === '#weekly-btn') {
-        t1 = '本周'
+        t1 = '年度'
         t2 = 'weekly'
     }
     button.text() === `收起${t1}计划` ? button.text(`制定${t1}计划`) : button.text(`收起${t1}计划`)
@@ -161,12 +196,17 @@ const bindTodoInputEvent = () => {
     }
 }
 
-const addHtmlToOlElement = (todoList, element) => {
+const addHtmlToOlElement = (todoList, element, removeInnerHTml = false) => {
+    if (removeInnerHTml) {
+        e(element).innerHTML = ''
+    }
     todoList = Array.isArray(todoList) ? todoList : [todoList]
     let olContent = $(element).innerHTML || ''
     let html = ''
+    let index = 0
     for (val of todoList) {
-        html += `${olContent}<li><span class="doing">${val}</span><button class="btn btn-common btn-new done">完成</button></li>`
+        html += `${olContent}<li><span class="doing" data-index=${index}>${val}</span></li>`
+        index++
     }
     appendHtml(e(element), html)
 }

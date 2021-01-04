@@ -24,7 +24,11 @@
                 <input id="username" type="text"  placeholder="请输入昵称">
                 <input id="password" type="password"  placeholder="请输入密码">
                 <!--<input id="invite-code" type="password"  placeholder="请输入邀请码">-->
-                <button id="send-data">登录/注册</button>
+<!--                <button id="send-data">登录/注册</button>-->
+                <div class="button-container">
+                    <button class="send-data">注册</button>
+                    <button class="send-data">登录</button>
+                </div>
             </div>
             <!--<div class="agreement">-->
                 <!--其他账号登录：-->
@@ -80,9 +84,9 @@
         //     }
         // })
 
-        $("#send-data").click(function(){
+        $(".send-data").click(function(){
             apiLogin()
-        });
+        })
 
     </script>
 </body>

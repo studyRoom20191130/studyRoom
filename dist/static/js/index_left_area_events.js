@@ -12,7 +12,7 @@ const bindLeftDivBtnEvent = () => {
       if (button === 'start') {
         startBtnHandle();
       } else if (button === 'end') {
-        endBtnHandle();
+        endBtnHandle()
       } else if (button === 'additionalRecord') {
         additionalRecord();
       }
@@ -21,8 +21,27 @@ const bindLeftDivBtnEvent = () => {
   bindTipEvent();
   bindAdditionalEndInput();
   bindTextareaEvent()
+  bindEscEvent()
+  bindNavToggle()
+}
 
-};
+const bindNavToggle = () => {
+  bindEvent(e('.nav-toggle-container'), 'click', (event) => {
+    toggleClass(e('.mode-toggle-circle'), 'mode-toggle-close')
+    toggleClass(e('.left-members'), 'transparent')
+    toggleClass(e('.right-members'), 'transparent')
+
+  });
+}
+
+const bindEscEvent = () => {
+  window.addEventListener('keydown', (event) => {
+    if (event.code=== 'Escape') {
+      endBtnHandle()
+    }
+  })
+}
+
 
 const bindTextareaEvent = () => {
     let textarea = e('#textarea-study-content')
@@ -52,18 +71,24 @@ const checkAdditionalRecordValue = (val) => {
   let digt = '0123456789';
   for (const str of val) {
     if (!digt.includes(str) || val.length !== 4) {
-      swal({
-        title: '输入的补录时间格式不对',
-        text: '2秒后自动关闭',
-        timer: 2000,
-      }).then(
-        function () {},
-        function () {}
-      );
+      alertMsg('输入的补录时间格式不对')
       return 'invalid';
     }
   }
 };
+
+const minuteDurationInvalid = (minuteDuration) => {
+  if (minuteDuration < 0) {
+    alertMsg('输入时间错误，请确认输入是否正确')
+    return true
+  }
+  if (minuteDuration > 150) {
+    alertMsg('时间超过150分钟，请拆分细化后再补录')
+    return true
+  }
+  return false
+}
+
 
 const sendAdditionalRecord = () => {
   // 两秒内禁止调用函数
@@ -78,7 +103,7 @@ const sendAdditionalRecord = () => {
   let s = $('#additional-start').val();
   let e = $('#additional-end').val();
   for (const val of [s, e]) {
-    let checkResult = checkAdditionalRecordValue(val);
+    let checkResult = checkAdditionalRecordValue(val)
     if (checkResult === 'invalid') {
       return;
     }
@@ -92,40 +117,16 @@ const sendAdditionalRecord = () => {
     let segmentation = start + ' - ' + end;
 
     let [hourDuration, minuteDuration] = getDuration2(start, end);
-    if (minuteDuration < 0) {
-      swal({
-        title: '输入时间错误，请确认输入是否正确',
-        text: '2秒后自动关闭',
-        timer: 2000,
-      }).then(
-        function () {},
-        function () {}
-      );
+    if (minuteDurationInvalid(minuteDuration)) {
       return
     }
-    if (minuteDuration > 200) {
-      swal({
-        title: '补录时间超过200分钟，请拆分细化后再补录',
-        text: '2秒后自动关闭',
-        timer: 2000,
-      }).then(
-        function () {},
-        function () {}
-      );
-    }
+
     sendRecord(segmentation, minuteDuration, hourDuration);
     $('#additional-start').val('');
     $('#additional-end').val('');
     $('.other-time').toggle();
   } else {
-    swal({
-      title: '请填写开始和结束的时间',
-      text: '2秒后自动关闭',
-      timer: 2000,
-    }).then(
-      function () {},
-      function () {}
-    );
+    alertMsg('请填写开始和结束的时间')
   }
 };
 
@@ -143,7 +144,7 @@ const bindTipEvent = () => {
 
 const sendRecord = (segmentation, minuteDuration, hourDuration) => {
   let studyContent = $('#textarea-study-content').val();
-  let user = getLocalStorage('userInfo').split('-')[0];
+  let user = getLocalStorage('userInfo').split('-')[0]
   let signature = getLocalStorage('signature') || '';
   let time = new Date();
   // let id = time.getTime();
@@ -170,8 +171,10 @@ const sendRecord = (segmentation, minuteDuration, hourDuration) => {
 
   ajax(studyContentRecord, '/sendRecordData', (res) => {
     // 获取数据，更新页面
-    let studyDataList = res || [];
-    addHtmlToMainDiv(studyDataList);
+    let studyDataList = res || []
+    addHtmlToMainDiv(studyDataList)
+    renderNavHero(studyDataList)
+    renderOnlineUser(studyDataList)
     alertTip(singleRecord.minuteDuration);
     window.stopInterval = true;
     // 好像没有存签名的必要
@@ -182,13 +185,14 @@ const sendRecord = (segmentation, minuteDuration, hourDuration) => {
     //   }
     // }
   }, 'stopInterval');
-  getOnlineUser();
+  // getOnlineUser();
 };
 
 // 开始按钮防止重复点击
 window.forbidStartBtnClick = false;
 window.forbidEndBtnClick = true;
 window.initToggle = true;
+window.imgList = []
 
 const startBtnHandle = () => {
   // 点击开始，开始计时
@@ -212,15 +216,8 @@ const additionalRecord = () => {
 };
 const endBtnHandle = () => {
   if (window.forbidEndBtnClick) {
-    swal({
-      title: '先要开始，才能结束',
-      text: '2秒后自动关闭',
-      timer: 2000,
-    }).then(
-      function () {},
-      function () {}
-    );
-    return;
+    alertMsg('先要开始，才能结束')
+    return
   }
   window.forbidEndBtnClick = true;
   let studyContent = e('#textarea-study-content').value;
@@ -232,6 +229,9 @@ const endBtnHandle = () => {
   // 计算并转换时间数据
   let segmentation = getSegmentation();
   let [hourDuration, minuteDuration] = getDuration();
+  if (minuteDurationInvalid(minuteDuration)) {
+    return
+  }
   sendRecord(segmentation, minuteDuration, hourDuration);
 };
 
@@ -262,7 +262,10 @@ const getCommentHtml = (commentList, user) => {
                         </div>`;
     }
   }
-  return comment;
+  let commentNum = commentList
+      ? `评论 (${commentList.length})`
+      : '评论';
+  return [comment, commentNum];
 };
 
 // 把带 - 的数据找出来，拼成对象
@@ -285,13 +288,7 @@ const getprograssObj = (list) => {
 
 // 拼接表格数据部分的 html 并计算 分钟 和 小时
 const getTrHtml = (list) => {
-  let tr = `
-        <tr class="success">
-            <th>时间段</th>
-            <th>时长</th>
-            <th>预期</th>
-            <th>内容/备注</th>
-        </tr>`;
+  let tr = resetTr()
   let totalHour = 0;
   let totalMinitue = 0;
   let axeHour = 0;
@@ -305,6 +302,7 @@ const getTrHtml = (list) => {
     if (obj.studyContent.includes('tf')) {
       tfHour += obj.hourDuration;
     }
+
     let expectation = '';
     if (obj.expectation) {
       expectation = obj.expectation + ' min';
@@ -315,12 +313,17 @@ const getTrHtml = (list) => {
                     <td class="td-hour">${expectation} </td>
                     <td class="td-width">${obj.studyContent}</td>
                 </tr>`;
+    if (obj.studyContent.includes('浪费时间')) {
+      continue
+    }
     totalHour += obj.hourDuration;
     totalMinitue += obj.minuteDuration;
   }
-  totalHour = totalHour.toFixed(1);
+  totalHour = totalHour.toFixed(1)
   return [tr, totalHour, totalMinitue, axeHour.toFixed(1), tfHour.toFixed(1)];
 };
+
+
 
 const generatePrograssHtml = (prograssObj, user) => {
   if (user !== getLocalStorage('userInfo').split('-')[0]) {
@@ -339,13 +342,12 @@ const generatePrograssHtml = (prograssObj, user) => {
       goalTime = Number(goalTime)
       for (const k in prograssObj) {
         if (k === key) {
-          //    算百分比
-          let persent = prograssObj[k] / goalTime
-          // 转换百分比
-          persent  = calculatePersent(persent, 2)
+          //  算百分比
+          let currentPrograss = prograssObj[k]
+          let [persent, styleWidth] = calPersent(currentPrograss, goalTime)
           prograss += `
             <div class="progress">
-                <div class="progress-bar progress-bar-success ${colorlist[colorIndex]}" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: ${persent};">
+                <div class="progress-bar progress-bar-success ${colorlist[colorIndex]}" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: ${styleWidth};">
                     ${key} - ${persent}
                 </div>
             </div>
@@ -358,49 +360,112 @@ const generatePrograssHtml = (prograssObj, user) => {
   return prograss
 }
 
-const addHtmlToMainDiv = (studyDataList) => {
+const processName = (user) => {
+  let s = user
+  let temp_s = user
+  if (s == 'H.K') {
+    temp_s = 'H-K'
+  }
+  if (s == 'life') {
+    temp_s = '明日边缘'
+  }
+  return temp_s
+}
+
+const makeObj = (studyDataList) => {
   // 增加龙王功能
-  let dragonKingObj = {};
-  let user = getLocalStorage('userInfo').split('-')[0];
-  let isUser =
-    user == 'life' || user == 'Hello' || user == 'hello' || user == 'H.K';
-  // if(!isUser) {
-  //     return
-  // }
-
-  let html = '';
-
+  let dragonKingObj = {}
+  // 重写在线功能
+  let onlineObj = {}
   for (const studyData of studyDataList) {
-    let signature = studyData.signature || '';
     let [tr, totalHour, totalMinitue, axeHour, tfHour] = getTrHtml(studyData.table);
-    let s = studyData.user;
-    let temp_s = studyData.user;
-    if (s == 'H.K') {
-      temp_s = 'H-K';
+    let username = processName(studyData.user)
+    dragonKingObj[username] = totalMinitue;
+    if (totalHour in onlineObj) {
+      // let key = Number(totalHour) + 0.11
+      let key = totalHour + '_' + username
+      onlineObj[key] = username
+    } else {
+      onlineObj[totalHour] = username
     }
-    dragonKingObj[temp_s] = totalMinitue;
-    let commentNum = studyData.commentArray
-      ? `评论 (${studyData.commentArray.length})`
-      : '评论';
-    let comment = getCommentHtml(studyData.commentArray, s);
+    
+  }
+  return {dragonKingObj, onlineObj}
+}
 
-    let prograssObj = {}
-    if (user === s) {
-      prograssObj = getprograssObj(studyData.table, studyData.user)
+const resetTr = (studyDataList) => {
+  let s =  `
+        <tr class="success">
+            <th>时间段</th>
+            <th>时长</th>
+            <th>预期</th>
+            <th>内容/备注</th>
+        </tr>`;
+  return s
+}
+const makeSvgAndPrograssObj = (user, username, studyData) => {
+  let svg = ''
+  let prograssObj = {}
+  if (username === '明日边缘') {
+    username = 'life'
+  }
+  if (user === username) {
+    prograssObj = getprograssObj(studyData.table, studyData.user)
+    svg = imgSvg()
+  }
+  return [svg, prograssObj]
+}
+
+const generateWeaponImgs = (weapon) => {
+  if (!weapon) {
+      return ''
+  }
+  let weaponList = weapon.split('-')
+  let html = ``
+  for (const weapon of weaponList) {
+    if (weapon) {
+      html += `<img src="./img/weapon/${weapon}">`
     }
+  }
 
-    let prograssHtml = generatePrograssHtml(prograssObj, studyData.user)
-    let a = s == 'life' ? `<a class="personal-page">${s} - ${totalMinitue} min / ${totalHour} h (axe - ${axeHour} h, tf - ${tfHour} h)</a>` : `<a class="personal-page">${s} - ${totalMinitue} min / ${totalHour} h</a>
+  return html
+}
+
+const processWeaponData = (studyData, user, totalMinitue) => {
+  let weapon = studyData.weapon
+  let weaponImgs = generateWeaponImgs(weapon)
+  if (studyData.user === user) {
+    window.totalMinitue = totalMinitue
+    window.weapon =  weapon || ''
+  }
+  return weaponImgs
+}
+
+// 每一个用户的 表格html
+const userTableHtml = (studyData) => {
+  let h = ''
+  let signature = studyData.signature || '';
+  let src = studyData.hero
+  let img = src ? `<img class="hero-img-index" src="./img/hero/${src}" >` : ''
+  
+  if (signature.includes('点击编辑')) {signature = ''}
+  let [tr, totalHour, totalMinitue, axeHour, tfHour] = getTrHtml(studyData.table);
+
+  let username = processName(studyData.user)
+  let user = getLocalStorage('userInfo').split('-')[0]
+  let weaponImgs = processWeaponData(studyData, user, totalMinitue)
+  let [comment, commentNum] = getCommentHtml(studyData.commentArray, username);
+  let [svg, prograssObj] = makeSvgAndPrograssObj(user, username, studyData)
+  let prograssHtml = generatePrograssHtml(prograssObj, studyData.user)
+  let a = username == '明日边缘' ? `${img}<a class="personal-page">${username} - ${totalMinitue} min / ${totalHour} h (axe - ${axeHour} h, tf - ${tfHour} h)</a>` : `${img}<a class="personal-page">${username} - ${totalMinitue} min / ${totalHour} h</a>
 `
-    html += `
+  h = `
         <article class="main-article">
-            <div class="user-name title-weight ${temp_s}">
-                ${a}
+            <div class="user-name title-weight ${username}">
+                ${a} ${svg}
             </div>
-            <div style="color: #409eff;margin: 5px 0;">${signature}</div>
+            <div id="${studyData.user}-signature-weapon" class="weapons" style="color: #409eff;margin: 5px 0;">${signature}${weaponImgs}</div>
             ${prograssHtml}
-            
-
             <div class="study-record">
                <table class="table table-bordered table-striped table-hover table-condensed">
                    ${tr}
@@ -410,21 +475,22 @@ const addHtmlToMainDiv = (studyDataList) => {
                 <img src="reply.png" class="reply-icon"> ${commentNum}
             </div>
             <div class="comments-zone">
-                <div class="edit-input" data-user="${s}">
+                <div class="edit-input" data-user="${username}">
                     <span class="comments-span">${user}</span> <textarea></textarea><button class="btn btn-common btn-new comment-submit">发布</button>
                 </div>
                 <div class="comments-content">
                     ${comment}
                 </div>
             </div>
-        </article>`;
-    tr = `
-        <tr class="success">
-            <th>时间段</th>
-            <th>时长</th>
-            <th>内容/备注</th>
-        </tr>`;
-    prograssHtml = ``
+        </article>`
+    return h
+}
+
+const addHtmlToMainDiv = (studyDataList) => {
+  let html = ''
+  for (const studyData of studyDataList) {
+    let userTable = userTableHtml(studyData)
+    html += userTable
   }
   $('.main').empty();
   appendHtml(e('.main'), html);
@@ -432,9 +498,12 @@ const addHtmlToMainDiv = (studyDataList) => {
   //
   commentDivHide();
   // 算出谁是龙王
-  whoIsDragonKing(dragonKingObj);
+  whoIsDragonKing(studyDataList);
+
   // 节点被重置了
   setTimeout(()=> bindOtherPersonalPage(), 200)
+  // 绑定生成日报事件
+  bindEventDailyReport()
 };
 
 const commentDivHide = () => {
@@ -446,7 +515,8 @@ const commentDivHide = () => {
   }
 };
 
-const whoIsDragonKing = (dragonKingObj) => {
+const whoIsDragonKing = (studyDataList) => {
+  let {dragonKingObj} = makeObj(studyDataList)
   let dragonKing = '';
   let num = -1;
   for (let [key, value] of Object.entries(dragonKingObj)) {
@@ -462,15 +532,40 @@ const whoIsDragonKing = (dragonKingObj) => {
   }
 };
 
-const addOnlineUser = (onlineUserList) => {
+const sortOnlineObj = (onlineObj) => {
+  let arr=[];
+  for(var key in onlineObj){
+    arr.push(key)
+  }
+  arr = arr.sort().reverse()
+  return arr
+}
+
+const onlineHtml= (arr, onlineObj) => {
   let html = '';
-  for (const user of onlineUserList) {
+  for (const index in arr) {
+    let img = ``
+    if (index == 0) {
+      img = `<img src="dragon-king.png" style="width: 20px;height: 24.5px;margin-left: 5px;display: inline-block;
+        padding-bottom: 6px;">`
+    }
+    let key = arr[index]
+    let username = onlineObj[key]
+    if (key.includes('_')) {
+        key = key.split('_')[0]
+    }
     html += `<div class="online-user">
                     <span class="user-circle"></span>
-                    <a class="personal-page">${user}</a>
+                    <a class="personal-page">${username} - ${key} h${img}</a> 
                 </div>`;
   }
+  return html
+}
 
+const renderOnlineUser = (studyDataList) => {
+  let {onlineObj} = makeObj(studyDataList)
+  let arr = sortOnlineObj(onlineObj)
+  let html = onlineHtml(arr, onlineObj)
   $('.online').empty();
   appendHtml(e('.online'), html);
 };
@@ -527,14 +622,7 @@ const getTime = () => {
 
 const noStudyContent = (studyContent) => {
   if (studyContent.length === 0) {
-    swal({
-      title: '请输入学习内容或备注哦',
-      text: '2秒后自动关闭',
-      timer: 2000,
-    }).then(
-      function () {},
-      function () {}
-    );
+    alertMsg('请输入学习内容或备注哦')
     return true;
   }
   return false;

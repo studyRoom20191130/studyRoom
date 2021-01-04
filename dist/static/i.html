@@ -23,11 +23,20 @@
 </head>
 
 <body>
+<div id="id-div-share-wrapper" class="hide">
+    <img id="id-img-share" >
+    <div class="share-main">
+
+
+    </div>
+</div>
+
+<a id="friend-link">css 互躺库</a>
 
 <header>
 
     <div class="nav__placeholder"></div>
-    <nav class="self-questioning">
+    <nav class="self-questioning flex-hero" id="nav">
 <!--        <nav class="nav">-->
 <!--        <a href="#">自习室</a>-->
 <!--        <a href="#">学习交流</a>-->
@@ -46,9 +55,24 @@
 <!--            <p>是不是在网上<span>搜了好久也不肯问？</span></p>-->
 <!--            <p>今天的<span>工作和学习有哪些缺点</span>，总结了吗？</p>-->
 <!--        </div>-->
-        <div>更新说明：1.右侧的今日计划，使用 axe - 30（30代表分钟） 这种格式作为当天的目标，在完成记录后，可以看到实时进度</div>
-        <div>2.点击今日计划里的任务事项，左侧输入框会同步，避免每次输入</div>
-        <div>3.左侧输入框输入内容后，按回车即可开始计时  4.每个星期天的晚上，会收到过去七天的周报邮件 5.简单适配了一下移动端</div>
+        
+        
+<!--        <div>更新说明：1.右侧的今日计划，使用 axe - 30（30代表分钟） 这种格式作为当天的目标，在完成记录后，可以看到实时进度 2.点击今日计划里的任务事项，左侧输入框会同步3.每周日晚，会收到过去七天的周报邮件 4.已适配移动端 5.增加了日报图片功能 6.右侧今日计划点击可以直接编辑事项</div>-->
+<!--        <div>在个人主页增加了一个非常中二的英雄选择功能, 聚聚们一起来玩 dota 大乱斗好吗hhhh</div>-->
+        <div class="left-members">
+<!--            <div><img src="./img/hero/carl.png"></div>-->
+<!--            <div><img src="./img/hero/carl.png"></div>-->
+<!--            <div class="score">32</div>-->
+        </div>
+
+        <div class="right-members">
+<!--            <div class="score">40</div>-->
+<!--            <div><img src="./img/hero/carl.png"></div>-->
+<!--            <div><img src="./img/hero/carl.png"></div>-->
+<!--            <div><img src="./img/hero/carl.png"></div>-->
+        </div>
+
+
     </nav>
     <div class="progress">
         <div class="progress-bar progress-bar-success time-goes-by" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
@@ -56,15 +80,20 @@
         </div>
     </div>
 
+    <div class="nav-toggle-container">
+        <div class="mode-toggle"></div>
+        <div class="mode-toggle-circle"></div>
+    </div>
+
 </header>
 
 <div class="main-container">
     <div class="left">
-        <textarea id="textarea-study-content" class="form-control" rows="10" placeholder="按回车也可以开始计时"></textarea>
+        <textarea id="textarea-study-content" class="form-control" rows="10" placeholder="按回车直接开始计时，按 esc 直接结束计时"></textarea>
         <div class="btn-div">
             <input type="text" id="expectation" class="form-control" placeholder="预期">
-            <button data-button="start" class="btn btn-common  btn-new ">开始</button>
-            <button data-button="end" class="btn btn-common btn-new ">结束</button>
+            <button data-button="start" class="btn btn-common  btn-new btn-start-end">开始</button>
+            <button data-button="end" class="btn btn-common btn-new btn-start-end">结束</button>
 
         </div>
         <br><br>
@@ -130,12 +159,12 @@
         </div>
         <div class="weekly">
             <div class="weekly-button">
-                <button type="button" id="weekly-btn" data-type="weekly" class="btn-callback btn btn-todo btn-common"><span class="weekly-btn-text">制定本周计划</span></button>
+                <button type="button" id="weekly-btn" data-type="weekly" class="btn-callback btn btn-todo btn-common"><span class="weekly-btn-text">制定年度计划</span></button>
             </div>
             <div class="make-weekly-plan plan-margin-bottom">
                 <div class="weekly-plan">
                     <!--<div class="title">-->
-                        <!--本周计划-->
+                        <!--年度计划-->
                     <!--</div>-->
                     <div class="plan-content">
                         <ol class="not-center" id="ol-weekly">
@@ -157,17 +186,20 @@
         </div>
     </div>
 </div>
-    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-<!--    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
+
+<div id="shop" class="shop"></div>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
     <script src="https://cdn.bootcss.com/limonte-sweetalert2/7.31.0/sweetalert2.all.js"></script>
     <script src="js/vendor/moment.js"></script>
     <script src="js/utils.js"></script>
-    <script src="js/plugins.js"></script>
+    <script src="js/vendor/html2canvas.min.js"></script>
     <script src="js/spanEvent.js"></script>
+    <script src="js/daily_report.js"></script>
     <script src="js/index_right_area_events.js"></script>
     <script src="js/index_left_area_events.js"></script>
     <script src="js/index_center_area_events.js"></script>
+    <script src="js/hero_and_shop.js"></script>
+
     <script src="js/main.js"></script>
 </body>
 

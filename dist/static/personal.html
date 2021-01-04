@@ -16,9 +16,9 @@
     <script src="js/vendor/jquery-3.4.1.min.js"></script>
     <link rel="stylesheet" href="css/sweetalert2.css" />
     <script src="js/vendor/sweetalert2.js"></script>
-    <link href="css/datepicker.min.css" rel="stylesheet" type="text/css" />
-    <script src="js/vendor/datepicker.min.js"></script>
-    <script src="js/vendor/datepicker.zh.js"></script>
+<!--    <link href="css/datepicker.min.css" rel="stylesheet" type="text/css" />-->
+<!--    <script src="js/vendor/datepicker.min.js"></script>-->
+<!--    <script src="js/vendor/datepicker.zh.js"></script>-->
     <script src="js/utils.js"></script>
     <script
       crossorigin="anonymous"
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="css/personal.css" />
   </head>
 
-  <body>
+  <body style="overflow: auto">
     <div class="nav__placeholder"></div>
     <header>
       <nav class="nav">
@@ -50,13 +50,34 @@
       </nav>
     </header>
     <div class="main-container">
-      <div class="personal-introduction left">
-        <div class="user-portrait">
-          <!--用户头像占位-->
+
+
+        <div class="personal-introduction  slide">
+          <div class="user-portrait">
+            <!--用户头像占位-->
+          </div>
+          <div class="user-name" id="user-info">
+
+
+          </div>
+
+          <div style="margin-bottom: 10px;">
+            <span id="slide-toggle" class="pointer" style="color: lightseagreen;font-weight: bold;margin: 10px 0">选择英雄</span>
+            <span id="cancel-hero" class="pointer" style="color: lightseagreen;font-weight: bold;margin: 10px 0 10px 20px">不要英雄</span>
+
+          </div>
+          <div class="hero-pick animate-right right tran slide">
+<!--          <div class="hero-pick  right  slide">-->
+
+          </div>
+          <div class="hero-avatar-container hide" id="hero-tip">欢迎添加更多英雄头像(lol, 动森等等), 请在 tinypng 压缩后发给我</div>
+          <div class="detail slide">
+<!--          <div class="detail slide animate-left tran">-->
+
+          </div>
         </div>
-        <div class="user-name" id="user-name"></div>
-        <div class="user-sign" id="user-sign"></div>
-      </div>
+
+
 
       <!--<div class="date-picker">-->
       <!--<input type='text' id="datepicker" class="datepicker-here" data-position="right top" data-language='zh' placeholder="选择时间" />-->

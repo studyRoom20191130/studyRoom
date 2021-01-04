@@ -46,6 +46,20 @@ const addClassAll = (className) => {
     }
 }
 
+const addClass = (element, className) => {
+    if (element == null || element == undefined) {
+        return
+    }
+    element.classList.add(className)
+}
+
+const removeClass = (element, className) => {
+    if (element == null || element == undefined) {
+        return
+    }
+    element.classList.remove(className)
+}
+
 const bindAll = (selector, eventName, callback) => {
     const elements = es(selector)
     for (let i = 0; i < elements.length; i++) {
@@ -130,6 +144,15 @@ const getZero = (num) => {
     return num
 }
 
+const calPersent = (currentPrograss, goalTime) => {
+    let persent = currentPrograss / goalTime
+    // 转换百分比
+    persent  = calculatePersent(persent, 2)
+    let styleWidth = Number(persent.slice(0, persent.length-1))
+    styleWidth = styleWidth > 100 ? "100%" : styleWidth + '%'
+    return [persent, styleWidth]
+}
+
 
 // 时间戳转换成 年月日
 const getDate = (str) => {
@@ -192,6 +215,22 @@ const getLocalStorage = (key) => {
         return JSON.parse(decodeURIComponent(window.atob(localStorage.getItem(key))));
     }
 }
+
+const alertMsg = (title) => {
+    swal({
+        title,
+        text: '2秒后自动关闭',
+        timer: 2000,
+    }).then(
+        function () {},
+        function () {}
+    )
+}
+
+
+
+
+
 
 const ajax = (data, url, callback, stop) => {
     $.ajax({
@@ -289,6 +328,11 @@ function getBeforeDate(n){
 
 function calculatePersent(num, n){
     num  = String(num.toFixed(n) * 100)
-    num = num.slice(0, n + 1) + '%'
+    num = num.slice(0, n + 1)
+    if (num.slice(length -1) === '.') {
+        num = num.slice(0, length-1) + '%'
+    } else {
+        num += '%'
+    }
     return num
 }

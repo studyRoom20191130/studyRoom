@@ -6,6 +6,9 @@
     background: #fff;
     display: flex;
     justify-content: space-between;
+    height: 100vh;
+    overflow: auto !important;
+
 }
 
 .left,
@@ -115,6 +118,8 @@
 .inline-block {
     margin-top: 10px;
 }
+
+
 
 .make-daily-plan {
     display: none;
@@ -355,3 +360,11 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
+.inline {
+    display: inline-block;
+}
+
+
+
+
