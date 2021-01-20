@@ -1,0 +1,140 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2021年01月15日",
+        "user": "life",
+        "signature": "不要重蹈覆辙",
+        "table": [
+            {
+                "studyDate": "20210115",
+                "segmentation": "09:40 - 10:07",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "自习室 - debug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210115",
+                "segmentation": "10:23 - 10:49",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "自习室 - 整理接口代码",
+                "expectation": ""
+            }
+        ],
+        "hero": "sf.jpg",
+        "weapon": ""
+    },
+    {
+        "userData": "亭川-alite180",
+        "today": "2021年01月15日",
+        "user": "亭川",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20210115",
+                "segmentation": "10:29 - 10:44",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "mo - chat 楼",
+                "expectation": ""
+            }
+        ],
+        "hero": "ljmk.jpg",
+        "weapon": ""
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月15日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210115",
+                "segmentation": "09:00 - 09:25",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "摸鱼 - 爬chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210115",
+                "segmentation": "09:40 - 09:53",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe4 - win galang 自动更新 + 语法大纲",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210115",
+                "segmentation": "10:00 - 10:03",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "axe4 - python a16asm 的测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210115",
+                "segmentation": "10:04 - 10:15",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe4 - 作业8.1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210115",
+                "segmentation": "10:15 - 10:45",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "axe4 - 爬chat",
+                "expectation": ""
+            }
+        ],
+        "hero": "/pkm/pkm9.png",
+        "weapon": ""
+    },
+    {
+        "userData": "荒-19931002jt",
+        "today": "2021年01月15日",
+        "user": "荒",
+        "signature": "菜 就要有变强的觉悟",
+        "table": [
+            {
+                "studyDate": "20210115",
+                "segmentation": "10:20 - 10:30",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "吃 - 早饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210115",
+                "segmentation": "10:30 - 10:40",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 计划",
+                "expectation": ""
+            }
+        ],
+        "hero": "spe2.png",
+        "weapon": ""
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月15日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210115",
+                "segmentation": "09:36 - 09:36",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 提交代码到仓库/fep2预习",
+                "expectation": ""
+            }
+        ],
+        "hero": "baihu2.jpg",
+        "weapon": ""
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "userData": "风行-zixiui",
+        "today": "2020年03月12日",
+        "user": "风行",
+        "signature": "",
+        "id": 1583984889895,
+        "table": [
+            {
+                "studyDate": "20200312",
+                "segmentation": "10:30 - 11:48",
+                "minuteDuration": 78,
+                "hourDuration": 1.3,
+                "studyContent": "看 chat"
+            },
+            {
+                "studyDate": "20200312",
+                "segmentation": "12:12 - 12:52",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "看 chat"
+            },
+            {
+                "studyDate": "20200312",
+                "segmentation": "16:49 - 17:56",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "看 chat"
+            }
+        ]
+    }
+]

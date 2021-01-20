@@ -1,0 +1,108 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年10月09日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1602208160474,
+        "table": [
+            {
+                "studyDate": "20201009",
+                "segmentation": "09:33 - 09:49",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 处理bug 更新  部署",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201009",
+                "segmentation": "10:14 - 10:20",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "tf - 搭框架 cli 有问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201009",
+                "segmentation": "10:20 - 10:27",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "tf - 重装 cli",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201009",
+                "segmentation": "10:34 - 11:04",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "tf - 新建项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201009",
+                "segmentation": "13:47 - 13:56",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - 看一下 c 语言",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201009",
+                "segmentation": "13:56 - 13:57",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "axe - 看一下 c 语言，整理思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201009",
+                "segmentation": "14:02 - 14:18",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - 按思路试着实现一下，遍历数组，将元素按空格切割之后再遍历，然后翻译",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201009",
+                "segmentation": "14:24 - 14:55",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "axe - 继续切割元素并循环",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201009",
+                "segmentation": "16:17 - 17:24",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "tf - 重置样式，折腾狗日的eslint，直接用 webstorm 禁调 升级软件",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年10月09日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1602207890995,
+        "table": [
+            {
+                "studyDate": "20201009",
+                "segmentation": "09:10 - 09:40",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "手续费开票修改数据",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201009",
+                "segmentation": "09:45 - 10:54",
+                "minuteDuration": 69,
+                "hourDuration": 1.15,
+                "studyContent": "自己计划一下 本月的 需求：相关有 8 个需求，应该分给我 4 个左右",
+                "expectation": ""
+            }
+        ]
+    }
+]

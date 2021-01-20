@@ -1,0 +1,123 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年08月19日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1597805541856,
+        "table": [
+            {
+                "studyDate": "20200819",
+                "segmentation": "10:43 - 10:52",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - 补图形学作业 画 chest 贴图  读题 及伪代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "10:52 - 11:32",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "axe - 补图形学作业 画 chest 按伪代码写",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "11:51 - 12:04",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 补图形学作业 画 chest 到 chat 找正确思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "12:05 - 12:12",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe - 补图形学作业 画 chest 打地鼠调试 初步贴出了模型",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "15:19 - 15:28",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - 补图形学作业 画 chest 回头检查了下  本来就有问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "15:36 - 15:59",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "axe - 补图形学作业 画 chest 看其他人的做法",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "15:59 - 16:47",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "axe - 补图形学作业 画 chest 补上 z-buffer 的插值工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "16:47 - 17:02",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "axe - 补图形学作业 画 chest 完成 17.2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "17:02 - 17:10",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 补图形学作业 画 chest 抽象函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "17:50 - 17:55",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "axe - 补图形学作业 画 chest 抽象函数 增加滑条",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "17:56 - 18:09",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 补图形学作业 画 chest 抽象函数 通过使用滑条来进一步理解",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "18:16 - 18:55",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "axe - 补图形学作业 画 illidan  初步画成",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "20:13 - 20:33",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "axe - ralib  跑起程序",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200819",
+                "segmentation": "20:36 - 20:59",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "axe - ralib  跑起ball 程序",
+                "expectation": ""
+            }
+        ]
+    }
+]

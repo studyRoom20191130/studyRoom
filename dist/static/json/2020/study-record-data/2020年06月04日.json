@@ -1,0 +1,342 @@
+[
+    {
+        "userData": "oulae-hechuyi1997",
+        "today": "2020年06月04日",
+        "user": "oulae",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1591238613733,
+        "table": [
+            {
+                "studyDate": "20200604",
+                "segmentation": "09:30 - 10:43",
+                "minuteDuration": 73,
+                "hourDuration": 1.22,
+                "studyContent": "复习笔记: Promise (理解事件循环之后, Promise将会变得简单很多)",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "10:51 - 11:59",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "复习笔记",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "17:52 - 18:37",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "复习笔记",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "21:00 - 22:02",
+                "minuteDuration": 62,
+                "hourDuration": 1.03,
+                "studyContent": "复习笔记",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "23:05 - 23:25",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "git 分支操作",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年06月04日",
+        "user": "life",
+        "signature": "",
+        "id": 1591239536502,
+        "table": [
+            {
+                "studyDate": "20200604",
+                "segmentation": "09:00 - 10:58",
+                "minuteDuration": 118,
+                "hourDuration": 1.97,
+                "studyContent": "水群 - 早餐 听歌 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "11:05 - 11:52",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "axe - 看chat，提问",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "14:06 - 15:11",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "axe - 回看视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "15:11 - 15:22",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 简单测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "15:39 - 16:45",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "wa - 看素材",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "17:52 - 18:17",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "axe - 跟着 chat 做 40",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "19:46 - 19:57",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 看解释",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "19:58 - 20:37",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "axe - 跟着 chat 做 40，编译命令的拼接以及是否需要编译的逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "20:41 - 21:13",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "axe - 跟着 chat 做 40，链接命令",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "22:27 - 23:07",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "opengl - 玩一下群里的文件（知道怎么启动项目和切换项目文件了！",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年06月04日",
+        "user": "Sean",
+        "signature": "冲冲冲",
+        "id": 1591236473704,
+        "table": [
+            {
+                "studyDate": "20200604",
+                "segmentation": "10:04 - 10:07",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "NA/hybrid",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "10:53 - 10:55",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "宏任务与微任务",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "10:20 - 10:50",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "宏任务与微任务",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "11:08 - 11:17",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "组件化 与 MVVM\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "13:06 - 14:15",
+                "minuteDuration": 69,
+                "hourDuration": 1.15,
+                "studyContent": "express todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "14:41 - 15:04",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "express todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "21:50 - 22:09",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "vdom / diff",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "22:14 - 22:47",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "vdom / diff",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年06月04日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1591231832377,
+        "table": [
+            {
+                "studyDate": "20200604",
+                "segmentation": "08:46 - 08:50",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "整理昨天的日报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "08:50 - 08:50",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "整理昨天的日报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "08:40 - 08:50",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "整理昨天的日报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "08:51 - 08:53",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "今日 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "08:53 - 09:53",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "merchant-audit transformDaoToApiFormat:没法动的，这个方法涉及 4 个接口，服务内有16个方法调用了这个四个接口的\n不能改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "09:54 - 10:45",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "qq",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "10:45 - 11:04",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "qq",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "11:05 - 11:54",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "api做权限校验需求理解\n1.看了组长写的 aop 的代码\n2. 了解了一下 threadLocal 的用处",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "12:00 - 13:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "吃饭 + QQ\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "13:09 - 13:40",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "fe14 板书",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "13:40 - 14:00",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "午睡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "14:03 - 15:56",
+                "minuteDuration": 113,
+                "hourDuration": 1.88,
+                "studyContent": "递归练习（3）40min\nQQ 30min\n发票问题：10min",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "15:57 - 16:27",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "看一下发票问题：原因是一页展示 10 条的时候，最小月份是这 10 条的，超过10 条的话，第二页的就没有选，没有算进来的。所以看起来就是没从最小月份开始了，一页展示就好了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "16:27 - 17:11",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "getRealNameBusinessLicense\n应该专门给个接口来查未提交的月份的：getOrderMonthsOfUnsubmitOrder",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200604",
+                "segmentation": "17:12 - 17:41",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "递归练习写好",
+                "expectation": ""
+            }
+        ]
+    }
+]

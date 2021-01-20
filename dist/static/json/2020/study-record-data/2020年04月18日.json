@@ -1,0 +1,41 @@
+[
+    {
+        "userData": "lip-123456",
+        "today": "2020年04月18日",
+        "user": "lip",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1587191061967,
+        "table": [
+            {
+                "studyDate": "20200418",
+                "segmentation": "14:24 - 14:24",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "分享 - 准备分享草稿第二部分（忘了开始，45）"
+            },
+            {
+                "studyDate": "20200418",
+                "segmentation": "14:30 - 14:51",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "分享 - 模拟串讲"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年04月18日",
+        "user": "life",
+        "signature": "",
+        "id": 1587180423117,
+        "table": [
+            {
+                "studyDate": "20200418",
+                "segmentation": "10:52 - 11:27",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "axe - 复习 24 内容"
+            }
+        ]
+    }
+]

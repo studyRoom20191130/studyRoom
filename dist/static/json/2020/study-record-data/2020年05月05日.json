@@ -1,0 +1,27 @@
+[
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年05月05日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1588683432589,
+        "table": [
+            {
+                "studyDate": "20200505",
+                "segmentation": "20:57 - 20:57",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "看一下自习室的格式",
+                "expectation": "1"
+            },
+            {
+                "studyDate": "20200505",
+                "segmentation": "21:18 - 21:18",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "多行数据",
+                "expectation": "1"
+            }
+        ]
+    }
+]

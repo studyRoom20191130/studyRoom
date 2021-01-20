@@ -1,0 +1,127 @@
+[
+    {
+        "userData": "phoe-562818991",
+        "today": "2020年03月29日",
+        "user": "phoe",
+        "signature": "",
+        "id": 1585468911837,
+        "table": [
+            {
+                "studyDate": "20200329",
+                "segmentation": "16:01 - 16:01",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "【gms】添加获取上传图片尺寸的逻辑（中途被打断去确认测试的细节 10分钟"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "16:08 - 16:40",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "gms-表格数据传递/设置逻辑重构 （研究了一下决定不重构..."
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "16:40 - 18:36",
+                "minuteDuration": 116,
+                "hourDuration": 1.93,
+                "studyContent": "gms - 新闻编辑页中对于位置的编辑"
+            }
+        ]
+    },
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年03月29日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1585412588160,
+        "table": [
+            {
+                "studyDate": "20200329",
+                "segmentation": "23:16 - 00:23",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "看电影 <实习生>"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "00:25 - 00:26",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "定今日计划"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "00:27 - 01:16",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "看完 chat #cg1"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "16:03 - 16:31",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "贴图 作业1"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "16:31 - 17:54",
+                "minuteDuration": 83,
+                "hourDuration": 1.38,
+                "studyContent": "贴图 作业2 chest.axe3d"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "18:04 - 18:16",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "贴图 作业2 chest.axe3d"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "18:20 - 18:27",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "贴图 作业2 chest.axe3d"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年03月29日",
+        "user": "life",
+        "signature": "只做两件事",
+        "id": 1585447291093,
+        "table": [
+            {
+                "studyDate": "20200329",
+                "segmentation": "08:57 - 10:01",
+                "minuteDuration": 64,
+                "hourDuration": 1.07,
+                "studyContent": "axe - 作业16小作业2"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "10:19 - 11:09",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "axe作业16 - 小作业2"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "11:43 - 12:04",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe作业17 - 读题"
+            },
+            {
+                "studyDate": "20200329",
+                "segmentation": "14:22 - 15:45",
+                "minuteDuration": 80,
+                "hourDuration": 1.33,
+                "studyContent": "axe - 完成作业17作业1"
+            }
+        ]
+    }
+]

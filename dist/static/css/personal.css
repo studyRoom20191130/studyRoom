@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto:400,700');
+
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -74,7 +74,7 @@ p {
 
 
 .timeline-item {
-  padding: 3em 2em 3em 2em;
+  padding: 3em 2em 0.5em 2em;
   position: relative;
   color: rgba(0, 0, 0, 0.7);
   border-left: 2px solid rgba(0, 0, 0, 0.3);
@@ -269,6 +269,40 @@ td {
   font-weight: bold;
   color: lightseagreen;
   top: 300px;
+}
+
+.years {
+  display: flex;
+  justify-content: normal;
+}
+
+.years span{
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  color: #409eff;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.active-year {
+  color: white !important;
+  background: #409eff;
+}
+
+.totalHour {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.table-years {
+  margin-left: 30px;
+  margin-top: 17px;
 }
 
 

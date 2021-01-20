@@ -1,0 +1,139 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年08月05日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1596592900717,
+        "table": [
+            {
+                "studyDate": "20200805",
+                "segmentation": "09:00 - 10:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "kgp - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "10:01 - 10:14",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - elf3 读题 看示例",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "10:20 - 10:23",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "axe - elf3 开始复制粘贴的干活 , ok 没问题,再看一下内置的函数及思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "10:38 - 10:49",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - elf3 开始复制粘贴的干活 , ok 没问题,再看一下内置的函数及思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "10:49 - 11:12",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "axe - elf3 继续",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "11:12 - 11:16",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - elf3 继续",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "11:43 - 11:45",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "card - 继续纸牌 先回顾以前前情提要",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "11:45 - 11:55",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "card - 符合规则才可以吸附  否则返回原位 增加 color 和 number 两个属性",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "11:55 - 12:07",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "card - 符合规则才可以吸附  否则返回原位 看 mousemove 的时候能不能获取其他卡牌 思路不对 感觉需要重写 拖拽的逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "14:00 - 14:40",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "kgp -",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "14:48 - 14:55",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "card - 看一下现有的拖拽思路能不能继续做下去 感觉可行 顺着这个思路做下去 写好分步 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "14:58 - 15:03",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "card - 写伪代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "15:10 - 15:34",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "kgp - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "15:40 - 16:12",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "kgp - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "16:16 - 16:39",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "card - 把伪代码转成真代码 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200805",
+                "segmentation": "16:51 - 16:57",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "card - 如果不符合原来条件 返回原来的位置",
+                "expectation": ""
+            }
+        ]
+    }
+]

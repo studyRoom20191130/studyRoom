@@ -1,0 +1,710 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年12月17日",
+        "user": "life",
+        "signature": "打满四节",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "08:15 - 08:35",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "水群 - 爬楼 拯救抑郁症",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "08:37 - 08:58",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "自习室 - 排查问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:00 - 09:32",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "tf - 排查问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:54 - 10:41",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "tf - 更新支付方式样式  搬运代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "11:07 - 11:59",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "tf - 增加结果页",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:00 - 14:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "浪费时间 - 冲浪",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:00 - 14:50",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "水群 - 群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "15:39 - 16:07",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "自习室 - 修改 nav 样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "17:15 - 17:42",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "tf - 整理样式文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "21:37 - 21:41",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "腰椎康复运动-",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "21:50 - 21:56",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "腰椎康复运动-",
+                "expectation": ""
+            }
+        ],
+        "hero": "slark.jpg"
+    },
+    {
+        "userData": "卡-ye869316879",
+        "today": "2020年12月17日",
+        "user": "卡",
+        "signature": "想融入大家",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "19:32 - 20:28",
+                "minuteDuration": 56,
+                "hourDuration": 0.93,
+                "studyContent": "ehco - ",
+                "expectation": ""
+            }
+        ],
+        "hero": ""
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月17日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:26 - 09:41",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - 登录账号 和 同事闲聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:41 - 09:43",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "mo - 吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:53 - 09:53",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 今日计划 - （1.昨天爬楼，整理重点群聊 2.反思晚睡问题 3.跟进fq新需求 4.整理位运算 5.双拼测试）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:07 - 10:07",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "日常 - 刷牙（10min）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:18 - 10:27",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "反思 - 晚睡问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:28 - 10:39",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "mo - 整理位运算",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:05 - 13:05",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - fq 回顾会（上午1.5h）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:14 - 13:28",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "mo - 睡觉 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:46 - 13:46",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 双拼测试 - 最高50",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:48 - 13:53",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "mo - 下载昨日文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:53 - 15:46",
+                "minuteDuration": 113,
+                "hourDuration": 1.88,
+                "studyContent": "mo - 走动和发呆",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "开心开心和点点一样50，进步啦进步啦~\n",
+                "commenter": "LD"
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2020年12月17日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:00 - 09:00",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 爬楼，喝水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:20 - 09:22",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "打字练习 - 补录  43WPM",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:32 - 09:54",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "tf - 素材审核1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:55 - 10:19",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "tf - 稽核日志1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:19 - 11:12",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "tf - 素材审核2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "11:20 - 11:57",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "tf - 素材审核3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "12:10 - 12:27",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:48 - 13:50",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "tf - 稽核日志2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:50 - 14:00",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 稽核日志2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:52 - 15:08",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 稽核日志3√",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "15:08 - 16:58",
+                "minuteDuration": 110,
+                "hourDuration": 1.83,
+                "studyContent": "摸鱼 - 喝水，爬楼！学到虚脱！",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "17:19 - 17:31",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf - 回顾今日需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "17:40 - 18:15",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "打字练习 - 双拼练习 50WPM",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "进步了进步了，开心开心",
+                "commenter": "LD"
+            }
+        ]
+    },
+    {
+        "userData": "亭川-alite180",
+        "today": "2020年12月17日",
+        "user": "亭川",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:36 - 10:21",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "水群 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:22 - 10:54",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "fe 复习 - 5",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:10 - 14:17",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "休息 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:20 - 14:38",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "摸鱼 - 淘宝",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "15:05 - 15:24",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "fe 复习 - 5",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "15:34 - 15:35",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "摸鱼 - 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "15:35 - 15:52",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "fe 复习 - 6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "15:53 - 17:22",
+                "minuteDuration": 89,
+                "hourDuration": 1.48,
+                "studyContent": "摸鱼 - 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "17:22 - 17:51",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "tf - cesium 重构",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "17:51 - 18:12",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "fe 复习 - 6",
+                "expectation": ""
+            }
+        ],
+        "hero": ""
+    },
+    {
+        "userData": "allen-allen",
+        "today": "2020年12月17日",
+        "user": "allen",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:45 - 15:15",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "tf h5 聊天游戏弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "15:36 - 16:51",
+                "minuteDuration": 75,
+                "hourDuration": 1.25,
+                "studyContent": "a4 limitless",
+                "expectation": ""
+            }
+        ],
+        "hero": "slark.jpg"
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年12月17日",
+        "user": "Sean",
+        "signature": "菜就要多花时间",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:18 - 10:33",
+                "minuteDuration": 75,
+                "hourDuration": 1.25,
+                "studyContent": "tf - 改bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:40 - 11:07",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:00 - 14:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:05 - 14:23",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:23 - 14:34",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:34 - 14:57",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "tf - 改改ui",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "15:04 - 16:20",
+                "minuteDuration": 76,
+                "hourDuration": 1.27,
+                "studyContent": "mo - 继续爬",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "16:20 - 16:40",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "mo - 水",
+                "expectation": ""
+            }
+        ],
+        "hero": "ljmk.jpg"
+    },
+    {
+        "userData": "荒-19931002jt",
+        "today": "2020年12月17日",
+        "user": "荒",
+        "signature": "菜 就要有变强的觉悟",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:15 - 10:15",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 早饭、复习群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:15 - 10:25",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "mo - 早饭、复习群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:26 - 10:46",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "mo - 爬楼、复习群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:46 - 11:00",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "工作 - 产品对方案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "11:00 - 11:57",
+                "minuteDuration": 57,
+                "hourDuration": 0.95,
+                "studyContent": "mo - 爬楼、复习聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "12:00 - 12:23",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "吃 - 午饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "12:24 - 12:31",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - 帮忙修个bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "12:32 - 13:00",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "休 - 遛弯",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:00 - 13:24",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "mo - 群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:24 - 14:05",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "休 - 午休",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:05 - 14:23",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:23 - 14:29",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 完善技术文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:29 - 14:42",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "工作 - 接口迁移方案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:43 - 14:47",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - hotfix上线 （先搁置)",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "14:47 - 14:55",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            }
+        ],
+        "hero": ""
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2020年12月17日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:27 - 11:27",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "tf - fix bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "11:43 - 11:59",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "11:59 - 11:59",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "test",
+                "expectation": ""
+            }
+        ],
+        "hero": "blhu3.png"
+    },
+    {
+        "userData": "daimian-daimiandaimian",
+        "today": "2020年12月17日",
+        "user": "daimian",
+        "signature": "<script>console.log('123');</script>",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "08:15 - 08:35",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "水群 - 爬楼 拯救抑郁症",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:44 - 10:54",
+                "minuteDuration": 70,
+                "hourDuration": 1.17,
+                "studyContent": "工作 - ",
+                "expectation": ""
+            }
+        ],
+        "hero": "bynv.jpg"
+    }
+]

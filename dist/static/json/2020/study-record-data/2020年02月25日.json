@@ -1,0 +1,17 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年02月25日",
+        "user": "life",
+        "id": 1582624885085,
+        "table": [
+            {
+                "studyDate": "20200225",
+                "segmentation": "16:40 - 18:01",
+                "minuteDuration": 81,
+                "hourDuration": 1.4,
+                "studyContent": "整理简历"
+            }
+        ]
+    }
+]

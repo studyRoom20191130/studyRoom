@@ -1,0 +1,204 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年06月16日",
+        "user": "life",
+        "signature": "",
+        "id": 1592274858130,
+        "table": [
+            {
+                "studyDate": "20200616",
+                "segmentation": "09:00 - 10:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "tf - 公司培训考核",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "10:00 - 10:34",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "水群 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "10:35 - 11:13",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "axe - lfs 安装虚拟机，电脑自动重启失败了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "11:13 - 11:56",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "axe - lfs 安装虚拟机 + 安装软件，昨天装错位置了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "14:30 - 14:47",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - lfs 创建硬盘并挂载",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "21:19 - 21:53",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "axe - lfs",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年06月16日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1592268957316,
+        "table": [
+            {
+                "studyDate": "20200616",
+                "segmentation": "08:47 - 08:55",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "整理日报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "08:56 - 09:17",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "fe 16 react 3 视频看完，看不进去",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "09:17 - 09:36",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "前端沟通",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "09:36 - 10:09",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "fe17",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "10:09 - 10:17",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "接口更新",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "10:17 - 10:39",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "接口更新:本地测试，提交部署",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "10:40 - 11:25",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "fe17 听课",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "11:26 - 12:02",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "fe17 课 2 看完：promise",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "12:02 - 13:44",
+                "minuteDuration": 102,
+                "hourDuration": 1.7,
+                "studyContent": "吃饭 + 查找租房",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "13:45 - 14:28",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "fe17 听完",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "14:28 - 14:32",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "getAllBusinessLicenseDic 接口文档更新",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "14:33 - 15:20",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "fe-17 作业ok ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "15:20 - 15:37",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "测试问题 OK ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "15:38 - 16:15",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "测试问题 ：处理 ok",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "16:18 - 16:30",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "qq",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "16:31 - 16:42",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "qq",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200616",
+                "segmentation": "16:42 - 17:58",
+                "minuteDuration": 76,
+                "hourDuration": 1.27,
+                "studyContent": "沟通接口问题：统一处理，不依赖上游服务是更好的选择的",
+                "expectation": ""
+            }
+        ]
+    }
+]

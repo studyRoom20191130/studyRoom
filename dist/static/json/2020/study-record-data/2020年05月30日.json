@@ -1,0 +1,132 @@
+[
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年05月30日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1590803261172,
+        "table": [
+            {
+                "studyDate": "20200530",
+                "segmentation": "09:09 - 09:47",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "生成三码：下好了clover configurator\n但是左侧选择 smbios这一步不知道了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "09:48 - 10:19",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "整理昨天的日报\n\n黑苹果完成",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "10:20 - 11:28",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "打扫卫生",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "11:29 - 11:44",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "11:45 - 12:21",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "写一个装黑苹果的注意点",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "12:23 - 13:26",
+                "minuteDuration": 63,
+                "hourDuration": 1.05,
+                "studyContent": "下面吃",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "13:27 - 14:07",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "win 的网卡驱动安装好了，可以搜到手机开的热点，但是不显示家里的路由器[图片]",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "14:44 - 14:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "可能是路由器的问题，直接插网线",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "14:10 - 14:44",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "可能是路由器的问题，直接插网线",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "14:45 - 15:55",
+                "minuteDuration": 70,
+                "hourDuration": 1.17,
+                "studyContent": "折腾如何下载 gta",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "15:55 - 17:32",
+                "minuteDuration": 97,
+                "hourDuration": 1.62,
+                "studyContent": "群里聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "17:32 - 19:29",
+                "minuteDuration": 117,
+                "hourDuration": 1.95,
+                "studyContent": "作业 吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200530",
+                "segmentation": "19:29 - 20:08",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "海贼王",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年05月30日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1590811615507,
+        "table": [
+            {
+                "studyDate": "20200530",
+                "segmentation": "11:57 - 12:06",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - 复习 36 视频",
+                "expectation": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年06月25日",
+        "user": "Sean",
+        "signature": "冲冲冲",
+        "id": 1593078214658,
+        "table": [
+            {
+                "studyDate": "20200625",
+                "segmentation": "16:47 - 17:43",
+                "minuteDuration": 56,
+                "hourDuration": 0.93,
+                "studyContent": "学习 - gitLab",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200625",
+                "segmentation": "17:54 - 18:00",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "学习 - gitLab",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200625",
+                "segmentation": "18:07 - 18:47",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "学习 - gitLab",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200625",
+                "segmentation": "22:57 - 23:15",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "看书 - git",
+                "expectation": ""
+            }
+        ]
+    }
+]

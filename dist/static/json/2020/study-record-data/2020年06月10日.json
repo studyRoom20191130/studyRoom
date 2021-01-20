@@ -1,0 +1,180 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年06月10日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1591754409990,
+        "table": [
+            {
+                "studyDate": "20200610",
+                "segmentation": "09:00 - 10:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "早餐，测试支付页面，看繁花评论",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "19:28 - 20:52",
+                "minuteDuration": 84,
+                "hourDuration": 1.4,
+                "studyContent": "axe - 视频42-1",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年06月10日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1591752676160,
+        "table": [
+            {
+                "studyDate": "20200610",
+                "segmentation": "09:10 - 09:18",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "整理昨天的日报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "09:19 - 09:31",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "写今日 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "09:31 - 10:50",
+                "minuteDuration": 79,
+                "hourDuration": 1.32,
+                "studyContent": "pipe.c 的问题，还是运行起来，提问了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "10:51 - 10:58",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "测试问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "10:58 - 11:40",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "准备上线",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "11:41 - 12:02",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "合代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "12:02 - 12:51",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "12:52 - 12:56",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "看问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "12:57 - 13:19",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "看 chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "13:19 - 13:54",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "睡觉",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "13:55 - 14:51",
+                "minuteDuration": 56,
+                "hourDuration": 0.93,
+                "studyContent": "需求会：黑名单项目重构",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "14:51 - 15:35",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "整理沉龙提的问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "15:35 - 15:44",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "上线",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "15:50 - 16:38",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "理解 pipe.c 作业",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "16:39 - 17:17",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "商户认证优化需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "17:17 - 17:27",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "新建分支",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "17:42 - 17:51",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "测试问题：自己不测，看看页面就知道的",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200610",
+                "segmentation": "17:27 - 17:42",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "理解 shell.c",
+                "expectation": ""
+            }
+        ]
+    }
+]

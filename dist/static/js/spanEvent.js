@@ -1,19 +1,13 @@
 const getGeneralTodo = () => {
-    // 写一些常用事项到 storage 作为初始化
+
+    // 先从本地取， 本地没有再向接口请求， 然后存储到本地
     let generalTodoList = getLocalStorage('generalTodoList')
-    if (!generalTodoList) {
-        generalTodoList =[
-            '看《代码大全》',
-            '看《高级程序设计》',
-            '跟 B 站直播',
-            '看《ES6 标准入门》',
-            '写斧头作业',
-            '看 chat',
-            '复习视频',
-        ]
+    console.log("generalTodoList", generalTodoList)
+    if (generalTodoList === undefined) {
+        // 请求接口
+        generalTodoList = []
         setLocalStorage('generalTodoList', generalTodoList)
     }
-
     let spanNode = ''
     for (let innerHtml of generalTodoList) {
         spanNode += `<span class="general-todo-span">${innerHtml}</span>`
@@ -23,18 +17,12 @@ const getGeneralTodo = () => {
 
     // 无脑复制
     let generalWeeklyTodoList = getLocalStorage('generalWeeklyTodoList')
-    if (!generalWeeklyTodoList) {
-        generalWeeklyTodoList =[
-            '看《代码大全》',
-            '看《高级程序设计》',
-            '跟 B 站直播',
-            '看《ES6 标准入门》',
-            '写斧头作业',
-            '看 chat',
-            '复习视频',
-        ]
+    if (generalWeeklyTodoList === undefined) {
+        // 请求接口
+        generalWeeklyTodoList = []
         setLocalStorage('generalWeeklyTodoList', generalWeeklyTodoList)
     }
+    
     let spanNodeWeekly = ''
     for (let innerHtml of generalWeeklyTodoList) {
         spanNodeWeekly += `<span class="general-todo-span weekly">${innerHtml}</span>`
@@ -133,5 +121,6 @@ const updateDailyTodo  = (target) => {
     window.oldTodo = ''
     generalTodoList.splice(index, 1)
     generalTodoList.unshift(newTodo)
+    console.log("generalTodoList", generalTodoList)
     setLocalStorage(keyName, generalTodoList)
 }

@@ -1,0 +1,376 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年05月11日",
+        "user": "Sean",
+        "signature": "慌也没用, 学吧",
+        "id": 1589156854094,
+        "table": [
+            {
+                "studyDate": "20200511",
+                "segmentation": "08:05 - 08:27",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "原型链与继承",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "08:43 - 08:57",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "原型链与继承",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "14:42 - 15:50",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "写需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "21::00 - 22::30",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "摸索阿里云",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年05月11日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589160472469,
+        "table": [
+            {
+                "studyDate": "20200511",
+                "segmentation": "09:10 - 09:27",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "写 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "09:28 - 11:45",
+                "minuteDuration": 137,
+                "hourDuration": 2.28,
+                "studyContent": "测试bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "11:51 - 13:00",
+                "minuteDuration": 69,
+                "hourDuration": 1.15,
+                "studyContent": "qq + 吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:00 - 13:26",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "查问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:26 - 13:58",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "午睡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:58 - 15:10",
+                "minuteDuration": 72,
+                "hourDuration": 1.2,
+                "studyContent": "需求评审",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "15:10 - 15:40",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "测试 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "15:48 - 17:07",
+                "minuteDuration": 79,
+                "hourDuration": 1.32,
+                "studyContent": "cocoa-TED：添加 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "17:08 - 17:55",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "预习 OpenGL 第一课",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "17:55 - 18:16",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "确认测试问题",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年05月11日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589165835469,
+        "table": [
+            {
+                "studyDate": "20200511",
+                "segmentation": "09:52 - 10:57",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "APP - 自动关锁功能外壳和解决问题 - 中断",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "10:57 - 11:06",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "APP - 解决 bug - 用变量接住字符串很重要",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "11:06 - 11:32",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "APP - 自动关锁功能 - 中断",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:14 - 13:17",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "APP - 自动关锁功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:28 - 13:42",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "APP - 自动关锁功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:43 - 13:58",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "APP - 移植蓝牙连接功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:58 - 14:04",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "周报 - 中断",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "14:04 - 14:09",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "APP - 测试自动关锁",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "14:09 - 14:35",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "周报",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "14:35 - 15:43",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "APP - 测试蓝牙连接功能 - debug",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "15:43 - 16:03",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "APP - 测试蓝牙连接功能",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "16:03 - 17:14",
+                "minuteDuration": 71,
+                "hourDuration": 1.18,
+                "studyContent": "APP - 测试蓝牙连接功能",
+                "expectation": "30"
+            }
+        ]
+    },
+    {
+        "userData": "bourne-123456",
+        "today": "2020年05月11日",
+        "user": "bourne",
+        "signature": "",
+        "id": 1589158751967,
+        "table": [
+            {
+                "studyDate": "20200511",
+                "segmentation": "08:45 - 08:59",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "写todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "09:07 - 09:10",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "更新前端",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "09:21 - 10:26",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "增加登录加密与 token 加密功能",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:34 - 13:41",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "日志比例问题",
+                "expectation": " 15"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:41 - 13:47",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "mac 为空问题",
+                "expectation": " 10"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "13:57 - 14:00",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "排序问题",
+                "expectation": " 5"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "14:06 - 14:46",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "新增/删除/修改任意资产 对应日志问题",
+                "expectation": " 20"
+            }
+        ]
+    },
+    {
+        "userData": "宇直-坚持记录下去！",
+        "today": "2020年05月11日",
+        "user": "宇直",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589160281393,
+        "table": [
+            {
+                "studyDate": "20200511",
+                "segmentation": "09:22 - 09:24",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "写todo",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "09:25 - 10:13",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "小程序2.1.1",
+                "expectation": "50"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "10:14 - 11:05",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "看 opengl 预习",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "11:06 - 11:08",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "小程序2.1.1 新增需求",
+                "expectation": "5"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年05月11日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1589160219470,
+        "table": [
+            {
+                "studyDate": "20200511",
+                "segmentation": "09:13 - 09:23",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "opengl - 预习课件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "09:24 - 09:56",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "tf - 调通接口，添加 md5 摘要，终于调通了。。。",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200511",
+                "segmentation": "10:40 - 11:00",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - 接口提问",
+                "expectation": "20"
+            }
+        ]
+    }
+]

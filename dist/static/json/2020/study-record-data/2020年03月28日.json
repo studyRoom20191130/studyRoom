@@ -1,0 +1,32 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年03月28日",
+        "user": "life",
+        "signature": "只做两件事",
+        "id": 1585384593856,
+        "table": [
+            {
+                "studyDate": "20200328",
+                "segmentation": "16:10 - 16:36",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "axe-作业16"
+            },
+            {
+                "studyDate": "20200328",
+                "segmentation": "16:48 - 17:32",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "axe-看chat"
+            },
+            {
+                "studyDate": "20200328",
+                "segmentation": "18:16 - 18:29",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe-作业16-小作业"
+            }
+        ]
+    }
+]

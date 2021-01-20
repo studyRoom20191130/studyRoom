@@ -1,0 +1,120 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年10月24日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201024",
+                "segmentation": "13:11 - 13:11",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "看书 - 高程",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201024",
+                "segmentation": "11:11 - 12:12",
+                "minuteDuration": 61,
+                "hourDuration": 1.02,
+                "studyContent": "看书 - 高程",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201024",
+                "segmentation": "17:13 - 17:43",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "学习 - guagame",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201024",
+                "segmentation": "18:50 - 19:00",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "学习 - guagame",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "卡-ye869316879",
+        "today": "2020年10月24日",
+        "user": "卡",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201024",
+                "segmentation": "13:10 - 15:05",
+                "minuteDuration": 115,
+                "hourDuration": 1.92,
+                "studyContent": "用 RxJS 实现视频小窗拖拽功能完成，用到了 filter、map、takeUntil,concatAll,withLatestFrom 操作符，后面三个虽然会用了但一知半解。",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年10月24日",
+        "user": "life",
+        "signature": "每天一小时",
+        "table": [
+            {
+                "studyDate": "20201024",
+                "segmentation": "23:53 - 00:27",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "自习室 - 解决 0 点时候因为没有创建当天文件而报错的bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201024",
+                "segmentation": "00:27 - 01:02",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "自习室 - 解决进度条错乱，之前有实现了的函数，因为不愿意静下心来想，所以多花了几倍的冤枉时间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201024",
+                "segmentation": "01:02 - 01:09",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "自习室 - 更新点击右边今日计划自动更新到输入框的功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201024",
+                "segmentation": "01:09 - 01:12",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "自习室 - 更新",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "life聚聚辛苦了",
+                "commenter": "hello"
+            }
+        ]
+    },
+    {
+        "userData": "hello-坚持记录下去！",
+        "today": "2020年10月24日",
+        "user": "hello",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201024",
+                "segmentation": "14:19 - 14:37",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "vue-element-admin 代码结构和用法",
+                "expectation": ""
+            }
+        ]
+    }
+]

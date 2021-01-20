@@ -9,8 +9,9 @@ const bodyParser = require('body-parser')
 const nodemailer = require('nodemailer');
 const app = express()
 
-const todoList = []
+const jsonFilePath = './static/json'
 
+global.year = new Date().getFullYear()
 
 app.use(express.static('static'))
 // app.use(express.static(path.join('static', 'public'),{maxAge:1000*60*60*24*90}));
@@ -21,7 +22,7 @@ const createMailContent = (mailUsers) => {
     let users = mailUsers
     let html = `<div style="display: flex;flex-wrap: wrap">`
     for (const user of users) {
-        let fileName = `./static/user-data/${user}.json`
+        let fileName = `${jsonFilePath}/${global.year}/user-data/${user}.json`
 
         let dataArray = fs.readFileSync(fileName,'utf-8');
         dataArray = JSON.parse(dataArray)
@@ -121,7 +122,7 @@ app.get('/', (request, response) => {
 app.post('/removeOfflineUser', (request, response) => {
     try {
         let user = request.body.user
-        let fileName = `./static/online-list/user.json`
+        let fileName = `${jsonFilePath}/online-list/user.json`
         let data = fs.readFileSync(fileName,'utf-8');
         let dataList = JSON.parse(data)
         if (dataList.includes(user)) {
@@ -138,7 +139,7 @@ app.post('/removeOfflineUser', (request, response) => {
 
 app.post('/getOnlineUser', (request, response) => {
     let user = request.body.user
-    let fileName = `./static/online-list/user.json`
+    let fileName = `${jsonFilePath}/online-list/user.json`
     let data = fs.readFileSync(fileName,'utf-8');
     try {
         let dataList = JSON.parse(data)
@@ -172,14 +173,14 @@ app.post('/login', (request, response) => {
     let username = body.username
     let userData = username + '-' + body.password
 
-    fs.readdir("./static/user-data",function (err, data) {
+    fs.readdir(`${jsonFilePath}/${global.year}/user-data`,function (err, data) {
         if(err){
             response.send(err)
             return;
         }else {
             let uesrNotExist = !(data.includes(username +'.json'))
             if (uesrNotExist) {
-                let fileName = `./static/user-data/${username}.json`
+                let fileName = `${jsonFilePath}/${global.year}/user-data/${username}.json`
                 writeFile(fileName, '')
             }
         }
@@ -190,7 +191,7 @@ app.post('/login', (request, response) => {
 const getAvatarOrWeapon = (user, directoryName) => {
     let isWeapon = directoryName === 'weapon'
     let filename =  isWeapon ?
-        `./static/weapon/weaponMapper.json`  :  `./static/hero/${user}.txt`
+        `${jsonFilePath}/weapon/weaponMapper.json`  :  `${jsonFilePath}/hero/${user}.txt`
     let data = ''
     try {
         data = fs.readFileSync(filename,'utf-8')
@@ -203,34 +204,56 @@ const getAvatarOrWeapon = (user, directoryName) => {
     return data
 }
 
+const getTotalHourObj = (user) => {
+    let path = `${jsonFilePath}/todo-count/${user}.json`
+    let list = fs.readdirSync(`${jsonFilePath}/todo-count`,'utf-8')
+    let fileNotExist = !(list.includes(user +'.json'))
+    if (fileNotExist) {
+        writeFile(path, JSON.stringify({}))
+        return {}
+    }
+    let data = fs.readFileSync(path,'utf-8')
+    let totalHourObj = JSON.parse(data)
+    return totalHourObj
+}
 
 
 app.post('/getPersonalStudyData', (request, response) => {
-    let user = request.body.user
-    let fileName = `./static/user-data/${user}.json`
-    fs.readFile(fileName, 'utf-8', function (err,data) {
-        if (err) {
-            console.log(err);
-        } else {
-            let dataArray = []
-            if (data) {
-                dataArray = JSON.parse(data)
-                let [totalHourObj, d] = showTotalHour(dataArray)
-                let num = request.body.num || 30
-                dataArray = processPersonalStudyData(dataArray, num)
-                // 把签名和英雄带上
-                let signature = fs.readFileSync(`./static/signature/${user}.txt`,'utf-8');
-                let hero = getAvatarOrWeapon(user, 'hero')
+    let {user, year}  = request.body
+    let userList = [ '点点',
+        'LD',
+        'Sean',
+        'life',
+        '亭川',
+        '荒',
+        'Ly',
+    ]
+    if (year < 2021 && !(userList.includes(user))) {
+        response.send([])
+        return
 
-                dataArray[0].signature = signature
-                dataArray[0].hero = hero
-                //在后端直接算好 echarts 需要的数据
+    }
+    let fileName = `${jsonFilePath}/${year}/user-data/${user}.json`
+    let dataArray = []
+    let data = fs.readFileSync(fileName,'utf-8')
+    if (data) {
+        dataArray = JSON.parse(data)
+        // let [totalHourObj, d] = showTotalHour(dataArray)
+        totalHourObj = getTotalHourObj(user)
+        let num = request.body.num || 30
+        dataArray = processPersonalStudyData(dataArray, num)
+        // 把签名和英雄带上
 
-                dataArray[0].totalHourObj = totalHourObj
-            }
-            response.send(dataArray)
-        }
-    })
+        let signature = fs.readFileSync(`${jsonFilePath}/signature/${user}.txt`,'utf-8')
+        let hero = getAvatarOrWeapon(user, 'hero')
+
+        dataArray[0].signature = signature
+        dataArray[0].hero = hero
+        //在后端直接算好 echarts 需要的数据
+
+        dataArray[0].totalHourObj = totalHourObj
+    }
+    response.send(dataArray)
 })
 
 const processPersonalStudyData = (dataArray, num) => {
@@ -272,96 +295,121 @@ const showTotalHour = (list) => {
 }
 
 const getSignature = (user) => {
-    let signaturePath = `./static/signature/${user}.txt`
+    let signaturePath = `${jsonFilePath}/signature/${user}.txt`
     fs.readFileSync(signaturePath, 'utf-8', function (err,data) {
         let signature = data || ''
         return signature
     })
 }
 
+const updateUserInfo = (user, userObj, yearlyObj) => {
+    let signature = fs.readFileSync(`${jsonFilePath}/signature/${user}.txt`,'utf-8')
+    let hero = getAvatarOrWeapon(user, 'hero')
+    let weapon = getAvatarOrWeapon(user, 'weapon')
+    userObj.signature = signature
+    userObj.hero = hero
+    userObj.weapon = weapon
+    userObj.yearlyObj = yearlyObj
+    return userObj
+}
+
+const updateUserData = (requestObj) => {
+    let fileName = `${jsonFilePath}/${global.year}/user-data/${requestObj.user}.json`
+    let data = fs.readFileSync(fileName,'utf-8')
+    let dataList = []
+    if (data) {
+        dataList = JSON.parse(data)
+    }
+    let init = dataList.length === 0
+    if (init) {
+        dataList.unshift(requestObj)
+    } else {
+        let todayObj = dataList[0]
+        if (todayObj.today === requestObj.today) {
+            todayObj.table.push(requestObj.table[0])
+            dataList[0] = todayObj
+        } else {
+            dataList.unshift(requestObj)
+        }
+    }
+    let t = JSON.stringify(dataList, null, '    ')
+    writeFile(fileName, t)
+    return dataList[0]
+}
+
+const updateRecordData = (requestObj, todayObj, yearlyObj, response) => {
+    let fileName = `${jsonFilePath}/${global.year}/study-record-data/${requestObj.today}.json`
+    let data = fs.readFileSync(fileName,'utf-8')
+    let dataArray = []
+    if (data) {
+        dataArray = JSON.parse(data)
+    }
+    let a = []
+    for (const index in dataArray) {
+        let obj = dataArray[index]
+        if (obj.userData.split('-')[0].trim() !== requestObj.userData.split('-')[0].trim() ) {
+            a.push(obj)
+        }
+    }
+    // 每次都替换一下 签名 和 头像 和年度计划
+    let userObj = updateUserInfo(requestObj.user, todayObj, yearlyObj)
+    a.unshift(userObj)
+    let d = JSON.stringify(a, null, '    ')
+    writeFile(fileName, d)
+    response.send(a)
+}
+
+const updateTotalHour= (requestObj) => {
+    let latestRecord = requestObj.table[0]
+    let {studyContent, hourDuration} = latestRecord
+    let totalObj = getTotalHourObj(requestObj.user)
+    let obj = totalObj[global.year]
+    if (studyContent.includes('-')) {
+        let totalObj = getTotalHourObj(requestObj.user)
+        let obj = totalObj[global.year]
+        let index = studyContent.indexOf('-')
+        let key = studyContent.slice(0, index).trim()
+        if (key in obj) {
+            obj[key] += hourDuration
+        } else {
+            obj[key] = hourDuration
+        }
+        totalObj[global.year] = obj
+        let path = `${jsonFilePath}/todo-count/${requestObj.user}.json`
+        writeFile(path, JSON.stringify(totalObj, null, '    '))
+    }
+    return obj
+}
+
 
 app.post('/sendRecordData', (request, response) => {
     let requestObj = request.body
-    let fileName = `./static/user-data/${requestObj.user}.json`
-    let signature = fs.readFileSync(`./static/signature/${requestObj.user}.txt`,'utf-8')
-    let hero = getAvatarOrWeapon(requestObj.user, 'hero')
-    let weapon = getAvatarOrWeapon(requestObj.user, 'weapon')
-    fs.readFile(fileName, 'utf-8', function (err,data) {
-        if(err){
-            console.log(err);
-        }else {
-            let dataList = []
-            if (data) {
-                dataList = JSON.parse(data)
-            }
-            let init = dataList.length === 0
-            if (init) {
-                dataList.unshift(requestObj)
-            } else {
-                let todayObj = dataList[0]
-                if (todayObj.today === requestObj.today) {
-                    todayObj.table.push(requestObj.table[0])
-                    dataList[0] = todayObj
-                } else {
-                    dataList.unshift(requestObj)
-                }
+    let todayObj = updateUserData(request.body)
+    makeSureTodayFileExist(requestObj.today)
+    let yearlyObj = updateTotalHour(requestObj)
+    console.log("yearlyObj", yearlyObj)
+    updateRecordData(requestObj, todayObj, yearlyObj, response)
 
-            }
-            let t = JSON.stringify(dataList, null, '    ')
-            writeFile(fileName, t)
-
-
-            makeSureTodayFileExist(requestObj.today)
-            let path = `./static/study-record-data/${requestObj.today}.json`
-            fs.readFile(path, 'utf-8', function (err,data) {
-                if(err){
-                    console.log(err);
-                }else {
-                    let dataArray = []
-                    if (data) {
-                        dataArray = JSON.parse(data)
-                    }
-
-                    for (const index in dataArray) {
-                        let obj = dataArray[index]
-                        if (obj.userData === requestObj.userData) {
-                            dataArray.splice(index, 1)
-                        }
-                    }
-                    // 每次都替换一下 签名 和 头像
-                    dataList[0].signature = signature
-                    dataList[0].hero = hero
-                    dataList[0].weapon = weapon
-
-                    dataArray.unshift(dataList[0])
-                    let d = JSON.stringify(dataArray, null, '    ')
-                    writeFile(path, d)
-                    response.send(dataArray)
-                }
-            })
-        }
-    })
 })
 
 const makeSureTodayFileExist = (today) => {
-    let path = `./static/study-record-data`
+    let path = `${jsonFilePath}/${global.year}/study-record-data`
     let data = fs.readdirSync(path)
     let fileNotExist = !(data.includes(today+'.json'))
 
     if (fileNotExist) {
-        let fileName = `./static/study-record-data/${today}.json`
+        let fileName = `${jsonFilePath}/${global.year}/study-record-data/${today}.json`
         writeFile(fileName, '')
         // 每天重置在线同学的列表
-        writeFile('./static/online-list/user.json', JSON.stringify([]))
+        writeFile('${jsonFilePath}/online-list/user.json', JSON.stringify([]))
         // 每天重置装备列表
-        writeFile('./static/weapon/weaponMapper.json', JSON.stringify({}))
+        writeFile('${jsonFilePath}/weapon/weaponMapper.json', JSON.stringify({}))
     }
 }
 
 app.post('/sendComment', (request, response) => {
     let requestObj = request.body
-    let today = requestObj.today
-    let fileName = `./static/user-data/${requestObj.user}.json`
+    let fileName = `${jsonFilePath}/${global.year}/user-data/${requestObj.user}.json`
     fs.readFile(fileName, 'utf-8', function (err,data) {
         if(err){
             console.log(err);
@@ -386,7 +434,7 @@ app.post('/sendComment', (request, response) => {
             let s = requestObj.commentTime.slice(0, 10).split('-')
             let today = s[0] + '年' + s[1] + '月' + s[2] + '日'
             makeSureTodayFileExist(today)
-            let path = `./static/study-record-data/${today}.json`
+            let path = `${jsonFilePath}/${global.year}/study-record-data/${today}.json`
             fs.readFile(path, 'utf-8', function (err,data) {
                 if(err){
                     console.log(err);
@@ -399,7 +447,8 @@ app.post('/sendComment', (request, response) => {
                             dataArray.splice(index, 1)
                         }
                     }
-                    dataArray.unshift(dataList[0])
+                    let userObj = updateUserInfo(requestObj.user, dataList[0])
+                    dataArray.unshift(userObj)
                     let d = JSON.stringify(dataArray, null, '    ')
                     writeFile(path, d)
                     response.send(dataArray)
@@ -413,18 +462,17 @@ app.post('/getStudyDataList', (request, response) => {
     let body = request.body
     let user = body.user
     let recordData = ''
-
-    fs.readdir("./static/study-record-data",function (err, data) {
+    fs.readdir(`${jsonFilePath}/${global.year}/study-record-data`,function (err, data) {
         if(err){
             response.send(err)
             return;
         }else {
-            getTodayAllData(response, recordData, data, body.today)
+            getTodayAllData(response, recordData, data, body)
         }
     })
 
-    fs.readdir("./static/signature",function (err, data) {
-        let fileName = `./static/signature/${user}.txt`
+    fs.readdir(`${jsonFilePath}/signature`,function (err, data) {
+        let fileName = `${jsonFilePath}/signature/${user}.txt`
         let uesrNotExist = !(data.includes(user +'.txt'))
         if (uesrNotExist) {
             writeFile(fileName, '')
@@ -433,33 +481,42 @@ app.post('/getStudyDataList', (request, response) => {
 })
 
 
-const makeSureUsersWeeklyReport = (today) => {
-    let users = [ '点点',
-        'LD',
-        'Sean',
-        '黑白灰',
-        'life',
-        '东斌',
-        '亭川',
-        '古泽',
-        'daimian',
-        'Ly',
-        '卡']
-    for (const user of users) {
-        let fileName = `./static/user-data/${user}.json`
-        let dataList = fs.readFileSync(fileName,'utf-8')
-        dataList = JSON.parse(dataList)
-        let todayRecord = {...dataList[0]}
-        todayRecord.today = today
-        todayRecord.table = []
-        dataList.unshift(todayRecord)
-        let t = JSON.stringify(dataList, null, '    ')
-        writeFile(fileName, t)
-    }
-}
+app.post('/updatePlan', (request, response) => {
+    let body = request.body
+    let {
+        type,
+        user,
+        planList,
+    } = body
+    let path = `${jsonFilePath}/${global.year}/user-${type}-plan`
+    let data = fs.readdirSync(path)
+    let fileNotExist = !(data.includes(user +'.json'))
+    let fileName = `${jsonFilePath}/${global.year}/user-${type}-plan/${user}.json`
+    writeFile(fileName, JSON.stringify(planList, null, '    '))
+    response.send('')
+})
 
-const getTodayAllData = (response, recordData, data, today) => {
-    let fileName = `./static/study-record-data/${today}.json`
+app.post('/getPlan', (request, response) => {
+    let body = request.body
+    let {
+        type,
+        user,
+    } = body
+    let path = `${jsonFilePath}/${global.year}/user-${type}-plan`
+    let data = fs.readdirSync(path)
+    let fileNotExist = !(data.includes(user +'.json'))
+    if (fileNotExist) {
+        response.send([])
+        return
+    }
+    let fileName = `${jsonFilePath}/${global.year}/user-${type}-plan/${user}.json`
+    let list = fs.readFileSync(fileName,'utf-8')
+    response.send(JSON.parse(list))
+})
+
+const getTodayAllData = (response, recordData, data, body) => {
+    let  {today, user} = body
+    let fileName = `${jsonFilePath}/${global.year}/study-record-data/${today}.json`
 
     let uesrNotExist = !(data.includes(today+'.json'))
 
@@ -467,9 +524,9 @@ const getTodayAllData = (response, recordData, data, today) => {
 
         writeFile(fileName, '')
         // 每天重置在线同学的列表
-        writeFile('./static/online-list/user.json', JSON.stringify([]))
+        writeFile(`${jsonFilePath}/online-list/user.json`, JSON.stringify([]))
         // 每天重置装备列表
-        writeFile('./static/weapon/weaponMapper.json', JSON.stringify({}))
+        writeFile(`${jsonFilePath}/weapon/weaponMapper.json`, JSON.stringify({}))
         // 每天给成员生成对应的文件
         // makeSureUsersWeeklyReport(today)
     } else {
@@ -477,22 +534,41 @@ const getTodayAllData = (response, recordData, data, today) => {
             if(err){
                 console.log(err);
             }else {
-
-                response.send(data.toString())
+                // 实际应该分接口的， 但还是合到一个接口吧
+                // 找到 user 把装备内容写进去
+                if (data.length != 0) {
+                    data = updateWeapon(data, user)
+                }
+                response.send(data)
             }
         })
     }
 }
 
+const updateWeapon = (data, user) => {
+    data = JSON.parse(data)
+    let weapon = getAvatarOrWeapon(user, 'weapon')
+    let signature = fs.readFileSync(`${jsonFilePath}/signature/${user}.txt`,'utf-8')
+
+    for (const datum of data) {
+        let u = datum.userData.split('-')[0]
+        if (user === u) {
+            datum.signature = signature
+            datum.weapon = weapon
+        }
+    }
+    return JSON.stringify(data)
+}
+
 app.post('/saveSignature', (request, response) => {
     let {signature, user} = request.body
 
-    fs.readdir("./static/signature",function (err, data) {
+    fs.readdir(`${jsonFilePath}/signature`,function (err, data) {
         if(err){
             response.send(err)
             return;
         }else {
-            let fileName = `./static/signature/${user}.txt`
+            let fileName = `${jsonFilePath}/signature/${user}.txt`
             // let uesrNotExist = !(data.includes(today+'.json'))
             // if (uesrNotExist) {
             //     writeFile(fileName, signature)
@@ -505,12 +581,12 @@ app.post('/saveSignature', (request, response) => {
 
 app.post('/chooseHero', (request, response) => {
     let {hero, user} = request.body
-    fs.readdir("./static/hero",function (err, data) {
+    fs.readdir(`${jsonFilePath}/hero`,function (err, data) {
         if(err){
             response.send(err)
             return;
         }else {
-            let fileName = `./static/hero/${user}.txt`
+            let fileName = `${jsonFilePath}/hero/${user}.txt`
             writeFile(fileName, hero)
         }
     })
@@ -519,7 +595,7 @@ app.post('/chooseHero', (request, response) => {
 
 app.post('/chooseWeapon', (request, response) => {
     let {user, weapon} = request.body
-    let fileName = './static/weapon/weaponMapper.json'
+    let fileName = `${jsonFilePath}/weapon/weaponMapper.json`
     let weaponMapper = fs.readFileSync(fileName,'utf-8')
     weaponMapper = JSON.parse(weaponMapper)
     let w = weapon + '-'
@@ -538,7 +614,7 @@ app.post('/chooseWeapon', (request, response) => {
 
 app.post('/dailyReport', (request, response) => {
     let user = request.body.user
-    let fileName = `./static/user-data/${user}.json`
+    let fileName = `${jsonFilePath}/${global.year}/user-data/${user}.json`
     fs.readFile(fileName, 'utf-8', function (err,data) {
         if (err) {
             console.log(err);

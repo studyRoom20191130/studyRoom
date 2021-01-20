@@ -1,0 +1,123 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年08月31日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1598839689498,
+        "table": [
+            {
+                "studyDate": "20200831",
+                "segmentation": "09:41 - 10:08",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "wa - 确定快速版框架",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "09:30 - 10:10",
+                "minuteDuration": 40,
+                "hourDuration": 0.66,
+                "studyContent": "wa - 确定快速班内容",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "10:19 - 10:37",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "wa - 分享资料",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "11:03 - 11:34",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "axe - c.9 重做最后一题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "11:41 - 11:55",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - c.10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "11:56 - 12:04",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - c.11",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "14:39 - 14:54",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "axe - c.11 -1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "14:54 - 15:04",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "axe - c.11 -2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "15:16 - 15:24",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - c.11 -2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "15:27 - 15:48",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - c.11 -3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "16:02 - 16:32",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "axe - c.11 -3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "16:32 - 16:46",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - c.11 -3 看一下之前怎么做的",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "17:36 - 18:01",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "axe - c.11 -4",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200831",
+                "segmentation": "20:40 - 21:03",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "axe - c.11 -5",
+                "expectation": ""
+            }
+        ]
+    }
+]

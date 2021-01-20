@@ -1,0 +1,75 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年07月28日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1595906183142,
+        "table": [
+            {
+                "studyDate": "20200728",
+                "segmentation": "11:12 - 11:16",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - 回顾之前的所有作业",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200728",
+                "segmentation": "11:18 - 11:42",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "axe - 55.3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200728",
+                "segmentation": "14:16 - 14:44",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "axe - 55.3 重做，写一点测一点",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200728",
+                "segmentation": "15:22 - 15:36",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - 55.3 看逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200728",
+                "segmentation": "15:36 - 15:46",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "axe - 55.4",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200728",
+                "segmentation": "16:07 - 16:28",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - 盒模型 超前作业",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200728",
+                "segmentation": "16:52 - 16:53",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "axe - 盒模型 超前作业 读题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200728",
+                "segmentation": "17:25 - 18:00",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "axe - 盒模型 超前作业 躺 chat",
+                "expectation": ""
+            }
+        ]
+    }
+]

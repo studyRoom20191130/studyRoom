@@ -1,0 +1,109 @@
+[
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2020年12月20日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20201220",
+                "segmentation": "15:10 - 16:02",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "考试 - 学生手册",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201220",
+                "segmentation": "16:04 - 16:42",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "摸鱼 - 爬楼 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201220",
+                "segmentation": "16:45 - 17:27",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "打字练习 - 英文 53WPM",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201220",
+                "segmentation": "17:27 - 18:32",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "打字练习 - 双拼 45WPM",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201220",
+                "segmentation": "19:00 - 20:30",
+                "minuteDuration": 90,
+                "hourDuration": 1.5,
+                "studyContent": "考试 - 就业指导考试",
+                "expectation": ""
+            }
+        ],
+        "hero": ""
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年12月20日",
+        "user": "Sean",
+        "signature": "菜就要多花时间",
+        "table": [
+            {
+                "studyDate": "20201220",
+                "segmentation": "14:11 - 14:47",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "锻炼 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201220",
+                "segmentation": "14:53 - 15:10",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "锻炼 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201220",
+                "segmentation": "15:11 - 15:24",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "打字 - 三字词15",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201220",
+                "segmentation": "17:43 - 18:13",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "打字 - 四字词2",
+                "expectation": ""
+            }
+        ],
+        "hero": "ljmk.jpg"
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年12月20日",
+        "user": "life",
+        "signature": "打满四节",
+        "table": [
+            {
+                "studyDate": "20201220",
+                "segmentation": "16:17 - 16:17",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "团建",
+                "expectation": ""
+            }
+        ],
+        "hero": "slark.jpg"
+    }
+]

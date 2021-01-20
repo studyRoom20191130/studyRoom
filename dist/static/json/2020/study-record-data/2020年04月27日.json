@@ -1,0 +1,341 @@
+[
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年04月27日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1587952542069,
+        "table": [
+            {
+                "studyDate": "20200427",
+                "segmentation": "09:39 - 09:55",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "todo",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "10:01 - 10:15",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "完善日报模板",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "10:15 - 10:25",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "完善日报模板",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "10:25 - 10:38",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "想想日报的问题",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "10:38 - 10:41",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "完善日报模板",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "10:42 - 10:58",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "预备工作 - 新 APP 前端有哪些需求",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "10:59 - 11:13",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "预备工作 - 沟通确定需求",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "11:13 - 11:25",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "预备工作 - 页面安排",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "11:25 - 11:35",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "预备工作 - 沟通页面需求",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "11:35 - 12:42",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "吃饭 - 群聊",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "12:42 - 13:15",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "午休",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "13:15 - 13:36",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "群聊",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "13:37 - 14:11",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "APP 增加提示",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "14:29 - 14:56",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "APP bug - 登陆提示",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "15:03 - 15:56",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "APP bug - 倾斜角",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "16:11 - 16:42",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "APP bug - 增加提示",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "16:43 - 16:50",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "APP bug - 电量换算",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "16:52 - 17:08",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "APP bug - 输入和格式问题",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "17:15 - 18:00",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "debug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "20:48 - 20:58",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "axe29.1 - 题意理解",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "20:58 - 21:33",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "axe29.1 - 看 chat",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "21:34 - 23:53",
+                "minuteDuration": 139,
+                "hourDuration": 2.32,
+                "studyContent": "axe29.1 - 抱团写作业",
+                "expectation": "60"
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年04月27日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1587951342156,
+        "table": [
+            {
+                "studyDate": "20200427",
+                "segmentation": "09:10 - 09:30",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "作业 29",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "09:36 - 11:48",
+                "minuteDuration": 132,
+                "hourDuration": 2.2,
+                "studyContent": "作业 29 完成",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "11:49 - 14:05",
+                "minuteDuration": 136,
+                "hourDuration": 2.27,
+                "studyContent": "QQ + 午休",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "14:05 - 16:07",
+                "minuteDuration": 122,
+                "hourDuration": 2.03,
+                "studyContent": "本地测试邮件功能：重试，内容",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "16:10 - 16:50",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "本地测试邮件功能：发送钉钉通知",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "17:11 - 17:22",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "线上问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "17:22 - 17:47",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "fe11 预习",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年04月27日",
+        "user": "life",
+        "signature": "",
+        "id": 1587954514746,
+        "table": [
+            {
+                "studyDate": "20200427",
+                "segmentation": "09:31 - 10:28",
+                "minuteDuration": 57,
+                "hourDuration": 0.95,
+                "studyContent": "tf - 三证页面样式调整，增加展示元素",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "10:34 - 11:07",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "tf - 底部添加文本",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "11:35 - 11:39",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "tf - 点击号码唤起呼叫",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "11:45 - 12:00",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "tf - 增加协议弹窗",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "14:27 - 15:04",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "tf - 三证页面接口字段复制粘贴",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "15:13 - 15:59",
+                "minuteDuration": 46,
+                "hourDuration": 0.77,
+                "studyContent": "tf - 表单校验",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "16:09 - 16:21",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf - 把底部区域弄成组件",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "16:54 - 17:09",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "tf - 其他卡支付逻辑",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "17:11 - 17:23",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf - 已签约绑卡逻辑-样式调整",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200427",
+                "segmentation": "17:24 - 17:46",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "tf - 根据后端数据展示卡",
+                "expectation": "10"
+            }
+        ]
+    }
+]

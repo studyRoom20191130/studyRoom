@@ -1,0 +1,718 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年11月17日",
+        "user": "Sean",
+        "signature": "想当个自习室龙王",
+        "table": [
+            {
+                "studyDate": "20201117",
+                "segmentation": "08:27 - 08:30",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "tf - 日报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "08:31 - 08:37",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸 - 今日计划:一 tf 4个bug; 二 guagame 打砖块完成; 三 高程 19表单脚本",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "08:44 - 08:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸 - 今日计划:四 整理笔记到云笔记",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:12 - 09:14",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "tf - 正式测试支付",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:15 - 09:28",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "tf -  课程默认所有",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:30 - 09:41",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf -  课程购买前判断",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:43 - 10:00",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "摸 - 喝水, 走走, 厕所",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:02 - 10:22",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - bug2 课程购买前判断",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:23 - 10:58",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "tf - bug3 验证码注册",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "11:02 - 11:38",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "tf - bug2 课程购买前判断",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "11:42 - 11:51",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - bug2 课程购买前判断",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:37 - 14:31",
+                "minuteDuration": 54,
+                "hourDuration": 0.9,
+                "studyContent": "tf - 精简协议; ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:31 - 14:52",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "tf - 优化判断",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:52 - 15:30",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "摸 - 休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:15 - 16:15",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "15:30 - 16:15",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:15 - 16:43",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "摸 - 水群 休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:44 - 17:00",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 打包正式; 蓝湖新页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "17:40 - 18:07",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "摸 - 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "18:15 - 18:40",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "摸 - 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "20:53 - 21:26",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "锻炼  - ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2020年11月17日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:06 - 10:05",
+                "minuteDuration": 59,
+                "hourDuration": 0.98,
+                "studyContent": "提问 -  搜索对应方案，填表格，组织语言, 得到解决方案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:12 - 10:15",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "tf -  看聚聚们提供的方法选择一种 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:15 - 12:04",
+                "minuteDuration": 109,
+                "hourDuration": 1.82,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:14 - 14:38",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "提问 - 问题总结",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:39 - 14:57",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "摸鱼 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:58 - 15:41",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "tf - 企业管理表单加编辑头像",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "15:42 - 16:26",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "摸鱼 - 喝水，爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:26 - 16:41",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "tf - 节目管理页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:57 - 17:13",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 节目管理页面-分页/查询接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "17:14 - 17:50",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "tf - 节目管理页面-表单/添加/编辑/删除功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "17:50 - 17:52",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "20:45 - 21:20",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "打字练习 - 双拼/英文 25/53WPM",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年11月17日",
+        "user": "life",
+        "signature": "10分钟一个 todo，加大强度",
+        "table": [
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:03 - 09:14",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf - 展示支付方式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:14 - 09:15",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "tf - 装个 gif 软件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:15 - 09:20",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "tf - 录制demo演示视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:22 - 09:31",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 修复两个缺陷",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:31 - 09:45",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "tf - 修缺陷",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:45 - 10:21",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "tf - 修·缺陷",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:56 - 11:13",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - 看一下 chat 整理需要回炉重练的项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "11:45 - 12:02",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "tf - 修复缺陷",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:06 - 13:26",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - 修复缺陷",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:39 - 13:44",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "tf - 支付方式滚动\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:44 - 14:31",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "tf - 结果页",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "15:44 - 16:13",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "fe作业 - 第三课",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:13 - 16:17",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "fe作业 - 第三课 对答案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:29 - 16:57",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "fe作业 - 第 4 课",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:57 - 17:03",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "fe作业 - 第 4 课 对答案",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "黑白灰-kbc123456",
+        "today": "2020年11月17日",
+        "user": "黑白灰",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:00 - 16:52",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "tf - ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "东斌-1",
+        "today": "2020年11月17日",
+        "user": "东斌",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:30 - 10:30",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "tf - 看需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:40 - 12:00",
+                "minuteDuration": 80,
+                "hourDuration": 1.33,
+                "studyContent": "tf - 和产品确认及讨论问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:00 - 13:30",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "摸 - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:40 - 14:43",
+                "minuteDuration": 63,
+                "hourDuration": 1.05,
+                "studyContent": "tf - 页面布局适配 按需求拆分文件夹 拆组件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:43 - 15:04",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "摸 - 水群 休息 喝水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "16:00 - 16:50",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "tf - 按需求写配置文件, 上下部分的适配",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月17日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:03 - 09:04",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "计划 - 今日计划（1.mh 开发 2.wfn接口联调 3.fq整理）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:04 - 09:08",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:10 - 09:11",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - mh 整理需添加的需求（1.添加按钮 2.添加字段 3.自助页面优化高度）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:11 - 09:16",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - mh 添加按钮",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:16 - 09:20",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - mh 添加字段",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:20 - 09:25",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - mh 添加弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:26 - 09:36",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "日常 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:36 - 10:01",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "工作 - mh 添加弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:01 - 10:04",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 自助页面优化高度",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:09 - 10:14",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - mh 接口名称对接修改\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:14 - 10:19",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - mh 代码上传和部署\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:20 - 10:24",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:24 - 10:30",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - wfn -和同事沟通接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:30 - 10:49",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "工作 - wfn - 个人信息添加渠道",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:49 - 10:52",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - wfn - 修改渠道传参",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:52 - 11:05",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "工作 - wfn - 显示修改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "11:05 - 11:33",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "工作 - wfn - 工号显示",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "11:33 - 11:35",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "日常 - 发票",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:09 - 13:16",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - wfn - 对应渠道不显示某些字段",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:18 - 13:24",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - wfn - 校验渠道是否填写",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:25 - 13:34",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - wfn - 个人信息页面校验渠道是否填写",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:35 - 13:38",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - wfn - 个人信息页面员工工号必填",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:55 - 13:55",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 补充 - jsinfo 文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:22 - 14:36",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "工作 - mh - 比较新旧页面，更新插件修复未校验文件问题\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:44 - 14:45",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - mh - 提交代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "15:03 - 15:06",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "查询 - 搜索本地请求抓包表现",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "棒！",
+                "commenter": "life"
+            },
+            {
+                "comment": "效率好高呀！学习！",
+                "commenter": "LD"
+            },
+            {
+                "comment": "reply辛苦 life 开发，自习室贼好用",
+                "commenter": "点点",
+                "replyer": "life"
+            },
+            {
+                "comment": "reply学习 ld 快速填表问问题",
+                "commenter": "点点",
+                "replyer": "LD"
+            }
+        ]
+    }
+]

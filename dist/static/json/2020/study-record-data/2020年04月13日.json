@@ -1,0 +1,97 @@
+[
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年04月13日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1586742681935,
+        "table": [
+            {
+                "studyDate": "20200413",
+                "segmentation": "09:39 - 09:51",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "写周报"
+            },
+            {
+                "studyDate": "20200413",
+                "segmentation": "09:51 - 10:05",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "查看一个任务的预研"
+            },
+            {
+                "studyDate": "20200413",
+                "segmentation": "10:07 - 10:41",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "写周报"
+            },
+            {
+                "studyDate": "20200413",
+                "segmentation": "10:57 - 11:00",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "写周报"
+            },
+            {
+                "studyDate": "20200413",
+                "segmentation": "11:02 - 11:19",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "确定新增功能的内容和操作流程"
+            },
+            {
+                "studyDate": "20200413",
+                "segmentation": "11:27 - 11:37",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "确定预览功能的操作流程"
+            },
+            {
+                "studyDate": "20200413",
+                "segmentation": "13:36 - 13:43",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "调试拍照功能"
+            },
+            {
+                "studyDate": "20200413",
+                "segmentation": "14:44 - 15:05",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "添加功能 - 根据运单号填写表单"
+            },
+            {
+                "studyDate": "20200413",
+                "segmentation": "15:18 - 15:49",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "添加功能 - 查看配置信息"
+            },
+            {
+                "studyDate": "20200413",
+                "segmentation": "16:50 - 17:08",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "添加功能 - 收货功能"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年04月13日",
+        "user": "life",
+        "signature": "",
+        "id": 1586750949173,
+        "table": [
+            {
+                "studyDate": "20200413",
+                "segmentation": "11:03 - 12:09",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "axe - 作业 22，总结"
+            }
+        ]
+    }
+]

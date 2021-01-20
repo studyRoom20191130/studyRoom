@@ -1,0 +1,180 @@
+[
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年05月29日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1590714308269,
+        "table": [
+            {
+                "studyDate": "20200529",
+                "segmentation": "08:45 - 09:05",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "整理昨日日报\n上厕所",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "09:05 - 09:16",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "写今日 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "09:17 - 09:47",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "理解 黑苹果装机.txt",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "09:47 - 10:34",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "改线上问题：改了一个方法，依赖这个方法的两个函数使用场景是不同的，我的修改只考虑了一个场景，另一个场景没有测试，上线后发现了错误，要是能测试一下就不会有这样的问题了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "10:35 - 11:06",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "测试修改的问题：测试 OK，send 方法是前一天，resend 是当天，",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "11:07 - 11:23",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "提交代码，合并，打tag 部署测试环境",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "11:23 - 11:32",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "登记上线",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "11:32 - 13:25",
+                "minuteDuration": 113,
+                "hourDuration": 1.88,
+                "studyContent": "吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "13:25 - 13:45",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "爬 qq",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "13:46 - 13:59",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "午睡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "14:03 - 14:51",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "fe-12看板书\n作业-4",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "14:55 - 15:25",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "fe-12作业 5-7",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "15:25 - 16:46",
+                "minuteDuration": 81,
+                "hourDuration": 1.35,
+                "studyContent": "写到扫雷展开函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "16:46 - 17:54",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "写到扫雷展开函数,展开写好，开始看递归展开",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "17:54 - 18:08",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "闲聊",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年05月29日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1590718357974,
+        "table": [
+            {
+                "studyDate": "20200529",
+                "segmentation": "09:00 - 10:12",
+                "minuteDuration": 72,
+                "hourDuration": 1.2,
+                "studyContent": "早餐 听歌 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "10:13 - 10:26",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "tf - 拆分路由",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "10:29 - 11:15",
+                "minuteDuration": 46,
+                "hourDuration": 0.77,
+                "studyContent": "tf - 做 demo",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "14:00 - 14:10",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "了解在线斗地主",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200529",
+                "segmentation": "14:13 - 14:51",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "在线斗地主 - 先弄一个简单 demo 测试一下 socket 长连接",
+                "expectation": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,464 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2021年01月08日",
+        "user": "life",
+        "signature": "不要重蹈覆辙",
+        "table": [
+            {
+                "studyDate": "20210108",
+                "segmentation": "09:08 - 10:18",
+                "minuteDuration": 70,
+                "hourDuration": 1.17,
+                "studyContent": "tf - 写产品手册",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:18 - 10:43",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "休息, 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:43 - 11:04",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - 看作业",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "11:17 - 11:34",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - 做虚拟机作业 生成 256 的memory",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "11:35 - 11:43",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "11:43 - 12:00",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - 写 cpu 的执行逻辑, 先改成 类 的形式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "13:46 - 14:11",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "axe - 写 cpu 的执行逻辑 完成第一条指令的执行",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "14:15 - 14:26",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 写 cpu 的执行逻辑 把 寄存器的存取值抽成函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "14:26 - 14:54",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "axe - 写 cpu 的执行逻辑  完成",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "15:21 - 15:45",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "tf - 截图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "16:13 - 16:21",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "tf - 整理支付流程图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "16:25 - 17:10",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "tf - ppt 调整",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "21:47 - 21:47",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "如何破解周末零学习困局:1.星期五晚上正常时间睡觉2.星期六早上正常时间起床3.明确学习内容:fep的练习4.见缝插针，不要贪多，一天2h算超额完成任务",
+                "expectation": ""
+            }
+        ],
+        "hero": "sf.jpg",
+        "weapon": "rapier_lg.png-rapier_lg.png-rapier_lg.png-rapier_lg.png-"
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月08日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210108",
+                "segmentation": "09:06 - 09:06",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "tf - 登录Qq Wx Ws stu",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "09:30 - 10:00",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "摸鱼 - 期末考试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:00 - 10:30",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "axe4 - chat同步日常",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:30 - 11:00",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "摸鱼 - 爬楼QQ和chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "11:17 - 11:18",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "毕设 - 看课题修改情况 - 无",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "11:46 - 12:08",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "tf - 消息预览1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "14:00 - 15:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "axe4 - 同步父母",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "15:07 - 15:13",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe4 - 交作业 - 创建仓库",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "15:13 - 15:25",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe4 - 交作业 - 提交作业",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "17:00 - 18:16",
+                "minuteDuration": 76,
+                "hourDuration": 1.27,
+                "studyContent": "tf - 消息预览2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "19:00 - 19:20",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - 写周报，交周报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "18:20 - 18:55",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "打字练习 - 英文",
+                "expectation": ""
+            }
+        ],
+        "hero": "/pkm/pkm9.png",
+        "weapon": ""
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月08日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:45 - 11:27",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": " 工作 - 提取1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "13:55 - 14:27",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": " 工作 - 改网站",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "14:38 - 15:20",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": " 工作 - 提取2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "17:22 - 17:44",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "工作 - 提取3",
+                "expectation": ""
+            }
+        ],
+        "hero": "baihu2.jpg",
+        "weapon": ""
+    },
+    {
+        "userData": "荒-19931002jt",
+        "today": "2021年01月08日",
+        "user": "荒",
+        "signature": "菜 就要有变强的觉悟",
+        "table": [
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:18 - 10:27",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "吃  - 早饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:27 - 10:53",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "tf -  计划",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:54 - 11:35",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "tf -  配置大盘",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "11:35 - 11:54",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "tf -  发布",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "11:55 - 13:47",
+                "minuteDuration": 112,
+                "hourDuration": 1.87,
+                "studyContent": "吃 - 午饭、休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "13:51 - 14:01",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 大盘配置",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "14:03 - 14:15",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf - 写了个文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "14:15 - 14:49",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "tf - 店铺分类问题(",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "14:49 - 15:24",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "tf - 店铺分类问题(",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "15:24 - 16:36",
+                "minuteDuration": 72,
+                "hourDuration": 1.2,
+                "studyContent": "mo - 群聊、爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "16:38 - 17:34",
+                "minuteDuration": 56,
+                "hourDuration": 0.93,
+                "studyContent": "axe - init 5",
+                "expectation": ""
+            }
+        ],
+        "hero": "spe2.png",
+        "weapon": ""
+    },
+    {
+        "userData": "亭川-alite180",
+        "today": "2021年01月08日",
+        "user": "亭川",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:07 - 11:15",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "axe - 小作业 1-3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "11:16 - 11:47",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "moyu - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "15:27 - 16:05",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "tf - 产品对话",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "16:05 - 16:42",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "tf - 重启项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "16:42 - 17:14",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "axe - 4",
+                "expectation": ""
+            }
+        ],
+        "hero": "ljmk.jpg",
+        "weapon": ""
+    },
+    {
+        "userData": "点点-123456xyz",
+        "today": "2021年01月08日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20210108",
+                "segmentation": "13:23 - 13:42",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "axe -作业五看题目 - 没看懂",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "13:42 - 14:02",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "axe -作业五看题目 -爬chat\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "14:02 - 14:10",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe -作业五看题目 - 提问\n",
+                "expectation": ""
+            }
+        ],
+        "hero": "dashu.jpg",
+        "weapon": ""
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月08日",
+        "user": "Sean",
+        "signature": "菜就要多花时间",
+        "table": [
+            {
+                "studyDate": "20210108",
+                "segmentation": "10:05 - 10:57",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "tf - 开会",
+                "expectation": ""
+            }
+        ],
+        "hero": "/pkm/pkm10.png",
+        "weapon": ""
+    }
+]

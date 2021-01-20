@@ -1,0 +1,51 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年07月24日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1595554469850,
+        "table": [
+            {
+                "studyDate": "20200724",
+                "segmentation": "09:00 - 09:20",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "拿快递，处理杂事",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200724",
+                "segmentation": "09:20 - 09:34",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "听歌，整理缺陷",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200724",
+                "segmentation": "09:34 - 10:05",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "瞎逛",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200724",
+                "segmentation": "10:40 - 10:45",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "axe - 重做 55，55.1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200724",
+                "segmentation": "10:45 - 10:49",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - 重做 55，55.2",
+                "expectation": ""
+            }
+        ]
+    }
+]

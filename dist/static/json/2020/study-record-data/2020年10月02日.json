@@ -1,0 +1,19 @@
+[
+    {
+        "userData": "hello-坚持记录下去！",
+        "today": "2020年10月02日",
+        "user": "hello",
+        "signature": "",
+        "id": 1601611760262,
+        "table": [
+            {
+                "studyDate": "20201002",
+                "segmentation": "11:55 - 12:09",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "看书 - 红宝书 第七章 迭代器 生成器\n",
+                "expectation": "30"
+            }
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年08月24日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1598240123677,
+        "table": [
+            {
+                "studyDate": "20200824",
+                "segmentation": "10:21 - 11:35",
+                "minuteDuration": 74,
+                "hourDuration": 1.23,
+                "studyContent": "axe - 视频 69",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200824",
+                "segmentation": "14:28 - 14:41",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - C 语言入门作业  1  先下载作业 配 autotest 和编辑器环境",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200824",
+                "segmentation": "14:45 - 14:54",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - C 语言入门作业  1  先找下感觉",
+                "expectation": ""
+            }
+        ]
+    }
+]

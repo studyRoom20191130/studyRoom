@@ -1,0 +1,75 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年06月21日",
+        "user": "life",
+        "signature": "",
+        "id": 1592717890937,
+        "table": [
+            {
+                "studyDate": "20200621",
+                "segmentation": "13:10 - 13:30",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "axe - 配置 gualang 环境",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200621",
+                "segmentation": "13:38 - 14:14",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "axe - 编译小作业 1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200621",
+                "segmentation": "14:14 - 14:26",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe - 编译小作业 1 debug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200621",
+                "segmentation": "14:26 - 14:29",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "axe - 编译小作业 1 对照 chat 思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200621",
+                "segmentation": "14:30 - 14:48",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "axe - 编译小作业 2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200621",
+                "segmentation": "14:50 - 15:15",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "axe - 编译小作业 3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200621",
+                "segmentation": "16:48 - 17:05",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - 编译小作业 3 debug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200621",
+                "segmentation": "17:05 - 17:17",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe - 编译小作业 4",
+                "expectation": ""
+            }
+        ]
+    }
+]

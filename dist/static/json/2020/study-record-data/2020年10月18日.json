@@ -1,0 +1,59 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年10月18日",
+        "user": "life",
+        "signature": "每天一小时",
+        "id": 1602951519123,
+        "table": [
+            {
+                "studyDate": "20201018",
+                "segmentation": "23:46 - 00:18",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "自习室 - 同步签名",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201018",
+                "segmentation": "00:19 - 00:19",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "test\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201018",
+                "segmentation": "00:19 - 00:27",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "自习室 - 更新 dom 节点之后需要重新绑定事件\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201018",
+                "segmentation": "16:35 - 16:50",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "自习室 - 查看数据来源，解决签名显示不精确的问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201018",
+                "segmentation": "17:49 - 17:59",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "自习室 - 默认显示最近30天的  完成后端逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201018",
+                "segmentation": "18:00 - 18:18",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "自习室 - 前端增加按钮和对应的事件",
+                "expectation": ""
+            }
+        ]
+    }
+]

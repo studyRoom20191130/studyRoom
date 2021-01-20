@@ -1,0 +1,220 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年09月08日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1599527732520,
+        "table": [
+            {
+                "studyDate": "20200908",
+                "segmentation": "09:08 - 09:15",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "wa - 校正",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "09:24 - 09:36",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf -  脚本配菜单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "09:40 - 10:04",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "wa - 校正",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "10:34 - 11:52",
+                "minuteDuration": 78,
+                "hourDuration": 1.3,
+                "studyContent": "tf - 脚本配菜单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "13:35 - 14:24",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "水群 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "14:24 - 14:43",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "tf - 脚本配权限  菜单没问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "14:57 - 15:22",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "tf - 脚本配权限 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "15:23 - 15:49",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "tf - 脚本配接口名",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "16:34 - 16:50",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 脚本配接口名  交易查询",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "16:50 - 17:08",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "tf - 脚本配接口名  交易查询",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "17:15 - 17:24",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 部署",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "19:52 - 20:03",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 前端练习题 读题整理思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "20:11 - 20:15",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - 前端练习题 先把第一级的找出来",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "20:17 - 20:33",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - 前端练习题 确定递归退出的条件 想不到 直接参考资料",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "20:33 - 20:41",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 前端练习题 参考资料",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "20:41 - 21:15",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "axe - 前端练习题 根据资料的思路写",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "hello-坚持记录下去!",
+        "today": "2020年09月08日",
+        "user": "hello",
+        "signature": "",
+        "id": 1599527922883,
+        "table": [
+            {
+                "studyDate": "20200908",
+                "segmentation": "08:49 - 09:18",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "看书 - css ",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "09:35 - 09:50",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "tf - 处理杂务",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "09:50 - 10:18",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "看书 - css",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "10:19 - 10:44",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "tf - 查看新版本开发进度, 准备开发 \"查看审核错误原因\" 功能, 理解需求",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "11:14 - 11:27",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "tf - 开发 \"查看审核错误原因\" 功能\n几乎完成. 还差后端接口, 接口增加字段即可",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "14:41 - 15:02",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "tf - 查看新版本 小程序端功能点",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "15:02 - 15:20",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "tf - 整理代码, 整理依赖",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "15:21 - 15:35",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "tf - 小程序端功能点 - 页面逻辑开发",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200908",
+                "segmentation": "16:00 - 16:40",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "tf - 小程序端功能点 - 页面逻辑开发",
+                "expectation": ""
+            }
+        ]
+    }
+]

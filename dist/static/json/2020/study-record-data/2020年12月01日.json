@@ -1,0 +1,664 @@
+[
+    {
+        "userData": "oulae-hechuyi1997",
+        "today": "2020年12月01日",
+        "user": "oulae",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "22:44 - 23:40",
+                "minuteDuration": 56,
+                "hourDuration": 0.93,
+                "studyContent": "work: 后台代码总结(vue)",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年12月01日",
+        "user": "Sean",
+        "signature": "想当个自习室龙王",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "09:00 - 09:30",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "tf - 日报; 订单管理",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "09:30 - 10:08",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "tf - app",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:08 - 11:44",
+                "minuteDuration": 96,
+                "hourDuration": 1.6,
+                "studyContent": "tf - web 订单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "12:36 - 12:53",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "打字 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:30 - 13:38",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:38 - 14:00",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "tf - 整理需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:04 - 15:35",
+                "minuteDuration": 91,
+                "hourDuration": 1.52,
+                "studyContent": "tf - web支付选择",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "15:37 - 16:10",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "tf - web支付流程",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "16:13 - 16:45",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "tf - web支付回调, 弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "18:40 - 19:00",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "20:16 - 20:38",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "锻炼 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "21:17 - 21:23",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "打字 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "22:30 - 22:50",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "打字 - ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "daimian-daimiandaimian",
+        "today": "2020年12月01日",
+        "user": "daimian",
+        "signature": "js吃屎",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "21:01 - 22:20",
+                "minuteDuration": 79,
+                "hourDuration": 1.32,
+                "studyContent": "java backend coding - ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年12月01日",
+        "user": "life",
+        "signature": "10分钟一个 todo，加大强度",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "09:03 - 09:28",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "浪费时间 - 网上冲浪",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "09:48 - 10:21",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "fe作业 - 22",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:22 - 10:28",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "fe作业 - 22 对答案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:29 - 10:42",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "fe作业 - 23",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:43 - 10:47",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "fe作业 - 23 对答案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:57 - 11:20",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "自习室 - 排查 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:13 - 13:31",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "tf - 自测流程",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:44 - 14:03",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "tf - 自测流程",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:38 - 14:53",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "tf - 问题排查",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "15:13 - 15:46",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "自习室 - 动画测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "16:47 - 17:10",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "axe - cg  回看代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "17:11 - 17:44",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "axe - cg  drawScanline",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "18:02 - 18:13",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - cg  drawTriangle",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "20:04 - 20:31",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "axe - 打 log 搞懂三角形怎么画出来的",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "21:58 - 22:03",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "腰椎康复运动 -",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "22:10 - 22:14",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "腰椎康复运动 -",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2020年12月01日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "09:00 - 09:05",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "tf - 登录，12月第一天，开心开心冲",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "09:12 - 09:38",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "打字练习 - 双拼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "09:39 - 09:42",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "摸鱼 - axe",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "09:42 - 09:56",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "打字练习 - 双拼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "09:58 - 10:10",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "摸鱼 - axe，打请假条",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:13 - 11:35",
+                "minuteDuration": 82,
+                "hourDuration": 1.37,
+                "studyContent": "面经 - 9/14",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "11:36 - 13:36",
+                "minuteDuration": 120,
+                "hourDuration": 2,
+                "studyContent": "摸鱼 - 喝水，水群axe/fe，午休",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:42 - 13:56",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "tf - 裁剪边界限制\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:58 - 13:58",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 午休忘记关了，下午的摸鱼就不记录啦\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "16:05 - 16:06",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "摸鱼 - 整理笔记",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "16:06 - 16:06",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "16:59 - 16:59",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 摸鱼结束\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "16:59 - 17:11",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf - 稽核日志页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "17:14 - 17:15",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "17:30 - 18:00",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "摸鱼 - 记录",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "18:04 - 18:06",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "打字练习 - 双拼测速 36WPM",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "18:06 - 18:12",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸鱼 - 爬楼, 下班！",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "亭川-alite180",
+        "today": "2020年12月01日",
+        "user": "亭川",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:38 - 15:52",
+                "minuteDuration": 74,
+                "hourDuration": 1.23,
+                "studyContent": "摸鱼 -  看 vue ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "15:54 - 16:04",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "休息 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "16:06 - 16:53",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "学习 -- 看 vue",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "16:54 - 17:25",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "摸鱼 --  水群，发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "17:26 - 17:36",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "fe_vue - 看 vue",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月01日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:01 - 10:16",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "摸鱼 - 吃东西 刷牙··",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:16 - 10:18",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:20 - 10:20",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 今日计划（1.整理昨晚群聊 2.看文件包 3.活动完成静态页面部分）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:21 - 10:29",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 找旧项目参考",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:29 - 10:35",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 拉取旧代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:35 - 10:38",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 查看 ui 图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "11:01 - 11:01",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - 静态页面（忘记计时，半小时）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "11:02 - 11:08",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 跟进产品未提供材料（催到一个，还剩两没给）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "11:12 - 11:18",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 复制规则和列出功能待做",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "11:31 - 13:07",
+                "minuteDuration": 96,
+                "hourDuration": 1.6,
+                "studyContent": "摸鱼 - 看群聊，吃饭，刷牙，发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:25 - 13:41",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:42 - 13:58",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "工作 - 公司品牌换新答题考试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:59 - 14:02",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "摸鱼 - 打水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:02 - 14:41",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:52 - 14:59",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - 发呆，困",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:59 - 15:44",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "学习 - 看文件",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "忘记计时可以补录的呀",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "黑白灰-kbc123456",
+        "today": "2020年12月01日",
+        "user": "黑白灰",
+        "signature": "亡羊补牢",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:03 - 15:17",
+                "minuteDuration": 74,
+                "hourDuration": 1.23,
+                "studyContent": "tf - ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "小海-坚持记录下去！",
+        "today": "2020年12月01日",
+        "user": "小海",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:30 - 14:30",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作-代码重构",
+                "expectation": " 30"
+            }
+        ]
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2020年12月01日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:07 - 12:26",
+                "minuteDuration": 139,
+                "hourDuration": 2.32,
+                "studyContent": "tf - 官网样式调整",
+                "expectation": ""
+            }
+        ]
+    }
+]

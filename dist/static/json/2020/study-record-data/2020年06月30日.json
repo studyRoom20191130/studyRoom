@@ -1,0 +1,91 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年06月30日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1593484948066,
+        "table": [
+            {
+                "studyDate": "20200630",
+                "segmentation": "09:38 - 10:42",
+                "minuteDuration": 64,
+                "hourDuration": 1.07,
+                "studyContent": "递归练习-4 + 聊天 + 工作交流",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200630",
+                "segmentation": "11:06 - 11:12",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - 递归练习-4",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200630",
+                "segmentation": "11:12 - 11:45",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "axe - 递归练习-5",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200630",
+                "segmentation": "11:45 - 11:51",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - 递归练习-6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200630",
+                "segmentation": "14:51 - 15:05",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - 递归练习-6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200630",
+                "segmentation": "15:05 - 15:29",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "axe - 递归练习-7",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200630",
+                "segmentation": "15:37 - 15:53",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 保存跨域配置",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200630",
+                "segmentation": "16:27 - 17:58",
+                "minuteDuration": 91,
+                "hourDuration": 1.52,
+                "studyContent": "tf - 画出一个页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200630",
+                "segmentation": "18:01 - 18:48",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "tf - 画出一个页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200630",
+                "segmentation": "20:36 - 20:54",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "wa - 修改",
+                "expectation": ""
+            }
+        ]
+    }
+]

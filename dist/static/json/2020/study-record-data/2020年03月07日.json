@@ -1,0 +1,69 @@
+[
+    {
+        "userData": "猫钰钰-19931124",
+        "today": "2020年03月07日",
+        "user": "猫钰钰",
+        "signature": "",
+        "id": 1583593401183,
+        "table": [
+            {
+                "studyDate": "20200307",
+                "segmentation": "23:03 - 23:03",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "入门课"
+            },
+            {
+                "studyDate": "20200307",
+                "segmentation": "23:03 - 23:54",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "入门课"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年03月07日",
+        "user": "life",
+        "signature": "只做两件事",
+        "id": 1583553819782,
+        "table": [
+            {
+                "studyDate": "20200307",
+                "segmentation": "11:32 - 12:03",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "面试准备"
+            },
+            {
+                "studyDate": "20200307",
+                "segmentation": "15:47 - 16:43",
+                "minuteDuration": 56,
+                "hourDuration": 0.93,
+                "studyContent": "面试准备，刷面试题"
+            },
+            {
+                "studyDate": "20200307",
+                "segmentation": "17:06 - 17:37",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "面试准备，刷面试大全"
+            },
+            {
+                "studyDate": "20200307",
+                "segmentation": "19:42 - 20:23",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "面试准备，刷面试大全"
+            },
+            {
+                "studyDate": "20200307",
+                "segmentation": "22:15 - 22:54",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "面试准备，刷面试大全"
+            }
+        ]
+    }
+]

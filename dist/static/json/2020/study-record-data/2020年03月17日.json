@@ -1,0 +1,25 @@
+[
+    {
+        "userData": "风行-zixiui",
+        "today": "2020年03月17日",
+        "user": "风行",
+        "signature": "不要依靠想象来理解世界",
+        "id": 1584457498449,
+        "table": [
+            {
+                "studyDate": "20200317",
+                "segmentation": "21:24 - 23:04",
+                "minuteDuration": 100,
+                "hourDuration": 1.67,
+                "studyContent": "gualang"
+            },
+            {
+                "studyDate": "20200317",
+                "segmentation": "23:09 - 23:39",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "gualang"
+            }
+        ]
+    }
+]

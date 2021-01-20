@@ -1,0 +1,67 @@
+[
+    {
+        "userData": "肥皂-123456",
+        "today": "2020年04月11日",
+        "user": "肥皂",
+        "signature": "",
+        "id": 1586571342416,
+        "table": [
+            {
+                "studyDate": "20200411",
+                "segmentation": "09:44 - 10:15",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "整理面经，似乎录音没录上。。\n手机有录音文本转换功能，等待中\n鱼。\n"
+            },
+            {
+                "studyDate": "20200411",
+                "segmentation": "10:16 - 10:21",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "junya临时写的组件没在测试服去掉\n目前去掉。"
+            },
+            {
+                "studyDate": "20200411",
+                "segmentation": "10:39 - 11:12",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "lkwu 做部分代码优化"
+            },
+            {
+                "studyDate": "20200411",
+                "segmentation": "11:12 - 11:14",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "gg分享，更新商品添加商品分类"
+            },
+            {
+                "studyDate": "20200411",
+                "segmentation": "11:15 - 11:32",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "gg：后端合并了拒绝通过审核接口，需要修改\n$ele.$prompt"
+            },
+            {
+                "studyDate": "20200411",
+                "segmentation": "11:32 - 11:57",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "chat trello更新项目状态\n目前测试服挂"
+            },
+            {
+                "studyDate": "20200411",
+                "segmentation": "11:58 - 11:58",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "测试换行\n\\r\\n\n\\r\\n\nasdasd"
+            },
+            {
+                "studyDate": "20200411",
+                "segmentation": "15:19 - 15:27",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "幼儿：优惠券更换选择范围文案"
+            }
+        ]
+    }
+]

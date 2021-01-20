@@ -1,0 +1,36 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2021年01月03日",
+        "user": "life",
+        "signature": "打满四节",
+        "table": [
+            {
+                "studyDate": "20210103",
+                "segmentation": "15:27 - 16:06",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "小程序 - 看教程",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210103",
+                "segmentation": "16:15 - 16:24",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "小程序 - 看教程",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210103",
+                "segmentation": "16:37 - 17:29",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "小程序 - 看官网",
+                "expectation": ""
+            }
+        ],
+        "hero": "sf.jpg",
+        "weapon": ""
+    }
+]

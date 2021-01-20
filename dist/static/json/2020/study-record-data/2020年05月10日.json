@@ -1,0 +1,132 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年05月10日",
+        "user": "Sean",
+        "signature": "慌也没用, 学吧",
+        "id": 1589086211830,
+        "table": [
+            {
+                "studyDate": "20200510",
+                "segmentation": "12:32 - 12:50",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "复习css布局",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "13:00 - 1:",
+                "minuteDuration": -720,
+                "hourDuration": -12,
+                "studyContent": "复习",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "15:00 - 15:55",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "复习",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "16:00 - 16:20",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "电台",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "16:34 - 18:34",
+                "minuteDuration": 120,
+                "hourDuration": 2,
+                "studyContent": "电台5",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "20:34 - 21:09",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "电台6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "22:40 - 23:51",
+                "minuteDuration": 71,
+                "hourDuration": 1.18,
+                "studyContent": "fep4",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "宇直-坚持记录下去！",
+        "today": "2020年05月10日",
+        "user": "宇直",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589047686783,
+        "table": [
+            {
+                "studyDate": "20200510",
+                "segmentation": "01:39 - 02:08",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "看 cocoa ted 1 代码",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "14:19 - 14:33",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "看 cocoa ted 2 代码",
+                "expectation": "40"
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "14:33 - 15:04",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "看 cocoa ted 3 代码",
+                "expectation": "40"
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "15:04 - 15:16",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "看 cocoa ted 4 代码",
+                "expectation": "40"
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "15:17 - 15:18",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "尝试做 cocoa todo 1- 初始化数组，字符串存入数组。",
+                "expectation": "40"
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "15:18 - 15:49",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "尝试做 cocoa todo 2-理解瓜哥的 renderTodo 函数",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200510",
+                "segmentation": "16:00 - 16:10",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "尝试做 cocoa todo 3-在滚动条Demo的基础上添加todo\n",
+                "expectation": "30"
+            }
+        ]
+    }
+]

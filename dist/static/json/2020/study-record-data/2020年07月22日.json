@@ -1,0 +1,51 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年07月22日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1595400391715,
+        "table": [
+            {
+                "studyDate": "20200722",
+                "segmentation": "14:27 - 14:46",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "水群 - 爬一下楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200722",
+                "segmentation": "15:18 - 15:33",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "axe - hamc 视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200722",
+                "segmentation": "16:01 - 16:33",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "axe - 按照新思路重写 hmac，先读题，边读边写思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200722",
+                "segmentation": "16:34 - 17:02",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "axe - 按照新思路重写 hmac，先读题，按照思路做题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200722",
+                "segmentation": "17:30 - 17:46",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - 看 55 chat， 把 autotest 用起来",
+                "expectation": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年12月19日",
+        "user": "Sean",
+        "signature": "菜就要多花时间",
+        "table": [
+            {
+                "studyDate": "20201219",
+                "segmentation": "16:06 - 16:46",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "锻炼 - ",
+                "expectation": ""
+            }
+        ],
+        "hero": "ljmk.jpg"
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年12月19日",
+        "user": "life",
+        "signature": "打满四节",
+        "table": [
+            {
+                "studyDate": "20201219",
+                "segmentation": "14:44 - 14:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "团建",
+                "expectation": ""
+            }
+        ],
+        "hero": "slark.jpg"
+    }
+]

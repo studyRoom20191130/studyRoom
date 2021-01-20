@@ -1,0 +1,67 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年07月13日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1594604536542,
+        "table": [
+            {
+                "studyDate": "20200713",
+                "segmentation": "09:24 - 09:42",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "tf - import 和记录",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200713",
+                "segmentation": "11:44 - 12:05",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - 算法 stack",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200713",
+                "segmentation": "15:30 - 16:00",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "axe - 算法 链表",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200713",
+                "segmentation": "16:00 - 16:20",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "axe - 算法 链表",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200713",
+                "segmentation": "16:49 - 17:25",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "axe - 算法 哈希表",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200713",
+                "segmentation": "17:25 - 17:39",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - 算法 哈希表，用数组实现",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200713",
+                "segmentation": "17:41 - 17:46",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "axe - 算法 哈希表，用数组实现",
+                "expectation": ""
+            }
+        ]
+    }
+]

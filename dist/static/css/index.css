@@ -84,10 +84,10 @@
     margin: 17px 0;
 }
 
-.plan-checkbox::before {
-    content: '常用事项';
-    display: block;
-}
+/*.plan-checkbox::before {*/
+/*    content: '常用事项';*/
+/*    display: block;*/
+/*}*/
 
 .plan-checkbox span {
     font-size: 13px;

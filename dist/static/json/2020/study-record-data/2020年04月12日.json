@@ -1,0 +1,69 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年04月12日",
+        "user": "life",
+        "signature": "",
+        "id": 1586656710003,
+        "table": [
+            {
+                "studyDate": "20200412",
+                "segmentation": "09:51 - 09:58",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe - 作业22，安装库"
+            },
+            {
+                "studyDate": "20200412",
+                "segmentation": "13:34 - 13:56",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "axe - 作业22，读题"
+            },
+            {
+                "studyDate": "20200412",
+                "segmentation": "13:56 - 14:31",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "axe - 作业22，看 chat"
+            },
+            {
+                "studyDate": "20200412",
+                "segmentation": "14:57 - 15:38",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "axe - 作业22，做题"
+            },
+            {
+                "studyDate": "20200412",
+                "segmentation": "17:57 - 18:30",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "axe - 作业22，做题"
+            }
+        ]
+    },
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年04月12日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1586684810651,
+        "table": [
+            {
+                "studyDate": "20200412",
+                "segmentation": "17:43 - 17:46",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "提交 axe-22"
+            },
+            {
+                "studyDate": "20200412",
+                "segmentation": "17:52 - 17:59",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe-19 光照"
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年11月15日",
+        "user": "life",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201115",
+                "segmentation": "22:21 - 22:21",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "玩",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2020年11月15日",
+        "user": "LD",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201115",
+                "segmentation": "21:17 - 21:52",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "打字练习 - 双拼",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "黑白灰-kbc123456",
+        "today": "2020年11月15日",
+        "user": "黑白灰",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201115",
+                "segmentation": "11:00 - 11:20",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "guagame - 看 guagame、guascene 源码，思考怎么在面试的时候更好展开讲解",
+                "expectation": ""
+            }
+        ]
+    }
+]

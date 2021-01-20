@@ -38,6 +38,9 @@ const bindMainArticleEvent = () => {
 const sendComment = (target, reply) => {
     let div = $(target).parent()[0]
     let user = div.dataset.user
+    if (user === '明日边缘') {
+        user = 'life'
+    }
     let fromIndexPage = true
     let commentTime = moment().format('YYYY-MM-DD HH:mm')
     let comment = reply + $(target).prev()[0].value

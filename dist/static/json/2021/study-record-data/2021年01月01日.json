@@ -1,0 +1,28 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2021年01月01日",
+        "user": "life",
+        "signature": "打满四节",
+        "table": [
+            {
+                "studyDate": "20210101",
+                "segmentation": "15:12 - 15:43",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "面试准备 - 看拉钩的招聘  结论：得找时间整一下 小程序和 react",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210101",
+                "segmentation": "16:17 - 16:37",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "guagame - 看 11： 画循环移动的地面  / 鸟自动往下掉  / 碰到地面停止下落 / jump / 角度更新 / ",
+                "expectation": ""
+            }
+        ],
+        "hero": "sf.jpg",
+        "weapon": ""
+    }
+]

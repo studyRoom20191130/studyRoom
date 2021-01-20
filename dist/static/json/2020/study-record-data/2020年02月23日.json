@@ -1,0 +1,32 @@
+[
+    {
+        "userData": "123-1",
+        "today": "2020年02月23日",
+        "user": "123",
+        "id": 1582445562016,
+        "table": [
+            {
+                "studyDate": "20200223",
+                "segmentation": "16:12 - 16:12",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "dadsa"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年02月23日",
+        "user": "life",
+        "id": 1582431113486,
+        "table": [
+            {
+                "studyDate": "20200223",
+                "segmentation": "11:53 - 12:11",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "写简历"
+            }
+        ]
+    }
+]

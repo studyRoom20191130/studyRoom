@@ -1,0 +1,120 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年12月26日",
+        "user": "Sean",
+        "signature": "菜就要多花时间",
+        "table": [
+            {
+                "studyDate": "20201226",
+                "segmentation": "14:00 - 14:46",
+                "minuteDuration": 46,
+                "hourDuration": 0.77,
+                "studyContent": "锻炼 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201226",
+                "segmentation": "14:53 - 15:30",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201226",
+                "segmentation": "19:41 - 19:53",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            }
+        ],
+        "hero": "/pkm/pkm10.png",
+        "weapon": ""
+    },
+    {
+        "userData": "荒-19931002jt",
+        "today": "2020年12月26日",
+        "user": "荒",
+        "signature": "菜 就要有变强的觉悟",
+        "table": [
+            {
+                "studyDate": "20201226",
+                "segmentation": "10:20 - 10:30",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "吃 - 早饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201226",
+                "segmentation": "10:30 - 11:00",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "tf - 搬工位",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201226",
+                "segmentation": "11:00 - 11:12",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "mo  - 爬楼、群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201226",
+                "segmentation": "11:12 - 11:53",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "mo  - 群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201226",
+                "segmentation": "11:54 - 12:24",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "吃  - 午饭、 群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201226",
+                "segmentation": "12:24 - 13:06",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "休  - 遛弯",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201226",
+                "segmentation": "13:11 - 13:41",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "休  - 午休",
+                "expectation": ""
+            }
+        ],
+        "hero": "spe2.png",
+        "weapon": ""
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年12月26日",
+        "user": "life",
+        "signature": "打满四节",
+        "table": [
+            {
+                "studyDate": "20201226",
+                "segmentation": "12:15 - 12:15",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "把书包放自习室然后去吃饭",
+                "expectation": ""
+            }
+        ],
+        "hero": "sf.jpg",
+        "weapon": ""
+    }
+]

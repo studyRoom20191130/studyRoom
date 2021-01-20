@@ -1,0 +1,36 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年06月24日",
+        "user": "Sean",
+        "signature": "冲冲冲",
+        "id": 1593013855959,
+        "table": [
+            {
+                "studyDate": "20200624",
+                "segmentation": "22:46 - 23:50",
+                "minuteDuration": 64,
+                "hourDuration": 1.07,
+                "studyContent": "学习-gitLab",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年06月24日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1592984476694,
+        "table": [
+            {
+                "studyDate": "20200624",
+                "segmentation": "15:04 - 15:41",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "tf - 更新组件样式",
+                "expectation": ""
+            }
+        ]
+    }
+]

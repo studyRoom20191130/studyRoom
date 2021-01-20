@@ -55,6 +55,7 @@ const processMembers = (studyDataList) => {
 }
 
 const renderNavHero = (studyDataList) => {
+    console.log("studyDataList", studyDataList)
     let members = processMembers(studyDataList)
     let [left_members, right_members] = splitMembers(members)
     renderLeftNav(left_members)
@@ -75,8 +76,22 @@ const bindShopToggleEvent = () => {
 // 后台记录到 weaponList 里
 // 每次把这个 weaponList 发过来, 渲染到页面上
 
-const canChooseWeapon = () => {
-    let len = window.weapon.split('-').length - 1
+const canChooseWeapon = (src) => {
+    if (src.includes('water')) {
+        return true
+    }
+    if (window.weapon === undefined) {
+        alertMsg('时间不足, 无法购买')
+        return
+    }
+    console.log("window.weapon.split('-')", window.weapon.split('-'))
+    window.weapon.split('-')
+    let a = window.weapon.split('-').filter(el => {
+        return !el.includes('water')
+    })
+    console.log("a", a)
+    let len = a.length - 1
+
     // return true
     return window.totalMinitue - (len * 60) >= 60
 }
@@ -90,9 +105,10 @@ const renderWeaponImg = (weapon) => {
 const chooseWeaponEvent = () => {
     let shop = e('#shop')
     bindEvent(shop, 'click', (event) => {
-        if (canChooseWeapon()) {
-            let target = event.target
+        let target = event.target
+        if (canChooseWeapon(target.src)) {
             let weapon = target.dataset.weapon
+            window.weapon += weapon + '-'
             let data = {
                 weapon,
                 user: getLocalStorage('userInfo').split('-')[0],
@@ -134,6 +150,10 @@ const weaponImgListHardCode = () => {
         'octarine_core_lg.png',
         'refresher_lg.png',
         'travel_boots_lg.png',
+        'water1.png',
+        'water2.png',
+        'water3.png',
+        'water4.png',
     ]
     return weaponImgList
 }

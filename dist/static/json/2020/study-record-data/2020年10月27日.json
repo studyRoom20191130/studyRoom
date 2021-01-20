@@ -1,0 +1,282 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年10月27日",
+        "user": "life",
+        "signature": "10分钟一个 todo",
+        "table": [
+            {
+                "studyDate": "20201027",
+                "segmentation": "09:26 - 09:33",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "tf - 部署更新",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "09:36 - 09:37",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "今日计划：1 pc 支付项目调整细节   2 axe 60 min   3支付宝小程序寻找方案  4制定  guagame 计划 5端正坐姿八杯水11点前睡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "09:54 - 10:10",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 修 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "10:42 - 11:01",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "tf - 修 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "11:03 - 11:21",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "tf - 修 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "11:27 - 11:40",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "tf - 修 bug 对字段",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "11:55 - 12:19",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "tf - 优化 pc 项目现有问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "14:19 - 14:23",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "tf - 解决属性报错 和 列表缺失问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "14:23 - 14:30",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "tf - 添加尾号提醒",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "14:30 - 14:40",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 区分环境打包",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "14:40 - 14:54",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "tf - 扫码后轮询查结果",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "15:58 - 16:09",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf - 修 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "16:11 - 16:17",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "guagame - 规划完成步骤：给 80h 预算，总共 4800min，每天60min，预计 80天 完成",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "19:37 - 19:54",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "自习室 - 简单适配一下移动端",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "20:07 - 20:53",
+                "minuteDuration": 46,
+                "hourDuration": 0.77,
+                "studyContent": "guagame - 看1：  先用 canvas 画一张图  / key events / 一秒执行 60 次 / 入口函数 / 图片抽函数 / paddle 抽函数 / paddle 移动逻辑放 Paddle 里面 / guaGame 对象 / 注册事件 / 小球的 move / 矩形相交",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年10月27日",
+        "user": "Sean",
+        "signature": "想当个自习室龙王",
+        "table": [
+            {
+                "studyDate": "20201027",
+                "segmentation": "09:36 - 09:58",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "tf - 60",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "10:50 - 11:17",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "tf - 60",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "11:46 - 11:59",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "tf - 60",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "13:31 - 13:43",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf - 60",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "14:08 - 14:38",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "tf - 合并视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "15:00 - 15:40",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "高程 - 120",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "15:47 - 16:24",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "摸 - 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "16:28 - 16:42",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "高程 - 120",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "16:51 - 17:10",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "高程 - 120",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2020年10月27日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20201027",
+                "segmentation": "08:55 - 09:30",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "打字练习 - 英文",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "13:30 - 14:00",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "打字练习 - 英文",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "15:31 - 17:08",
+                "minuteDuration": 97,
+                "hourDuration": 1.62,
+                "studyContent": "guagame - 7",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年10月27日",
+        "user": "H.K",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201027",
+                "segmentation": "09:00 - 09:30",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "业务需求提测",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "09:39 - 10:30",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "axe-做一下豆瓣题，和家属的问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "10:30 - 10:35",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "axe-之前的微信链接整理一下",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201027",
+                "segmentation": "10:50 - 11:30",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "axe-看chat 作业 8思路",
+                "expectation": ""
+            }
+        ]
+    }
+]

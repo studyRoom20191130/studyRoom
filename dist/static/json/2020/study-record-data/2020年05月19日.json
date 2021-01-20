@@ -1,0 +1,545 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年05月19日",
+        "user": "Sean",
+        "signature": "怎样在划水的时候提高效率?",
+        "id": 1589847092265,
+        "table": [
+            {
+                "studyDate": "20200519",
+                "segmentation": "07:46 - 08:11",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "fep",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "08:32 - 08:52",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "fep",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "21:12 - 21:50",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "fep",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "21:52 - 22:55",
+                "minuteDuration": 63,
+                "hourDuration": 1.05,
+                "studyContent": "fep",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "23:31 - 23:52",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "fep",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年05月19日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589853598980,
+        "table": [
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:47 - 09:59",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "日常 - TODO",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:01 - 10:08",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "日常 - 每日必做",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:08 - 10:26",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "日常 - 每日必做 - 时刻表",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:29 - 10:39",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - APP - 梳理需要整理 APP 的哪些信息",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:40 - 10:44",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - APP - 建立禅道",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:44 - 10:49",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - APP - 增加文档链接",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:49 - 10:52",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - APP - 增加 APP 内容说明",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:52 - 11:07",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - APP - 增加部分 APP 截图",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "11:12 - 11:27",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - 重新审视一下自己的工作定位(持续更新)",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "11:29 - 12:21",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "吃饭",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "12:40 - 13:10",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "午睡",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "13:26 - 13:28",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - APP - 处理 ios 上架问题 - 登陆问题",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "13:36 - 14:03",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "工作 - APP - 处理 ios 上架问题 - 隐私声明",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "15:00 - 15:06",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "日常 - 信息 - 搜狗输入法短语设置",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "15:13 - 15:16",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "日常 - 手机设置指纹",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "19:30 - 21:15",
+                "minuteDuration": 105,
+                "hourDuration": 1.75,
+                "studyContent": "雷课堂直播",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "21:15 - 21:43",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "白头神探",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年05月19日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1589852346539,
+        "table": [
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:03 - 09:39",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "雷课堂 - 作业3，解决剩余的题",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:42 - 09:56",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "雷课堂 - 作业3，解决剩余的题",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:58 - 10:25",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "阅读资料 - 读 code review 文章",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:42 - 11:15",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "tf - 修复 bug",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "11:20 - 11:53",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "tf - 调试优化细节",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "14:24 - 15:38",
+                "minuteDuration": 74,
+                "hourDuration": 1.23,
+                "studyContent": "tf - review 调整自己的代码（写的太屎完全没办法改进，放弃",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "17:00 - 17:11",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "总结 - 反思为什么代码写的这么屎",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "17:18 - 18:29",
+                "minuteDuration": 71,
+                "hourDuration": 1.18,
+                "studyContent": "tf - 再尝试一下重构代码",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "19:42 - 20:02",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - 修复样式问题",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "20:14 - 21:15",
+                "minuteDuration": 61,
+                "hourDuration": 1.02,
+                "studyContent": "tf - 改写代码",
+                "expectation": "30"
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年05月19日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589851744523,
+        "table": [
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:00 - 09:15",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "今日 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:16 - 09:30",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "发票方法修改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:30 - 12:25",
+                "minuteDuration": 175,
+                "hourDuration": 2.92,
+                "studyContent": "发票方法修改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "12:00 - 12:25",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "12:25 - 13:41",
+                "minuteDuration": 76,
+                "hourDuration": 1.27,
+                "studyContent": "午休",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "13:41 - 15:24",
+                "minuteDuration": 103,
+                "hourDuration": 1.72,
+                "studyContent": "测试通知",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "15:24 - 15:35",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "更新 jira 任务",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "15:35 - 16:06",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "节假日临时提额，记录商户日志，发送通知，需求理解清楚",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "16:06 - 16:50",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "递归练习：最后一个测试没通过",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "16:50 - 17:18",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "开会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "17:19 - 18:41",
+                "minuteDuration": 82,
+                "hourDuration": 1.37,
+                "studyContent": "产品体验问题",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "宇直-坚持记录下去！",
+        "today": "2020年05月19日",
+        "user": "宇直",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589853560211,
+        "table": [
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:43 - 09:59",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "学习提高小程序添加分值展示",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:04 - 10:33",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "刷 chat",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:34 - 10:36",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "debug 无法查找视频",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "10:50 - 11:20",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "看 js 观察者模式 订阅模式",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "11:28 - 12:00",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "小程序新增需求 - 展示题目解析",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "17:00 - 17:15",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "熟悉 sourcetree git-flow 操作",
+                "expectation": "15"
+            }
+        ]
+    },
+    {
+        "userData": "bourne-123456",
+        "today": "2020年05月19日",
+        "user": "bourne",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589850064813,
+        "table": [
+            {
+                "studyDate": "20200519",
+                "segmentation": "08:57 - 09:01",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "todo",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:02 - 09:35",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "沟通装修事情",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "09:43 - 11:04",
+                "minuteDuration": 81,
+                "hourDuration": 1.35,
+                "studyContent": "看 snmp 的采集内存比例的问题,CPU ,告警问题",
+                "expectation": " 30"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "11:05 - 11:15",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "看群以及抡胳膊",
+                "expectation": " 10"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "11:36 - 11:44",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "拆分日报学习思路",
+                "expectation": " 5"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "11:44 - 12:02",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "分析群里聚聚的日报，\n群里聚聚的日报太膜了",
+                "expectation": " 10"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "12:40 - 13:34",
+                "minuteDuration": 54,
+                "hourDuration": 0.9,
+                "studyContent": "再分析群里聚聚的日报，以及午休吃饭\n",
+                "expectation": " 10"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "13:36 - 14:36",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "补充述职报告的内容",
+                "expectation": " 30"
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "14:38 - 14:49",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "走走 抡胳膊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200519",
+                "segmentation": "14:50 - 15:56",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "简单看看 61850 协议",
+                "expectation": " 40"
+            }
+        ]
+    },
+    {
+        "userData": "oulae-hechuyi1997",
+        "today": "2020年05月19日",
+        "user": "oulae",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589819216309,
+        "table": [
+            {
+                "studyDate": "20200519",
+                "segmentation": "00:11 - 00:26",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "微信小程序: 组件observe, 组件的生命周期",
+                "expectation": "30"
+            }
+        ]
+    }
+]

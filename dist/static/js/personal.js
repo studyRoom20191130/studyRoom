@@ -15,10 +15,6 @@ const timeTemplate = (array) => {
             <td class="td-time">${l.minuteDuration} min</td>
             <td class="td-time">${expectation}</td>
             <td class="td-content">${l.studyContent}</td>
-            <td class="td-others">
-                <span>修改</span>
-                <span>删除</span>
-            </td>
         </tr>
         `;
     r += t;
@@ -40,6 +36,7 @@ const timelineTemplate = (object) => {
     totalHour = totalHour.toFixed(1);
     let all = timeTemplate(o.table);
     t = `
+        
             <div class="timeline-item" date-is='${o.today}&nbsp;&nbsp;&nbsp;&nbsp;当天总共学习：${totalMinitue} min (${totalHour} h)'>
                 <div class="study-record">
                     <table class="table table-bordered">
@@ -48,25 +45,16 @@ const timelineTemplate = (object) => {
                             <th>时长</th>
                             <th>预期</th>
                             <th>内容</th>
-                            <th>操作</th>
                         </tr>
                         ${all}
                     </table>
                 </div>
-
-                <div class="message-bord">
-                    <span class="">留言板</span>
-                </div>
-
-
             </div>
         `;
   } else {
     t = `
             <div class="timeline-item" date-is='${o.date}&nbsp;&nbsp;&nbsp;&nbsp;${o.blessing}'>
-                <div class="message-bord">
-                    <span class="">留言板</span>
-                </div>
+              
             </div>
         `;
   }
@@ -74,54 +62,143 @@ const timelineTemplate = (object) => {
   return t;
 };
 
-const getPersonalStudyData = (num) => {
-
+const getPersonalStudyData = () => {
   let data = {
     user,
-    num
+    num: window.num,
+    year: window.tableYear,
   };
 
   ajax(data, '/getPersonalStudyData', (res) => {
     generateTimeline(res);
     // 生成节点之后再绑定事件
     bindLoadMore()
-    showTotalHour(res);
+    window.totalHourObj = res[0].totalHourObj
+    if (window.init) {
+      showTotalHour()
+      window.init = false
+    }
+
   });
-};
+}
 
-const showTotalHour = (res) => {
-  // expect {
-  //   axe: 17.2;
-  //   tf: 13;
+const getTableSpan = () => {
+  let years = [2021, 2020]
+  let html = ``
+  for (const y of years) {
+    if (window.tableYear == y) {
+      html += `<span class="active-year year-span">${y}</span>`
+    } else {
+      html += `<span class="year-span">${y}</span>`
+    }
+  }
+  return html
+}
 
-  let obj = res[0].totalHourObj
+const getSpan = () => {
+  let years = [2021, 2020, '全部']
+  let html = ``
+  for (const y of years) {
+    if (window.year == y) {
+      html += `<span class="active-year year-span">${y}</span>`
+    } else {
+      html += `<span class="year-span">${y}</span>`
+    }
+  }
+  return html
+}
+
+const concatObj = () => {
+  let o1 = window.totalHourObj['2020']
+  let o2 = window.totalHourObj['2021']
+  let result = {}
+  for (const o1Key in o1) {
+    if (o1Key in o2) {
+        result[o1Key] = o1[o1Key] + o2[o1Key]
+    } else {
+      result[o1Key] = o1[o1Key]
+    }
+  }
+  for (const o2Key in o2) {
+    if (!(o2Key in result)) {
+      result[o2Key] = o1[o2Key]
+    }
+  }
+  return result
+}
+
+const getTotalHour = (obj) => {
+  let totalHour = 0
+  for (const objKey in obj) {
+    if (obj[objKey]) {
+      totalHour += obj[objKey]
+    }
+  }
+  return totalHour.toFixed(0)
+}
+
+const replaceKeyValue = (obj) => {
+      let o = {}
+  for (const objKey in obj) {
+      let k = obj[objKey].toFixed(0)
+      o[k] = objKey
+  }
+  return o
+}
+
+const sortObj = (obj) => {
+  obj = replaceKeyValue(obj)
+  let arr=[]
+  for(var key in obj){
+    arr.push(parseInt(key))
+  }
+  arr = arr.sort(function(a, b){return b - a})
+  return [arr, obj]
+}
+
+const showTotalHour = (year=new Date().getFullYear()) => {
+  let span = getSpan()
+  let obj = window.totalHourObj[year]
+
+  if (window.year == '全部') {
+    obj = concatObj()
+  }
+
+  let totalHour = getTotalHour(obj)
+
   let html = `<br>
-  <strong>加入自习室至今</strong>
-  <br>`;
+      <div class="years">
+        ${span}
+      </div>
+      <div class="totalHour">
+        总投入：${totalHour} 小时
+      </div>
+ `
 
-  let data = [];
-  for (const key in obj) {
-    const totalHour = Math.round(obj[key]);
+  let data = []
+  let [sortArr, sortedObj]= sortObj(obj)
+  for (const totalHour of sortArr) {
 
-    if (totalHour == 0) {
+
+    if (totalHour == 0 || !totalHour) {
       continue;
     }
 
     let o = {
-      name: key,
+      name: sortedObj[totalHour],
       value: totalHour,
     };
     data.push(o);
 
     html += `<div style="line-height: 30px;">
-        <span class="">${key} - </span><span class="">共计 ${totalHour} 小时</span>
+        <span class="">${sortedObj[totalHour]} - </span><span class="">${totalHour} 小时</span>
     </div>`;
   }
   html += `<div id="ect" style="width: 300px;height:200px;"></div>`;
   let leftDiv = e('.detail');
+  leftDiv.innerHTML = ''
   appendHtml(leftDiv, html);
-
-
+  bindYear()
   // ect
   let myChart = echarts.init(document.getElementById('ect'));
   option = {
@@ -129,11 +206,6 @@ const showTotalHour = (res) => {
       trigger: 'item',
       formatter: '{a} <br/>{b}: {c} ({d}%)',
     },
-    // legend: {
-    //   orient: 'vertical',
-    //   left: 10,
-    //   data: ['直接访问', '邮件营销', '联盟广告', '视频广告', '搜索引擎'],
-    // },
     series: [
       {
         name: '投入时长',
@@ -158,9 +230,43 @@ const showTotalHour = (res) => {
       },
     ],
   };
-
   myChart.setOption(option);
 };
+
+
+const bindYear = () => {
+  bindEvent(e('.years'), 'click', (event) => {
+    let target = event.target
+    let contains = target.classList.contains.bind(target.classList);
+    if (contains('year-span')) {
+      let y = target.innerHTML
+      if (window.year === y) {
+          return
+      }
+      window.year = y
+      showTotalHour(y)
+    }
+  })
+}
+
+const bindTableYear = () => {
+  bindEvent(e('.table-years'), 'click', (event) => {
+    let target = event.target
+    let contains = target.classList.contains.bind(target.classList);
+    if (contains('year-span')) {
+      let y = target.innerHTML
+      if (window.tableYear === y) {
+        return
+      }
+      window.tableYear = y
+      window.num = 30
+      // 发接口请求
+      getPersonalStudyData()
+    }
+  })
+}
+
+
 
 const renderUserInfo = (obj) => {
   // 获取个性签名
@@ -177,6 +283,7 @@ const renderUserInfo = (obj) => {
       <span class="user-name" id="user-name">${user}</span>
       <span class="user-sign" id="user-sign">${signature}</span>
   `
+  e('#user-info').innerHTML = ''
   appendHtml(e('#user-info'), html)
   bindSignatureEvent()
   cancelHero()
@@ -184,8 +291,14 @@ const renderUserInfo = (obj) => {
 
 
 const generateTimeline = (res) => {
-  let array = res;
-  let html = '';
+  if (res.length == 0) {
+      return
+  }
+  let array = res
+  let span = getTableSpan()
+  let html = `<div class="years table-years">
+        ${span}
+      </div>`
   // 如果返回的是全部数据
   if (array[0].responseAllData) {
     window.responseAllData = true
@@ -207,8 +320,10 @@ const generateTimeline = (res) => {
 
 
   html = html + last;
-  let container = e('.timeline-container');
-  appendHtml(container, html);
+  let container = e('.timeline-container')
+  container.innerHTML = ''
+  appendHtml(container, html)
+  bindTableYear()
 };
 
 // const datePicker = () => {
@@ -453,8 +568,11 @@ const __main = () => {
   window.disabledSignature = false
   window.num = 30
   window.responseAllData = false
+  window.year = new Date().getFullYear()
+  window.tableYear = new Date().getFullYear()
   window.user = getLocalStorage('personal').split('-')[0].trim()
-  getPersonalStudyData();
+  window.init = true
+  getPersonalStudyData()
   // datePicker();
   bindEvents();
   renderHeroAvatar()

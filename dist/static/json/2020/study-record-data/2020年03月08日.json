@@ -1,0 +1,54 @@
+[
+    {
+        "userData": "Miles-12212332",
+        "today": "2020年03月08日",
+        "user": "Miles",
+        "signature": "",
+        "id": 1583673962062,
+        "table": [
+            {
+                "studyDate": "20200308",
+                "segmentation": "20:41 - 21:26",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "asm  研究下多线程"
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "终于来人了！我一个人在这好寂寞啊啊啊啊！",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年03月08日",
+        "user": "life",
+        "signature": "只做两件事",
+        "id": 1583632771218,
+        "table": [
+            {
+                "studyDate": "20200308",
+                "segmentation": "08:51 - 09:59",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "面试准备，刷面试题"
+            },
+            {
+                "studyDate": "20200308",
+                "segmentation": "17:45 - 18:37",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "面试准备-vue相关（仔细看了下公司项目里公共组件的写法，真是野鸡满天飞）"
+            },
+            {
+                "studyDate": "20200308",
+                "segmentation": "21:31 - 22:42",
+                "minuteDuration": 71,
+                "hourDuration": 1.18,
+                "studyContent": "面试准备-vue相关"
+            }
+        ]
+    }
+]

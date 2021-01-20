@@ -1,0 +1,99 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年10月05日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1601865216256,
+        "table": [
+            {
+                "studyDate": "20201005",
+                "segmentation": "10:30 - 10:33",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "axe - button loading 收尾",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "10:33 - 10:33",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "test",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "10:39 - 10:48",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - 旋转木马轮播图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "10:54 - 11:02",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 旋转木马轮播图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "11:28 - 11:49",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - 再实现一遍轮播图，搭框架",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "15:51 - 16:07",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - 点击事件，点击缩略图展示对应图片",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "16:08 - 16:25",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - 点击左右箭头展示对应图片",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "21:02 - 21:08",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - debug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "21:08 - 21:20",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe - 自动轮播",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "21:43 - 22:34",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "axe - debug 逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201005",
+                "segmentation": "22:35 - 22:48",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 写总结",
+                "expectation": ""
+            }
+        ]
+    }
+]

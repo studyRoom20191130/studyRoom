@@ -1,0 +1,132 @@
+[
+    {
+        "userData": "oulae-hechuyi1997",
+        "today": "2020年06月27日",
+        "user": "oulae",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1593192367288,
+        "table": [
+            {
+                "studyDate": "20200627",
+                "segmentation": "00:55 - 01:26",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "egg - 路由",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "01:47 - 02:55",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "egg - controller",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "13:27 - 14:55",
+                "minuteDuration": 88,
+                "hourDuration": 1.47,
+                "studyContent": "egg - controller (完成)",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "15:06 - 15:23",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "egg - service",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "15:29 - 15:51",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "egg - service",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "16:07 - 16:32",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "egg - 定时器任务",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "17:13 - 17:29",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "egg - 框架拓展",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "17:33 - 17:39",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "egg - 启动自定义",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "20:30 - 21:04",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "egg - 本地开发",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "21:16 - 22:26",
+                "minuteDuration": 70,
+                "hourDuration": 1.17,
+                "studyContent": "egg - 单元测试",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年06月27日",
+        "user": "Sean",
+        "signature": "冲冲冲",
+        "id": 1593229134805,
+        "table": [
+            {
+                "studyDate": "20200627",
+                "segmentation": "11:07 - 11:38",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "学习 - vant / vue",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "11:48 - 12:33",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "学习 - vant / vue",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "16:20 - 17:09",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "考试 - 刷题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200627",
+                "segmentation": "17:49 - 18:05",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "考试 - 刷题",
+                "expectation": ""
+            }
+        ]
+    }
+]

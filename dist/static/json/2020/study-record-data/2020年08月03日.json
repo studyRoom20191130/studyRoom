@@ -1,0 +1,60 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年08月03日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1596423135713,
+        "table": [
+            {
+                "studyDate": "20200803",
+                "segmentation": "10:34 - 10:52",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "axe - 视频63",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200803",
+                "segmentation": "11:08 - 11:21",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 视频63",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200803",
+                "segmentation": "11:23 - 11:39",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - 视频63",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200803",
+                "segmentation": "15:23 - 15:48",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "axe - 视频63",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年08月03日",
+        "user": "Sean",
+        "signature": "",
+        "id": 1596433189005,
+        "table": [
+            {
+                "studyDate": "20200803",
+                "segmentation": "13:25 - 13:39",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "看书 - git第四章",
+                "expectation": ""
+            }
+        ]
+    }
+]

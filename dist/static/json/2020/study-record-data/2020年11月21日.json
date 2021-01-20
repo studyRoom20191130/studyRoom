@@ -1,0 +1,56 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年11月21日",
+        "user": "life",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201121",
+                "segmentation": "22:09 - 22:09",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "。",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2020年11月21日",
+        "user": "LD",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201121",
+                "segmentation": "20:38 - 21:20",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "打字练习 - 双拼",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "黑白灰-kbc123456",
+        "today": "2020年11月21日",
+        "user": "黑白灰",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201121",
+                "segmentation": "09:00 - 09:45",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "学习 git - 在本机学学怎么用 sourcetree 提交、合并、贮藏、切/建/删分支；理解丢弃文件和移除文件的区别；理解 workspace 的图表颜色、圆圈；理解 workspace 的文件状态里「丢弃文件」和「移除文件」的区别",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "好棒，向灰聚聚学习",
+                "commenter": "LD"
+            }
+        ]
+    }
+]

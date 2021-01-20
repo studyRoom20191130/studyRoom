@@ -1,0 +1,543 @@
+[
+    {
+        "userData": "phoe-562818991",
+        "today": "2020年03月24日",
+        "user": "phoe",
+        "signature": "",
+        "id": 1585033231036,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "14:45 - 15:00",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "[gms] 添加页面入口"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "15:02 - 15:12",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "[gms] 根据 mentor 建议调整需求排期\n根据已完成的项目预估线上风险预留 buffer 时间"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "15:18 - 16:06",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "[gms] 实现 tab 标签切换（被会议中断）"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "16:07 - 16:44",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "[gms] 需求评审"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "16:44 - 17:06",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "[gms] 实现 tab 标签切换"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "17:45 - 19:06",
+                "minuteDuration": 81,
+                "hourDuration": 1.35,
+                "studyContent": "「gms」通用管理 table（未完成）"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "20:21 - 22:01",
+                "minuteDuration": 100,
+                "hourDuration": 1.67,
+                "studyContent": "「gms」通用管理 table"
+            }
+        ]
+    },
+    {
+        "userData": "馒头-123456",
+        "today": "2020年03月24日",
+        "user": "馒头",
+        "signature": "",
+        "id": 1585055177569,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "19:49 - 21:06",
+                "minuteDuration": 77,
+                "hourDuration": 1.28,
+                "studyContent": "处理项目国际化"
+            }
+        ]
+    },
+    {
+        "userData": "ease-123456",
+        "today": "2020年03月24日",
+        "user": "ease",
+        "signature": "",
+        "id": 1585024773198,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:36 - 12:39",
+                "minuteDuration": 63,
+                "hourDuration": 1.05,
+                "studyContent": "查bug-游戏"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "14:20 - 15:07",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "查找游戏bug-装备升级"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "15:19 - 15:55",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "写作业drawScanline(v1, v2)"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "16:22 - 17:07",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "写作业drawScanline(v1, v2)"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "19:10 - 19:43",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "等聚聚回答gua3d的格式问题 ，尝试画，目前已经解析了，但是数据不对，没什么头绪...没人回答 一直在刷YouTube"
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "被防私服 草了。CommandSet 中的registerCommand 需要在Sign\n.Properties中加入core的src path",
+                "commenter": "ease"
+            },
+            {
+                "comment": "草。。。。被玩过公司游戏坑了。。。那个功能就是这么设计了，新策划草我",
+                "commenter": "ease"
+            },
+            {
+                "comment": "刚开始写就被打断。。。。疯狂被浪费时间",
+                "commenter": "ease"
+            }
+        ]
+    },
+    {
+        "userData": "肥皂-123456",
+        "today": "2020年03月24日",
+        "user": "肥皂",
+        "signature": "",
+        "id": 1585020827041,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:33 - 11:33",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "小程序：\n修样式，按钮上方加横条"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:37 - 11:38",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "小程序：\n修样式，换昨晚ps后的图"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:38 - 11:40",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "小程序：\nloading 判断状态有问题，字段变了\n更换详情和扫码详情的 loading 判断"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:42 - 11:49",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "聊天"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:49 - 12:01",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "看 gua2axe3d"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "17:37 - 17:42",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "调用上传接口，获取七牛回传的 url 给后端\n"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "17:42 - 17:46",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "查bug-客服文本\n报给后端"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "17:46 - 17:58",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "自习室左侧有样式 bug，查看怎么修复"
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "肥皂聚聚辛苦了，完善网站，膜",
+                "commenter": "宇直"
+            },
+            {
+                "comment": "reply需要等 life 聚聚推代码，github上某有",
+                "commenter": "肥皂",
+                "replyer": "宇直"
+            }
+        ]
+    },
+    {
+        "userData": "宇直-坚持记录下去！",
+        "today": "2020年03月24日",
+        "user": "宇直",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1585022048222,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:44 - 11:54",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "开会-项目1.2.2版本"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "14:35 - 15:34",
+                "minuteDuration": 59,
+                "hourDuration": 0.98,
+                "studyContent": "小程序：更新整体业务流程"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "16:30 - 18:33",
+                "minuteDuration": 123,
+                "hourDuration": 2.05,
+                "studyContent": "小程序：更新整体业务流程 1.0"
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年03月24日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1585030220817,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "14:04 - 14:10",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "导入功能上线"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "14:48 - 14:48",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "14:47 修改商户更新接口"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "14:48 - 15:09",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "测试商户更新接口"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "15:10 - 16:15",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "更新商户更新接口文档，测试环境部署服务"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "16:16 - 16:38",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "休息"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "16:38 - 16:50",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "对接商户信息更改审批自动化需求"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "16:50 - 17:21",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "看魔女blog,看到27也"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "17:22 - 17:52",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "审批自动化：接入消费者配置，明天写消息消费"
+            }
+        ]
+    },
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年03月24日",
+        "user": "wooddown",
+        "signature": "",
+        "id": 1585022480732,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:51 - 12:01",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "等外卖, 做出 drawTriangle1(v1, v2, v3)"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "12:21 - 12:36",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "继续 drawTriangle1(v1, v2, v3)"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "12:37 - 13:04",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "rawTriangle1(v1, v2, v3)\n颜色插值"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "13:04 - 13:11",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "rawTriangle2(v1, v2, v3)\n"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "13:12 - 13:21",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "drawTriangle3, 合并drawTriangle1, drawTriangle2\n"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "13:24 - 13:25",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "安排下午工作"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "13:51 - 13:55",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "安排下午工作"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "13:55 - 14:48",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "确定APP需要的素材"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "14:49 - 14:58",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "修改蓝牙指令"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "15:07 - 15:10",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "修改蓝牙指令"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "15:11 - 15:24",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "解决重复监听的问题"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "15:24 - 15:25",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "添加操作限制, 梳理操作流程"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "15:47 - 15:54",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "添加操作限制, 梳理操作流程"
+            }
+        ]
+    },
+    {
+        "userData": "木木-dengge1225",
+        "today": "2020年03月24日",
+        "user": "木木",
+        "signature": "",
+        "id": 1585029408936,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "13:56 - 13:56",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "再实现一个 drawTriangle2(v1, v2, v3) 方法 v1 v2 v3 是一个三角形的三个顶点 其中 v3 在下面，v1 v2 在上面，并且 v1 v2 的 y 是相同的"
+            }
+        ]
+    },
+    {
+        "userData": "ro-ro",
+        "today": "2020年03月24日",
+        "user": "ro",
+        "signature": "",
+        "id": 1585022546137,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:41 - 12:02",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "学习 - 熵，原始熵"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "12:03 - 12:19",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "学习 - 熵，practice"
+            }
+        ]
+    },
+    {
+        "userData": "巾凡-fengfan620",
+        "today": "2020年03月24日",
+        "user": "巾凡",
+        "signature": "",
+        "id": 1585021641043,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:47 - 11:47",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "test"
+            }
+        ]
+    },
+    {
+        "userData": "世终-123aa456",
+        "today": "2020年03月24日",
+        "user": "世终",
+        "signature": "",
+        "id": 1585021370591,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:39 - 11:42",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "跟项目讨论排期"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年03月24日",
+        "user": "life",
+        "signature": "只做两件事",
+        "id": 1584984381202,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "01:26 - 01:26",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "test"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "01:26 - 01:26",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "test2"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "09:57 - 10:24",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "需求一 --- 画页面"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "10:25 - 10:57",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "需求一 --- 接口逻辑1"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "11:20 - 11:27",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "需求一 --- 接口逻辑2"
+            }
+        ]
+    },
+    {
+        "userData": "风行-zixiui",
+        "today": "2020年03月24日",
+        "user": "风行",
+        "signature": "12点之前睡觉！",
+        "id": 1585014018283,
+        "table": [
+            {
+                "studyDate": "20200324",
+                "segmentation": "09:24 - 09:40",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "zoye16"
+            },
+            {
+                "studyDate": "20200324",
+                "segmentation": "10:14 - 10:18",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "zoye16"
+            }
+        ]
+    }
+]

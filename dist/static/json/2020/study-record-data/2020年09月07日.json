@@ -1,0 +1,204 @@
+[
+    {
+        "userData": "hello-坚持记录下去！",
+        "today": "2020年09月07日",
+        "user": "hello",
+        "signature": "",
+        "id": 1599487507885,
+        "table": [
+            {
+                "studyDate": "20200907",
+                "segmentation": "21:51 - 22:05",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - axe4 重写 继续c语言入门 2.c",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "22:05 - 22:29",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "axe - axe4 重写 继续c语言入门 3.c",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "22:58 - 23:10",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe - axe4 重写 继续c语言入门 4.c",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "23:10 - 23:24",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - axe4 重写 继续c语言入门 5.c",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年09月07日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1599442627446,
+        "table": [
+            {
+                "studyDate": "20200907",
+                "segmentation": "09:28 - 09:37",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - axe4 重写 跟写两个类 弄懂 .c 和 .h 的区别",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "09:37 - 09:48",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - axe4 重写 增加 utils 文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "09:58 - 10:04",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - axe4 增加 aeString 类, 先看现有的 aeString.h 文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "10:10 - 10:14",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - axe4 增加 aeString 类, 实现 aeString.c 做计划",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "10:24 - 10:41",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - axe4 增加 aeString 类 实现 aeStringNewWithChars 和 aeStringLog 方法",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "10:50 - 11:07",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - axe4 增加 aeString 类 实现 aeStringEqual 方法并增加测试函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "11:12 - 11:25",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - axe4 增加 aeString 类 实现 aeStringConcat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "11:28 - 11:52",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "axe - axe4 增加 aeString 类 实现 stringSubString",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "13:35 - 13:50",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "wa - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "14:18 - 14:31",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 增加 aeString 类 aeStringStartWith",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "14:48 - 14:50",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "axe - 开始增加 aeList 类",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "15:25 - 15:52",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "tf - 配置菜单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "15:56 - 16:23",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "tf - 配置菜单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "16:52 - 17:22",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "tf - 配置菜单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "17:31 - 17:59",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "tf - 配置菜单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "18:51 - 19:13",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "axe - 看 aeList 类文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "19:15 - 19:32",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - 看 aeList 类文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "19:47 - 19:54",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe - 增加 split 方法",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200907",
+                "segmentation": "19:55 - 20:14",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "axe - 增加 split 方法",
+                "expectation": ""
+            }
+        ]
+    }
+]

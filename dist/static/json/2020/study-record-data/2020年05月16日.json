@@ -1,0 +1,59 @@
+[
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年05月16日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589608333622,
+        "table": [
+            {
+                "studyDate": "20200516",
+                "segmentation": "13:36 - 13:52",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "日报 - TODO",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200516",
+                "segmentation": "13:53 - 14:05",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "购买 mac 配件 - 购买拓展坞",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200516",
+                "segmentation": "14:05 - 14:20",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "平凡之路 - 我对歌词的评价",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200516",
+                "segmentation": "14:26 - 15:13",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "mac - 安装软件",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200516",
+                "segmentation": "15:14 - 15:25",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "mac - 熟悉触屏手势",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200516",
+                "segmentation": "23:28 - 23:37",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "日常 - 打字加测速",
+                "expectation": "15"
+            }
+        ]
+    }
+]

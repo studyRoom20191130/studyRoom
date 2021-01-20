@@ -1,0 +1,59 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年10月08日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1602127590164,
+        "table": [
+            {
+                "studyDate": "20201008",
+                "segmentation": "11:16 - 11:26",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "axe - vue 版轮播图 搭框架",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201008",
+                "segmentation": "11:26 - 11:43",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - vue 版轮播图 把原生的搬过来 完成缩略图绑定事件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201008",
+                "segmentation": "11:53 - 11:56",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "axe - vue 版轮播图 左右按钮事件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201008",
+                "segmentation": "11:56 - 12:00",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - vue 版轮播图 自动轮播",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201008",
+                "segmentation": "12:02 - 12:02",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - vue 版轮播图，用 vue 比较方便，原生是自己定义一个类，生成一个实例，把需要用到的全局变量放进去，然后把这个实例传入每一个绑定事件函数，另外绑在 data-set 上的数值可以直接通过函数传递，原生是通过事件委托，然后再通过 dataset 取值",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201008",
+                "segmentation": "12:03 - 12:11",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - react 版轮播图 搭架子，算了。。",
+                "expectation": ""
+            }
+        ]
+    }
+]

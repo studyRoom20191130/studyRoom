@@ -1,0 +1,567 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月04日",
+        "user": "Sean",
+        "signature": "菜就要多花时间",
+        "table": [
+            {
+                "studyDate": "20210104",
+                "segmentation": "08:40 - 09:00",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "mo - 日报, 早餐, 冲牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:10 - 09:20",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "mo - vs code运行py",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "11:22 - 11:35",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "mo - 下pycharm",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:06 - 10:26",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "mo - 加入群组插件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:20 - 10:00",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "14:51 - 15:28",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "tf - 理需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "21:10 - 21:54",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "锻炼 - ",
+                "expectation": ""
+            }
+        ],
+        "hero": "/pkm/pkm10.png",
+        "weapon": ""
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2021年01月04日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:10 - 09:11",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:11 - 09:34",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "日常 - 刷牙 照片",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:43 - 10:08",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "chat - 爬清沉的楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:09 - 10:21",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "工作 - 填写季度绩效完成表",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:23 - 10:26",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "计划 - 今日计划 - （1.爬两到三个chat 2.axe2板书回顾 3.父亲题整理 4.修复活动bug）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:26 - 11:13",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "chat - 爬清沉的楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "14:05 - 14:05",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "chat - 爬zelda和三浦的楼（中午到14：04）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "19:59 - 19:59",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - 作业4 4h",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "19:59 - 20:09",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 修复 mh bug 117",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:14 - 20:16",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 修复 mh bug 119  - 需要明天和产品确认，此项流程有问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:18 - 20:25",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - 修复 mh bug 120",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:31 - 20:31",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - 修复 mh bug 122 - 有点问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:40 - 20:46",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 修复 mh bug 125 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:50 - 21:25",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "工作 - 修复 mh bug 126 ",
+                "expectation": ""
+            }
+        ],
+        "hero": "dashu.jpg",
+        "weapon": ""
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月04日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:00 - 09:15",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "axe4 - Chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:17 - 09:17",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今日计划: 做题 / axe 作业 / 实习证明",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:18 - 10:59",
+                "minuteDuration": 101,
+                "hourDuration": 1.68,
+                "studyContent": "axe4 - QQ 和 chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "11:00 - 11:00",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "实习证明 - 检查鉴定表",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "11:14 - 11:23",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "毕业设计 - 查看流程",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "11:34 - 11:38",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "摸鱼 - 看看医院公众号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "11:40 - 12:04",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "axe4 - 同步看皮肤",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "14:20 - 14:25",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "实习证明 - 给组长写评价",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "15:00 - 15:08",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "实习证明 - 打印，给hr姐姐盖章",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "18:40 - 18:54",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe4 - asm - 去注释",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "18:55 - 19:25",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "axe4 - asm - 转换为数字",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "19:30 - 20:20",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "axe4 - asm - 计算 lable",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:46 - 20:50",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe4 - asm - 完善代码",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "提供灵感了!两个短横线非常好, 可以统计一个大类下的各个小类的时间",
+                "commenter": "life"
+            },
+            {
+                "comment": "reply哇 life 聚聚好棒！期待新功能",
+                "commenter": "LD",
+                "replyer": "life"
+            },
+            {
+                "comment": "43WPM",
+                "commenter": "LD"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2021年01月04日",
+        "user": "life",
+        "signature": "打满四节",
+        "table": [
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:05 - 09:05",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今日计划: tf 收尾 / axe 作业 / 自习室",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:13 - 09:13",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今日计划: 工作内容总结",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:13 - 09:30",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "tf - 写申请",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:33 - 10:09",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "tf - 支付宝结果页",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:10 - 10:25",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "tf - 支付宝结果页 部署看效果 调试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "11:22 - 12:06",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "小程序 - 看文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "13:38 - 14:19",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "小程序 - 看 github 的项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "14:39 - 14:50",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf - 找文档素材",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "14:50 - 15:39",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "小程序 - 整首页样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "15:55 - 16:22",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "小程序 - 支付页结果展示",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "16:22 - 16:45",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "tf - 支付宝结果页逻辑修正",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "16:45 - 17:02",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "tf - 支付宝结果页调整细节",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "17:07 - 17:15",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "tf - 输入框细节调整, 打包",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "17:18 - 17:18",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "自习室 - todo: 看板增加年份选项,  默认展示当年 /  新增 短横线 json 文件, 每次新增记录, 都往里面写入数据 / 每次发送数据, 从短横线 文件里取数据 / 个人记录数据按年份做区分",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "17:18 - 17:35",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "tf - 调整 box-shadow",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "19:54 - 20:03",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "自习室 - 更新至 git",
+                "expectation": ""
+            }
+        ],
+        "hero": "sf.jpg",
+        "weapon": "blink_lg.png-black_king_bar_lg.png-bloodthorn_lg.png-monkey_king_bar_lg.png-butterfly_lg.png-"
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月04日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210104",
+                "segmentation": "11:18 - 11:55",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "工作 - demo 首页接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "14:57 - 16:01",
+                "minuteDuration": 64,
+                "hourDuration": 1.07,
+                "studyContent": " fe - 递归练习",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "16:49 - 17:24",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": " fe - 递归练习3-4",
+                "expectation": ""
+            }
+        ],
+        "hero": "baihu2.jpg",
+        "weapon": ""
+    },
+    {
+        "userData": "twoheart-123456",
+        "today": "2021年01月04日",
+        "user": "twoheart",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20210104",
+                "segmentation": "14:53 - 15:57",
+                "minuteDuration": 64,
+                "hourDuration": 1.07,
+                "studyContent": "fep - class1 class2 补",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "16:15 - 17:20",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "fep - class1 class2 补，熟悉下 gulp 4 版本的 api，插件的使用部分完成",
+                "expectation": ""
+            }
+        ],
+        "hero": "/pkm/pkm4.jpg",
+        "weapon": ""
+    },
+    {
+        "userData": "亭川-alite180",
+        "today": "2021年01月04日",
+        "user": "亭川",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:55 - 11:34",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "mo - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "11:34 - 12:01",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "mo - plan",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "15:43 - 16:14",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "tf - 物联感知",
+                "expectation": ""
+            }
+        ],
+        "hero": "ljmk.jpg",
+        "weapon": ""
+    },
+    {
+        "userData": "荒-19931002jt",
+        "today": "2021年01月04日",
+        "user": "荒",
+        "signature": "菜 就要有变强的觉悟",
+        "table": [
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:22 - 10:41",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "tf- 周计划",
+                "expectation": ""
+            }
+        ],
+        "hero": "spe2.png",
+        "weapon": ""
+    }
+]

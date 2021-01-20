@@ -1,0 +1,285 @@
+[
+    {
+        "userData": "hello-坚持记录下去!",
+        "today": "2020年09月09日",
+        "user": "hello",
+        "signature": "",
+        "id": 1599612635553,
+        "table": [
+            {
+                "studyDate": "20200909",
+                "segmentation": "08:34 - 08:50",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 处理杂务",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "08:52 - 10:00",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "tf - 列表页开发, 增加一栏. 原页面耦合过高, 修改起来可能比较费时. \n使用两个表驱动来解耦. 完成. ",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "10:00 - 10:25",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "看书 - css. ",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "10:25 - 10:50",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "水群",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "10:25 - 10:50",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "水群",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "14:14 - 15:19",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "axe - 前端题目, 实现递归显示",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "15:20 - 15:45",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "水群",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "16:37 - 17:29",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "看书 - 软件随想录 第五部分 编程建议",
+                "expectation": "40"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "20:21 - 20:49",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "axe - 看懂 c 语言数据结构\n-> 用于访问结构体指针变量里面的属性\n其他看不懂...应该不影响写作业吧?",
+                "expectation": "40"
+            }
+        ]
+    },
+    {
+        "userData": "hello-坚持记录下去!",
+        "today": "2020年09月09日",
+        "user": "hello",
+        "signature": "",
+        "id": 1599612635553,
+        "table": [
+            {
+                "studyDate": "20200909",
+                "segmentation": "08:34 - 08:50",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 处理杂务",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "08:52 - 10:00",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "tf - 列表页开发, 增加一栏. 原页面耦合过高, 修改起来可能比较费时. \n使用两个表驱动来解耦. 完成. ",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "10:00 - 10:25",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "看书 - css. ",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "10:25 - 10:50",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "水群",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "10:25 - 10:50",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "水群",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "14:14 - 15:19",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "axe - 前端题目, 实现递归显示",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "15:20 - 15:45",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "水群",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "16:37 - 17:29",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "看书 - 软件随想录 第五部分 编程建议",
+                "expectation": "40"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年09月09日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1599614757683,
+        "table": [
+            {
+                "studyDate": "20200909",
+                "segmentation": "09:11 - 09:25",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "tf - 部署",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "09:46 - 10:05",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "kgp - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "10:05 - 10:16",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "wa - 找一下资料",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "10:30 - 10:41",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 前端练习 转html",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "10:41 - 11:02",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - 前端练习 看群里思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "11:02 - 11:10",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 前端练习 先添加 ul 吧",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "11:15 - 11:31",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - 前端练习 构造  ul 节点",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "13:29 - 13:40",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf - 找框架",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "13:40 - 13:56",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 先把文件准备齐全",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "13:56 - 14:00",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "tf - 开始写页面，照搬京东的样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "14:34 - 15:41",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "tf - 开始写页面，照搬京东的样式 完成头部样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "15:50 - 16:15",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "tf - tab 页面 输卡ui",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "16:15 - 16:25",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - tab 页面 切换逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "16:25 - 16:45",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - 展示银行列表",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200909",
+                "segmentation": "16:45 - 17:22",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "tf - 逻辑收尾",
+                "expectation": ""
+            }
+        ]
+    }
+]

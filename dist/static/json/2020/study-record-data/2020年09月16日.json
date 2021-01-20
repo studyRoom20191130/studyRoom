@@ -1,0 +1,164 @@
+[
+    {
+        "userData": "hello-坚持记录下去！",
+        "today": "2020年09月16日",
+        "user": "hello",
+        "signature": "",
+        "id": 1600270972903,
+        "table": [
+            {
+                "studyDate": "20200916",
+                "segmentation": "23:01 - 23:42",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "axe - 前端作业, 轮播组件, 使用 vue 来实现",
+                "expectation": "40"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年09月16日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1600218224867,
+        "table": [
+            {
+                "studyDate": "20200916",
+                "segmentation": "09:03 - 09:03",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今日计划：完成接口联调 1小时C语言 新项目搭架子",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "09:06 - 09:15",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 看一下新项目原型",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "09:18 - 09:28",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 部署更新",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "09:31 - 10:01",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "tf - 接口联调",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "10:04 - 10:28",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "tf - 接口联调 更正渠道名称",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "10:30 - 10:56",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "kgp - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "11:00 - 11:18",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "kgp + 看群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "11:18 - 11:57",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "13:47 - 14:32",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "tf - 调接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "14:44 - 15:05",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "tf - 调接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "15:12 - 15:18",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "tf - 调接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "15:21 - 15:40",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "tf - 主页",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "16:16 - 16:31",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "tf - 明细",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "16:34 - 17:14",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "tf - 明细",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "17:20 - 17:39",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "tf - 查询",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "17:39 - 17:52",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "tf - 更正 渠道 字段",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200916",
+                "segmentation": "20:18 - 20:30",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe - 看一下该干啥  现在可以存进数组了",
+                "expectation": ""
+            }
+        ]
+    }
+]

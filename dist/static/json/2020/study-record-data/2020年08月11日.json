@@ -1,0 +1,148 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年08月11日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1597102831233,
+        "table": [
+            {
+                "studyDate": "20200811",
+                "segmentation": "07:23 - 07:40",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - 补图形学作业 画 z 坐标三角形 看 chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "07:40 - 07:53",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 补图形学作业 画 z 坐标三角形 生成 depth 数组 z值小的在前面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "09:18 - 09:37",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "axe - 补图形学作业 画 z 坐标三角形 生成 depth 数组 z值小的在前面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "09:52 - 10:01",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - 补图形学作业 作业 17 读题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "10:05 - 10:10",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "axe - 补图形学作业 先看一下 guamesh 怎么写的",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "10:11 - 10:15",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - 补图形学作业 先看一下 guamesh 怎么写的",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "10:15 - 10:19",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - 补图形学作业 看一下 map 方法啥意思",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "10:19 - 10:38",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "axe - 补图形学作业 打 log 看 mesh 的意思",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "10:44 - 10:51",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe - 补图形学作业 打地鼠尝试一下直接画",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "10:51 - 10:59",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 补图形学作业 搜 chat 躺 fromGua3D",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "11:08 - 11:21",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 补图形学作业 作业 17 开始复制粘贴 成功",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "11:49 - 11:56",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe - 补图形学作业 调整代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "14:18 - 14:25",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "tf - 整理文件 虚拟桌面腾空间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "15:28 - 15:34",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "tf - 安装 mysql",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年08月11日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1597116779491,
+        "table": [
+            {
+                "studyDate": "20200811",
+                "segmentation": "09:10 - 11:20",
+                "minuteDuration": 130,
+                "hourDuration": 2.17,
+                "studyContent": "无返回值的 returnOK了，昨天的调用函数的 bug 处理了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200811",
+                "segmentation": "11:33 - 12:39",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "写需求\n吃饭",
+                "expectation": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "userData": "风行-zi'xi'ui",
+        "today": "2020年02月26日",
+        "user": "风行",
+        "id": 1582692059110,
+        "table": [
+            {
+                "studyDate": "20200226",
+                "segmentation": "11:51 - 12:40",
+                "minuteDuration": 49,
+                "hourDuration": 0.8,
+                "studyContent": "gualang，ctrl + r 运行 atom runner"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年02月26日",
+        "user": "life",
+        "id": 1582690115851,
+        "table": [
+            {
+                "studyDate": "20200226",
+                "segmentation": "11:29 - 12:08",
+                "minuteDuration": 39,
+                "hourDuration": 0.7,
+                "studyContent": "整理简历"
+            }
+        ]
+    }
+]

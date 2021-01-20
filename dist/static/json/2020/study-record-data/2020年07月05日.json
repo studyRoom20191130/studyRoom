@@ -1,0 +1,91 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年07月05日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1593932036852,
+        "table": [
+            {
+                "studyDate": "20200705",
+                "segmentation": "14:47 - 14:53",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - eval testRun 测试4 增加减法的递归",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200705",
+                "segmentation": "15:16 - 15:29",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - eval testRun 测试5",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200705",
+                "segmentation": "16:05 - 16:21",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - eval testRun 测试6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200705",
+                "segmentation": "16:22 - 16:26",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - eval testRun 测试6 抽函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200705",
+                "segmentation": "16:26 - 16:32",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - eval testRun 测试7、8",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200705",
+                "segmentation": "16:49 - 16:58",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - eval testRun 测试 9、10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200705",
+                "segmentation": "19:40 - 20:27",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "axe - 上课",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200705",
+                "segmentation": "20:35 - 21:05",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "axe - 上课",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200705",
+                "segmentation": "21:18 - 22:03",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "axe - 上课",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200705",
+                "segmentation": "22:59 - 23:10",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 看 chat",
+                "expectation": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,59 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年08月17日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1597629978651,
+        "table": [
+            {
+                "studyDate": "20200817",
+                "segmentation": "09:40 - 10:00",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - 完善 columns 生成函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200817",
+                "segmentation": "10:39 - 11:19",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "tf - 完成剩下的mock页面  6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200817",
+                "segmentation": "11:29 - 11:35",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "tf - 完成剩下的mock页面  6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200817",
+                "segmentation": "11:36 - 11:46",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 完成剩下的mock页面  6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200817",
+                "segmentation": "16:03 - 16:28",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "tf - 完成剩下的mock页面  7",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200817",
+                "segmentation": "16:28 - 16:46",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "tf - 完成剩下的mock页面  8",
+                "expectation": ""
+            }
+        ]
+    }
+]

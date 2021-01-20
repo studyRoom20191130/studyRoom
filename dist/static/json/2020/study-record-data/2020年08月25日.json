@@ -1,0 +1,35 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年08月25日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1598357289412,
+        "table": [
+            {
+                "studyDate": "20200825",
+                "segmentation": "19:55 - 20:08",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - C 语言入门作业  1  ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200825",
+                "segmentation": "20:11 - 20:42",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "axe - C 语言入门作业  2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200825",
+                "segmentation": "20:51 - 21:03",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe - C 语言入门作业  3",
+                "expectation": ""
+            }
+        ]
+    }
+]

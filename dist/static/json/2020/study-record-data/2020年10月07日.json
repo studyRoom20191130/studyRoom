@@ -1,0 +1,51 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年10月07日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1602081677309,
+        "table": [
+            {
+                "studyDate": "20201007",
+                "segmentation": "10:38 - 10:41",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "axe - 前端练习 城市表 搭架子 看示例网站的 html 结构",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201007",
+                "segmentation": "22:41 - 22:52",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 前端练习 城市表 写死数据，先好基本样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201007",
+                "segmentation": "22:52 - 23:03",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 前端练习 城市表 绑定事件，实现预期效果，逻辑不对，其他 span 也会出现背景色",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201007",
+                "segmentation": "23:03 - 23:19",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - 前端练习 城市表 完成 移入增加背景色逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201007",
+                "segmentation": "23:19 - 23:25",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - 前端练习 城市表 移出去掉背景色",
+                "expectation": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,5335 @@
+[
+    {
+        "userData": "点点-diandian",
+        "today": "2021年01月14日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210114",
+                "segmentation": "09:29 - 09:30",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "计划 - 今日计划 - （1.mh 需求完成 2.mh会议 3.wyd会议 4.wyd上线 5 mh jira更新 6 mh告警咨询）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "09:30 - 09:36",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "日常 - 吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "09:36 - 09:36",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 补充计划 - axe 录播6看一下",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "09:37 - 09:52",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "日常 - 刷牙 和 倒水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "09:52 - 09:55",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 准备好 mh 开会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "10:01 - 10:27",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "工作 -  mh 开会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "10:27 - 10:27",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 -  mh 按券交易添加参数\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "11:10 - 11:10",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - mh 开会结束",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "11:11 - 11:11",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - mh 告警咨询同事 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "15:39 - 15:39",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - 拉更新代码 和 开会（2h））",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210114",
+                "segmentation": "15:39 - 15:44",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "mo - 走动",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-123456xyz",
+        "today": "2021年01月13日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210113",
+                "segmentation": "09:49 - 10:29",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "axe - 读题目 和 发呆\n",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-123456xyz",
+        "today": "2021年01月12日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210112",
+                "segmentation": "10:13 - 11:18",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "工作 - 开会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210112",
+                "segmentation": "11:18 - 12:54",
+                "minuteDuration": 96,
+                "hourDuration": 1.6,
+                "studyContent": "axe - 跑 gl auto test 和 看题目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210112",
+                "segmentation": "19:04 - 19:04",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - 4h - 解析到 .memory",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2021年01月11日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210111",
+                "segmentation": "09:23 - 10:16",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "mo - 吃饭 开会 沟通",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-123456xyz",
+        "today": "2021年01月10日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210110",
+                "segmentation": "09:04 - 09:07",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "mo - 找第一次分享的记录\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210110",
+                "segmentation": "13:20 - 15:28",
+                "minuteDuration": 128,
+                "hourDuration": 2.13,
+                "studyContent": "axe - 5 gualang 重写",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210110",
+                "segmentation": "15:28 - 15:53",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "axe - 5.1 gualang 重写完成",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-123456xyz",
+        "today": "2021年01月09日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210109",
+                "segmentation": "12:18 - 12:22",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - 作业5.1题目复制\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "12:22 - 12:33",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 作业5.1 - pycharm mac 安装 pygame",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "16:41 - 16:42",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "axe - 作业5.1 - 考虑要不要切换成 gualang 写 - 切换\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "16:42 - 16:50",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 作业5.1 - gualang 下载\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "16:50 - 16:50",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - 作业5.1 - 替换 libgualang.dylib 文件\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "16:51 - 16:56",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "axe - 作业5.1 - 执行 板书 代码成功",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "16:58 - 17:02",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - 作业5.1 -找 gualang 文档\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "17:02 - 17:16",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - 作业5.1 - 看 gualang 文档，看一半，停止看，直接看作业",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "17:16 - 17:19",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "axe - 作业5.1 - 看作业板书",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "17:20 - 17:23",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "axe - 作业5.1 - 看板书提示",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "17:23 - 17:45",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "mo - 走动 喝水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "17:45 - 17:53",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 作业5.1 - 看板书提示",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "17:53 - 18:55",
+                "minuteDuration": 62,
+                "hourDuration": 1.03,
+                "studyContent": "axe - 作业5.1 - 看 chat \n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210109",
+                "segmentation": "19:05 - 19:06",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "axe - 作业5.1 - 补零 和 跑完 run 函数耗时过久（疑惑作业五完成是否正确，chat 发起提问）\n",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-123456xyz",
+        "today": "2021年01月08日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210108",
+                "segmentation": "13:23 - 13:42",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "axe -作业五看题目 - 没看懂",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "13:42 - 14:02",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "axe -作业五看题目 -爬chat\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210108",
+                "segmentation": "14:02 - 14:10",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe -作业五看题目 - 提问\n",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2021年01月06日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210106",
+                "segmentation": "09:50 - 10:29",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "工作 - 登录账号 和 刷牙 和 处理档案转移\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210106",
+                "segmentation": "16:01 - 16:01",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 送奶茶 聊天 发呆 刷牙 吃饭（2h）\n",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2021年01月05日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210105",
+                "segmentation": "09:31 - 09:36",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "09:36 - 09:47",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "工作 - 代码合拼master",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "09:47 - 10:32",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "工作 - 和产品沟通，和同事交接",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "12:42 - 12:42",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 刷chat （效率极低）- 2h",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "12:49 - 12:53",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "计划 - 今日计划 - （1.安装mac gualang 2.mh bug修复 3.反省做作业提问方式不对 4.早点睡觉）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "12:53 - 13:16",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "mo - allen 题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "13:16 - 13:48",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "mo - allen 题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "13:48 - 15:13",
+                "minuteDuration": 85,
+                "hourDuration": 1.42,
+                "studyContent": "mo - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "15:13 - 15:21",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "mo - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "15:21 - 15:31",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "mo - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "15:58 - 15:59",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "axe - 安装好 gualang mac版\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "15:59 - 16:19",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "反省 - 反省做作业提问方式不对",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "16:36 - 16:36",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "整理 - 整理member（16min）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210105",
+                "segmentation": "17:32 - 17:32",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "整理 - 整理qq记录（1h）",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2021年01月04日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:10 - 09:11",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:11 - 09:34",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "日常 - 刷牙 照片",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "09:43 - 10:08",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "chat - 爬清沉的楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:09 - 10:21",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "工作 - 填写季度绩效完成表",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:23 - 10:26",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "计划 - 今日计划 - （1.爬两到三个chat 2.axe2板书回顾 3.父亲题整理 4.修复活动bug）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "10:26 - 11:13",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "chat - 爬清沉的楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "14:05 - 14:05",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "chat - 爬zelda和三浦的楼（中午到14：04）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "19:59 - 19:59",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - 作业4 4h",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "19:59 - 20:09",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 修复 mh bug 117",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:14 - 20:16",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 修复 mh bug 119  - 需要明天和产品确认，此项流程有问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:18 - 20:25",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - 修复 mh bug 120",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:31 - 20:31",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - 修复 mh bug 122 - 有点问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:40 - 20:46",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 修复 mh bug 125 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210104",
+                "segmentation": "20:50 - 21:25",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "工作 - 修复 mh bug 126 ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月31日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201231",
+                "segmentation": "09:34 - 09:39",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 登录账号（自习室一进来好有气氛，要放假啦）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201231",
+                "segmentation": "09:54 - 10:21",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "mo - 发呆，群聊聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201231",
+                "segmentation": "10:29 - 11:39",
+                "minuteDuration": 70,
+                "hourDuration": 1.17,
+                "studyContent": "计划 - 今日计划 - （1.魔戒如何写自己感想 2.爬gua讲话的chat 3.请教如何制提问图 4.提mh到系统 5.起跑线电影 6.父亲题资料整理，开chat）",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月30日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201230",
+                "segmentation": "09:26 - 09:29",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201230",
+                "segmentation": "09:29 - 09:33",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "mo - 收拾桌子",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201230",
+                "segmentation": "09:42 - 09:49",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - jira 更新工作进度",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201230",
+                "segmentation": "09:51 - 10:11",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "工作 - 校验接口参数修改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201230",
+                "segmentation": "10:11 - 10:22",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "mo - 走动 倒水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201230",
+                "segmentation": "10:23 - 11:01",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "工作 - bug修复",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201230",
+                "segmentation": "11:01 - 11:11",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 提交代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201230",
+                "segmentation": "11:11 - 12:22",
+                "minuteDuration": 71,
+                "hourDuration": 1.18,
+                "studyContent": "mo - 吃饭 发呆 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201230",
+                "segmentation": "13:18 - 13:18",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 下午计划 - （下午摸鱼，晚上修bug）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201230",
+                "segmentation": "16:22 - 16:22",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 群聊 查资料 提问 发呆 改了个bug（3h）",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月29日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201229",
+                "segmentation": "10:27 - 10:35",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "14:04 - 14:20",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "日常 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "14:20 - 15:29",
+                "minuteDuration": 69,
+                "hourDuration": 1.15,
+                "studyContent": "工作 - mh 测试评审",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "15:29 - 15:29",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 摸鱼一上午",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "15:31 - 15:39",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "mo - 发呆过渡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "15:40 - 15:48",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 取消按钮，清空内容",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "16:00 - 16:08",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 查看代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "16:09 - 16:43",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "工作 - 根据条件添加提示语 - 失败",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "16:43 - 16:46",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 弹窗代码查看",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "16:47 - 16:49",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 活动详情页增加券类型信息 - 已有不用加",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "16:50 - 16:58",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 活动详情页可用商户样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "16:58 - 17:03",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 活动详情页可用商户样式点击功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "17:04 - 17:13",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - 活动管理页面关闭按钮切换 - 和产品商量切换方案，商户信息页面变弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "17:13 - 17:23",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 商户信息页面变弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "17:23 - 17:36",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "工作 - 商户信息弹窗移植到活动管理页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "17:37 - 18:50",
+                "minuteDuration": 73,
+                "hourDuration": 1.22,
+                "studyContent": "日常 - 吃饭 和 刷牙 和 聊天 和 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "18:51 - 18:56",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 商户校验接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "18:56 - 19:04",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 提交接口添加字段",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "19:06 - 19:25",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "工作 - mh 创建活动页面提交测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "19:25 - 19:51",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "工作 - mh 自测 和 bug 修复",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201229",
+                "segmentation": "19:51 - 19:57",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - mh 创建活动页面提交测试",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月28日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201228",
+                "segmentation": "09:06 - 09:11",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "09:11 - 09:21",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "mo - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "09:22 - 09:23",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "计划 - 今日计划 - （1.课1回顾 2.chat创建新讨论 3.门户完成一个页面）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "09:23 - 09:36",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "mo - 刷牙 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "09:36 - 09:43",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "mo - 群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "09:49 - 10:18",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "工作 - mh - layui 找单选 - 找到但版本不适合放弃",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "10:18 - 10:31",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "工作 - mh - 自己写单选",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "10:37 - 10:46",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - mh - 单选事件1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "10:47 - 11:04",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "mo - 走动 群聊\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "11:04 - 11:10",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - mh - 可用商户区域样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "11:11 - 11:11",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - mh - 单选事件2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "11:13 - 11:15",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - mh - 点击可用商户名单后，出现可用商户名单弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "11:15 - 11:51",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "工作 - mh - 找layui弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "11:52 - 12:13",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - mh - 研究穿梭框，不用layui，网上找一个全选多选",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "13:13 - 13:26",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "日常 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "13:26 - 13:43",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "工作 - mh - 网上扒下来全选多选改改，挪到项目里",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "13:43 - 14:20",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "工作 - mh - 商户弹窗样式完成",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "14:20 - 14:36",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "工作 - mh - 商户弹窗下半部分 - 输入功能 和 获取数据洗数据",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "14:41 - 14:51",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - mh - 添加事件调接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "14:52 - 15:07",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - mh - 全选多选清空数据",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "15:14 - 15:24",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - mh - 商户弹窗确定按钮",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "15:26 - 15:47",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - mh - 根据数据展示到上面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "16:03 - 16:11",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - mh - 删除数据，原数据需要同步删除",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "16:18 - 16:24",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "mo - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "16:25 - 16:30",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - mh - 未能清除textarea内容，更换empty为val（‘’）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "16:30 - 16:32",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - mh - 弹窗右上角关闭事件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "16:42 - 16:44",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - mh - 修复一个添加bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "16:44 - 16:51",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "mo - 倒水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "17:00 - 17:03",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - mh - 创建页面按钮添加判断校验",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "17:20 - 17:24",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - mh - 找内容弹窗如何打开 - 没找到 - 有 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "17:24 - 17:34",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - mh - 内容弹窗无法展示的bug - bootstrap 和 本地 classs 冲突",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "17:49 - 17:51",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - mh - 内容弹窗添加和事件绑定",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "18:28 - 18:44",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "日常 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "18:59 - 19:08",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - 可用商户信息静态页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "19:13 - 19:21",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 可用商户信息页面查询按钮",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "19:30 - 19:34",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 明天待做脑图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201228",
+                "segmentation": "20:35 - 22:45",
+                "minuteDuration": 130,
+                "hourDuration": 2.17,
+                "studyContent": "chat - 爬完今日份楼",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "输出爆炸呀, 按 F4 可以出装备(一个无聊中二的功能",
+                "commenter": "life"
+            },
+            {
+                "comment": "reply酷啊，我整个金光闪闪的刀",
+                "commenter": "点点",
+                "replyer": "life"
+            },
+            {
+                "comment": "哈哈哈 原来如此 围观get一个新技能",
+                "commenter": "LD"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月25日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201225",
+                "segmentation": "09:28 - 09:35",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "09:36 - 09:36",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 今日计划 - （1.mh 列出待做 2.昨天群文件 3.反省晚睡 ）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "09:44 - 09:57",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "日常 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "09:58 - 10:03",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 打开 mh 测试环境",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "10:03 - 10:45",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "工作 - mh 创建页面代码查看和做需求导图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "10:47 - 11:13",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "软件 - 下载xmind，印象笔记导图复制到xmind",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "11:27 - 11:29",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "mo - 群文件 - 没看",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "11:29 - 11:39",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "11:39 - 11:47",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "mo - 倒水 和 同事聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "13:30 - 13:52",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "mo - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "13:53 - 15:06",
+                "minuteDuration": 73,
+                "hourDuration": 1.22,
+                "studyContent": "工作 - 例会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201225",
+                "segmentation": "15:13 - 16:03",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "mo - 群聊",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月23日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201223",
+                "segmentation": "13:30 - 13:51",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - 看需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201223",
+                "segmentation": "13:54 - 14:02",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "计划 - 今日计划 - （1 昨天礼物提问整理，下一步计划 2 看群文件 3 整理一个代打 4 跟进今天是否上线 5）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201223",
+                "segmentation": "14:09 - 15:12",
+                "minuteDuration": 63,
+                "hourDuration": 1.05,
+                "studyContent": "工作 - 分期需求评审",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201223",
+                "segmentation": "15:12 - 15:21",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - 和同事沟通",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月22日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201222",
+                "segmentation": "09:20 - 09:21",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "09:21 - 09:23",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 和产品沟通修改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "09:24 - 09:28",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "计划 - 今日计划 - （1.活动修改文案和上线，提cdn更新工单 2.看牙医 3.反省昨晚遇到的提问 4.群文件 5.礼物问题修改）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "09:32 - 09:45",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "日常 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "09:45 - 10:01",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "工作 - 修改文案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "10:02 - 10:11",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": " mo - 群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "10:11 - 10:32",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - 修改图片和上传代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "10:32 - 10:34",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 提工单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "10:34 - 10:51",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "mo - 走动 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "10:51 - 10:57",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "mo - 群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "10:57 - 11:11",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "反思 - 反省昨晚遇到的提问",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "11:13 - 11:24",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "mo - 礼物问题修改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "14:11 - 14:11",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "日常 - 看牙（2.5h）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "14:12 - 14:33",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "mo - 看题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "14:33 - 14:50",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "工作 - 看工单进度和同事沟通",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "15:14 - 15:17",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "mo - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "18:16 - 18:30",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "日常 - 刷牙敏",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201222",
+                "segmentation": "22:33 - 22:37",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "mo - bitbucket 新建 screencast 文件夹",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月21日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201221",
+                "segmentation": "08:57 - 09:00",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201221",
+                "segmentation": "09:02 - 09:02",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 今日计划 - （1.活动和产品沟通 2.fq是否有需求确认 3.查看群聊文件 4.反省经常瞎聊（昨晚为例） 5.爬欠下的楼）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201221",
+                "segmentation": "09:06 - 09:21",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - 活动确认变动范围",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201221",
+                "segmentation": "09:23 - 09:29",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "mo - 下载群聊文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201221",
+                "segmentation": "09:52 - 09:58",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 活动和产品沟通",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201221",
+                "segmentation": "09:58 - 10:01",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "mo - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201221",
+                "segmentation": "10:09 - 11:13",
+                "minuteDuration": 64,
+                "hourDuration": 1.07,
+                "studyContent": "mo - 查看群聊文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201221",
+                "segmentation": "13:32 - 15:00",
+                "minuteDuration": 88,
+                "hourDuration": 1.47,
+                "studyContent": "mo - 查看群聊文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201221",
+                "segmentation": "15:10 - 15:18",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "mo - 反省经常瞎聊（昨晚为例）",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月17日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:26 - 09:41",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - 登录账号 和 同事闲聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:41 - 09:43",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "mo - 吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "09:53 - 09:53",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 今日计划 - （1.昨天爬楼，整理重点群聊 2.反思晚睡问题 3.跟进fq新需求 4.整理位运算 5.双拼测试）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:07 - 10:07",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "日常 - 刷牙（10min）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:18 - 10:27",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "反思 - 晚睡问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "10:28 - 10:39",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "mo - 整理位运算",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:05 - 13:05",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - fq 回顾会（上午1.5h）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:14 - 13:28",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "mo - 睡觉 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:46 - 13:46",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 双拼测试 - 最高50",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:48 - 13:53",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "mo - 下载昨日文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201217",
+                "segmentation": "13:53 - 15:46",
+                "minuteDuration": 113,
+                "hourDuration": 1.88,
+                "studyContent": "mo - 走动和发呆",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "开心开心和点点一样50，进步啦进步啦~\n",
+                "commenter": "LD"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月16日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201216",
+                "segmentation": "13:45 - 14:34",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "摸鱼 - 看群聊 发呆 到水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201216",
+                "segmentation": "14:52 - 14:55",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "摸鱼 - 聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201216",
+                "segmentation": "15:08 - 15:31",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "mo - 搜微信长截图工具 和 总结沐人聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201216",
+                "segmentation": "15:31 - 15:34",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "mo - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201216",
+                "segmentation": "15:37 - 15:49",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "反思 - 跟不上直播讨论话题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201216",
+                "segmentation": "15:50 - 16:02",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "反思 - 提问时，未及时回复聚聚们的讨论",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201216",
+                "segmentation": "16:06 - 16:11",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "反思 - 不及时参与聚聚提问",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201216",
+                "segmentation": "16:57 - 17:06",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "mo - 买笔记会员，失败，充值一个月的",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月15日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201215",
+                "segmentation": "14:08 - 14:08",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - python 版寂寞小作业写入到本地（上午30min）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201215",
+                "segmentation": "14:08 - 15:07",
+                "minuteDuration": 59,
+                "hourDuration": 0.98,
+                "studyContent": "摸鱼 - 看群聊，发呆，和同事聊天，打水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201215",
+                "segmentation": "15:07 - 15:08",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "摸鱼 - 看待做",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201215",
+                "segmentation": "15:56 - 15:56",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "学习 - 看 kh 的学习想法（针对新语言api不熟悉）",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "聚聚可以补录时间的呀, 输入  1000  1030 加上这 30min吧(",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月14日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201214",
+                "segmentation": "09:04 - 09:25",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - 登录账号\n日常 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "09:25 - 09:46",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - 测活动和资产确认表",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "10:00 - 10:00",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "日常 - 发票",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "10:05 - 10:10",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 修改代码和上传",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "10:11 - 10:21",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "10:30 - 10:30",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - 咨询下午 fq 会议地点和时间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "10:31 - 10:50",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "工作 - 活动修复 bug ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "11:04 - 11:13",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "日常 - 个税 - 没有附加扣除，不填",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "11:21 - 11:32",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "摸鱼 - 记录今日和同事沟通笔记",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "11:35 - 11:38",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 活动调整样式和上传代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "13:37 - 13:44",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - win 搜 python 安装包 和 下载 pycharm 社区版",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "13:47 - 13:57",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "摸鱼 - pycharm 配置出问题，本地 cmd 找不到 python\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "14:05 - 14:35",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "摸鱼 - 卸载 python 和 重下 和 设置环境变量 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "14:35 - 14:40",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "摸鱼 - win 找不到 python 问题查询 - 没查出来",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "14:46 - 14:59",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "摸鱼 - 休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "14:59 - 16:06",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "工作 - fq 需求会   ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201214",
+                "segmentation": "16:12 - 17:17",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "摸鱼 - 群聊",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-123456xyz",
+        "today": "2020年12月13日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201213",
+                "segmentation": "05:33 - 05:34",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "摸鱼 - 土拨鼠之日",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "05:46 - 06:14",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "摸鱼 - 土拨鼠之日",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "11:18 - 12:24",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "摸鱼 - 土拨鼠之日，吃饭，刷牙，发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "12:42 - 13:25",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "摸鱼 - 土拨鼠之日",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "13:25 - 13:31",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸鱼 - 找植物大战僵尸mac版 - 没找到 - 4399体验一下\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "13:31 - 13:57",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "摸鱼 - 玩植物大战僵尸",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "14:02 - 14:34",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "学习 - 看代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "14:35 - 14:52",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "15:19 - 15:27",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "摸鱼 - 下载 python3\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "15:28 - 15:41",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "摸鱼 - mac 切换默认python2 到 python3\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "15:41 - 15:47",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸鱼 - 下载 pycharm 社区版",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201213",
+                "segmentation": "22:31 - 22:31",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - python xor 写入文件 和 提问 和 笔记\n",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "哇，这是早起还是通宵呀。。",
+                "commenter": "life"
+            },
+            {
+                "comment": "reply昨天睡了一天，醒的早😬",
+                "commenter": "点点",
+                "replyer": "life"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月11日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201211",
+                "segmentation": "10:33 - 11:52",
+                "minuteDuration": 79,
+                "hourDuration": 1.32,
+                "studyContent": "axe - 找到最后一个目录，疑问：如何判断 0180 （两个比特）；学习创建buffer，比较buffer",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "11:53 - 11:54",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "反思 - 不懂 buffer，不及时提问和查资料，耽误时间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "11:57 - 12:17",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "axe - 提取目录资源长度数字 - 已提取",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "12:18 - 13:10",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "日常 - 吃饭，刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "13:10 - 13:26",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "浪费时间 - 看小说",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "13:26 - 13:50",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "axe - 截取资源，理解意思\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "13:50 - 13:54",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe - 截取资源 - file path 和 size 组成对象 push\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "13:55 - 14:10",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "axe - 截取资源 - 遍历 file 数组，push 对应文件资源\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "14:11 - 14:29",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "axe - 根据资源写到本地",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "14:44 - 14:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "反思 - axe 写作业存在的问题：1.没有及时整理群聊记录 2.进制，buffer，node 知识不熟悉 3.一个卡了经常卡几小时，耽误时间，不及时提问",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "14:57 - 15:20",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "摸鱼 - 打水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "15:20 - 16:05",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "工作 - 登录账号和上传代码到系统，发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201211",
+                "segmentation": "16:05 - 16:32",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "摸鱼 - 投喂零食方案提问和实施",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "投喂零食方案提问和实施  hhhhh",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月10日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201210",
+                "segmentation": "09:40 - 09:51",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "工作 - mh 需求评审会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "09:51 - 10:08",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "日常 -  确认资产表",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "10:08 - 10:50",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "工作 - 搜旧活动的充值流程，修改代码，接口不行，和同事沟通\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "11:33 - 11:33",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - 低效沟通和开发 40 min\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "11:35 - 11:36",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "反思 - mh 需求评审，下意识摆脸色，该思考如何回答代替情绪发泄",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "11:42 - 12:20",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "12:20 - 13:08",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "日常 - 吃饭，刷牙，看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "13:09 - 13:12",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 活动已结束功能，后端没部署",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "13:13 - 13:38",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "工作 - 活动已结束功能 和 跳转",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "13:39 - 14:02",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "axe - md5 算文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201210",
+                "segmentation": "14:03 - 14:33",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "工作 - 开会",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月09日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201209",
+                "segmentation": "09:30 - 09:32",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201209",
+                "segmentation": "09:35 - 09:51",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "计划 - 今日计划 - 1.爬昨晚和今天的楼 2.活动奖品发放催同事 3.反思昨晚和今早同事聊天问题 4.mh 需求查看邮件 \n日常 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201209",
+                "segmentation": "09:52 - 10:05",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "工作 - mh 需求查看邮件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201209",
+                "segmentation": "10:06 - 10:32",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "摸鱼 - 走动 拿快递",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201209",
+                "segmentation": "10:33 - 10:56",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "工作 - mh 需求查看邮件 和 同事沟通",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201209",
+                "segmentation": "10:57 - 10:57",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 今日计划 - 增加 mh 新需求提前确认好 和 做好需求脑图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201209",
+                "segmentation": "11:00 - 11:53",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "反思 - 回顾和总结昨晚和同事聊天\n摸鱼 - 同事聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201209",
+                "segmentation": "14:35 - 15:16",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "axe - 查看 js xor 资料，提问问题，卡住，休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201209",
+                "segmentation": "15:22 - 16:13",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "摸鱼 - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201209",
+                "segmentation": "20:16 - 20:31",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - 测试接口ok·",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月08日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201208",
+                "segmentation": "09:49 - 09:52",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201208",
+                "segmentation": "09:53 - 10:04",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "摸鱼 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201208",
+                "segmentation": "10:04 - 10:11",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - 同事沟通接口\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201208",
+                "segmentation": "10:11 - 10:22",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "工作 - 领券接口，返回已结束，和同事沟通\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201208",
+                "segmentation": "10:23 - 10:53",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "工作 - 和后端沟通接口\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201208",
+                "segmentation": "10:53 - 11:32",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "工作 - 我的奖品接口\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201208",
+                "segmentation": "11:49 - 11:55",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "日常 - 买药，没买",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201208",
+                "segmentation": "14:28 - 14:39",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "学习 - 双拼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201208",
+                "segmentation": "14:42 - 15:12",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "反思 - 和同事聊天太随性",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201208",
+                "segmentation": "15:47 - 16:08",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "日常 - fq 站会发言整理 - 没整理好",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月07日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201207",
+                "segmentation": "10:00 - 10:00",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 今日计划 - 1. 双拼练习 2.购买零食，参考意见 3.回看群聊 4. 上周四五六群聊爬 5. 斧头笔记思路 6.活动接口接入",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "10:03 - 10:19",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "学习 - 练习双拼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "10:22 - 10:30",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "学习 - 查看初七的工具",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "10:35 - 10:54",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "学习 - 考虑买什么零食，提问文本已编辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "10:54 - 11:29",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "摸鱼 - wc 群聊 倒水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "12:02 - 12:09",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": " 学习 - 零食方案群聊和总结",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "13:49 - 14:02",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": " 日常 - 查看淘宝省钱卡，已购买",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "14:14 - 14:29",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": " 日常 - 淘宝省钱卡开通，下单零食，记账",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "14:29 - 14:44",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "17:18 - 17:18",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": " 学习 - 看群聊（15：00 - 17：18）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "18:25 - 18:26",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": " 总结 - 未完成 - 回看群聊；上周四五六群聊爬；活动接口接入；斧头笔记思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "18:26 - 19:00",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "学习 - 回看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "19:00 - 19:41",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "学习 - 上周四五六群聊爬 - 爬了周五",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201207",
+                "segmentation": "19:43 - 19:46",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 打开活动代码",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月04日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201204",
+                "segmentation": "09:46 - 09:48",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "计划 - 今日计划 - 1.群聊记录高效zb看完 2.前端作业整理，完成一个 3.昨天群聊爬楼 4.搬工位",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201204",
+                "segmentation": "09:48 - 10:32",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201204",
+                "segmentation": "11:41 - 11:41",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 看群聊 发呆 （上午）",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月03日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201203",
+                "segmentation": "09:47 - 10:16",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "摸鱼 - 找吃的，看群聊，刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201203",
+                "segmentation": "10:19 - 10:23",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201203",
+                "segmentation": "10:31 - 10:31",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 昨日计划回顾 - （1.昨天任务完成程度 2.活动qq充值弹窗功能 3.回看之前群聊，整理到一个文件夹 4.反思早晨忘打招呼）- 均完成",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201203",
+                "segmentation": "10:33 - 10:45",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "计划 - 今日计划 - 1. 回看群聊 2. 练习双拼 3. 前端作业整理，完成一个",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201203",
+                "segmentation": "10:46 - 10:58",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "学习 - 双拼练习",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201203",
+                "segmentation": "11:01 - 11:49",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "学习 - 回看群聊(2020-10-03)",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201203",
+                "segmentation": "13:12 - 13:54",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201203",
+                "segmentation": "14:01 - 16:12",
+                "minuteDuration": 131,
+                "hourDuration": 2.18,
+                "studyContent": "摸鱼 - 发呆，看群聊",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月02日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201202",
+                "segmentation": "09:39 - 10:03",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "摸鱼 - 吃东西，昨晚群聊，刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "10:03 - 10:10",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - 普法答题考试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "10:13 - 10:14",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "计划 - 今日计划（1.昨天任务完成程度 2.活动qq充值弹窗功能 3.回看之前群聊，整理到一个文件夹 4.反思早晨忘打招呼）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "10:15 - 10:36",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "10:37 - 10:39",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "整理 - 昨天任务完成程度 - 昨日计划（1.整理昨晚群聊 2.看文件包 3.活动完成静态页面部分）- 均完成",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "10:39 - 10:52",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "整理 - 下载群文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "11:01 - 11:08",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - 电脑音量问题，耳机可能坏了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "11:09 - 11:39",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "学习 - 看记录",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "12:44 - 12:58",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "浪费时间 - 刷微博",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "12:58 - 13:27",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "摸鱼 - 睡觉",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "13:35 - 13:56",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "学习 - 看记录（2020-10-21）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "13:58 - 14:03",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 活动qq充值弹窗功能 - 复制旧代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "14:03 - 14:36",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "工作 - 活动qq充值弹窗功能 - 调整样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "14:39 - 15:02",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "工作 - 活动qq充值弹窗功能 - 我的奖品弹窗样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "15:03 - 15:10",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": " 摸鱼 - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "15:12 - 15:15",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "搜索 - 印象笔记如何插入时间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "15:16 - 15:26",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "下载 - 下载印象笔记客户端",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "15:28 - 15:34",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "反思 - 早晨忘打招呼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "15:34 - 15:44",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "摸鱼 - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "16:42 - 16:43",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "摸鱼 - 爬楼 - 1h\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "16:43 - 16:45",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "摸鱼 - 查东西",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "16:47 - 17:21",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": " 学习 - 双拼练习\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "17:27 - 17:29",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "学习 - 设置手机和pc双拼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201202",
+                "segmentation": "17:29 - 18:05",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "摸鱼 - 吃饭",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "聚聚我上午找了个合并 js 文件的函数，你需要么？",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年12月01日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:01 - 10:16",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "摸鱼 - 吃东西 刷牙··",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:16 - 10:18",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:20 - 10:20",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 今日计划（1.整理昨晚群聊 2.看文件包 3.活动完成静态页面部分）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:21 - 10:29",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 找旧项目参考",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:29 - 10:35",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 拉取旧代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "10:35 - 10:38",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 查看 ui 图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "11:01 - 11:01",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - 静态页面（忘记计时，半小时）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "11:02 - 11:08",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 跟进产品未提供材料（催到一个，还剩两没给）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "11:12 - 11:18",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 复制规则和列出功能待做",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "11:31 - 13:07",
+                "minuteDuration": 96,
+                "hourDuration": 1.6,
+                "studyContent": "摸鱼 - 看群聊，吃饭，刷牙，发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:25 - 13:41",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:42 - 13:58",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "工作 - 公司品牌换新答题考试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "13:59 - 14:02",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "摸鱼 - 打水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:02 - 14:41",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:52 - 14:59",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - 发呆，困",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201201",
+                "segmentation": "14:59 - 15:44",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "学习 - 看文件",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "忘记计时可以补录的呀",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月30日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201130",
+                "segmentation": "09:13 - 09:21",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201130",
+                "segmentation": "09:22 - 09:39",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "摸鱼 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201130",
+                "segmentation": "09:39 - 14:29",
+                "minuteDuration": 290,
+                "hourDuration": 4.83,
+                "studyContent": "工作 - 公司文化学习视频和测验",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201130",
+                "segmentation": "14:29 - 14:49",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201130",
+                "segmentation": "14:59 - 15:56",
+                "minuteDuration": 57,
+                "hourDuration": 0.95,
+                "studyContent": "摸鱼 - 思考，按摩，发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201130",
+                "segmentation": "16:26 - 16:32",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月29日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": []
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月28日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": []
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月27日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201127",
+                "segmentation": "09:53 - 09:57",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201127",
+                "segmentation": "09:57 - 10:12",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - 查看需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201127",
+                "segmentation": "10:13 - 10:17",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "摸鱼 - 下载软件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201127",
+                "segmentation": "10:18 - 13:17",
+                "minuteDuration": 179,
+                "hourDuration": 2.98,
+                "studyContent": "摸鱼 - 看昨晚和今天群聊，吃饭，聊天，刷牙",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月26日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": []
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月25日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201125",
+                "segmentation": "14:21 - 14:27",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201125",
+                "segmentation": "14:28 - 17:23",
+                "minuteDuration": 175,
+                "hourDuration": 2.92,
+                "studyContent": "摸鱼 - 看群聊，聊天",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月24日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201124",
+                "segmentation": "09:52 - 10:32",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "工作 - 部门例会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "10:33 - 10:39",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 讨论问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "10:40 - 10:56",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "日常 - 发票\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "14:04 - 14:05",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 登录",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "14:06 - 14:06",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - wfn问题：1.未认证图标展示 2.渠道类型修改状态默认值",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "14:07 - 14:11",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - wfn 本地启动项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "14:12 - 14:31",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "工作 - wfn - 未认证图标展示bug修复·",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "14:31 - 15:33",
+                "minuteDuration": 62,
+                "hourDuration": 1.03,
+                "studyContent": "工作 - wfn - 渠道类型修改状态默认值",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "15:34 - 15:39",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 上传代码和部署",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "15:41 - 15:44",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "问题 - wfn渠道类型修改状态默认值bug修复耗时过久，原因：1.未比较新旧项目，部分代码未复制过来；2.未及时抽 demo 填表，反省",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "15:45 - 16:30",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "16:30 - 16:54",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "工作 - wfn - 添加弹窗上传部署 和 测试沟通",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201124",
+                "segmentation": "16:56 - 17:28",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月23日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201123",
+                "segmentation": "09:58 - 10:01",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - mh 添加文件空判断\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "10:01 - 10:17",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "日常 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "10:18 - 10:35",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "工作 - mh 添加文件空判断 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "10:35 - 10:45",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 上传 mh 代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "10:45 - 10:49",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "日常 - 取快递",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "10:50 - 11:21",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "工作 - wfn 个人信息bug修复",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "11:21 - 11:27",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 上传 wfn 代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "11:28 - 11:54",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "摸鱼 - 搜防晒霜",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "13:13 - 13:37",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "13:38 - 14:04",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "工作 - 查看 wfn 部署失败原因，部署，测试完毕",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "14:06 - 14:35",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "计划 - jsinfo chap2 2.2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "14:35 - 14:47",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "工作- jsinfo chap2 2.4",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "14:47 - 14:54",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作- jsinfo chap2 2.3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "14:55 - 15:12",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "摸鱼 - 看群聊等等",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "15:12 - 15:23",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "工作 - wfn 合并 master，申请权限",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "15:25 - 15:43",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "摸鱼 - 发呆 看群聊 看微博",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "15:47 - 15:52",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "16:24 - 16:45",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "学习 - jsinfo chap3 跨窗口通信",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201123",
+                "segmentation": "17:01 - 17:17",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月20日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201120",
+                "segmentation": "09:40 - 09:40",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "日常 - 发票",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201120",
+                "segmentation": "09:47 - 10:01",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "摸鱼 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201120",
+                "segmentation": "10:05 - 10:05",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 今日计划 - 1. 整理 ubuntu 和 其它群聊 2. jsinfo 文件部分看完 3.fq 四个项目git和部署权限查看是否开",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201120",
+                "segmentation": "10:05 - 10:18",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "工作 - 查看 fq 权限 和 地址整理",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201120",
+                "segmentation": "10:20 - 10:22",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "日常 - 咨询体检报告快递情况",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201120",
+                "segmentation": "10:24 - 11:09",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "学习 - jsinfo chap3 2.1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201120",
+                "segmentation": "11:10 - 11:42",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201120",
+                "segmentation": "12:02 - 12:17",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "日常 - 刷牙",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月18日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201118",
+                "segmentation": "11:24 - 11:24",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 上午摸鱼加发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201118",
+                "segmentation": "13:47 - 13:57",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "日常 - 发票",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "状态不佳正常的，明天继续来玩啊",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月17日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:03 - 09:04",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "计划 - 今日计划（1.mh 开发 2.wfn接口联调 3.fq整理）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:04 - 09:08",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:10 - 09:11",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - mh 整理需添加的需求（1.添加按钮 2.添加字段 3.自助页面优化高度）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:11 - 09:16",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - mh 添加按钮",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:16 - 09:20",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - mh 添加字段",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:20 - 09:25",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - mh 添加弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:26 - 09:36",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "日常 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "09:36 - 10:01",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "工作 - mh 添加弹窗",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:01 - 10:04",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 自助页面优化高度",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:09 - 10:14",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - mh 接口名称对接修改\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:14 - 10:19",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - mh 代码上传和部署\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:20 - 10:24",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:24 - 10:30",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - wfn -和同事沟通接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:30 - 10:49",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "工作 - wfn - 个人信息添加渠道",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:49 - 10:52",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - wfn - 修改渠道传参",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "10:52 - 11:05",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "工作 - wfn - 显示修改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "11:05 - 11:33",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "工作 - wfn - 工号显示",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "11:33 - 11:35",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "日常 - 发票",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:09 - 13:16",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - wfn - 对应渠道不显示某些字段",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:18 - 13:24",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - wfn - 校验渠道是否填写",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:25 - 13:34",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - wfn - 个人信息页面校验渠道是否填写",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:35 - 13:38",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - wfn - 个人信息页面员工工号必填",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "13:55 - 13:55",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 - 补充 - jsinfo 文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:22 - 14:36",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "工作 - mh - 比较新旧页面，更新插件修复未校验文件问题\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "14:44 - 14:45",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - mh - 提交代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201117",
+                "segmentation": "15:03 - 15:06",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "查询 - 搜索本地请求抓包表现",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "棒！",
+                "commenter": "life"
+            },
+            {
+                "comment": "效率好高呀！学习！",
+                "commenter": "LD"
+            },
+            {
+                "comment": "reply辛苦 life 开发，自习室贼好用",
+                "commenter": "点点",
+                "replyer": "life"
+            },
+            {
+                "comment": "reply学习 ld 快速填表问问题",
+                "commenter": "点点",
+                "replyer": "LD"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月12日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201112",
+                "segmentation": "09:43 - 09:58",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "摸鱼 - 群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201112",
+                "segmentation": "10:00 - 10:02",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "计划 - 今日计划（1.guagame代码重新看 2.整理前几天没看的群聊 3.wfn 看插件和webpack那块 4.ts了解interface）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201112",
+                "segmentation": "10:17 - 10:21",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "学习 - guagame代码重新看打砖块部分",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201112",
+                "segmentation": "10:22 - 11:27",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "摸鱼 - 看群聊，发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201112",
+                "segmentation": "13:48 - 13:50",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "摸鱼 - 打水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201112",
+                "segmentation": "13:50 - 14:21",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "学习 - guagame代码重新看打砖块部分\n工作 - 开会前沟通",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201112",
+                "segmentation": "18:04 - 18:04",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "总结 - 划水的一天",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月11日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201111",
+                "segmentation": "09:33 - 09:37",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "学习 - 软件调试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "09:37 - 09:54",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "学习 - 搜索https请求不被拦截原因，没成功",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "09:55 - 10:09",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "学习 - 重新下载抓包工具",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "10:10 - 10:29",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "学习 - 尝试再次安装，可成功拦截手机https",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "10:39 - 10:52",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "计划 - 今日安排（1.wfn 看api文件，抽架子，尝试加mock；2.guagame关卡编辑完成；3.fep视频回顾webpack）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "10:57 - 11:04",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "学习 - 找到打砖块代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "11:04 - 11:32",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "学习 - 砖块关卡咨询",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "11:32 - 12:45",
+                "minuteDuration": 73,
+                "hourDuration": 1.22,
+                "studyContent": "摸鱼 - 看群聊和吃饭和刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "12:46 - 13:28",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "浪费时间 - 看小说",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "13:30 - 13:34",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - wfn 看api文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "13:35 - 14:25",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "日常 - 休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "14:39 - 15:02",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "工作 - wfn 看api文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "15:03 - 15:29",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "工作 - 查看旧项目mock和新项目下载mock包",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "16:44 - 17:04",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "工作 - 翻mock文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201111",
+                "segmentation": "18:36 - 19:18",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "学习 - 打砖块代码回顾和关卡功能添加",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月10日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201110",
+                "segmentation": "09:33 - 09:40",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "计划 - 今日计划",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "09:44 - 09:51",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - 启动项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "09:51 - 10:17",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "摸鱼 -",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "10:17 - 10:22",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 找到选择页",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "10:23 - 10:38",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - 安装软件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "10:42 - 10:57",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作 - 看需求文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "10:58 - 11:00",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 个人信息页面熟悉代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "11:01 - 11:04",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "日常 - 填写报销单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "11:04 - 11:27",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "工作 - 个人信息页面熟悉代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "13:43 - 14:13",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "工作 - 看代码例子",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201110",
+                "segmentation": "14:13 - 14:35",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "工作 - 寻找个人信息页",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月09日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201109",
+                "segmentation": "09:09 - 09:13",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 登录各类账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "09:14 - 09:27",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "摸鱼 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "09:27 - 09:31",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "计划 - 今日计划",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "09:32 - 09:33",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": " 工作 - mh 跟进测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "09:33 - 09:47",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": " 工作 - mh 提交系统",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "09:48 - 09:56",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": " 工作 - wfn 代码拉下来",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "09:56 - 10:08",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": " 工作 - wfn install",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "10:08 - 11:47",
+                "minuteDuration": 99,
+                "hourDuration": 1.65,
+                "studyContent": " 工作 - 分期重构会议",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "12:46 - 13:29",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "摸鱼 - 午休",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "13:39 - 13:45",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "tf - wfn 启动项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "13:45 - 13:54",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - wfn 查看页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "13:55 - 14:19",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "tf - wfn 打开微信开发者工具",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "14:56 - 15:09",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "学习 - 文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201109",
+                "segmentation": "15:10 - 16:51",
+                "minuteDuration": 101,
+                "hourDuration": 1.68,
+                "studyContent": "工作 - wfn 查看和抓包和同事沟通",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月08日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201108",
+                "segmentation": "15:27 - 15:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月07日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201107",
+                "segmentation": "15:27 - 15:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月06日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201106",
+                "segmentation": "09:59 - 10:17",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "工作 - 登录",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "10:17 - 10:31",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "计划 - 今日安排",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "10:31 - 10:44",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "工作 - 找 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "10:44 - 11:19",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "11:19 - 11:22",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "摸鱼 - 聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "12:50 - 13:26",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "日常 - 午睡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "13:33 - 13:41",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - mh 修改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "13:42 - 13:49",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - mh 改动上传 release 分支",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "13:49 - 14:11",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "工作 - mh 部署 和 修改 hd",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "14:11 - 14:16",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 整理 fq 需要开权限地址",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "14:20 - 14:21",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - vue3 找官网链接",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "14:22 - 14:23",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 查看邮件，下载需求文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "14:24 - 14:38",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "工作 - 大概浏览 wfn 需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "14:38 - 15:05",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "工作 - wfn 需求评审",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "15:05 - 15:24",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "摸鱼 - 打水 和 同事问题沟通",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "15:25 - 15:36",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "15:38 - 15:43",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "学习 - 找关卡视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201106",
+                "segmentation": "16:09 - 16:15",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "学习 - 关卡视频17",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月05日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201103",
+                "segmentation": "15:27 - 15:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月04日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201104",
+                "segmentation": "09:38 - 10:15",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "工作 - git 上传系统",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:15 - 10:22",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:22 - 10:26",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - ts 文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:26 - 10:32",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "日常 - 搜索清理c盘方法",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:32 - 10:56",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "日常 - 清理window空间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:56 - 11:05",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - ts 文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:06 - 11:10",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 全局安装 ts",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:11 - 11:17",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 参考文档， 构建 ts 文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:20 - 11:22",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 加函数参数加类型注解",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:23 - 11:24",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 参数为非规定数据类型时",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:24 - 13:00",
+                "minuteDuration": 96,
+                "hourDuration": 1.6,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:20 - 13:29",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - 改图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:29 - 13:31",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "摸鱼 - 打水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:32 - 13:41",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - ts 文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:41 - 13:57",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "工作 - 电话沟通 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:58 - 14:08",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "14:09 - 14:23",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "工作 - ts 文档 5分钟起步 看完",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "14:23 - 15:15",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:15 - 15:19",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 添加参数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:25 - 15:28",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 上传代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:29 - 15:37",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月03日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201103",
+                "segmentation": "10:02 - 10:13",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "摸鱼 - 吃早饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "10:13 - 10:46",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "摸鱼 - 刷牙 和 聊天\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "10:46 - 10:48",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 讨论\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "10:48 - 10:54",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸鱼 - 发呆\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "10:55 - 11:35",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "学习 - jsinfo 10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "11:35 - 13:22",
+                "minuteDuration": 107,
+                "hourDuration": 1.78,
+                "studyContent": "摸鱼 - 困",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "13:42 - 14:07",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "工作 - 需求变更，讨论\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "14:07 - 15:05",
+                "minuteDuration": 58,
+                "hourDuration": 0.97,
+                "studyContent": "浪费时间 - 刷手机",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "15:05 - 15:07",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "学习 - jsinfo 10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "15:07 - 15:09",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 调整样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "15:09 - 15:21",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "学习 - jsinfo 10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201103",
+                "segmentation": "15:27 - 15:44",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "早上好！",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月02日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201102",
+                "segmentation": "09:15 - 09:18",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 登录账号",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "09:18 - 09:19",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 和同事沟通，敲定交接时间\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "09:21 - 09:24",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "制定计划 - 今日\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "09:25 - 09:32",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - 打水\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "09:37 - 09:53",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": " jsinfo 13",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "09:54 - 10:32",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": " jsinfo 13",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "10:33 - 10:43",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 双节测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "13:20 - 13:33",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "tf - fq交接前期准备（手机，文档，代码）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "13:33 - 13:40",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - 打水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "13:46 - 15:07",
+                "minuteDuration": 81,
+                "hourDuration": 1.35,
+                "studyContent": "工作 - 对接分期商户",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "16:12 - 16:29",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "工作 - 查展示bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "16:32 - 16:51",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "学习 - jsinfo 11 promise",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "16:51 - 16:53",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "16:53 - 17:11",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "学习 - jsinfo 11 promise",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "17:11 - 17:14",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "学习 - jsinfo 11 promise",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "17:14 - 17:27",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "学习 - jsinfo 11 promise",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201102",
+                "segmentation": "18:32 - 18:55",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "学习 - jsinfo 11 promise",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月01日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:02 - 15:03",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 下载 ui 文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:03 - 15:13",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "摸鱼 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:14 - 15:16",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 查看 ui 图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:16 - 15:26",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 静态页完成背景",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:26 - 15:43",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "工作 - 静态页场景定位",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:43 - 15:57",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:58 - 16:15",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "学习 - jsinfo 函数收尾",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "16:19 - 16:21",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "指定计划 - 下周技术（1 fq商户交接过来；2 jsinfo；3 整理篮球群聊；4 高程11章）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "16:21 - 17:03",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "工作 - 静态页按钮定位",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:03 - 17:14",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "工作 - 按钮绑定事件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:14 - 17:22",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 传测试环境",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:22 - 17:53",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "工作 -注释测试数据",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年10月30日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201030",
+                "segmentation": "14:13 - 14:24",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "摸鱼 - 东摸摸西摸摸",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "14:25 - 14:35",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 双节项目测试接口能否跑通",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "14:35 - 14:40",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 双节项目查看原型",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "14:40 - 14:49",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - 双节项目测试查询接口能否跑通",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "14:51 - 16:02",
+                "minuteDuration": 71,
+                "hourDuration": 1.18,
+                "studyContent": "摸鱼 - 走动 按摩椅 发呆 \n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "16:05 - 16:18",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "摸鱼 - 看群聊\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "16:18 - 16:42",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "学习 - jsinfo 函数\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "16:43 - 16:44",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "摸鱼 - 看群聊\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "16:44 - 17:15",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "学习 - jsinfo 函数 \n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "18:54 - 19:16",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "学习 - jsinfo 函数 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "19:17 - 19:20",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201030",
+                "segmentation": "19:20 - 19:35",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "学习 - jsinfo 函数 ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年10月29日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201029",
+                "segmentation": "09:36 - 09:39",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "制定今日计划 - 1 双节需求 ui 跟进 和 开发；2 fq 项目对接；3 jsinfo 函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "09:48 - 09:48",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "摸鱼 - 发呆 和 打水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "09:49 - 09:59",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 双节需求参考旧项目，找旧项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "09:59 - 10:18",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "工作 - 双节需求 - 旧项目删除无用代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "10:18 - 10:28",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 双节需求 - 复制其它项目跳转功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "10:28 - 10:37",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - 双节需求 - 复制其它项目登录功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "10:37 - 10:45",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 双节需求 - 查看接口文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "10:45 - 10:54",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "摸鱼 - 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "10:54 - 11:00",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "11:00 - 11:10",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 双节需求 - 改造log和vconsole生产环境隐藏",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "11:10 - 11:26",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "13:48 - 14:43",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "14:54 - 15:04",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "摸鱼 - 打水 和 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "15:05 - 15:15",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "学习 - jsinfo 函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201029",
+                "segmentation": "18:47 - 19:34",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "学习 - jsinfo 函数",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年10月28日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201028",
+                "segmentation": "13:43 - 13:45",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "制定今日计划\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "13:56 - 13:58",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 移动端 fq 操作了解项目\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "13:59 - 14:03",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 阅读 fq 项目文档\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "14:03 - 14:10",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "打水\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "14:10 - 15:04",
+                "minuteDuration": 54,
+                "hourDuration": 0.9,
+                "studyContent": "工作 - 阅读 fq 项目文档 和 项目代码\n\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "15:04 - 15:17",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "摸鱼 - 看群聊\n\n\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "15:18 - 15:43",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "工作 - 阅读 fq 项目文档 和 项目代码 \n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "15:44 - 15:59",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "15:59 - 16:19",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "工作 - 阅读 fq 项目文档 和 项目代码 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "16:22 - 16:28",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸鱼 - 看群聊 和 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "16:29 - 17:16",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "高程 - 第八章类",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "17:16 - 18:31",
+                "minuteDuration": 75,
+                "hourDuration": 1.25,
+                "studyContent": "摸鱼 - 休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201028",
+                "segmentation": "18:36 - 19:13",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "学习 - Proxy 和 Reflect 加 发呆",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年10月26日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201026",
+                "segmentation": "09:44 - 10:53",
+                "minuteDuration": 69,
+                "hourDuration": 1.15,
+                "studyContent": "JavaScript.info - 类",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201026",
+                "segmentation": "13:31 - 13:45",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "JavaScript.info - 类",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201026",
+                "segmentation": "13:53 - 15:02",
+                "minuteDuration": 69,
+                "hourDuration": 1.15,
+                "studyContent": "JavaScript.info - 类\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201026",
+                "segmentation": "15:03 - 15:47",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "摸鱼\n",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年10月22日",
+        "user": "点点",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201022",
+                "segmentation": "20:32 - 21:05",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "看 class 继承",
+                "expectation": ""
+            }
+        ]
+    }
+]

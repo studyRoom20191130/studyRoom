@@ -1,0 +1,52 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年06月13日",
+        "user": "Sean",
+        "signature": "冲冲冲",
+        "id": 1591978161991,
+        "table": [
+            {
+                "studyDate": "20200613",
+                "segmentation": "23:00 - 00:09",
+                "minuteDuration": 69,
+                "hourDuration": 1.15,
+                "studyContent": "guagame",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200613",
+                "segmentation": "21:45 - 22:30",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "vue",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200613",
+                "segmentation": "22:36 - 23:49",
+                "minuteDuration": 73,
+                "hourDuration": 1.22,
+                "studyContent": "vue",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年06月13日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1592019817029,
+        "table": [
+            {
+                "studyDate": "20200613",
+                "segmentation": "11:25 - 11:43",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "线上问题验证",
+                "expectation": ""
+            }
+        ]
+    }
+]

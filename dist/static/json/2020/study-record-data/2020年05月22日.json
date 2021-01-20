@@ -1,0 +1,746 @@
+[
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年05月22日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1590112826515,
+        "table": [
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:51 - 10:00",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "日常 - TODO",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:01 - 10:04",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "日常 - 找到Eason的日报",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:05 - 10:08",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "日常 - 复制Eason的日报模板",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:09 - 10:10",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "日常 - 添加搜狗短语",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:12 - 10:19",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "日常 - 修改Eason的日报模板",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:21 - 10:31",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "日常 - 使用Eason的日报模板",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:31 - 10:55",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "日常 - 反思工作",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:55 - 11:16",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "日常 - 反思学习 - 中断",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:17 - 11:38",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - APP - 解决bug - 少传输了一个参数",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:39 - 12:20",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "日常 - 吃饭",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "12:32 - 12:52",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "日常 - 游戏 - 手游辐射避难所",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "12:52 - 13:10",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "日常 - 午睡",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "13:53 - 13:59",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 梳理全部功能 - 中断",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "14:00 - 14:10",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 商讨界面",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "14:10 - 14:27",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "工作 - 梳理全部功能",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "14:56 - 15:06",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 更改页面流程",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:06 - 15:12",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 根据设备名确定操作模式",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:31 - 15:37",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 用户信息界面",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:38 - 15:43",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 用户协议和隐私条款链接",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:43 - 15:45",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 基本信息页面迁移",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:46 - 15:48",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 调整选项图标 - 中断",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:49 - 15:59",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - unix1",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:59 - 16:06",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - unix1 - 填表提问 write 的参数",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "16:07 - 16:11",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 调整选项图标",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "16:12 - 17:10",
+                "minuteDuration": 58,
+                "hourDuration": 0.97,
+                "studyContent": "工作 - 梳理开关锁流程",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "17:11 - 17:21",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 编写开关锁流程",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "17:26 - 17:50",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "工作 - 更改蓝牙连接流程",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "19:53 - 21:46",
+                "minuteDuration": 113,
+                "hourDuration": 1.88,
+                "studyContent": "日常 - 雀魂",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "23:42 - 23:50",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "日常 - 打字加测速",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "oulae-hechuyi1997",
+        "today": "2020年05月22日",
+        "user": "oulae",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1590088240435,
+        "table": [
+            {
+                "studyDate": "20200522",
+                "segmentation": "01:46 - 03:10",
+                "minuteDuration": 84,
+                "hourDuration": 1.4,
+                "studyContent": "函数工具: 函数处理逻辑完成, PS: 感觉大部分的坑都是自己给自己挖的, 代码的细节还得写才会提高",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "19:23 - 21:22",
+                "minuteDuration": 119,
+                "hourDuration": 1.98,
+                "studyContent": "函数工具: 细节完善",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "21:33 - 23:36",
+                "minuteDuration": 123,
+                "hourDuration": 2.05,
+                "studyContent": "函数工具: antDesign Table 踩坑",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年05月22日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1590109296422,
+        "table": [
+            {
+                "studyDate": "20200522",
+                "segmentation": "08:45 - 09:00",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "补一下昨天的日报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:01 - 09:08",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "写 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:10 - 10:01",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "线上问题处理",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:01 - 11:14",
+                "minuteDuration": 73,
+                "hourDuration": 1.22,
+                "studyContent": "讨论建表OK",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:14 - 11:29",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "qq",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:29 - 11:40",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "对比建表语句学习",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:41 - 12:24",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "qq：学习指针 + 吃饭 20min",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "12:24 - 12:34",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "随便看看",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "12:34 - 13:04",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "看 chat：作业三咋回事",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "13:04 - 13:31",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "午睡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "13:31 - 13:50",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "整理办理还贷委托提取的事情",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "13:50 - 14:15",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "看老师发的作业 3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "14:15 - 14:57",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "帮看问题：角色表，资源表，权限表来记录角色绑定的资源",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "14:57 - 15:34",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "作业 3 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:35 - 17:12",
+                "minuteDuration": 97,
+                "hourDuration": 1.62,
+                "studyContent": "qq\n测试接口自动化分享",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "17:13 - 17:54",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "帮提交作业\n看 chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "18:30 - 19:40",
+                "minuteDuration": 70,
+                "hourDuration": 1.17,
+                "studyContent": "公交回家",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "19:40 - 20:30",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "20:31 - 22:12",
+                "minuteDuration": 101,
+                "hourDuration": 1.68,
+                "studyContent": "Unix 1 作业 1 完成",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "22:13 - 22:47",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "Unix 1 作业 1 写错了，提问",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "22:47 - 23:12",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "来一句",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "23:12 - 23:22",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "改错误",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年05月22日",
+        "user": "Sean",
+        "signature": "冲冲冲",
+        "id": 1590119214613,
+        "table": [
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:39 - 11:46",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "整理, todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:47 - 11:55",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "数据结构/算法课 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:55 - 12:09",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "12:09 - 12:33",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "继续数据结构",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "13:12 - 13:32",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "数据结构实现",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "16:52 - 17:36",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "hash",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "18:00 - 18:26",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "栈, 队列, 链表",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年05月22日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1590111765778,
+        "table": [
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:15 - 09:42",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "自习室 - 移除首页的导航栏，更换为更加实用和警醒的每日三省",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:51 - 10:17",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "tf - 等待连接内网+更新todo+水群+带薪**",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:17 - 10:45",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "tf - 完成最后一个页面",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:47 - 10:56",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 解决遗漏的问题",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:00 - 11:10",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 解决遗漏的问题",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "11:10 - 12:00",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "tf - 移动端用 flex 代替 fixed，增加校验",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "13:40 - 14:12",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "axe - 复习 30-1 视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "14:25 - 14:49",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "tf - 自测 + 路由缓存 debug",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "14:50 - 15:06",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 每个银行卡信息之间加间隔线",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:29 - 15:37",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "看面经",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "15:38 - 16:16",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "tf - 自测",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "16:33 - 17:21",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "tf - 全局路由守卫",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "17:22 - 17:43",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "tf - 整理掏粪细节",
+                "expectation": "10"
+            }
+        ]
+    },
+    {
+        "userData": "ji-111911+z",
+        "today": "2020年05月22日",
+        "user": "ji",
+        "signature": "",
+        "id": 1590119166324,
+        "table": [
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:58 - 11:46",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "过一遍前 50 个特征",
+                "expectation": "30"
+            }
+        ]
+    },
+    {
+        "userData": "肥皂-123456",
+        "today": "2020年05月22日",
+        "user": "肥皂",
+        "signature": "",
+        "id": 1590110708314,
+        "table": [
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:20 - 09:25",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "前端群推了几个 chrome 插件，看看",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:25 - 10:14",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "走动，群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "08:31 - 09:03",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "看面经",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:04 - 09:13",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "吃早饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:14 - 09:19",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "继续看面经",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:16 - 10:21",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "10:32 - 11:43",
+                "minuteDuration": 71,
+                "hourDuration": 1.18,
+                "studyContent": "看34.4怎么写测试时间代码",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "宇直-坚持记录下去！",
+        "today": "2020年05月22日",
+        "user": "宇直",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1590110729288,
+        "table": [
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:22 - 09:25",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "列 todo ",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200522",
+                "segmentation": "09:25 - 09:32",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "聚气",
+                "expectation": "5"
+            }
+        ]
+    }
+]

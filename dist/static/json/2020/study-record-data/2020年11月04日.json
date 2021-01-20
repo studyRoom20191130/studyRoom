@@ -1,0 +1,504 @@
+[
+    {
+        "userData": "黑白灰-kbc123456",
+        "today": "2020年11月04日",
+        "user": "黑白灰",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20201104",
+                "segmentation": "23:40 - 23:40",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "测试使用",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2020年11月04日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20201104",
+                "segmentation": "09:03 - 09:05",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "今日计划 - 制定计划，guagame, 打字练习， 红宝书， 学习Element， 摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "09:10 - 11:51",
+                "minuteDuration": 161,
+                "hourDuration": 2.68,
+                "studyContent": "guagame - 子弹飞机碰撞",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:52 - 12:09",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "摸鱼 - 水群，排队吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:40 - 15:05",
+                "minuteDuration": 85,
+                "hourDuration": 1.42,
+                "studyContent": "打字练习 - 边打字英文/中文 边水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:18 - 16:05",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "guagane - 碰撞有bug 理清思路！",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "16:17 - 17:27",
+                "minuteDuration": 70,
+                "hourDuration": 1.17,
+                "studyContent": "guagane - 飞机游戏get，开始整理文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "17:30 - 19:08",
+                "minuteDuration": 98,
+                "hourDuration": 1.63,
+                "studyContent": "guagane - 飞机游戏基本版，整理文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "19:07 - 19:25",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "摸鱼 - 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "21:16 - 22:25",
+                "minuteDuration": 69,
+                "hourDuration": 1.15,
+                "studyContent": "guagame - 11-12",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "要开班啦！！！乱了乱了，冷静！可以的！",
+                "commenter": "LD"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年11月04日",
+        "user": "life",
+        "signature": "10分钟一个 todo，稳定输出",
+        "table": [
+            {
+                "studyDate": "20201104",
+                "segmentation": "09:10 - 09:36",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "浪费时间 - 网上瞎逛",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "09:43 - 09:46",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "guagame - 写 6 ： 新建 scene 对象",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:02 - 10:07",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "guagame - 写 6 ： 新建 scene 对象",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:48 - 11:12",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "tf - 取消二维码读秒  刷新订单消失 分割线调整  银行点击图标背景更改",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:12 - 11:29",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "tf - 更改icon",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:33 - 11:40",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "tf - 网银 loading",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:43 - 11:58",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "tf - 网银 loading",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:10 - 13:15",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "tf - element 表单 卡顿问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:27 - 13:56",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "tf -  获取短信失败需要将失败信息输出来",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:56 - 14:16",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf -  细节调整",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "14:59 - 15:08",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 测试场景 快捷  绑定的卡不可用",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:09 - 15:28",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "tf - 银行卡变更后重新调接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:28 - 15:34",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "tf - 在点击 获取短信按钮 后 银行卡号由输入框变为展示，不可更改\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:34 - 15:42",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "tf - 弹框按钮状态\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:42 - 16:06",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "tf - 测试场景 快捷 绑定的卡不可用\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "16:21 - 16:47",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "tf - 更改需求\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "16:49 - 17:16",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "tf - 更改需求\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "17:25 - 17:35",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 写日报\n",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年11月04日",
+        "user": "Sean",
+        "signature": "想当个自习室龙王",
+        "table": [
+            {
+                "studyDate": "20201104",
+                "segmentation": "08:45 - 09:06",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "09:12 - 09:33",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "09:33 - 09:45",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "09:46 - 10:06",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "摸 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:11 - 10:41",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "摸 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:43 - 11:03",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "摸 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:10 - 11:30",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "17:10 - 17:34",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "guagame - ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月04日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201104",
+                "segmentation": "09:38 - 10:15",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "工作 - git 上传系统",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:15 - 10:22",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:22 - 10:26",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - ts 文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:26 - 10:32",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "日常 - 搜索清理c盘方法",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:32 - 10:56",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "日常 - 清理window空间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "10:56 - 11:05",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - ts 文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:06 - 11:10",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 全局安装 ts",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:11 - 11:17",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 参考文档， 构建 ts 文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:20 - 11:22",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 加函数参数加类型注解",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:23 - 11:24",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 参数为非规定数据类型时",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "11:24 - 13:00",
+                "minuteDuration": 96,
+                "hourDuration": 1.6,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:20 - 13:29",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - 改图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:29 - 13:31",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "摸鱼 - 打水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:32 - 13:41",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - ts 文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:41 - 13:57",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "工作 - 电话沟通 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "13:58 - 14:08",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "14:09 - 14:23",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "工作 - ts 文档 5分钟起步 看完",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "14:23 - 15:15",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "摸鱼 - 走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:15 - 15:19",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - 添加参数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:25 - 15:28",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 上传代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201104",
+                "segmentation": "15:29 - 15:37",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            }
+        ]
+    }
+]

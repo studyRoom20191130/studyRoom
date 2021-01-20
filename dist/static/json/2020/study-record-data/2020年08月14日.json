@@ -1,0 +1,51 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年08月14日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1597376021301,
+        "table": [
+            {
+                "studyDate": "20200814",
+                "segmentation": "11:12 - 11:33",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - 补图形学作业 画 chest 模型",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200814",
+                "segmentation": "11:45 - 11:53",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 补图形学作业 画 chest 贴图  读题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200814",
+                "segmentation": "15:25 - 15:49",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "tf - 展示 mock 数据",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200814",
+                "segmentation": "15:49 - 16:07",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "tf - 展示 mock 数据 第二个页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200814",
+                "segmentation": "16:41 - 17:06",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "tf - 展示 mock 数据 第三至第六个页面",
+                "expectation": ""
+            }
+        ]
+    }
+]

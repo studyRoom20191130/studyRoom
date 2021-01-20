@@ -20,8 +20,8 @@ html, body {
     border-bottom: 1px solid #dcdfe6;
     /*display: flex;*/
     /*justify-content: space-around;*/
-    /*background: #fff;*/
-    background: #ff0006 url(../img/navbg.png) no-repeat 50%;
+    background: #fff;
+    /*background: #ff0006 url(../img/navbg.png) no-repeat 50%;*/
     position: fixed;
     left: 0;
     font-weight: 600;
@@ -351,9 +351,23 @@ textarea {
     line-height: 16px;
 }
 
+
+
 .main-article .progress {
     margin-bottom: 10px;
     border-radius: 4px;
+}
+
+.yearly-prograss-container .progress {
+    width: 80%;
+    position: relative;
+    left: 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.yearly-prograss {
+
 }
 
 .pg-lightgray {
@@ -742,13 +756,17 @@ div#id-div-share-wrapper #id-img-share.active {
     margin-left: 18px;
 }
 
-#friend-link {
+.friend-link {
     position: fixed;
     z-index: 999;
     top: 20px;
     left: 5px;
     cursor: pointer;
     text-decoration: none;
+}
+
+#introduce {
+    left: 80px;
 }
 
 

@@ -1,0 +1,62 @@
+[
+    {
+        "userData": "风行-zixiui",
+        "today": "2020年03月21日",
+        "user": "风行",
+        "signature": "12点之前睡觉！",
+        "id": 1584782869783,
+        "table": [
+            {
+                "studyDate": "20200321",
+                "segmentation": "16:08 - 17:27",
+                "minuteDuration": 79,
+                "hourDuration": 1.32,
+                "studyContent": "看视频"
+            },
+            {
+                "studyDate": "20200321",
+                "segmentation": "17:28 - 17:53",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "gualang"
+            },
+            {
+                "studyDate": "20200321",
+                "segmentation": "17:59 - 19:01",
+                "minuteDuration": 62,
+                "hourDuration": 1.03,
+                "studyContent": "gualang"
+            },
+            {
+                "studyDate": "20200321",
+                "segmentation": "19:10 - 19:16",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "zoye7"
+            },
+            {
+                "studyDate": "20200321",
+                "segmentation": "23:02 - 23:44",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "zoye13"
+            }
+        ]
+    },
+    {
+        "userData": "宇直-坚持记录下去！",
+        "today": "2020年03月21日",
+        "user": "宇直",
+        "signature": "",
+        "id": 1584784689217,
+        "table": [
+            {
+                "studyDate": "20200321",
+                "segmentation": "15:39 - 17:58",
+                "minuteDuration": 139,
+                "hourDuration": 2.32,
+                "studyContent": "axe13"
+            }
+        ]
+    }
+]

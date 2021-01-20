@@ -1,0 +1,34 @@
+[
+    {
+        "userData": "风行-zixiui",
+        "today": "2020年03月16日",
+        "user": "风行",
+        "signature": "不要依靠想象来理解世界",
+        "id": 1584350256014,
+        "table": [
+            {
+                "studyDate": "20200316",
+                "segmentation": "16:24 - 17:17",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "gualang"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年03月16日",
+        "user": "life",
+        "signature": "",
+        "id": 1584334574355,
+        "table": [
+            {
+                "studyDate": "20200316",
+                "segmentation": "12:43 - 12:56",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "刷面试题"
+            }
+        ]
+    }
+]

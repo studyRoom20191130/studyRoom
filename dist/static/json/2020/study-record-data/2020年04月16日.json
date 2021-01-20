@@ -1,0 +1,62 @@
+[
+    {
+        "userData": "lip-123456",
+        "today": "2020年04月16日",
+        "user": "lip",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1587021850399,
+        "table": [
+            {
+                "studyDate": "20200416",
+                "segmentation": "15:00 - 15:24",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "axe22 - 看 chat 趟思路"
+            },
+            {
+                "studyDate": "20200416",
+                "segmentation": "15:24 - 16:25",
+                "minuteDuration": 61,
+                "hourDuration": 1.02,
+                "studyContent": "axe22 - 完成作业"
+            },
+            {
+                "studyDate": "20200416",
+                "segmentation": "17:49 - 17:55",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe25 - 审题"
+            },
+            {
+                "studyDate": "20200416",
+                "segmentation": "17:55 - 19:38",
+                "minuteDuration": 103,
+                "hourDuration": 1.72,
+                "studyContent": "axe25 - 完成作业"
+            }
+        ]
+    },
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年04月16日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1587015305333,
+        "table": [
+            {
+                "studyDate": "20200416",
+                "segmentation": "12:28 - 13:35",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "guated - 分享稿"
+            },
+            {
+                "studyDate": "20200416",
+                "segmentation": "15:29 - 16:26",
+                "minuteDuration": 57,
+                "hourDuration": 0.95,
+                "studyContent": "guated - 分享稿"
+            }
+        ]
+    }
+]

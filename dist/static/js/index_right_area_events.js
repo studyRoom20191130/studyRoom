@@ -1,6 +1,6 @@
 // 页面右侧制定计划逻辑部分
 const todoInit = () => {
-    getGeneralTodo()
+    // getGeneralTodo()
     shouldShowTodo()
     getTodoList()
 }
@@ -25,13 +25,32 @@ const shouldShowTodo = () => {
     }
 }
 
+const planListFromApi = (type, parentElement, storageKey) => {
+    let user = getLocalStorage('userInfo').split('-')[0].trim()
+    let data = {
+        type,
+        user,
+    }
+    ajax(data, '/getPlan', res => {
+        addHtmlToOlElement(res, parentElement)
+        setLocalStorage(storageKey, res)
+    })
+}
+
 const getTodoList = () => {
     let todoList = ['daily', 'weekly']
+
     for (const type of todoList) {
         let parentElement = '#ol-' + type
         let storageKey = type + 'TodoList'
         let todoList = getLocalStorage(storageKey) || []
-        addHtmlToOlElement(todoList, parentElement)
+        let user = getLocalStorage('userInfo').split('-')[0].trim()
+        if (todoList.length == 0) {
+            planListFromApi(type, parentElement, storageKey)
+        } else {
+            addHtmlToOlElement(todoList, parentElement)
+
+        }
     }
 }
 
@@ -43,20 +62,20 @@ const bindRightDivEvents = () => {
             spanClickEvents(target)
         }
         if (target.classList.contains('doing')) {
-
+            
             spanDoingClickEvents(target)
         }
     })
-    bindAll('.general-todo-span', 'keydown', event => {
-        spanKeydownEvents(event)
-    })
-    bindAll('.general-todo-span', 'blur', event => {
-        spanBlurEvents(event.target)
-    })
-
-    bindAll('.general-todo-span', 'blur', event => {
-        spanBlurEvents(event.target)
-    })
+    // bindAll('.general-todo-span', 'keydown', event => {
+    //     spanKeydownEvents(event)
+    // })
+    // bindAll('.general-todo-span', 'blur', event => {
+    //     spanBlurEvents(event.target)
+    // })
+    //
+    // bindAll('.general-todo-span', 'blur', event => {
+    //     spanBlurEvents(event.target)
+    // })
 }
 
 const spanDoingClickEvents = (target) => {
@@ -64,35 +83,55 @@ const spanDoingClickEvents = (target) => {
     editSpan(target)
 }
 
+const editSpanEventCallback = (target, event) => {
+    event.preventDefault()
+    target.contentEditable = false
+    updateTodolist(target)
+}
+
 const editSpan = (target) => {
-    target.contentEditable = true;
+    target.contentEditable = true
     target.focus()
     target.addEventListener('keydown', (event) => {
         if (event.key === 'Enter') {
-            event.preventDefault();
-            target.contentEditable = false;
-            updateTodolist(target);
+            editSpanEventCallback(target, event)
         }
+    })
+    target.addEventListener('blur', (event) => {
+        editSpanEventCallback(target, event)
     })
 }
 
 const updateTodolist = (target) => {
-    let dailyTodoList = getLocalStorage('dailyTodoList') || []
+    let type = target.dataset.type
+    let key = `${type}TodoList`
+    let planList = getLocalStorage(key) || []
+    console.log("planList", planList)
+    
     let newValue = target.innerHTML
     let index = Number(target.dataset.index)
-    dailyTodoList[index] = newValue
+    console.log("newValue", newValue)
+    console.log("index", index)
+
+    
+    planList[index] = newValue
+    console.log("planListnew", planList)
+
+
     if (newValue.length === 0) {
-        dailyTodoList.splice(index, 1)
+        planList.splice(index, 1)
     }
-    setLocalStorage('dailyTodoList', dailyTodoList)
-    let parentElement = '#ol-daily'
-    addHtmlToOlElement(dailyTodoList, parentElement, true)
+    let parentElement = `#ol-${type}`
+    addHtmlToOlElement(planList, parentElement, true)
+    updateTodoListToBackEnd(type, planList)
 }
 
 const copyTOLeft = (target) => {
     let t = target.innerHTML
-    let index = t.indexOf('-');
-    t = t.slice(0, index + 1) + ' '
+    let index = t.indexOf('-')
+    if (index > -1) {
+        t = t.slice(0, index + 1) + ' '
+    }
     $("#textarea-study-content").val(t)
 }
 
@@ -162,7 +201,8 @@ const clearBtnCallback = (target) => {
     let type = target.dataset.type + 'TodoList'
     let element = type === 'weeklyTodoList' ? '#ol-weekly' : '#ol-daily'
     $(element).empty()
-    localStorage.setItem(type, [])
+    updateTodoListToBackEnd(target.dataset.type, [])
+    // localStorage.setItem(type, [])
 }
 
 // 输入框事件
@@ -172,8 +212,8 @@ const bindTodoInputEvent = () => {
     for (let type of inputList) {
         let inputId = '#input-todo-' + type
         let input = $(inputId)
-        $(input).keyup(function(){
-            if(event.keyCode === 13){
+        $(input).keyup(function(event){
+            if(event.key === 'Enter'){
                 let val = input.val()
                 let parentElementId = '#ol-' + type
                 addHtmlToOlElement(val, parentElementId)
@@ -182,30 +222,38 @@ const bindTodoInputEvent = () => {
                 input.val('')
 
                 // 添加到常用事项
-                let spanNode = `<span class="general-todo-span weekly">${val}</span>`
-                let div = e(`.${type}-general-todo`)
-                div.insertAdjacentHTML('beforeend', spanNode)
-                let keyName = type === 'weekly' ?  'generalWeeklyTodoList' : 'generalTodoList'
-                let generalTodoList = getLocalStorage(keyName)
-                if (!generalTodoList.includes(val)) {
-                    generalTodoList.unshift(val)
-                    setLocalStorage(keyName, generalTodoList)
-                }
+                // let spanNode = `<span class="general-todo-span weekly">${val}</span>`
+                // let div = e(`.${type}-general-todo`)
+                // div.insertAdjacentHTML('beforeend', spanNode)
+                // let keyName = type === 'weekly' ?  'generalWeeklyTodoList' : 'generalTodoList'
+                // let generalTodoList = getLocalStorage(keyName)
+                // console.log("keyName", keyName)
+                // if (!generalTodoList.includes(val)) {
+                //     generalTodoList.unshift(val)
+                //     setLocalStorage(keyName, generalTodoList)
+                // }
             }
         })
     }
 }
 
 const addHtmlToOlElement = (todoList, element, removeInnerHTml = false) => {
+    let type = element.includes('daily') ? 'daily' : 'weekly'
     if (removeInnerHTml) {
         e(element).innerHTML = ''
     }
-    todoList = Array.isArray(todoList) ? todoList : [todoList]
-    let olContent = $(element).innerHTML || ''
     let html = ''
+    // 判断
     let index = 0
-    for (val of todoList) {
-        html += `${olContent}<li><span class="doing" data-index=${index}>${val}</span></li>`
+    let storageList = getLocalStorage(`${type}TodoList`)
+    if (!Array.isArray(todoList)) {
+        todoList = [todoList]
+        index = storageList ? storageList.length : 0
+    }
+    let olContent = $(element).innerHTML || ''
+
+    for (let val of todoList) {
+        html += `${olContent}<li><span class="doing" data-type=${type} data-index=${index}>${val}</span></li>`
         index++
     }
     appendHtml(e(element), html)
@@ -214,5 +262,17 @@ const addHtmlToOlElement = (todoList, element, removeInnerHTml = false) => {
 const saveTodoListInStorage = (val, list) => {
     let dailyTodoList = getLocalStorage(list) || []
     dailyTodoList.push(val)
-    setLocalStorage(list, dailyTodoList)
+    let type = list.includes('daily') ? 'daily' : 'weekly'
+    updateTodoListToBackEnd(type, dailyTodoList)
+}
+
+const updateTodoListToBackEnd = (type, planList) => {
+    let user = getLocalStorage('userInfo').split('-')[0].trim()
+    let data = {
+        type,
+        user,
+        planList,
+    }
+    ajax(data, '/updatePlan', (r) => {})
+    setLocalStorage(`${type}TodoList`, planList)
 }

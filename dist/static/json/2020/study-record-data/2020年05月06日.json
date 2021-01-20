@@ -1,0 +1,359 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年05月06日",
+        "user": "Sean",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1588779425316,
+        "table": [
+            {
+                "studyDate": "20200506",
+                "segmentation": "22:00 - 23:30",
+                "minuteDuration": 90,
+                "hourDuration": 1.5,
+                "studyContent": "补充学习react零碎知识",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "23:44 - 23:59",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "react.js  小书\n第一章",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年05月06日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1588732920281,
+        "table": [
+            {
+                "studyDate": "20200506",
+                "segmentation": "10:24 - 10:42",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "安装 wox",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "14:06 - 14:47",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "tf - 更改验证码展示元素",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "14:49 - 15:06",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "tf - 优化页面流程",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "15:29 - 15:42",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 29.2 看秋天的视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "15:57 - 16:09",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe - 29.2 看chat",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "16:25 - 16:25",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - 29.2 看chat",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "16:25 - 17:21",
+                "minuteDuration": 56,
+                "hourDuration": 0.93,
+                "studyContent": "axe - 29.2 看chat",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "19:00 - 20:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "axe - 29.2，继续 50 个log，找到感觉了！",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年05月06日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1588729868308,
+        "table": [
+            {
+                "studyDate": "20200506",
+                "segmentation": "08:57 - 09:51",
+                "minuteDuration": 54,
+                "hourDuration": 0.9,
+                "studyContent": "处理 Excel 生成工单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "09:52 - 12:02",
+                "minuteDuration": 130,
+                "hourDuration": 2.17,
+                "studyContent": "log到 1775 - 》1825",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "12:03 - 14:02",
+                "minuteDuration": 119,
+                "hourDuration": 1.98,
+                "studyContent": "午休",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "14:05 - 15:33",
+                "minuteDuration": 88,
+                "hourDuration": 1.47,
+                "studyContent": "测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "15:40 - 17:14",
+                "minuteDuration": 94,
+                "hourDuration": 1.57,
+                "studyContent": "处理线上问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "17:16 - 18:22",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "写指令->1879 iny",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "一进自习室看到有同学已经坐在里面学习的感觉真好",
+                "commenter": "life"
+            },
+            {
+                "comment": "reply每天等你哦",
+                "commenter": "H.K",
+                "replyer": "life"
+            }
+        ]
+    },
+    {
+        "userData": "bourne-123456",
+        "today": "2020年05月06日",
+        "user": "bourne",
+        "signature": "",
+        "id": 1588725682427,
+        "table": [
+            {
+                "studyDate": "20200506",
+                "segmentation": "08:25 - 08:41",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "写 todo",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "08:51 - 10:00",
+                "minuteDuration": 69,
+                "hourDuration": 1.15,
+                "studyContent": "整理搬家的东西，爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "13:44 - 14:44",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "处理批量导入资产模板的文件问题",
+                "expectation": " 30"
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "一进自习室看到有同学已经坐在里面学习的感觉真好",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年05月06日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1588730291130,
+        "table": [
+            {
+                "studyDate": "20200506",
+                "segmentation": "09:41 - 09:58",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "TODO",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "09:58 - 10:27",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "周报",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "10:28 - 10:42",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "APP - 双选页面替换图片",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "10:42 - 11:13",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "APP - 中英文界面截图",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "11:13 - 11:32",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "APP - 联系翻译",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "11:35 - 11:44",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "APP - 填充上午的日报",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "11:44 - 11:53",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "吃饭水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "11:53 - 12:25",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "复习睡觉课 - 第一遍",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "12:25 - 13:01",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "午睡",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "13:01 - 13:25",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "午睡后遗症",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "13:24 - 13:54",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "APP - 锁的页面排版",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "13:54 - 12:00",
+                "minuteDuration": -114,
+                "hourDuration": -1.9,
+                "studyContent": "上午的总结",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "13:54 - 14:00",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "上午的总结",
+                "expectation": "15"
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "一进自习室看到有同学已经坐在里面学习的感觉真好",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "肥皂-123456",
+        "today": "2020年05月06日",
+        "user": "肥皂",
+        "signature": "",
+        "id": 1588735265047,
+        "table": [
+            {
+                "studyDate": "20200506",
+                "segmentation": "10:20 - 11:21",
+                "minuteDuration": 61,
+                "hourDuration": 1.02,
+                "studyContent": "看前端面经",
+                "expectation": "40"
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "11:22 - 11::27",
+                "minuteDuration": -22,
+                "hourDuration": -0.37,
+                "studyContent": "下楼等了好久的快递",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200506",
+                "segmentation": "11:27 - 11:28",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": " 补录测试",
+                "expectation": ""
+            }
+        ]
+    }
+]

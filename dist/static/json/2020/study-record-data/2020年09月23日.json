@@ -1,0 +1,115 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年09月23日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1600827182951,
+        "table": [
+            {
+                "studyDate": "20200923",
+                "segmentation": "10:05 - 10:13",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "tf - 改成数组",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "10:14 - 10:21",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "tf - 添加卡逻辑 看京东，并存图片",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "10:21 - 10:32",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf - 写样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "10:32 - 10:53",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "tf - 用整图试试，切换成功",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "12:00 - 12:06",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "tf - 用函数解决重复温问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "13:51 - 14:01",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 整理银行图标数据",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "14:07 - 14:29",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "tf - 进入具体的加卡页面",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "15:40 - 15:45",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "tf - 其他银行",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "15:45 - 15:56",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf - 添加 tip 卡种",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "15:56 - 16:14",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "tf - 添加 其他要素",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "16:24 - 17:23",
+                "minuteDuration": 59,
+                "hourDuration": 0.98,
+                "studyContent": "tf - 个人网上银行",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "17:23 - 17:48",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "tf - 企业网上银行",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200923",
+                "segmentation": "17:49 - 18:42",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "tf - 流程文档",
+                "expectation": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年03月22日",
+        "user": "life",
+        "signature": "只做两件事",
+        "id": 1584871612348,
+        "table": [
+            {
+                "studyDate": "20200322",
+                "segmentation": "17:19 - 18:06",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "作业 13"
+            }
+        ]
+    },
+    {
+        "userData": "风行-zixiui",
+        "today": "2020年03月22日",
+        "user": "风行",
+        "signature": "12点之前睡觉！",
+        "id": 1584782869783,
+        "table": [
+            {
+                "studyDate": "20200322",
+                "segmentation": "03:52 - 05:12",
+                "minuteDuration": 80,
+                "hourDuration": 1.33,
+                "studyContent": "zoye13"
+            },
+            {
+                "studyDate": "20200322",
+                "segmentation": "05:37 - 06:32",
+                "minuteDuration": 55,
+                "hourDuration": 0.91,
+                "studyContent": "zoye13"
+            },
+            {
+                "studyDate": "20200322",
+                "segmentation": "07:00 - 07:35",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "zoye13"
+            }
+        ]
+    },
+    {
+        "userData": "宇直-坚持记录下去！",
+        "today": "2020年03月22日",
+        "user": "宇直",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1584845929102,
+        "table": [
+            {
+                "studyDate": "20200322",
+                "segmentation": "10:43 - 10:58",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "gualang"
+            },
+            {
+                "studyDate": "20200322",
+                "segmentation": "14:06 - 14:53",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "gualang"
+            }
+        ]
+    }
+]

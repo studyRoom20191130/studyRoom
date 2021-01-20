@@ -1,0 +1,115 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年07月27日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1595817745902,
+        "table": [
+            {
+                "studyDate": "20200727",
+                "segmentation": "09:00 - 10:42",
+                "minuteDuration": 102,
+                "hourDuration": 1.7,
+                "studyContent": "水群 + 瞎逛  浪费时间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "10:42 - 11:03",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - 把 59 项目跑起来了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "11:06 - 11:46",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "axe - 把 59 项 实现 SDL_RenderDrawPoint",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "11:55 - 12:06",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 把 59 项 实现 SDL_RenderDrawRect",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "14:35 - 14:49",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - 把 59 项 实现 SDL_RenderDrawRect",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "14:58 - 15:04",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - 把 59 项 实现 SDL_RenderFillRect",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "15:04 - 15:12",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 把 59 项 实现 SDL_RenderFillRect",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "16:26 - 16:34",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe - 作业 59  实现 SDL_SetRenderDrawColor",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "16:34 - 16:43",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - 作业 59.2，看 chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "16:43 - 17:04",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - 作业 59.2，按自己想法写，错了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "17:04 - 17:17",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 作业 59.2，参考 chat 写法，大概明白了 lua 到 c 语言的绑定",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "17:33 - 17:46",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 重新看下作业 55",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200727",
+                "segmentation": "17:46 - 18:06",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "axe - 重新看下作业 55.2",
+                "expectation": ""
+            }
+        ]
+    }
+]

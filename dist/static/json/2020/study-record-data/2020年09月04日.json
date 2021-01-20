@@ -1,0 +1,51 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年09月04日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1599182265198,
+        "table": [
+            {
+                "studyDate": "20200904",
+                "segmentation": "09:10 - 09:17",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "wa - 修改第二版",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200904",
+                "segmentation": "14:33 - 15:35",
+                "minuteDuration": 62,
+                "hourDuration": 1.03,
+                "studyContent": "tf - 修改文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200904",
+                "segmentation": "15:35 - 16:14",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "tf - 增加菜单",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200904",
+                "segmentation": "17:29 - 17:47",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "wa - 修改第二版",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200904",
+                "segmentation": "17:31 - 17:48",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "wa - 修改第二版",
+                "expectation": ""
+            }
+        ]
+    }
+]

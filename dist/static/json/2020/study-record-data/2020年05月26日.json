@@ -1,0 +1,294 @@
+[
+    {
+        "userData": "oulae-hechuyi1997",
+        "today": "2020年05月26日",
+        "user": "oulae",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1590455479695,
+        "table": [
+            {
+                "studyDate": "20200526",
+                "segmentation": "08:38 - 09:11",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "函数模块: model 基础结构",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "09:20 - 10:50",
+                "minuteDuration": 90,
+                "hourDuration": 1.5,
+                "studyContent": "函数工具: 接口联调(未完成)",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "11:05 - 11:35",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "函数工具: AJAX BUG, 重复JSON.stringly",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "11:41 - 12:06",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "函数工具: 页面渲染问题(加强对于页面生命周期的理解, this.forceUpdate() 只有是直接调用render 方法)",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "17:19 - 18:59",
+                "minuteDuration": 100,
+                "hourDuration": 1.67,
+                "studyContent": "函数工具: 更改页面样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "20:27 - 21:15",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "函数工具: ant design 中tabble 嵌套select, 并完成组件通信",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "21:30 - 22:36",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "函数工具: Menu map 写法, 存在BUG",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "23:02 - 23:44",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "函数工具: Debug, 对象不能被渲染(这么简单的问题, 居然花了这么长时间!!!!)",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年05月26日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1590455707006,
+        "table": [
+            {
+                "studyDate": "20200526",
+                "segmentation": "09:01 - 09:15",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "爬 qq",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "09:15 - 09:45",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "重装 atom",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "09:45 - 09:54",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "接入商户日志配置",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "09:55 - 10:27",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "记录商户日志: 记录商户日志工具类",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "10:27 - 11:29",
+                "minuteDuration": 62,
+                "hourDuration": 1.03,
+                "studyContent": "记录商户日志: 搞清楚如何接商户日志",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "11:30 - 11:40",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "记录商户日志: 记录修改的商户日志",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "11:40 - 11:58",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "记录商户日志: 测试记录修改的商户日志",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "11:59 - 12:38",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "线上问题 12：05\n吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "12:39 - 13:51",
+                "minuteDuration": 72,
+                "hourDuration": 1.2,
+                "studyContent": "qq + 看黑苹果配置",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "13:51 - 14:11",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "提交代码，部署环境",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "14:11 - 14:29",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "看黑苹果配置",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "14:29 - 15:00",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "复习完fe-9",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "15:01 - 16:07",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "联系测试提测",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "16:08 - 16:24",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "qq",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "16:24 - 18:00",
+                "minuteDuration": 96,
+                "hourDuration": 1.6,
+                "studyContent": "测试 api 层，新配的服务，不清楚 beta 域名的命名规则，整了这么长时间",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年05月26日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1590457012398,
+        "table": [
+            {
+                "studyDate": "20200526",
+                "segmentation": "09:22 - 09:36",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "tf - 增加验证码 reset 功能",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "09:40 - 09:50",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "tf - 打包部署",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "10:19 - 10:53",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "axe - 30-3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "11:02 - 11:13",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf - 优化样式",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "14:14 - 14:31",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - chat + 作业31-1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "14:31 - 15:11",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "axe - 多线程的优缺点",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "15:12 - 15:21",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - chat + 作业31-2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200526",
+                "segmentation": "15:56 - 17:23",
+                "minuteDuration": 87,
+                "hourDuration": 1.45,
+                "studyContent": "axe - 复习 33",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2020年05月26日",
+        "user": "Sean",
+        "signature": "冲冲冲",
+        "id": 1590461817671,
+        "table": [
+            {
+                "studyDate": "20200526",
+                "segmentation": "10:00 - 10:56",
+                "minuteDuration": 56,
+                "hourDuration": 0.93,
+                "studyContent": "单页路由",
+                "expectation": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "userData": "风行-zixiui",
+        "today": "2020年03月23日",
+        "user": "风行",
+        "signature": "12点之前睡觉！",
+        "id": 1584951486303,
+        "table": [
+            {
+                "studyDate": "20200323",
+                "segmentation": "15:39 - 16:18",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "爬楼"
+            },
+            {
+                "studyDate": "20200323",
+                "segmentation": "16:51 - 20:12",
+                "minuteDuration": 201,
+                "hourDuration": 3.35,
+                "studyContent": "预习，看《openGL编程指南》"
+            },
+            {
+                "studyDate": "20200323",
+                "segmentation": "20:38 - 22:01",
+                "minuteDuration": 83,
+                "hourDuration": 1.38,
+                "studyContent": "预习，看《openGL编程指南》P149 - P232"
+            },
+            {
+                "studyDate": "20200323",
+                "segmentation": "22:07 - 22:44",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "预习，看《openGL编程指南》P232 - P284"
+            },
+            {
+                "studyDate": "20200323",
+                "segmentation": "23:07 - 23:11",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "预习，看《openGL编程指南》P284 - P285"
+            },
+            {
+                "studyDate": "20200323",
+                "segmentation": "23:41 - 23:54",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "预习，看《openGL编程指南》P285 - P296"
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "openGL……牛逼！！！",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "肥皂-123456",
+        "today": "2020年03月23日",
+        "user": "肥皂",
+        "signature": "",
+        "id": 1584954032283,
+        "table": [
+            {
+                "studyDate": "20200323",
+                "segmentation": "17:00 - 17:00",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "test"
+            }
+        ]
+    },
+    {
+        "userData": "417702152@qq.com-123456",
+        "today": "2020年03月23日",
+        "user": "417702152@qq.com",
+        "signature": "",
+        "id": 1584952957934,
+        "table": [
+            {
+                "studyDate": "20200323",
+                "segmentation": "16:42 - 16:42",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe16\n作业1"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年03月23日",
+        "user": "life",
+        "signature": "只做两件事",
+        "id": 1584930628384,
+        "table": [
+            {
+                "studyDate": "20200323",
+                "segmentation": "10:11 - 10:30",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "看边角料知识"
+            }
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年03月10日",
+        "user": "life",
+        "signature": "只做两件事",
+        "id": 1583809593422,
+        "table": [
+            {
+                "studyDate": "20200310",
+                "segmentation": "11:06 - 11:06",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "面试准备-复习面试题"
+            },
+            {
+                "studyDate": "20200310",
+                "segmentation": "22:29 - 23:56",
+                "minuteDuration": 87,
+                "hourDuration": 1.45,
+                "studyContent": "面试准备-看论坛面经"
+            }
+        ]
+    },
+    {
+        "userData": "风行-zi'xi'ui",
+        "today": "2020年03月10日",
+        "user": "风行",
+        "signature": "不要依靠想象去理解世界",
+        "id": 1583851688002,
+        "table": [
+            {
+                "studyDate": "20200310",
+                "segmentation": "22:17 - 22:48",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "写作业"
+            },
+            {
+                "studyDate": "20200310",
+                "segmentation": "23:00 - 23:34",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "写作业"
+            }
+        ]
+    }
+]

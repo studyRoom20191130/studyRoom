@@ -1,0 +1,67 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年07月20日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1595212956632,
+        "table": [
+            {
+                "studyDate": "20200720",
+                "segmentation": "10:25 - 10:42",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - 看一下 54 视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200720",
+                "segmentation": "10:50 - 11:01",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "axe - 跑起 作业 55",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200720",
+                "segmentation": "11:02 - 11:14",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe -  作业 55.1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200720",
+                "segmentation": "14:26 - 15:06",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "axe -  作业 55.2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200720",
+                "segmentation": "15:30 - 16:04",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "axe -  看 chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200720",
+                "segmentation": "16:19 - 17:00",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "axe - 看一下 55 视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200720",
+                "segmentation": "17:00 - 17:34",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "axe - 看一下 55 视频",
+                "expectation": ""
+            }
+        ]
+    }
+]

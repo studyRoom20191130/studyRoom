@@ -1,0 +1,28 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年12月27日",
+        "user": "Sean",
+        "signature": "菜就要多花时间",
+        "table": [
+            {
+                "studyDate": "20201227",
+                "segmentation": "13:12 - 13:47",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201227",
+                "segmentation": "14:19 - 15:15",
+                "minuteDuration": 56,
+                "hourDuration": 0.93,
+                "studyContent": "锻炼 - ",
+                "expectation": ""
+            }
+        ],
+        "hero": "/pkm/pkm10.png",
+        "weapon": ""
+    }
+]

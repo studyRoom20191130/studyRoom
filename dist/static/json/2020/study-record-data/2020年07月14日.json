@@ -1,0 +1,19 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年07月14日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1594713142262,
+        "table": [
+            {
+                "studyDate": "20200714",
+                "segmentation": "15:00 - 15:52",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "tf - 写静态码原型 demo",
+                "expectation": ""
+            }
+        ]
+    }
+]

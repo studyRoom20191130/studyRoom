@@ -1,0 +1,107 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年07月03日",
+        "user": "life",
+        "signature": "做一点赚一点",
+        "id": 1593740797531,
+        "table": [
+            {
+                "studyDate": "20200703",
+                "segmentation": "09:00 - 09:46",
+                "minuteDuration": 46,
+                "hourDuration": 0.77,
+                "studyContent": "整理转正资料",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "10:02 - 10:14",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe - 编译小作业 step3 读题 搭架子",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "10:14 - 10:35",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - 编译小作业 step3 想想怎么做，出bug了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "10:36 - 10:52",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - 编译小作业 step3 直接看答案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "10:53 - 11:28",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "axe - 编译小作业 step3 简化测试数据，理清思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "12:00 - 12:10",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "自习室 - 增加 axe 的单独计时",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "15:48 - 15:57",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 更改测试页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "17:51 - 18:01",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "axe - 编译小作业 step3 看神秘函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "18:01 - 18:46",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "axe - 49.1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "20:20 - 20:47",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "axe - 49.2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "20:57 - 21:00",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "axe - 49.2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200703",
+                "segmentation": "21:00 - 21:16",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe - 49.4",
+                "expectation": ""
+            }
+        ]
+    }
+]

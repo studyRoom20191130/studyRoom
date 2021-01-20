@@ -1,0 +1,189 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年06月19日",
+        "user": "Sean",
+        "signature": "冲冲冲",
+        "id": 1592531843216,
+        "table": [
+            {
+                "studyDate": "20200619",
+                "segmentation": "09:41 - 09:57",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "todo-今日计划",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "16:00 - 17:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "复习-get/post",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年06月19日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1592528083950,
+        "table": [
+            {
+                "studyDate": "20200619",
+                "segmentation": "22:00 - 23:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "wa -  文案骨架",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "08:54 - 09:24",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "wa -  文案骨架",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "09:25 - 10:15",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "wa -  正文",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "14:12 - 14:25",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "tf - 修改 demo ，模拟接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "14:25 - 15:07",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "tf - 修改 demo ，掏 热门银行 样式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "15:07 - 15:40",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "tf - 修改 demo ，确定按钮方案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "14:16 - 16:24",
+                "minuteDuration": 128,
+                "hourDuration": 2.13,
+                "studyContent": "tf - vue 教程 2.1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "16:35 - 17:14",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "tf - 修改 demo ，无确定按钮方案",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年06月19日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1592529298412,
+        "table": [
+            {
+                "studyDate": "20200619",
+                "segmentation": "09:00 - 09:14",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "09:15 - 09:27",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "整理昨天的日报 + 今日 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "09:27 - 09:54",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "重要项目上线前，测试环境部署了，重要板块要点一点",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "09:54 - 10:46",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "群里说了一下上线的一个问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "10:46 - 11:14",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "sisi",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "11:14 - 12:09",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "线上问题梳理",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "12:10 - 12:40",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "12:50 - 13:49",
+                "minuteDuration": 59,
+                "hourDuration": 0.98,
+                "studyContent": "线上问题处理",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "13:51 - 14:43",
+                "minuteDuration": 52,
+                "hourDuration": 0.87,
+                "studyContent": "快 vue 2-1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200619",
+                "segmentation": "14:43 - 16:45",
+                "minuteDuration": 122,
+                "hourDuration": 2.03,
+                "studyContent": "线上问题后续处理",
+                "expectation": ""
+            }
+        ]
+    }
+]

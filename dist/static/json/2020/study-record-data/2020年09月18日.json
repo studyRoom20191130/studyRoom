@@ -1,0 +1,76 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年09月18日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1600392756485,
+        "table": [
+            {
+                "studyDate": "20200918",
+                "segmentation": "09:23 - 09:32",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 打包部署",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200918",
+                "segmentation": "09:40 - 09:43",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "wa - ",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200918",
+                "segmentation": "09:43 - 11:34",
+                "minuteDuration": 111,
+                "hourDuration": 1.85,
+                "studyContent": "tf - 开会",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200918",
+                "segmentation": "13:45 - 14:26",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "wa - 查资料",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200918",
+                "segmentation": "14:26 - 14:40",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "水群 - ",
+                "expectation": "10"
+            }
+        ]
+    },
+    {
+        "userData": "hello-坚持记录下去!",
+        "today": "2020年09月18日",
+        "user": "hello",
+        "signature": "",
+        "id": 1600393931024,
+        "table": [
+            {
+                "studyDate": "20200918",
+                "segmentation": "08:46 - 09:52",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "看书 - 你不知道的js 上卷 第六部分",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200918",
+                "segmentation": "10:00 - 10:12",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "看书 - 你不知道的js 上卷 第1章",
+                "expectation": "20"
+            }
+        ]
+    }
+]

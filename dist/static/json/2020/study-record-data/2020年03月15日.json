@@ -1,0 +1,80 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年03月15日",
+        "user": "life",
+        "signature": "只做两件事",
+        "id": 1584260873935,
+        "table": [
+            {
+                "studyDate": "20200315",
+                "segmentation": "14:25 - 16:27",
+                "minuteDuration": 122,
+                "hourDuration": 2.03,
+                "studyContent": "更新自习室功能"
+            },
+            {
+                "studyDate": "20200315",
+                "segmentation": "16:35 - 17:14",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "更新自习室功能"
+            },
+            {
+                "studyDate": "20200315",
+                "segmentation": "17:59 - 18:28",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "更新自习室功能"
+            },
+            {
+                "studyDate": "20200315",
+                "segmentation": "23:14 - 23:28",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "看《JavaScript 忍者秘籍》"
+            }
+        ]
+    },
+    {
+        "userData": "sans-123456",
+        "today": "2020年03月15日",
+        "user": "sans",
+        "signature": "做事看期望，不被情绪控制",
+        "id": 1584258439922,
+        "table": [
+            {
+                "studyDate": "20200315",
+                "segmentation": "14:03 - 15:47",
+                "minuteDuration": 104,
+                "hourDuration": 1.73,
+                "studyContent": "复习面试大全 + 复习guagame，准备面试"
+            },
+            {
+                "studyDate": "20200315",
+                "segmentation": "16:27 - 16:32",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "继续复习面试大全，"
+            },
+            {
+                "studyDate": "20200315",
+                "segmentation": "16:54 - 17:42",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "复习guagame + 记录guagame面试能讲的点"
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "欢迎聚聚~",
+                "commenter": "life"
+            },
+            {
+                "comment": "reply聚聚更新自习室辛苦啦",
+                "commenter": "sans",
+                "replyer": "life"
+            }
+        ]
+    }
+]

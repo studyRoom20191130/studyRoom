@@ -1,0 +1,744 @@
+[
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年05月20日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589939697966,
+        "table": [
+            {
+                "studyDate": "20200520",
+                "segmentation": "09:54 - 09:54",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "日常 - 新的日志",
+                "expectation": "2"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "09:55 - 10:04",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "日常 - TODO",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:16 - 10:29",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "工作 - APP Lock - 蓝牙通讯交互 - 初始化终端",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:29 - 10:37",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - APP Lock - 蓝牙通讯交互 - 蓝牙连接匹配",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:37 - 10:43",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - APP Lock - 蓝牙通讯交互 - 日志上传",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:43 - 10:46",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - APP Lock - 蓝牙通讯交互 - 开锁",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:46 - 10:50",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - APP Lock - 蓝牙通讯交互 - 关锁",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "11:10 - 11:30",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "工作 - APP Lock - 服务器交互 - 蓝牙连接匹配",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "11:30 - 11:50",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "日常 - 吃饭",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "12:07 - 12:29",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "axe34 - 作业1 - 躺个 .py",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "12:31 - 12:38",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe34 - 作业1 -看 chat",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "12:51 - 13:12",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "日常 - 午睡",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "13:36 - 13:40",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - APP Lock - 服务器交互 - 日志上报",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "13:40 - 14:30",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "日常 - 摸鱼, 迁移浏览器链接",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:06 - 16:10",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "日常 - 可复用代码 - date",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:10 - 16:11",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "日常 - 可复用代码 - string",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:26 - 16:38",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "工作 - APP Lock - 梳理流程",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:38 - 16:47",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - APP Lock - 梳理流程 - 蓝牙连接",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:47 - 16:51",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - APP Lock - 梳理流程 - 蓝牙开锁",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:52 - 16:52",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - APP Lock - 梳理流程 - 蓝牙关锁",
+                "expectation": "2"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:52 - 16:56",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作 - APP Lock - 梳理流程 - 蓝牙关锁模式",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:56 - 17:17",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - APP Lock - 梳理流程 - 和同事沟通",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:17 - 17:34",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "工作 - APP Lock - 开关锁操作逻辑",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:35 - 17:47",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "工作 - APP Lock - 缓存",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:57 - 18:06",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "工作 - APP Lock - 根据网络状况确定连接方式",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "20:57 - 22:21",
+                "minuteDuration": 84,
+                "hourDuration": 1.4,
+                "studyContent": "雀魂",
+                "expectation": "30"
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年05月20日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1589936714439,
+        "table": [
+            {
+                "studyDate": "20200520",
+                "segmentation": "08:57 - 09:05",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "阅读资料 - 看 guagame 的命名",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "09:05 - 09:34",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "tf - 底部样式 证件号检验，函数检验",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "09:37 - 10:00",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "tf - 修改线上 bug",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:10 - 11:00",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "tf - 遮罩层滚动问题",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "11:06 - 12:07",
+                "minuteDuration": 61,
+                "hourDuration": 1.02,
+                "studyContent": "tf - 遮罩层滚动问题",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:10 - 14:30",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "水群 - ",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:50 - 16:30",
+                "minuteDuration": 100,
+                "hourDuration": 1.67,
+                "studyContent": "tf - 调研 h5 和 app 的交互（无果）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:13 - 17:35",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "tf - 测试如何应用 keep-alive",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:38 - 17:38",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "tf - 加上 keep-alive",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:38 - 18:03",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "tf - 加上 keep-alive，调整逻辑",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "19:10 - 19:19",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 看以前的项目怎么处理图片",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "19:20 - 19:34",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "tf - 用两倍图片，设计稿标多少我设置多少像素",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "20:07 - 20:33",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "总经 - 月度总结",
+                "expectation": "20"
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年05月20日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589937625825,
+        "table": [
+            {
+                "studyDate": "20200520",
+                "segmentation": "08:42 - 09:20",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "写今日todo：0910\n开始修改通知模板",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "09:20 - 09:44",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "修改通知模板",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "09:45 - 09:53",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "修改通知模板：提测",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "09:53 - 10:13",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "帮查问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:16 - 12:02",
+                "minuteDuration": 106,
+                "hourDuration": 1.77,
+                "studyContent": "记录商户日志",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "12:02 - 13:40",
+                "minuteDuration": 98,
+                "hourDuration": 1.63,
+                "studyContent": "吃饭+午睡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "13:40 - 15:08",
+                "minuteDuration": 88,
+                "hourDuration": 1.47,
+                "studyContent": "明确需求，更新方案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "15:09 - 17:17",
+                "minuteDuration": 128,
+                "hourDuration": 2.13,
+                "studyContent": "新建项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:17 - 17:43",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "部署新项目，推送新项目到 gitlab\n1，新建 master分支\n2，就可以本地新建分支，推送到远端",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:43 - 18:30",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "部署新项目到 bingo\n1，项目管理里面添加，配置运行环境\n2，gitlab 打包好后就可以部署了",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "肥皂-123456",
+        "today": "2020年05月20日",
+        "user": "肥皂",
+        "signature": "",
+        "id": 1589956997843,
+        "table": [
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:41 - 14:43",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "起身走动喝水\n厕所有人，先回来",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:44 - 14:48",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "看 31.3，考虑在开头就 sem_unlink",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:48 - 15:01",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "洗手间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "15:01 - 15:07",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "15:08 - 15:21",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "冲茶提神，继续摸",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "15:21 - 15:46",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "继续讨论 31.3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "15:46 - 15:48",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "续茶",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "15:49 - 16:32",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "看聚聚分享的 c 语言语法，询问指针理解",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:33 - 16:38",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "看聚聚分享的 c 语言语法，询问指针理解",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:33 - 16:",
+                "minuteDuration": -33,
+                "hourDuration": -0.55,
+                "studyContent": "",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:33 - 16:38",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "吃个东西，续茶",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:39 - 16:40",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "看群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:41 - 16:50",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "看群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:50 - 16:58",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "起身走动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:59 - 17::28",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "趴着睡一会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:29 - 17:51",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "看 34",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:53 - 17:59",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "34.1\n这几步看看 chat\n1. 引入 socket 库\n2. 打开 socket 链接\n3. 监听 3000 端口\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:59 - 18:02",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "总结今日面试情况汇报",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "宇直-坚持记录下去！",
+        "today": "2020年05月20日",
+        "user": "宇直",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1589946521997,
+        "table": [
+            {
+                "studyDate": "20200520",
+                "segmentation": "09:20 - 10:00",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "nas 通过 docker 安装 qBittorrent",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:01 - 10:25",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "nas 通过 docker 安装 aira2",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:26 - 10:35",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "qBittorrent 设置 https 失败，原因未知",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:35 - 10:42",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - 清理工单状态",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:43 - 10:48",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "工作 - 整理配置，小程序提交审核",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "10:50 - 11:13",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "查询 UPS 相关内容",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "11:14 - 12:00",
+                "minuteDuration": 46,
+                "hourDuration": 0.77,
+                "studyContent": "摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:21 - 14:24",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "工作 - 发布小程序",
+                "expectation": "3"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:25 - 14:32",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "工作 - debug - 修复新注册用户年级显示问题",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:35 - 15:35",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "工作 - 营销页面 需求会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "15:35 - 15:47",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "15:49 - 16:09",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "工作 - debug - 修复新注册用户年级显示问题（走神了 中断）",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:11 - 17:00",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "摸鱼 聚气",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:00 - 17:02",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "nas 通过 docker 安装 python3.8 镜像",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:04 - 17:53",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "刷 chat 看 axe34 相关",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "17:53 - 18:01",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "作业 - 完成 axe 34-1",
+                "expectation": "15"
+            }
+        ]
+    },
+    {
+        "userData": "巾凡-fengfan620",
+        "today": "2020年05月20日",
+        "user": "巾凡",
+        "signature": "",
+        "id": 1589956519771,
+        "table": [
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:19 - 14:35",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "接着看31.3 因为公司是linux ,以前的 semaphore open close 没用，　chat 抄一份，　先跑通",
+                "expectation": "15"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "14:36 - 15:47",
+                "minuteDuration": 71,
+                "hourDuration": 1.18,
+                "studyContent": "先写单线程的　safe stack",
+                "expectation": "20"
+            },
+            {
+                "studyDate": "20200520",
+                "segmentation": "16:05 - 17:08",
+                "minuteDuration": 63,
+                "hourDuration": 1.05,
+                "studyContent": "34 作业１",
+                "expectation": "30"
+            }
+        ]
+    }
+]

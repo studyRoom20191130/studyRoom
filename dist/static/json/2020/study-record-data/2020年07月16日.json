@@ -1,0 +1,44 @@
+[
+    {
+        "userData": "一条鲨鱼-Zh19970909/",
+        "today": "2020年07月16日",
+        "user": "一条鲨鱼",
+        "signature": "努力成为一名优秀的程序员！",
+        "id": 1594910054546,
+        "table": [
+            {
+                "studyDate": "20200716",
+                "segmentation": "20:00 - 22:34",
+                "minuteDuration": 154,
+                "hourDuration": 2.57,
+                "studyContent": "看视频",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年07月16日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1594863893511,
+        "table": [
+            {
+                "studyDate": "20200716",
+                "segmentation": "09:10 - 09:44",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "tf - 聚合码逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200716",
+                "segmentation": "10:46 - 11:46",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "tf - 修 bug  + 延时",
+                "expectation": ""
+            }
+        ]
+    }
+]

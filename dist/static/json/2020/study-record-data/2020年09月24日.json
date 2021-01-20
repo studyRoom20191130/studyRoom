@@ -1,0 +1,91 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年09月24日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1600911365812,
+        "table": [
+            {
+                "studyDate": "20200924",
+                "segmentation": "09:28 - 09:36",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "tf - 复习 webpack 准备好了文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200924",
+                "segmentation": "09:36 - 09:40",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "tf - 开始看1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200924",
+                "segmentation": "10:16 - 10:29",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "tf - 看完示例",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200924",
+                "segmentation": "10:29 - 11:33",
+                "minuteDuration": 64,
+                "hourDuration": 1.07,
+                "studyContent": "tf - 模仿复用，图片还有点问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200924",
+                "segmentation": "11:33 - 11:47",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "tf - 模仿复用，图片还有点问题 放弃这个想法",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200924",
+                "segmentation": "14:49 - 15:08",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "tf - 修 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200924",
+                "segmentation": "15:10 - 15:14",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "tf - 修 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200924",
+                "segmentation": "15:23 - 16:45",
+                "minuteDuration": 82,
+                "hourDuration": 1.37,
+                "studyContent": "tf - 修 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200924",
+                "segmentation": "16:51 - 17:13",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "tf - 修 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200924",
+                "segmentation": "17:25 - 17:53",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "tf - 修 bug",
+                "expectation": ""
+            }
+        ]
+    }
+]

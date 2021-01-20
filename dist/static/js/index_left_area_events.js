@@ -175,18 +175,20 @@ const sendRecord = (segmentation, minuteDuration, hourDuration) => {
     addHtmlToMainDiv(studyDataList)
     renderNavHero(studyDataList)
     renderOnlineUser(studyDataList)
-    alertTip(singleRecord.minuteDuration);
+    alertTip(singleRecord.minuteDuration)
+    updateYearlyProgass(studyDataList)
     window.stopInterval = true;
-    // 好像没有存签名的必要
-    // let user = getLocalStorage('userInfo').split('-')[0];
-    // for (const el of res) {
-    //   if (user === el.user) {
-    //     setLocalStorage('signature', el.signature);
-    //   }
-    // }
   }, 'stopInterval');
-  // getOnlineUser();
 };
+
+const updateYearlyProgass = (studyDataList) => {
+  let s = studyDataList[0]
+  let yearlyObj = s.yearlyObj
+  console.log("yearlyObj", yearlyObj)
+  let prograssHtml = generatePrograssHtml(yearlyObj, s.user, 'weekly')
+  e('.yearly-prograss-container').innerHTML = ''
+  appendHtml(e('.yearly-prograss-container'), prograssHtml);
+}
 
 // 开始按钮防止重复点击
 window.forbidStartBtnClick = false;
@@ -325,13 +327,16 @@ const getTrHtml = (list) => {
 
 
 
-const generatePrograssHtml = (prograssObj, user) => {
+const generatePrograssHtml = (prograssObj, user, type='daily') => {
+  console.log("user", user)
+  console.log("getLocalStorage('userInfo').split('-')[0]", getLocalStorage('userInfo').split('-')[0])
   if (user !== getLocalStorage('userInfo').split('-')[0]) {
     return ''
   }
   let prograss = ``
   // 加载进度条的逻辑
-  let dailyTodoList = getLocalStorage('dailyTodoList') || []
+  let dailyTodoList = getLocalStorage(`${type}TodoList`) || []
+  console.log("dailyTodoList", dailyTodoList)
   let colorlist = ['pg-green', 'pg-blue', 'pg-yellow', 'pg-red', 'pg-lightgray']
   let colorIndex = 0
   for (const todo of dailyTodoList) {

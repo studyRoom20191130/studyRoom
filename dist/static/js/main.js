@@ -109,12 +109,13 @@ const showTips = () => {
 };
 
 const calculateTimeGoesBy = () => {
-  let remaing = getBeforeDate(`${new Date().getFullYear()},12,31`)
+  let year = new Date().getFullYear()
+  let remaing = getBeforeDate(`${year},12,31`)
   let r = (365 - remaing) / 365
   // 转换百分比
   r  = calculatePersent(r, 3)
   $('.time-goes-by').css('width',r);
-  e('.time-goes-by').innerHTML = '2020 已过去 ' +  r
+  e('.time-goes-by').innerHTML = `${year} 已过去${r}`
 }
 
 const addMailBtn = () => {

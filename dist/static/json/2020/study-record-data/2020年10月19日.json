@@ -1,0 +1,181 @@
+[
+    {
+        "userData": "twoheart-123456",
+        "today": "2020年10月19日",
+        "user": "twoheart",
+        "signature": "",
+        "id": 1603120709137,
+        "table": [
+            {
+                "studyDate": "20201019",
+                "segmentation": "21:51 - 23:14",
+                "minuteDuration": 83,
+                "hourDuration": 1.38,
+                "studyContent": "自习 - 虚拟 DOM 与 DOM diff https://www.yuque.com/twoheart/lz62oo/xzf47q",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年10月19日",
+        "user": "life",
+        "signature": "每天一小时",
+        "id": 1603070823704,
+        "table": [
+            {
+                "studyDate": "20201019",
+                "segmentation": "09:27 - 09:27",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "计划 ：备份数据 端正坐姿 多喝水 推进 pc 项目 自习室更新功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "10:42 - 10:42",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "test",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "09:30 - 10:42",
+                "minuteDuration": 72,
+                "hourDuration": 1.2,
+                "studyContent": "tf - 创建商户下单页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "11:35 - 11:46",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf - 支付页面 订单查询接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "11:46 - 12:00",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "tf - 支付页面 信息提示",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "13:47 - 13:53",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "tf - 支付页面 替换字段",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "13:55 - 14:06",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "tf - 支付页面 生成二维码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "14:13 - 14:45",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "tf - 支付页面 loading 逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "14:51 - 15:11",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - 支付页面 获取验证码逻辑",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "16:14 - 16:14",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "test",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "16:14 - 16:50",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "tf - 新增绑卡逻辑 展示签约银行卡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "16:50 - 17:15",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "tf - 新增绑卡逻辑 展示订单信息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "17:36 - 17:56",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "tf - 商户支持的支付方式",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "19:42 - 20:12",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "自习室 - 添加节点之后回到当前页面位置",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "20:12 - 20:26",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "自习室 - 后端算好总时长",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "20:27 - 20:39",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "自习室 - 后端算好总时长",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201019",
+                "segmentation": "20:40 - 20:49",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "自习室 - 内容输入框按回车开始计时",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2020年10月19日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "id": 1603102281243,
+        "table": [
+            {
+                "studyDate": "20201019",
+                "segmentation": "17:25 - 18:05",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "打字练习 - 英文",
+                "expectation": "30min"
+            }
+        ]
+    }
+]

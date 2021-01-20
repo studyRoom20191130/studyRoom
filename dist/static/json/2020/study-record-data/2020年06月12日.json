@@ -1,0 +1,156 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年06月12日",
+        "user": "life",
+        "signature": "",
+        "id": 1591934237512,
+        "table": [
+            {
+                "studyDate": "20200612",
+                "segmentation": "10:35 - 11:57",
+                "minuteDuration": 82,
+                "hourDuration": 1.37,
+                "studyContent": "axe - 安装虚拟机",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "14:00 - 15:20",
+                "minuteDuration": 80,
+                "hourDuration": 1.33,
+                "studyContent": "水群 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "15:25 - 16:22",
+                "minuteDuration": 57,
+                "hourDuration": 0.95,
+                "studyContent": "axe - 41读题  + tf 更换参数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "16:23 - 16:46",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "axe - 41 看 chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "16:58 - 17:30",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "axe - 41读题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "17:31 - 17:45",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe - 41 看 chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "20:29 - 21:22",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "axe - 看 lua 文件",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年06月12日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1591927374864,
+        "table": [
+            {
+                "studyDate": "20200612",
+                "segmentation": "09:10 - 10:00",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "整理昨晚的安装过程",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "09:10 - 10:00",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "酷壳上面 unix 的一些文章",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "10:07 - 10:25",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "整理昨天的日报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "10:25 - 11:05",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "查了一下，目前名字➕I 组织对应的user是没有重复的",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "11:06 - 11:16",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "部署OK",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "11:16 - 12:43",
+                "minuteDuration": 87,
+                "hourDuration": 1.45,
+                "studyContent": "fe 15 听课",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "12:10 - 12:40",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "12:48 - 13:56",
+                "minuteDuration": 68,
+                "hourDuration": 1.13,
+                "studyContent": "qq：古代内存的原理：延迟线存储",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "13:56 - 15:41",
+                "minuteDuration": 105,
+                "hourDuration": 1.75,
+                "studyContent": "查问题：上来就一通查，各种打地鼠，一小时后，开始慢慢理逻辑，半小时就发现问题了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200612",
+                "segmentation": "15:42 - 17:52",
+                "minuteDuration": 130,
+                "hourDuration": 2.17,
+                "studyContent": "修复问题：加上过滤条件，加上\n重试邮件的日期也改了 ，自然一点",
+                "expectation": ""
+            }
+        ]
+    }
+]

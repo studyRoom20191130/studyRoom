@@ -1,0 +1,431 @@
+[
+    {
+        "userData": "Sean-112233",
+        "today": "2020年05月08日",
+        "user": "Sean",
+        "signature": "慌也没用, 学吧",
+        "id": 1588943836500,
+        "table": [
+            {
+                "studyDate": "20200508",
+                "segmentation": "20:20 - 21:00",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "电台5",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "21:17 - 22:08",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "复习fep",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "23:01 - 23:29",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "fep3",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "life-123",
+        "today": "2020年05月08日",
+        "user": "life",
+        "signature": "踏踏实实投入时间就好",
+        "id": 1588901424337,
+        "table": [
+            {
+                "studyDate": "20200508",
+                "segmentation": "07:20 - 07:40",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "雷课堂 - 视频2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "09:00 - 09:55",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "水群 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "10:18 - 11:17",
+                "minuteDuration": 59,
+                "hourDuration": 0.98,
+                "studyContent": "axe - 今天誓死完成 29.2 剩余log",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "11:25 - 12:07",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "axe - 今天誓死完成 29.2 剩余log（卧槽，500个搞定了。。）",
+                "expectation": "35"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:30 - 15:00",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "tf - 配置内网的 接口地址",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "16:25 - 16:53",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "tf - 接口配置 水群",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "17:14 - 18:18",
+                "minuteDuration": 64,
+                "hourDuration": 1.07,
+                "studyContent": "tf - 接口配置 ",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "18:46 - 19:18",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "tf - 提问 - 接口配置 ",
+                "expectation": "30"
+            }
+        ]
+    },
+    {
+        "userData": "H.K-7851538",
+        "today": "2020年05月08日",
+        "user": "H.K",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1588901318988,
+        "table": [
+            {
+                "studyDate": "20200508",
+                "segmentation": "09:10 - 09:30",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "写 todo",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "09:41 - 10:59",
+                "minuteDuration": 78,
+                "hourDuration": 1.3,
+                "studyContent": "群聊 + fe 作业 2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "11:00 - 11:43",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "评估一下发票的需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "11:53 - 14:04",
+                "minuteDuration": 131,
+                "hourDuration": 2.18,
+                "studyContent": "看 xiang 聚聚面经 + 午休",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:22 - 15:57",
+                "minuteDuration": 95,
+                "hourDuration": 1.58,
+                "studyContent": "差线上问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "15:57 - 17:58",
+                "minuteDuration": 121,
+                "hourDuration": 2.02,
+                "studyContent": "主要雷课堂，中间穿插群聊",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "wooddown-M919730542mxb$W$L$",
+        "today": "2020年05月08日",
+        "user": "wooddown",
+        "signature": "点击编辑签名，按回车确认",
+        "id": 1588904165741,
+        "table": [
+            {
+                "studyDate": "20200508",
+                "segmentation": "10:04 - 10:16",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "运行 win 窗口范例的三个例子",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "10:20 - 10:34",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "移植蓝牙功能 - 途中做了一些记录",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "10:36 - 11:06",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "移植蓝牙功能(设备连接) - 中断",
+                "expectation": "60"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "11:06 - 11:10",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "同事上架APP - 打包 apk - 证书文件不配套",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "11:10 - 11:29",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "移植蓝牙功能(设备连接) - 中断",
+                "expectation": "30"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "11:29 - 12:40",
+                "minuteDuration": 71,
+                "hourDuration": 1.18,
+                "studyContent": "吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "12:40 - 13:10",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "午睡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "13:10 - 13:56",
+                "minuteDuration": 46,
+                "hourDuration": 0.77,
+                "studyContent": "群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "13:56 - 14:00",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "阶段性总结 - 上午",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:04 - 14:06",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "补录日报模板记录的时间",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:07 - 14:09",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "打包 ipa - 证书不匹配",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:10 - 14:12",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "优化日报模板 - 删除一些多余的空行",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:14 - 14:21",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "继续抽象蓝牙功能 - 中断",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:21 - 14:23",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "ios 打包 - 证书不匹配",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:23 - 14:25",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "继续抽象蓝牙功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:26 - 14:32",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "检查抽象蓝牙功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:32 - 14:36",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "ios 打包",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:39 - 14:49",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "APP - 查看移植过来的蓝牙搜索功能",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:49 - 14:52",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "APP - 修改跳转连接功能 - 中断",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "14:36 - 15:00",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "APP - 检查透明图片问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "15:00 - 15:20",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "找到透明图片问题并解决",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "15:20 - 15:28",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "APP上架 - 发现新的问题 + 解决问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "16:21 - 16:30",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "修改蓝牙搜索功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "17:47 - 17:50",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "自习室数据迁移到日报模板",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "16:30 - 17:47",
+                "minuteDuration": 77,
+                "hourDuration": 1.28,
+                "studyContent": "APP上架 - 解决不了",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "bourne-123456",
+        "today": "2020年05月08日",
+        "user": "bourne",
+        "signature": "",
+        "id": 1588899008621,
+        "table": [
+            {
+                "studyDate": "20200508",
+                "segmentation": "08:39 - 08:50",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "写 todo",
+                "expectation": "10"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "08:50 - 08:58",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "写两天的工作日报",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "09:00 - 09:33",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "统一资产相关的文件模板，",
+                "expectation": " 20"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "09:35 - 09:45",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "报表导出功能修复",
+                "expectation": " 10"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "09:47 - 09:58",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "清理 jira 的问题",
+                "expectation": "5"
+            },
+            {
+                "studyDate": "20200508",
+                "segmentation": "10:00 - 10:40",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "用户登录失败问题，与测试以及产品又讨论，翻车了，耗时太长",
+                "expectation": ""
+            }
+        ]
+    }
+]

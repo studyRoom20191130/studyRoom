@@ -1,0 +1,226 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2020年11月01日",
+        "user": "life",
+        "signature": "10分钟一个 todo",
+        "table": [
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:17 - 17:17",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "guagame - 写2：检测砖块和球的碰撞 然后让砖块消失 球反弹 / 限制挡板左右移动 / debug 的思路 暂停函数 程序不方便调试的时候，想办法让它变得方便，运行速度太快，想办法降低速度，想办法暂停 / 代码不要全放一起 找都找不到 / 根据 关卡数据 渲染砖块 / 用数字键载入关卡 / 给砖块加命 / 开启 debug mode / 加滑条 双向绑定",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:18 - 17:22",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "guagame - 写2：滑条 双向绑定",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:24 - 17:32",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "guagame - 写2：按 P 暂停 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:32 - 17:39",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "guagame - 写2：限制挡板左右移动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:40 - 17:51",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "guagame - 写2：让砖块消失 球反弹",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "18:03 - 18:04",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "写2：砖块消失后 球仍然反弹",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "18:07 - 18:14",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "写2：渲染三块砖",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "19:40 - 19:46",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "guagame - 把关卡数据放入数组",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "19:46 - 19:49",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "guagame - 通过按键调整参数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "19:55 - 20:01",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "guagame - 给砖块加命",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "20:02 - 20:05",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "guagame - 开启 debug mode",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "20:05 - 20:40",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "浪费时间 - kgp",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "20:56 - 21:00",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "guagame - 将砖块生成的代码抽象",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "21:01 - 21:59",
+                "minuteDuration": 58,
+                "hourDuration": 0.97,
+                "studyContent": "guagame - 写 2：跟着视频查漏补缺",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "点点-diandian",
+        "today": "2020年11月01日",
+        "user": "点点",
+        "signature": "点击编辑签名，按回车确认",
+        "table": [
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:02 - 15:03",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "工作 - 下载 ui 文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:03 - 15:13",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "摸鱼 - 刷牙",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:14 - 15:16",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "工作 - 查看 ui 图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:16 - 15:26",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "工作 - 静态页完成背景",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:26 - 15:43",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "工作 - 静态页场景定位",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:43 - 15:57",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "摸鱼 - 看群聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "15:58 - 16:15",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "学习 - jsinfo 函数收尾",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "16:19 - 16:21",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "指定计划 - 下周技术（1 fq商户交接过来；2 jsinfo；3 整理篮球群聊；4 高程11章）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "16:21 - 17:03",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "工作 - 静态页按钮定位",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:03 - 17:14",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "工作 - 按钮绑定事件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:14 - 17:22",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 传测试环境",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20201101",
+                "segmentation": "17:22 - 17:53",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "工作 -注释测试数据",
+                "expectation": ""
+            }
+        ]
+    }
+]
