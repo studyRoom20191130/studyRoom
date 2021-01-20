@@ -3,6 +3,53 @@
 window.disabledSendAdditionalRecord = false;
 window.firstEnter = true;
 
+
+
+const initEditor = () => {
+  let myTextarea = document.getElementById("editor")
+  let editor = CodeMirror.fromTextArea(myTextarea, {
+    lineNumbers: true,	// 行号
+    // mode:'text/javascript',         // 语言
+    // theme: "base16-light",	// 主题
+    theme: "duotone-light",	// 主题
+    indentUnit: 4,      // 缩进
+    cursorHeight: 0.85, // 光标高度
+  })
+  // 设置代码框的长宽
+  editor.setSize('100%', '200px')
+
+  editor.on("blur",function(){
+    setLocalStorage('todoDetail', editor.getValue())
+    console.log("editor.getValue()", editor.getValue())
+  });
+
+  // 初始化代码内容
+  let todoDetail = getLocalStorage('todoDetail')
+  console.log("todoDetail", todoDetail)
+  if (todoDetail) {
+    editor.setValue(todoDetail)
+  }
+  if (todoDetail === '') {
+    let msg =
+    `F12切换，这里可以添加待做明细，例如：
+    
+axe 
+  8.3
+  10
+  
+fep 
+  作业
+  
+工作
+  xxx
+  yyy`
+    editor.setValue(msg)
+  }
+
+
+  return editor
+}
+
 const bindLeftDivBtnEvent = () => {
   bindEvent(e('.left'), 'click', (event) => {
     let target = event.target;

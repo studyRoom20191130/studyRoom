@@ -769,6 +769,22 @@ div#id-div-share-wrapper #id-img-share.active {
     left: 80px;
 }
 
+.code-mirror-div {
+    transition: bottom 0.3s;
+    position: absolute;
+    bottom: -260px;
+    width: 30%;
+    /*left: 6px;*/
+    text-align: left !important;
+    /*margin-left: 27%;*/
+    /*margin-right: 25%;*/
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.show-code-mirror {
+    bottom: 0;
+}
 
 
 

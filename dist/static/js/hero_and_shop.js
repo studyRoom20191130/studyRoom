@@ -62,10 +62,15 @@ const renderNavHero = (studyDataList) => {
     renderRightNav(right_members)
 }
 
+
+// 控制商店或 编辑器的显示
 const bindShopToggleEvent = () => {
     window.addEventListener('keydown', (event) => {
         if (event.code=== 'F4') {
             $('#shop').toggleClass('show-shop')
+        }
+        if (event.code=== 'F2') {
+            $('.code-mirror-div').toggleClass('show-code-mirror')
         }
     })
 }

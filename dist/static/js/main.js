@@ -157,6 +157,7 @@ const __main = () => {
 
   generateDailyDiv()
   renderShop()
+  initEditor()
 };
 
 __main();
