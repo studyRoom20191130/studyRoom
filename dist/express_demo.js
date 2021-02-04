@@ -366,7 +366,7 @@ const updateTotalHour= (requestObj) => {
     let obj = totalObj[global.year]
     if (studyContent.includes('-')) {
         let totalObj = getTotalHourObj(requestObj.user)
-        let obj = totalObj[global.year]
+        let obj = totalObj[global.year] || {}
         let index = studyContent.indexOf('-')
         let key = studyContent.slice(0, index).trim()
         if (key in obj) {
@@ -387,7 +387,6 @@ app.post('/sendRecordData', (request, response) => {
     let todayObj = updateUserData(request.body)
     makeSureTodayFileExist(requestObj.today)
     let yearlyObj = updateTotalHour(requestObj)
-    console.log("yearlyObj", yearlyObj)
     updateRecordData(requestObj, todayObj, yearlyObj, response)
 
 })

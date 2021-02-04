@@ -1,0 +1,679 @@
+[
+    {
+        "userData": "麻瓜-fp3xciaomagua",
+        "today": "2021年02月01日",
+        "user": "麻瓜",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210201",
+                "segmentation": "23:42 - 00:01",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "摸鱼，离开一下",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210201",
+                "segmentation": "00:02 - 00:32",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "fep 4-5 写完逻辑，开始测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210201",
+                "segmentation": "00:32 - 00:36",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "fep 4-5 写完逻辑，开始测试，测试全部失败，开始 Debug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210201",
+                "segmentation": "00:39 - 00:42",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "fep 4-5 debug，原来是我逗号的逻辑少了一个判断",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210201",
+                "segmentation": "00:42 - 00:44",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "fep 4-5 提交作业，一次过了！！开心",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210201",
+                "segmentation": "00:44 - 00:48",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "fep 4-6 理解完题目开始走神了，感觉该睡觉了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210201",
+                "segmentation": "00:48 - 00:50",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "无法思考，睡觉去",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "麻瓜-fp3xciaomagua",
+        "today": "2021年01月31日",
+        "user": "麻瓜",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210131",
+                "segmentation": "23:00 - 23:31",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "fep 4-4",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210131",
+                "segmentation": "23:33 - 23:36",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "摸鱼鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210131",
+                "segmentation": "23:36 - 23:39",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "没想到又摸鱼了！必须停止",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210131",
+                "segmentation": "23:39 - 23:41",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "fep 4-5，读题，思考实现方式",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "麻瓜-fp3xciaomagua",
+        "today": "2021年01月30日",
+        "user": "麻瓜",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210130",
+                "segmentation": "10:12 - 10:29",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "到公司，吃早餐，玩手机",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "10:29 - 11:04",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "继续摸鱼嘿嘿嘿嘿",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "11:04 - 11:41",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "工作了一下下，主要在聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "11:41 - 12:10",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "12:10 - 14:25",
+                "minuteDuration": 135,
+                "hourDuration": 2.25,
+                "studyContent": "摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "14:25 - 15:00",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "15:00 - 15:20",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "摸鱼，水蜜桃味的棒棒糖真好吃",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "15:19 - 15:43",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "干活干活，解决了一个 bug，本来看了10分钟就想到了一个简单的方法，但是我想优雅的解决，结果看了半天还是不知道怎么搞，然后直接一把梭解决了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "15:44 - 15:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "日报又写错了，忘记打上工作两字（暗示编辑功能）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "15:44 - 15:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "继续工作，不出意外今天上班时间可以写作业！",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "15:44 - 16:12",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "工作结束！",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "16:12 - 16:12",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "想回家糖沙发上玩游戏",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "16:12 - 17:26",
+                "minuteDuration": 74,
+                "hourDuration": 1.23,
+                "studyContent": "摸鱼呜呜呜 不想动脑子",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "17:27 - 18:12",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "18:13 - 18:26",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "摸鱼，肚子好饿",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "18:26 - 18:26",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "下班！！",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "麻瓜-fp3xciaomagua",
+        "today": "2021年01月29日",
+        "user": "麻瓜",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:06 - 10:13",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "到公司，吃了早餐。\n今天出门的时候脑子一抽，觉得短睡裤换长裤出门太麻烦，于是直接套了个卫衣就出门了\n出门了我就后悔了，风呼呼的刮着我的腿\n大街上就我一个人穿个短裤，显得我很傻",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:13 - 10:14",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "内容可不可以有换行效果（暗示）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:14 - 10:16",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "准备开始工作，播放今天的心动歌单，今天也要加油！",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:16 - 10:36",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:36 - 10:37",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "准备来一根棒棒糖，问了一下运营妹子要不要也来一根，我问完我看她笑得好开心说要",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:37 - 10:42",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "继续工作，给公司小程序项目加多了一个组件，但是没渲染出来也没有报错，在看哪里错了，最后发现是我复制黏贴的同事代码原本就有逻辑问题，弱智+10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:43 - 11:13",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "继续工作，又遇到了 bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "11:13 - 11:24",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "点外卖，回复朋友看牙的注意事项，自从听了一首钢琴曲之后就开始犯困",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "11:25 - 12:07",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "12:07 - 12:10",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "忽然想起早上做的噩梦，太真实还以为是真的了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "12:10 - 12:14",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "12:14 - 14:18",
+                "minuteDuration": 124,
+                "hourDuration": 2.07,
+                "studyContent": "摸鱼-吃饭休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:14 - 14:45",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "工作了一下下",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:45 - 15:06",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "摸鱼 看沙雕图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "15:06 - 15:24",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "摸鱼 看沙雕图，收到家里给我的零食大礼包和家乡土特产，零食分给同事们一起吃了，办公室吃零食的声音此起彼伏",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "15:24 - 15:39",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "摸鱼聊天，本来以为这段时间自己会工作了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "15:40 - 16:29",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "16:30 - 16:36",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作差不多做完了，可以安心摸鱼一下了！",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "16:36 - 18:44",
+                "minuteDuration": 128,
+                "hourDuration": 2.13,
+                "studyContent": "工作和摸鱼参半，部署了新做完的功能，一边等待反馈一边摸鱼一边修正",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "18:44 - 18:44",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "下班！！！耶！",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "这个聚聚太欢乐了hhhhhhh",
+                "commenter": "life"
+            },
+            {
+                "comment": "欢乐, 麻瓜是群里的哪个聚聚",
+                "commenter": "Sean"
+            },
+            {
+                "comment": "replyaxe2，fep3都在嘿嘿",
+                "commenter": "麻瓜",
+                "replyer": "Sean"
+            },
+            {
+                "comment": "reply哈哈哈哈怪不好意思的",
+                "commenter": "麻瓜",
+                "replyer": "life"
+            },
+            {
+                "comment": "哈哈哈羡慕下班，周五快落！",
+                "commenter": "LD"
+            }
+        ]
+    },
+    {
+        "userData": "麻瓜-fp3xciaomagua",
+        "today": "2021年01月28日",
+        "user": "麻瓜",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210128",
+                "segmentation": "10:28 - 10:28",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "到公司，今天迟到了，被工头屌了一顿",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "10:35 - 10:36",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "10:36 - 12:13",
+                "minuteDuration": 97,
+                "hourDuration": 1.62,
+                "studyContent": "开始工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "12:14 - 12:38",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "吃饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "12:38 - 12:47",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "冲浪",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "12:47 - 13:02",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "13:02 - 13:14",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "聊天",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "13:15 - 13:48",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "补课程视频 3-1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "13:48 - 14:02",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "补课程视频 3-2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:02 - 14:12",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "准备上班，好困，起来走动喝水，点了一杯乌龙茶和一包棒棒糖外卖来振奋精神",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:14 - 14:22",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作",
+                "expectation": "work"
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:23 - 14:23",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "不想工作了，想躺床上睡觉",
+                "expectation": "work"
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:24 - 14:46",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "继续工作",
+                "expectation": "work"
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:46 - 14:50",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "拿到乌龙茶和棒棒糖了，棒棒糖和同事一起分着吃了，耶！",
+                "expectation": "fish"
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:18 - 15:18",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "应该爱！应该劳动！继续工作",
+                "expectation": "work"
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:18 - 15:20",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "应该爱！应该劳动！继续工作",
+                "expectation": "work"
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:22 - 15:22",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今天又录错了日报几次，想要编辑功能（暗示）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:22 - 15:28",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "冲浪摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:28 - 16:16",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "继续工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "16:16 - 16:34",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "16:34 - 16:44",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "不想爱了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "16:44 - 17:22",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "17:23 - 17:56",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "继续工作",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "17:56 - 18:03",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "18:04 - 18:45",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "继续工作，要给公司小程序界面接上新组件，管理端逻辑写好了来做小程序项目这边的逻辑，问了原本写小程序的同事应该怎么加，他指了两个文件让我看，我看了一番，然后照瓢画葫的加了还是不行，于是决定偷他的电，问他为啥不行",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "18:45 - 18:49",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "问了他两句他没回我，于是准备下班，和工头说一下今日进展，走人",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "刷新页面，表格就会有颜色了",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月29日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": []
+    },
+    {
+        "userData": "麻瓜-fp3xciaomagua",
+        "today": "2021年01月27日",
+        "user": "麻瓜",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210127",
+                "segmentation": "18:46 - 18:46",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "吃早餐，聊天",
+                "expectation": ""
+            }
+        ]
+    }
+]

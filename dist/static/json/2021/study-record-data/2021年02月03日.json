@@ -1,0 +1,41 @@
+[
+    {
+        "userData": "life-123",
+        "today": "2021年02月03日",
+        "user": "life",
+        "signature": "3333",
+        "table": [
+            {
+                "studyDate": "20210203",
+                "segmentation": "10:19 - 10:19",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "tf - \n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210203",
+                "segmentation": "10:31 - 10:31",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "adf",
+                "expectation": ""
+            }
+        ],
+        "hero": "sf.jpg",
+        "weapon": "",
+        "yearlyObj": {
+            "浪费时间": 5.97,
+            "自习室": 11.15,
+            "水群": 0.86,
+            "tf": 21.33,
+            "axe": 28.5,
+            "问题": 0,
+            "fep": 7.24,
+            "小程序": 4.35,
+            "面试准备": 0.52,
+            "guagame": 0.33,
+            "mo": 0
+        }
+    }
+]

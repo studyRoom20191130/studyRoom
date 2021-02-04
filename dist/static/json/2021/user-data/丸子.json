@@ -1,0 +1,152 @@
+[
+    {
+        "userData": "丸子-forever80231",
+        "today": "2021年01月29日",
+        "user": "丸子",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:19 - 10:23",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "5-作业6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:23 - 10:39",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "刚刚那个是作业7，现在是5-作业8-有点bug，先暂停 改需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:29 - 14:33",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "作业9",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "15:29 - 15:35",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "作业10，遇到问题，先暂停玩一会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "15:43 - 16:13",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "作业10，发现前面写错了，嵌套3层以上有问题，填表了",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "丸子-forever80231",
+        "today": "2021年01月28日",
+        "user": "丸子",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210128",
+                "segmentation": "09:47 - 10:38",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "去看看人家抽奖的代码怎么写，中途上了个厕所，看到一半然后把一个需求复制到另一个项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "10:50 - 11:12",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "改需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "11:29 - 11:33",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "继续研究转盘",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:56 - 15:28",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "开始抄转盘代码，抄完了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:38 - 15:41",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "看看wx.createAnimation",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "刷新页面，表格就会有颜色了",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "丸子-forever80231",
+        "today": "2021年01月27日",
+        "user": "丸子",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210127",
+                "segmentation": "11:05 - 11:32",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "掏静态页 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "11:39 - 11:45",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "研究阿里图标库-开始时间晚了，应该接上一段，导入css有问题，先吃饭吧",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "14:06 - 14:06",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "13：50继续研究引入图标库的问题https://blog.csdn.net/wangongchao/article/details/107045710",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "14:39 - 15:02",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "研究产品给的高保真怎么合并切图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "15:03 - 15:29",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "掏页面，",
+                "expectation": ""
+            }
+        ]
+    }
+]

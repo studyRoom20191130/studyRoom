@@ -1,17 +1,776 @@
 [
     {
-        "userData": "life-123",
-        "today": "2021年01月18日",
-        "user": "life",
+        "userData": "Sean-112233",
+        "today": "2021年01月29日",
+        "user": "Sean",
         "signature": "",
+        "table": [
+            {
+                "studyDate": "20210129",
+                "segmentation": "09:05 - 09:40",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "mo - 爬楼水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "09:40 - 09:57",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe - save2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:00 - 10:09",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe - add2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:12 - 10:34",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "axe - load2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:35 - 10:42",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe - load2 offset又算错",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:43 - 11:03",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "mo - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "11:14 - 11:23",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 重写权限",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "12:55 - 13:40",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "13:50 - 14:14",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "mo - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:49 - 14:49",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:20 - 14:49",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "mo - 水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "15:00 - 15:48",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "mo - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "16:41 - 16:47",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - subtract2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "17:02 - 17:09",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe - test6_load_from_register2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "17:10 - 17:20",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "axe - save_from_register2",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月29日",
+        "user": "LD",
+        "signature": "勿忘初心",
         "table": []
     },
     {
-        "userData": "life-123",
-        "today": "2021年01月18日",
-        "user": "life",
-        "signature": "",
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月29日",
+        "user": "LD",
+        "signature": "勿忘初心",
         "table": []
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月28日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210128",
+                "segmentation": "09:01 - 10:30",
+                "minuteDuration": 89,
+                "hourDuration": 1.48,
+                "studyContent": "mo - 串串",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:45 - 16:06",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "axe - test set2",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "刷新页面，表格就会有颜色了",
+                "commenter": "life"
+            },
+            {
+                "comment": "reply炫酷",
+                "commenter": "Sean",
+                "replyer": "life"
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月27日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210127",
+                "segmentation": "09:15 - 09:32",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "tf - 公众号开发",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "09:44 - 10:00",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "tf - 初始页面测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "10:31 - 11:02",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "tf -  原生ajax测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "11:11 - 11:44",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "tf - 登录跳转",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "16:07 - 16:07",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "14:44 - 16:00",
+                "minuteDuration": 76,
+                "hourDuration": 1.27,
+                "studyContent": "axe - ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月26日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210126",
+                "segmentation": "09:00 - 09:53",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "mo - 水, 爬楼, 看题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210126",
+                "segmentation": "10:26 - 10:53",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "axe - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210126",
+                "segmentation": "10:55 - 11:15",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "mo - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210126",
+                "segmentation": "15:00 - 15:47",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "tf - 开会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210126",
+                "segmentation": "20:50 - 21:45",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "锻炼 - ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月25日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210125",
+                "segmentation": "09:25 - 09:27",
+                "minuteDuration": 2,
+                "hourDuration": 0.03,
+                "studyContent": "mo - 整理收藏夹`",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "09:27 - 09:36",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 开会",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "09:36 - 09:55",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "mo - 整理收藏夹",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "10:24 - 10:50",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "mo - 看qq",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "11:30 - 11:52",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "axe - 测试",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月22日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210122",
+                "segmentation": "08:50 - 09:24",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "mo - 日报, 早餐, 爬楼, 闲聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "09:28 - 09:38",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "axe - 7 run函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "09:38 - 09:44",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "axe - 7 测试machine_code",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "09:50 - 10:50",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "mo - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "15:18 - 16:24",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "mo - 试试canvas下载img",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月21日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210121",
+                "segmentation": "08:50 - 10:10",
+                "minuteDuration": 80,
+                "hourDuration": 1.33,
+                "studyContent": "mo - 日报, 早餐, 爬楼, 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "10:15 - 10:55",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "axe - 7",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "10:55 - 11:34",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "tf - 需求讨论; 搬运工",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "13:20 - 14:05",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "14:23 - 15:09",
+                "minuteDuration": 46,
+                "hourDuration": 0.77,
+                "studyContent": "axe - 7 指令逐个测试",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "15:13 - 15:22",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "15:23 - 15:39",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "16:16 - 17:04",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "tf - 新项目讨论",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月20日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210120",
+                "segmentation": "08:50 - 09:20",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "mo - 早餐; 日报; 发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "09:25 - 10:00",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "mo - 安装gualang; 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "10:00 - 10:43",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "10:43 - 12:00",
+                "minuteDuration": 77,
+                "hourDuration": 1.28,
+                "studyContent": "tf - 评估需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "12:43 - 14:29",
+                "minuteDuration": 106,
+                "hourDuration": 1.77,
+                "studyContent": "mo - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "14:30 - 15:18",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "tf - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "15:25 - 16:18",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "mo - 改论文",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "16:19 - 16:45",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "16:56 - 16:56",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - 作业7",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月19日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210119",
+                "segmentation": "08:45 - 09:11",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "mo - 日报; 早餐; 今日计划: 角色,职位, 权限管理; 作业7/8",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "09:12 - 09:31",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "mo - 写年终总结",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "09:32 - 09:51",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "mo - 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "09:55 - 10:17",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "mo - 水群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "10:17 - 11:10",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "mo - 帮财务找发票; 好像被偷电了, 自己的行程单给财务用",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "11:20 - 11:55",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "13:00 - 13:50",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "14:06 - 14:50",
+                "minuteDuration": 44,
+                "hourDuration": 0.73,
+                "studyContent": "mo - chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "15:20 - 15:50",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "mo - gualang安装(原来windows还没更)",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "17:10 - 17:30",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "mo - 论文",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Sean-112233",
+        "today": "2021年01月18日",
+        "user": "Sean",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210118",
+                "segmentation": "09:11 - 09:11",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 早餐; 日报; 今日tf - 角色管理; axe - 作业78",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "09:12 - 09:29",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "mo - 发呆; 整理笔记",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "09:29 - 09:52",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "tf - 角色, 部门, 职业查询",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "09:52 - 10:04",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf - 还原组织管理",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "10:05 - 10:17",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "tf - 编辑权限",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "10:18 - 10:37",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "mo - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "10:41 - 10:41",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 第三杯水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "10:41 - 10:54",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe - 作业5.1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "10:55 - 11:22",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "mo - 整理文件",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "11:42 - 11:42",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 第四杯水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "12:32 - 13:08",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "axe - 复习video9-1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "13:09 - 13:09",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "mo - 第五杯水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "13:10 - 13:39",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "mo - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "13:40 - 14:58",
+                "minuteDuration": 78,
+                "hourDuration": 1.3,
+                "studyContent": "mo - 爬楼, chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "15:00 - 15:50",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "mo - 爬楼, chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "16:10 - 17:14",
+                "minuteDuration": 64,
+                "hourDuration": 1.07,
+                "studyContent": "tf - ",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "统计喝水牛逼，我要加一个喝水统计的功能",
+                "commenter": "life"
+            },
+            {
+                "comment": "replyhhh, 可以",
+                "commenter": "Sean",
+                "replyer": "life"
+            },
+            {
+                "comment": "可以了， F4 然后点击水杯",
+                "commenter": "life"
+            },
+            {
+                "comment": "reply膜",
+                "commenter": "Sean",
+                "replyer": "life"
+            }
+        ]
     },
     {
         "userData": "Sean-112233",

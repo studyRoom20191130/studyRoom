@@ -1,17 +1,907 @@
 [
     {
-        "userData": "life-123",
-        "today": "2021年01月18日",
-        "user": "life",
-        "signature": "",
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月29日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210129",
+                "segmentation": "09:00 - 09:17",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe4 - LD家庭更新",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "09:20 - 10:20",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "tf - 页面调整",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:30 - 10:58",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "tf - 页面调整2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:58 - 11:37",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "摸鱼 - 喝水，爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:00 - 15:30",
+                "minuteDuration": 90,
+                "hourDuration": 1.5,
+                "studyContent": "tf - 接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "15:30 - 16:03",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "摸鱼 - 喝水， 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "16:10 - 17:00",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "毕设 - 中期检测",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "17:03 - 17:58",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "axe4 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "18:00 - 18:26",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "axe4 - 看清沉总结 - 改11.2bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "19:01 - 19:05",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "tf - 写周报",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "19:20 - 19:45",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "fe - 2048 - 找到bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "19:45 - 19:49",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "fe - 2048 - 修改bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "19:49 - 19:56",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "fe - 2048 - test",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "19:57 - 20:00",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "fe - 2048 - 改代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "20:00 - 20:14",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "fe - 2048 - bug2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "20:15 - 20:24",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "fe - 2048 - 总结",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "20:24 - 20:29",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "fe - 2048 - 录gif - 太长放弃",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "20:31 - 20:34",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "fe - 2048 - 录gif - 短",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月29日",
+        "user": "LD",
+        "signature": "勿忘初心",
         "table": []
     },
     {
-        "userData": "life-123",
-        "today": "2021年01月18日",
-        "user": "life",
-        "signature": "",
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月29日",
+        "user": "LD",
+        "signature": "勿忘初心",
         "table": []
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月28日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210128",
+                "segmentation": "08:54 - 08:54",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今天计划 - axe作业 \\ 中期检测 \\ 侧边栏功能",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "09:00 - 10:10",
+                "minuteDuration": 70,
+                "hourDuration": 1.17,
+                "studyContent": "tf - 侧边栏",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "10:11 - 11:00",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "摸鱼 - 喝水 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "11:01 - 11:13",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "axe4 - 五子的测试用例 - 分享",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "11:14 - 11:32",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "摸鱼 -  喝水 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "13:30 - 14:13",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "tf - 侧边栏3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:13 - 15:00",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "毕设 - 中期检测",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:00 - 15:35",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "axe4 - 实习提问",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:53 - 16:26",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "tf - 侧边栏接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "16:30 - 16:43",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe4 - 11.2 - vmTest",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "16:43 - 18:07",
+                "minuteDuration": 84,
+                "hourDuration": 1.4,
+                "studyContent": "tf -  侧边栏/详情接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "18:29 - 18:54",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "axe4 - 11.3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "19:30 - 20:20",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "tf - 页面接口",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "20:40 - 21:39",
+                "minuteDuration": 59,
+                "hourDuration": 0.98,
+                "studyContent": "tf - 页面接口2",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "刷新页面，表格就会有颜色了",
+                "commenter": "life"
+            },
+            {
+                "comment": "哇 amazing!",
+                "commenter": "LD"
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月27日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210127",
+                "segmentation": "09:00 - 10:40",
+                "minuteDuration": 100,
+                "hourDuration": 1.67,
+                "studyContent": "axe4 - 更新父母题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "10:42 - 11:21",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "11:30 - 12:00",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "fe - 2048 - debug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "13:33 - 14:01",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "axe4 - 作业11 - .var2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "14:01 - 14:16",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "axe4 - 作业11 - .var2 - test",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "14:16 - 14:21",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "axe4 - 作业11 - .add2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "14:21 - 14:34",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "axe4 - 作业11 - .return",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "15:08 - 15:39",
+                "minuteDuration": 31,
+                "hourDuration": 0.52,
+                "studyContent": "tf - 新活需求 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "15:40 - 16:23",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "axe4 - 作业11 - 第一部分",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "16:23 - 16:32",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "axe4 - 作业11 - 第二部分 - 题目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "16:50 - 17:10",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "axe4 - 解决 gualangIDE 无法运行的问题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "17:11 - 17:33",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "摸鱼 - 喝水 散步 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "18:20 - 19:00",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "axe4 -  作业11 - 第二部分",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "19:00 - 21:00",
+                "minuteDuration": 120,
+                "hourDuration": 2,
+                "studyContent": "tf - 工程侧 - 表单详情",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月26日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210126",
+                "segmentation": "09:00 - 10:05",
+                "minuteDuration": 65,
+                "hourDuration": 1.08,
+                "studyContent": "fe - 2048 - 思路大纲",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210126",
+                "segmentation": "10:11 - 10:11",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今日计划 - 2048 /  蹲斧头作业",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210126",
+                "segmentation": "10:15 - 10:43",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "fe - 2048 - 初始化",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210126",
+                "segmentation": "10:43 - 10:55",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "fe - 2048 - 1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210126",
+                "segmentation": "15:00 - 17:20",
+                "minuteDuration": 140,
+                "hourDuration": 2.33,
+                "studyContent": "fe - 2048 - 大概",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210126",
+                "segmentation": "17:25 - 19:38",
+                "minuteDuration": 133,
+                "hourDuration": 2.22,
+                "studyContent": "摸鱼 - 爬楼，同步",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月25日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210125",
+                "segmentation": "09:08 - 09:09",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "今日计划 - 论文期中检查 / 扫雷皮肤",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "09:10 - 09:48",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "axe4 - 父母题方案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "09:50 - 10:17",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "axe4 - 整理note",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "10:18 - 10:32",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "axe4 - enote提需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "11:00 - 11:45",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "fe - 扫雷 结束标题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "14:00 - 15:50",
+                "minuteDuration": 110,
+                "hourDuration": 1.83,
+                "studyContent": "fe - 扫雷 - test",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "17:30 - 18:12",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "fe - 素材",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "16:49 - 17:25",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "毕设 -  期中论文大致",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月22日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210122",
+                "segmentation": "09:00 - 09:50",
+                "minuteDuration": 50,
+                "hourDuration": 0.83,
+                "studyContent": "fe - 扫雷 - 完善提问",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "09:50 - 10:12",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "13:50 - 14:22",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "axe4 - 工作提问总结",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "16:00 - 18:00",
+                "minuteDuration": 120,
+                "hourDuration": 2,
+                "studyContent": "fe - 扫雷 - 递归提问",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月21日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210121",
+                "segmentation": "09:00 - 09:17",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "摸鱼 - 爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "09:20 - 10:00",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "axe4 - chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "10:21 - 10:40",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "fe - 扫雷",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "16:00 - 17:00",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "axe4 - 爬楼",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月20日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210120",
+                "segmentation": "08:30 - 08:50",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "摸鱼 - 吃早餐，爬chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "08:51 - 08:58",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe4 - 10.2 asm",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "08:59 - 09:04",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "axe4 - 10.2 vm",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "09:20 - 09:20",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今日计划 - 提问",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "09:25 - 10:00",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "axe4 - 爬chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "10:00 - 10:16",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "axe4 - 看灯塔联盟的标准 完善10.1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "10:20 - 10:45",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "摸鱼 - 喝水 散步 爬chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "10:45 - 10:53",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "axe4 - 修改作业8.3bug",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "10:59 - 11:00",
+                "minuteDuration": 1,
+                "hourDuration": 0.02,
+                "studyContent": "毕设 - 查看目前进度 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "11:01 - 11:31",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "axe4 - 提问",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "11:31 - 11:35",
+                "minuteDuration": 4,
+                "hourDuration": 0.07,
+                "studyContent": "axe4 - 跑吃哥用例",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "13:46 - 14:13",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "fe - 视频1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "14:13 - 14:34",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "fe - 视频2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "14:45 - 15:10",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "fe - 矩阵js",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "15:10 - 15:37",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "摸鱼 - 爬楼 喝水",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "15:40 - 16:35",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "fe - html",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "16:40 - 17:34",
+                "minuteDuration": 54,
+                "hourDuration": 0.9,
+                "studyContent": "fe - css",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "19:05 - 19:05",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "毕设 - 开题报告 - 通过",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月19日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210119",
+                "segmentation": "09:00 - 09:17",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "axe4 - Chat - 作业10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "09:18 - 09:18",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今日计划 - 作业转为gualang版",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "09:20 - 10:00",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "今日计划 - gualang1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "13:46 - 14:09",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "今日计划 - gualang2",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "17:14 - 17:59",
+                "minuteDuration": 45,
+                "hourDuration": 0.75,
+                "studyContent": "今日计划 - gualang3 - 作业8  ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "18:04 - 18:36",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "摸鱼 - 喝水 爬楼",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月18日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": [
+            {
+                "studyDate": "20210118",
+                "segmentation": "09:04 - 09:04",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "今日计划 - gualang / 开题报告",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "09:04 - 09:13",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "tf - 检查代码提交",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "09:20 - 10:50",
+                "minuteDuration": 90,
+                "hourDuration": 1.5,
+                "studyContent": "毕设 - 开题报告",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "10:50 - 11:20",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "摸鱼 - 爬楼QQ chat",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "11:22 - 11:29",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - 散步 喝水 ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "14:30 - 15:00",
+                "minuteDuration": 30,
+                "hourDuration": 0.5,
+                "studyContent": "axe4 - QQ过年， chat做题",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "17:03 - 17:25",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "打字练习 - 双拼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "18:20 - 18:45",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "打字练习 - 双拼",
+                "expectation": ""
+            }
+        ]
     },
     {
         "userData": "LD-坚持记录下去！",
@@ -188,13 +1078,6 @@
                 "expectation": ""
             }
         ]
-    },
-    {
-        "userData": "life-123",
-        "today": "2021年01月18日",
-        "user": "life",
-        "signature": "",
-        "table": []
     },
     {
         "userData": "LD-坚持记录下去！",

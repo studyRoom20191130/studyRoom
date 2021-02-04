@@ -336,3 +336,63 @@ function calculatePersent(num, n){
     }
     return num
 }
+
+const addBgColor = (studyContent) => {
+    let colorMapper = {
+        tf: 'lightblue',
+        工作: 'lightblue',
+        axe: 'lightcoral',
+        fep: 'lightcoral',
+        斧头: 'lightcoral',
+        mo: 'lightseagreen',
+        摸鱼: 'lightseagreen',
+    }
+
+    let colorMapper2 = {
+        tf: '#FAF9DE',
+        工作: '#FAF9DE',
+        work: '#FAF9DE',
+        axe: '#E9EBFE',
+        fep: '#E9EBFE',
+        斧头: '#E9EBFE',
+        mo: '#FDE6E0',
+        摸鱼: '#FDE6E0',
+    }
+    for (const key in colorMapper2) {
+        if (studyContent.includes(key)) {
+            return colorMapper2[key]
+        }
+    }
+    return ''
+}
+
+
+const emptyTr = (s, expectationTr) => {
+    return `<tr style="background: #EAEAEF">
+                    <td class="td-time">${s}</td>
+                    <td class="td-hour"></td>
+                    ${expectationTr}
+                    <td class="td-width"></td>
+                </tr>`
+}
+
+const hasExpectation = (list) => {
+    for (const obj of list) {
+        if (obj.expectation) {
+            return true
+        }
+    }
+    return false
+}
+
+const resetTr = (hasExpectationTime) => {
+    let expectationTr = hasExpectationTime ? `<th>预期</th>` : ''
+    let s = `
+        <tr class="success head-tr">
+            <th>时间段</th>
+            <th>时长</th>
+            ${expectationTr}
+            <th>内容/备注</th>
+        </tr>`;
+    return s
+}

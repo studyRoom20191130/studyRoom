@@ -1,6 +1,714 @@
 [
     {
         "userData": "Ly-wei161321",
+        "today": "2021年01月30日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210130",
+                "segmentation": "14:22 - 14:46",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "fep - 5.1-7",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "14:59 - 15:06",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "fep - 5.8 5.9",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "16:21 - 17:07",
+                "minuteDuration": 46,
+                "hourDuration": 0.77,
+                "studyContent": "fep - 5.10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "17:19 - 17:35",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "fep - 5.11",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "17:39 - 17:55",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "fep - 5.13",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "18:13 - 18:23",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "fep - 5.14",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "18:29 - 19:04",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "fep - 5.15",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月29日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": []
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月29日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210129",
+                "segmentation": "09:46 - 09:53",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "日常 - 吃早餐",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "09:54 - 10:01",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "fep - 写数组相等函数",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:03 - 10:30",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "fep - 5.10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "10:34 - 11:25",
+                "minuteDuration": 51,
+                "hourDuration": 0.85,
+                "studyContent": "fep - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:20 - 14:20",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "反思 - 一道题写了一个小时，总觉得自己能，也不提问。整的现在脑子晕",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:21 - 15:27",
+                "minuteDuration": 66,
+                "hourDuration": 1.1,
+                "studyContent": "工作 - 被设计叫走",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "15:29 - 15:56",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "工作 - 下载图标",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "17:24 - 17:24",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - 公司压力测试，间隙写完5.11",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月28日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210128",
+                "segmentation": "09:42 - 10:06",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "日常 - 到公司，冲奶粉，昨天日报，今天计划",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "10:06 - 10:21",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "fep - 作业5-1",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "10:22 - 10:30",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "工作 - 回设计消息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "10:31 - 10:53",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "摸鱼 - wc，爬楼",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "10:53 - 11:30",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "fep - 作业5-2 5-3 5-4 5-5",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "11:33 - 11:39",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "摸鱼 -",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "11:39 - 12:06",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "fep -作业 5-6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "13:43 - 13:57",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "fep -作业 5-6",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:12 - 14:18",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "工作 - 初始化配置ui",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:32 - 14:44",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "工作 - 初始化配置-布局拆分",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:45 - 16:08",
+                "minuteDuration": 83,
+                "hourDuration": 1.38,
+                "studyContent": "工作 - 初始化配置模块-掏页面",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "16:13 - 16:49",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "摸鱼 - 刚才被领导叫去谈话，放空",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "17:35 - 19:01",
+                "minuteDuration": 86,
+                "hourDuration": 1.43,
+                "studyContent": "工作 - 画权限配置模块",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "22:28 - 23:45",
+                "minuteDuration": 77,
+                "hourDuration": 1.28,
+                "studyContent": "fep - 5.8",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "23:47 - 23:53",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "fep - 5.9",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "刷新页面，表格就会有颜色了",
+                "commenter": "life"
+            }
+        ]
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月27日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210127",
+                "segmentation": "09:49 - 10:13",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "日常 - 计划，群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "10:13 - 10:31",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "工作 - 和运维一起部署项目",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "10:47 - 10:58",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "工作 - 回复设计、售前同事消息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "11:00 - 11:12",
+                "minuteDuration": 12,
+                "hourDuration": 0.2,
+                "studyContent": "摸鱼 - 喝水，走动，wc",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "11:15 - 11:28",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "摸鱼 - 设置企业微信",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "11:29 - 11:58",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "工作 - demo首页头部布局更改（屏蔽同事消息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "12:10 - 13:50",
+                "minuteDuration": 100,
+                "hourDuration": 1.67,
+                "studyContent": "日常 - 吃饭，散步，午休",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "13:51 - 14:25",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "摸鱼 - 搜游戏机，发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "14:27 - 15:34",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "工作 - demo首页头部",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "15:42 - 16:25",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "摸鱼 - 爬楼、喝水、发呆、回同事消息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "16:25 - 17:28",
+                "minuteDuration": 63,
+                "hourDuration": 1.05,
+                "studyContent": "工作 - demo 新建文件布局",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "18:02 - 18:13",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "摸鱼 - 吃苹果",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "LD-坚持记录下去！",
+        "today": "2021年01月29日",
+        "user": "LD",
+        "signature": "勿忘初心",
+        "table": []
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月25日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210125",
+                "segmentation": "09:50 - 10:04",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "日常 - 计划、发呆",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "10:07 - 10:49",
+                "minuteDuration": 42,
+                "hourDuration": 0.7,
+                "studyContent": "工作 - 看设计图，拆分需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "10:50 - 11:53",
+                "minuteDuration": 63,
+                "hourDuration": 1.05,
+                "studyContent": "摸鱼 - 喝水，水群，wc",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "13:56 - 14:17",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - 找老大确认需求",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "15:22 - 16:37",
+                "minuteDuration": 75,
+                "hourDuration": 1.25,
+                "studyContent": "fep - 作业",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210125",
+                "segmentation": "17:23 - 18:30",
+                "minuteDuration": 67,
+                "hourDuration": 1.12,
+                "studyContent": "工作 - 整理demo代码",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月22日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210122",
+                "segmentation": "09:36 - 10:09",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "摸鱼 - 醒神",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "10:12 - 10:32",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "摸鱼 - 导出excel的库",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "11:35 - 12:02",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "fep - 预习4",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "14:23 - 15:45",
+                "minuteDuration": 82,
+                "hourDuration": 1.37,
+                "studyContent": "摸鱼 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "17:20 - 17:20",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "工作 - 和设计对需求\n",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "17:21 - 17:53",
+                "minuteDuration": 32,
+                "hourDuration": 0.53,
+                "studyContent": "工作 - 梳理项目结构",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210122",
+                "segmentation": "18:06 - 18:32",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "fep - requirejs ",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月21日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210121",
+                "segmentation": "10:27 - 10:51",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "摸鱼 - 计划，闲聊",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "10:52 - 11:25",
+                "minuteDuration": 33,
+                "hourDuration": 0.55,
+                "studyContent": "fep - 爬楼看看 gulp-uglify 思路",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "11:30 - 11:38",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "fep - 找 babel 和 uglify 文档",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "11:40 - 11:58",
+                "minuteDuration": 18,
+                "hourDuration": 0.3,
+                "studyContent": "工作 - 整理昨天讨论的方案",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "12:05 - 14:06",
+                "minuteDuration": 121,
+                "hourDuration": 2.02,
+                "studyContent": "摸鱼 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "14:13 - 14:41",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "摸鱼- css @keyframes",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "15:03 - 16:03",
+                "minuteDuration": 60,
+                "hourDuration": 1,
+                "studyContent": "工作 - 熟悉网盘代码",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "16:12 - 16:40",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "摸鱼 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210121",
+                "segmentation": "16:43 - 17:44",
+                "minuteDuration": 61,
+                "hourDuration": 1.02,
+                "studyContent": "fep - 复习板书3",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月20日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210120",
+                "segmentation": "10:10 - 10:51",
+                "minuteDuration": 41,
+                "hourDuration": 0.68,
+                "studyContent": "fep - 作业3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "10:52 - 11:05",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "摸鱼 - ",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "11:05 - 12:00",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "fep - 作业3",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "15:32 - 16:09",
+                "minuteDuration": 37,
+                "hourDuration": 0.62,
+                "studyContent": "工作 - 在本地再拉一个仓库",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "16:11 - 16:27",
+                "minuteDuration": 16,
+                "hourDuration": 0.27,
+                "studyContent": "工作 - 给设计截图",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210120",
+                "segmentation": "16:58 - 18:44",
+                "minuteDuration": 106,
+                "hourDuration": 1.77,
+                "studyContent": "摸鱼 - 喝粥，css动画，发呆",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月19日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210119",
+                "segmentation": "11:12 - 13:37",
+                "minuteDuration": 145,
+                "hourDuration": 2.42,
+                "studyContent": "fep - 作业2重写",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210119",
+                "segmentation": "14:00 - 15:16",
+                "minuteDuration": 76,
+                "hourDuration": 1.27,
+                "studyContent": "fep - 预习",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Ly-wei161321",
+        "today": "2021年01月18日",
+        "user": "Ly",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210118",
+                "segmentation": "10:27 - 10:54",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "工作 - 更新提交记录",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "15:02 - 15:23",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "工作 - 网盘优化",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "15:24 - 16:11",
+                "minuteDuration": 47,
+                "hourDuration": 0.78,
+                "studyContent": "摸鱼 -",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210118",
+                "segmentation": "16:19 - 16:53",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "工作 - 网盘优化2",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "Ly-wei161321",
         "today": "2021年01月15日",
         "user": "Ly",
         "signature": "",
@@ -30,20 +738,6 @@
                 "expectation": ""
             }
         ]
-    },
-    {
-        "userData": "life-123",
-        "today": "2021年01月18日",
-        "user": "life",
-        "signature": "",
-        "table": []
-    },
-    {
-        "userData": "life-123",
-        "today": "2021年01月18日",
-        "user": "life",
-        "signature": "",
-        "table": []
     },
     {
         "userData": "Ly-wei161321",
@@ -100,13 +794,6 @@
                 "expectation": ""
             }
         ]
-    },
-    {
-        "userData": "life-123",
-        "today": "2021年01月18日",
-        "user": "life",
-        "signature": "",
-        "table": []
     },
     {
         "userData": "Ly-wei161321",

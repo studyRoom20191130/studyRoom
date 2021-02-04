@@ -1,0 +1,518 @@
+[
+    {
+        "userData": "小聪聪xcc-123456",
+        "today": "2021年01月31日",
+        "user": "小聪聪xcc",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210131",
+                "segmentation": "23:07 - 00:02",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "2048 - 编写 setNumber 函数，每轮新增一个 2 方块，完成除了移动合并以外的其他游戏逻辑",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "小聪聪xcc-123456",
+        "today": "2021年01月30日",
+        "user": "小聪聪xcc",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210130",
+                "segmentation": "10:23 - 10:23",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - 优化 asm runner",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "15:20 - 15:20",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "axe - 优化 asm runner",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "22:42 - 23:02",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "2048 - 开始，从创建 html 开始。想了想和扫雷的关系，看了下扫雷的随机数是怎么处理的。",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "23:02 - 23:02",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "2048 - 画出了格子",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "23:02 - 23:10",
+                "minuteDuration": 8,
+                "hourDuration": 0.13,
+                "studyContent": "2048 - 绑定事件（绑定完成，待会实现移动函数，休息下）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "23:10 - 23:27",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "2048 - 绑定事件（绑定完成，待会实现移动函数，休息下）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210130",
+                "segmentation": "23:27 - 23:27",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "刚才在休息，录错了",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "小聪聪xcc-123456",
+        "today": "2021年01月29日",
+        "user": "小聪聪xcc",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210129",
+                "segmentation": "12:21 - 12:44",
+                "minuteDuration": 23,
+                "hourDuration": 0.38,
+                "studyContent": "摸鱼 - 吃完饭了，看 qq 群，休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "12:45 - 13:28",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "fep - 做第 5 课新作业",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "13:28 - 13:31",
+                "minuteDuration": 3,
+                "hourDuration": 0.05,
+                "studyContent": "fep - 整理课后调查",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "13:31 - 13:38",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "摸鱼 - 看 qq 群，休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "13:38 - 14:27",
+                "minuteDuration": 49,
+                "hourDuration": 0.82,
+                "studyContent": "fep - 写 js 扫雷（把图形画出来了，css 忘光了，现查的老板书）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:28 - 14:52",
+                "minuteDuration": 24,
+                "hourDuration": 0.4,
+                "studyContent": "摸鱼 - 看 qq 群，休息",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "14:52 - 16:06",
+                "minuteDuration": 74,
+                "hourDuration": 1.23,
+                "studyContent": "fep - 继续写 js 扫雷（完成了主要部分：点击展开）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "16:06 - 16:34",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "摸鱼 - 看 qq 群，休息，躺会儿",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "16:34 - 17:09",
+                "minuteDuration": 35,
+                "hourDuration": 0.58,
+                "studyContent": "fep - 继续写 js 扫雷（找到了生成数据的函数，完成，录制了成果图）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "17:09 - 17:29",
+                "minuteDuration": 20,
+                "hourDuration": 0.33,
+                "studyContent": "摸鱼 - 看 qq 群，休息，饿了",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "17:29 - 17:40",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "摸鱼 - 看 chat，看 qq 群（再躺会儿，等饭（",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "17:40 - 17:49",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "摸鱼 - 躺着",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "17:49 - 18:10",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "休息 - 吃晚饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "18:11 - 19:06",
+                "minuteDuration": 55,
+                "hourDuration": 0.92,
+                "studyContent": "摸鱼 - 看 qq 群，看 chat，看吃饭视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "19:06 - 19:40",
+                "minuteDuration": 34,
+                "hourDuration": 0.57,
+                "studyContent": "摸鱼 - 看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "19:40 - 21:05",
+                "minuteDuration": 85,
+                "hourDuration": 1.42,
+                "studyContent": "休息 - 运动",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "21:05 - 21:32",
+                "minuteDuration": 27,
+                "hourDuration": 0.45,
+                "studyContent": "休息 - 洗澡",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210129",
+                "segmentation": "21:32 - 21:45",
+                "minuteDuration": 13,
+                "hourDuration": 0.22,
+                "studyContent": "摸鱼 - 看 qq 群",
+                "expectation": ""
+            }
+        ]
+    },
+    {
+        "userData": "小聪聪xcc-123456",
+        "today": "2021年01月28日",
+        "user": "小聪聪xcc",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210128",
+                "segmentation": "11:54 - 12:42",
+                "minuteDuration": 48,
+                "hourDuration": 0.8,
+                "studyContent": "fep - 第 5 课作业（完成 1-5 题）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "12:43 - 12:54",
+                "minuteDuration": 11,
+                "hourDuration": 0.18,
+                "studyContent": "摸鱼 - 看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "12:54 - 14:16",
+                "minuteDuration": 82,
+                "hourDuration": 1.37,
+                "studyContent": "fep - 第 5 课作业（完成）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:16 - 14:21",
+                "minuteDuration": 5,
+                "hourDuration": 0.08,
+                "studyContent": "fep - 第 5 课作业课后调查",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:21 - 14:31",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "摸鱼 - 看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "14:31 - 15:11",
+                "minuteDuration": 40,
+                "hourDuration": 0.67,
+                "studyContent": "摸鱼 - 看 qq 群、做家务、网上冲浪",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:14 - 15:53",
+                "minuteDuration": 39,
+                "hourDuration": 0.65,
+                "studyContent": "fep - 第五课作业多了三个，继续做（完成）",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "15:53 - 16:15",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "摸鱼 - 看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "16:16 - 16:59",
+                "minuteDuration": 43,
+                "hourDuration": 0.72,
+                "studyContent": "axe - 作业 11 第三部分",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "16:59 - 17:08",
+                "minuteDuration": 9,
+                "hourDuration": 0.15,
+                "studyContent": "摸鱼 - 看 qq 群，撤硕",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "17:08 - 17:15",
+                "minuteDuration": 7,
+                "hourDuration": 0.12,
+                "studyContent": "axe - 作业 11 第三部分（找 bug）\n[找到 bug 了，先跟家里人吃饭，吃完饭再来改]",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "17:15 - 17:43",
+                "minuteDuration": 28,
+                "hourDuration": 0.47,
+                "studyContent": "吃晚饭",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "17:44 - 18:06",
+                "minuteDuration": 22,
+                "hourDuration": 0.37,
+                "studyContent": "axe - 作业 11 第三部分（改 bug）[改完了]",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "18:07 - 18:33",
+                "minuteDuration": 26,
+                "hourDuration": 0.43,
+                "studyContent": "axe - 整理了全部作业题目描述，发现作业 8.3 没完成，后面再补上",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "18:33 - 19:02",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "摸鱼 - 看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "19:02 - 19:16",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "摸鱼 - 整理日报到语雀日报小组，看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210128",
+                "segmentation": "19:16 - 19:16",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "休息，下线",
+                "expectation": ""
+            }
+        ],
+        "commentArray": [
+            {
+                "comment": "刷新页面，表格就会有颜色了",
+                "commenter": "life"
+            },
+            {
+                "comment": "聪聪子强",
+                "commenter": "Sean"
+            },
+            {
+                "comment": "reply膜 life 聚",
+                "commenter": "小聪聪xcc",
+                "replyer": "life"
+            },
+            {
+                "comment": "reply贴贴 Sean 佬",
+                "commenter": "小聪聪xcc",
+                "replyer": "Sean"
+            }
+        ]
+    },
+    {
+        "userData": "小聪聪xcc-123456",
+        "today": "2021年01月27日",
+        "user": "小聪聪xcc",
+        "signature": "",
+        "table": [
+            {
+                "studyDate": "20210127",
+                "segmentation": "16:00 - 16:36",
+                "minuteDuration": 36,
+                "hourDuration": 0.6,
+                "studyContent": "看 fep 5-1 视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "16:36 - 16:36",
+                "minuteDuration": 0,
+                "hourDuration": 0,
+                "studyContent": "看 fep 5-1 视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "16:38 - 17:07",
+                "minuteDuration": 29,
+                "hourDuration": 0.48,
+                "studyContent": "看 fep 5-2 视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "17:07 - 17:13",
+                "minuteDuration": 6,
+                "hourDuration": 0.1,
+                "studyContent": "看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "17:13 - 17:34",
+                "minuteDuration": 21,
+                "hourDuration": 0.35,
+                "studyContent": "继续看 fep 5-2 视频",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "17:42 - 17:59",
+                "minuteDuration": 17,
+                "hourDuration": 0.28,
+                "studyContent": "写 axe 作业 10",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "17:59 - 18:18",
+                "minuteDuration": 19,
+                "hourDuration": 0.32,
+                "studyContent": "写 axe 作业 11",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "18:19 - 18:33",
+                "minuteDuration": 14,
+                "hourDuration": 0.23,
+                "studyContent": "看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "18:34 - 19:27",
+                "minuteDuration": 53,
+                "hourDuration": 0.88,
+                "studyContent": "继续写 axe 作业 11，完成第一部分",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "19:27 - 19:37",
+                "minuteDuration": 10,
+                "hourDuration": 0.17,
+                "studyContent": "继续写 axe 作业 11",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "19:37 - 19:52",
+                "minuteDuration": 15,
+                "hourDuration": 0.25,
+                "studyContent": "看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "19:53 - 20:31",
+                "minuteDuration": 38,
+                "hourDuration": 0.63,
+                "studyContent": "继续写 axe 作业 11",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "20:31 - 20:56",
+                "minuteDuration": 25,
+                "hourDuration": 0.42,
+                "studyContent": "看 qq 群",
+                "expectation": ""
+            },
+            {
+                "studyDate": "20210127",
+                "segmentation": "20:59 - 22:27",
+                "minuteDuration": 88,
+                "hourDuration": 1.47,
+                "studyContent": "继续写 axe 作业 11",
+                "expectation": ""
+            }
+        ]
+    }
+]

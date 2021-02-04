@@ -1,20 +1,35 @@
-const timeTemplate = (array) => {
+const timeTemplate = (array, hasExpectationTime) => {
   let learns = array;
 
   let r = '';
+  let afternoonTr = true
+  let nightTr = true
   learns.forEach((l) => {
     let expectation = '';
     if (l.expectation) {
       expectation = l.expectation + ' min';
     }
+    let expectationTr = hasExpectationTime ? `<td class="td-hour">${expectation} </td>` : ''
+
+    let time = Number(l.segmentation.slice(0, 2))
+    if (time > 12 && afternoonTr) {
+      r += emptyTr('下午', expectationTr)
+      afternoonTr = false
+    }
+
+    if (time > 17 && nightTr) {
+      r += emptyTr('晚上', expectationTr)
+      nightTr = false
+    }
+    let bgColor = addBgColor(l.studyContent)
     let t = `
-        <tr>
-            <td class="td-start-end">
+        <tr style="background: ${bgColor}">
+            <td class="td-time">
                 <span>${l.segmentation}</span>
             </td>
-            <td class="td-time">${l.minuteDuration} min</td>
-            <td class="td-time">${expectation}</td>
-            <td class="td-content">${l.studyContent}</td>
+            <td class="td-hour">${l.minuteDuration} min</td>
+            ${expectationTr}
+            <td class="td-width">${l.studyContent}</td>
         </tr>
         `;
     r += t;
@@ -34,18 +49,17 @@ const timelineTemplate = (object) => {
       totalHour += obj.hourDuration;
     }
     totalHour = totalHour.toFixed(1);
-    let all = timeTemplate(o.table);
+    let hasExpectationTime = hasExpectation(o.table)
+    let trHead = resetTr(hasExpectationTime)
+
+    let all = timeTemplate(o.table, hasExpectationTime);
+
     t = `
         
             <div class="timeline-item" date-is='${o.today}&nbsp;&nbsp;&nbsp;&nbsp;当天总共学习：${totalMinitue} min (${totalHour} h)'>
                 <div class="study-record">
                     <table class="table table-bordered">
-                        <tr class="head-tr">
-                            <th>时间段</th>
-                            <th>时长</th>
-                            <th>预期</th>
-                            <th>内容</th>
-                        </tr>
+                        ${trHead}
                         ${all}
                     </table>
                 </div>
@@ -114,7 +128,7 @@ const concatObj = () => {
   let result = {}
   for (const o1Key in o1) {
     if (o1Key in o2) {
-        result[o1Key] = o1[o1Key] + o2[o1Key]
+      result[o1Key] = o1[o1Key] + o2[o1Key]
     } else {
       result[o1Key] = o1[o1Key]
     }
@@ -138,10 +152,10 @@ const getTotalHour = (obj) => {
 }
 
 const replaceKeyValue = (obj) => {
-      let o = {}
+  let o = {}
   for (const objKey in obj) {
-      let k = obj[objKey].toFixed(0)
-      o[k] = objKey
+    let k = obj[objKey].toFixed(0)
+    o[k] = objKey
   }
   return o
 }
@@ -241,7 +255,7 @@ const bindYear = () => {
     if (contains('year-span')) {
       let y = target.innerHTML
       if (window.year === y) {
-          return
+        return
       }
       window.year = y
       showTotalHour(y)
@@ -292,7 +306,7 @@ const renderUserInfo = (obj) => {
 
 const generateTimeline = (res) => {
   if (res.length == 0) {
-      return
+    return
   }
   let array = res
   let span = getTableSpan()
@@ -354,10 +368,10 @@ const bindLoadMore = () => {
     if (a === '加载全部') {
       window.num = 'all'
     }
-  //  清空数据并 发请求
-  //  把最底部的节点删除
-  //  拼接传过来的30条数据
-  //  加上底部节点，并绑定事件
+    //  清空数据并 发请求
+    //  把最底部的节点删除
+    //  拼接传过来的30条数据
+    //  加上底部节点，并绑定事件
     $(".show-more").remove();
 
     getPersonalStudyData(window.num)
@@ -368,7 +382,7 @@ const bindLoadMore = () => {
 const bindSlideToggle= () => {
   let div = e('#slide-toggle');
   div.addEventListener('click', (event) => {
-  //    点击的时候，增加一个
+    //    点击的时候，增加一个
     let detail = e('.detail')
     let hero = e('.hero-pick')
     toggleClass(detail, 'animate-left')
@@ -379,9 +393,9 @@ const bindSlideToggle= () => {
     let tip = e('#hero-tip')
     // event.target.innerHTML === '选择英雄' ? removeClass(tip, 'hide') : addClasstip, 'hide')
     toggleClass(tip, 'hide')
-  //
-  //   let left = e('.timeline-container')
-  //   toggleClass(left, 'timeline-container2')
+    //
+    //   let left = e('.timeline-container')
+    //   toggleClass(left, 'timeline-container2')
   });
 }
 
@@ -426,7 +440,7 @@ const chooseHeroApi = (event) => {
   }
   let target = event.target
   let hero = target.dataset.hero
-  
+
   let data = {
     hero,
     user,
@@ -435,7 +449,7 @@ const chooseHeroApi = (event) => {
     let img = e('#user-info-hero')
     img.src = `./img/hero/${hero}`
     if (img.classList.contains('hide')) {
-        removeClass(img, 'hide')
+      removeClass(img, 'hide')
     }
   });
 
@@ -544,7 +558,7 @@ const notUserSelf = () => {
 
 const saveSignature = (div) => {
   if (notUserSelf()) {
-      return
+    return
   }
   if (window.disabledSignature) {
     setTimeout(()=> window.disabledSignature = false, 2000)
