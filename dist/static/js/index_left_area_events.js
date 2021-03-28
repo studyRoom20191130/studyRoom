@@ -118,23 +118,10 @@ const checkAdditionalRecordValue = (val) => {
     for (const str of val) {
         if (!digt.includes(str) || val.length !== 4) {
             alertMsg('输入的补录时间格式不对')
-            return 'invalid';
+            return true
         }
     }
-};
-
-const minuteDurationInvalid = (minuteDuration) => {
-    if (minuteDuration < 0) {
-        alertMsg('输入时间错误，请确认输入是否正确')
-        return true
-    }
-    if (minuteDuration > 150) {
-        alertMsg('时间超过150分钟，请拆分细化后再补录')
-        return true
-    }
-    return false
 }
-
 
 const sendAdditionalRecord = () => {
     // 两秒内禁止调用函数
@@ -149,25 +136,17 @@ const sendAdditionalRecord = () => {
     let s = $('#additional-start').val();
     let e = $('#additional-end').val();
     for (const val of [s, e]) {
-        let checkResult = checkAdditionalRecordValue(val)
-        if (checkResult === 'invalid') {
-            return;
+        let invalid = checkAdditionalRecordValue(val)
+        if (invalid) {
+            return
         }
     }
 
     if (s && e) {
         // 计算并转换时间数据
-        let start = s.slice(0, 2) + ':' + s.slice(2);
-        let end = e.slice(0, 2) + ':' + e.slice(2);
         window.initToggle = true;
-        let segmentation = start + ' - ' + end;
 
-        let [hourDuration, minuteDuration] = getDuration2(start, end);
-        if (minuteDurationInvalid(minuteDuration)) {
-            return
-        }
-
-        sendRecord(segmentation, minuteDuration, hourDuration);
+        sendRecord(s, e);
         $('#additional-start').val('');
         $('#additional-end').val('');
         $('.other-time').toggle();
@@ -188,40 +167,34 @@ const bindTipEvent = () => {
     });
 };
 
-const sendRecord = (segmentation, minuteDuration, hourDuration) => {
+const sendRecord = (start, end) => {
     let studyContent = $('#textarea-study-content').val();
     let user = getLocalStorage('userInfo').split('-')[0]
     let signature = getLocalStorage('signature') || '';
-    let time = new Date();
-    // let id = time.getTime();
-    let today = moment().format('YYYY年MM月DD日');
     let expectation = $('#expectation').val();
 
-    const singleRecord = {
-        studyDate: getDate(), // 当天日期
-        segmentation, // 12:30 - 13:30
-        minuteDuration, // 60
-        hourDuration, // 1
-        studyContent, // 学习内容/备注
-        expectation,
-    };
-    let userData = getLocalStorage('userInfo');
-    const studyContentRecord = {
-        userData,
-        today,
+    let studyContentRecord = {
         user,
         signature,
-        // id,
-        table: [singleRecord],
-    };
+        studyContent, // 学习内容/备注
+        expectation,
+        s: start,
+        e: end,
+    }
 
-    ajax(studyContentRecord, '/sendRecordData', (res) => {
+
+    ajax(studyContentRecord, '/endCountTime', (res) => {
         // 获取数据，更新页面
+        // console.log("res", res)
+        if (res.errMsg) {
+            alertMsg(res.errMsg)
+            return
+        }
         let studyDataList = res || []
         addHtmlToMainDiv(studyDataList)
         renderNavHero(studyDataList)
         renderOnlineUser(studyDataList)
-        alertTip(singleRecord.minuteDuration)
+        alertTip(studyDataList)
         updateYearlyProgass(studyDataList)
         window.stopInterval = true;
     }, 'stopInterval');
@@ -247,12 +220,15 @@ const startBtnHandle = () => {
     if (window.forbidStartBtnClick) {
         return;
     }
-    window.initToggle = true;
-    window.forbidStartBtnClick = true;
-    window.forbidEndBtnClick = false;
-    start();
-    window.startHourAndMinute = getNowHourAndMinute();
-    window.startTime = getTime();
+    window.initToggle = true
+    window.forbidStartBtnClick = true
+    window.forbidEndBtnClick = false
+    window.stopInterval = false
+    countInit()
+    startCountdown(0)
+
+    // 2021-3-26 改成往后端发送接口
+    ajax({user: getLocalStorage('userInfo').split('-')[0]}, '/startCountTime');
 };
 
 const additionalRecord = () => {
@@ -272,18 +248,14 @@ const endBtnHandle = () => {
     if (noStudyContent(studyContent)) {
         return;
     }
-    window.forbidStartBtnClick = false;
+    window.forbidStartBtnClick = false
     window.firstEnter = true
-    // 计算并转换时间数据
-    let segmentation = getSegmentation();
-    let [hourDuration, minuteDuration] = getDuration();
-    if (minuteDurationInvalid(minuteDuration)) {
-        return
-    }
-    sendRecord(segmentation, minuteDuration, hourDuration);
+    sendRecord()
 };
 
-const alertTip = (minuteDuration) => {
+const alertTip = (list) => {
+    let current = list[0].table.slice(-1)
+    let minuteDuration = current[0].minuteDuration
     let tip = `本次学习 ${minuteDuration} 分钟~`;
     let m = Number(minuteDuration);
     if (m >= 60) {
@@ -344,7 +316,9 @@ const getTrHtml = (list) => {
     let afternoonTr = true
     let nightTr = true
 
+    let index = 0
     for (const obj of list) {
+        index++
         if (obj.studyContent.includes('axe')) {
             axeHour += obj.hourDuration;
         }
@@ -360,12 +334,13 @@ const getTrHtml = (list) => {
         let expectationTr = hasExpectationTime ? `<td class="td-hour">${expectation} </td>` : ''
 
         let time = Number(obj.segmentation.slice(0, 2))
-        if (time > 12 && afternoonTr) {
+        // console.log("list", list)
+        if (time > 12 && afternoonTr && index > 1) {
             tr += emptyTr('下午', expectationTr)
             afternoonTr = false
         }
 
-        if (time > 17 && nightTr) {
+        if (time > 17 && nightTr && index > 1) {
             tr += emptyTr('晚上', expectationTr)
             nightTr = false
         }
@@ -627,56 +602,6 @@ const renderOnlineUser = (studyDataList) => {
     appendHtml(e('.online'), html);
 };
 
-const getNowHourAndMinute = () => {
-    return moment().format('HH:mm');
-};
-
-const getDuration = () => {
-    let endTime = getTime();
-    endTimeList = endTime.slice(11, 16).split(':');
-
-    let [endHour, endMinute] = endTimeList;
-    let [startHour, startMinute] = window.startTime.slice(11, 16).split(':');
-    let hour = Number(endHour) - Number(startHour);
-
-    // 23:00  -  00:20 这种情况
-    if (startHour[0] === '2' && endHour[0] === '0') {
-        hour = Number(endHour[1]) + 24 - Number(startHour);
-    }
-
-    let minutes = hour * 60;
-    minutes += Number(endMinute) - Number(startMinute);
-    hour = Number((minutes / 60).toFixed(2));
-    return [hour, minutes];
-};
-
-// 直接复制上面的稍作修改
-const getDuration2 = (start, end) => {
-    let [endHour, endMinute] = end.split(':');
-    let [startHour, startMinute] = start.split(':');
-
-    let hour = Number(endHour) - Number(startHour);
-
-    // 23:00  -  00:20 这种情况
-    if (startHour[0] === '2' && endHour[0] === '0') {
-        hour = Number(endHour[1]) + 24 - Number(startHour);
-    }
-
-    let minutes = hour * 60;
-    minutes += Number(endMinute) - Number(startMinute);
-    hour = Number((minutes / 60).toFixed(2));
-    return [hour, minutes];
-};
-
-const getSegmentation = () => {
-    let endHourAndMinute = getNowHourAndMinute();
-    return window.startHourAndMinute + ' - ' + endHourAndMinute;
-};
-
-const getTime = () => {
-    return moment().format('YYYY-MM-DD HH:mm:ss');
-};
-
 const noStudyContent = (studyContent) => {
     if (studyContent.length === 0) {
         alertMsg('请输入学习内容或备注哦')
@@ -686,40 +611,21 @@ const noStudyContent = (studyContent) => {
 };
 
 // 计时器的函数拿的网上的，先用着
-let hour, minute, second; //时 分 秒
-hour = minute = second = 0; //初始化
-let millisecond = 0; //毫秒
 
-let countIndex = 1; // 倒计时任务执行次数
-let timeout = 250; // 触发倒计时任务的时间间隙
 
-// 开始计时
-const start = () => {
-    window.stopInterval = false;
-    window.getStartTime = new Date().getTime();
-    startCountdown(timeout);
-};
+const countInit = () => {
+    window.hour = 0
+    window.minute = 0
+    window.second = -1
+}
 
-function startCountdown(interval) {
+function startCountdown(interval=1000) {
     if (window.stopInterval) {
         e('.timer').innerHTML = '';
-        millisecond = hour = minute = second = 0;
         return;
     }
     setTimeout(() => {
-        const endTime = new Date().getTime();
-        // 偏差值
-        let deviation = endTime - (window.getStartTime + countIndex * timeout);
-        if (deviation < 0) {
-            deviation = 0;
-        }
-        countIndex++;
-
-        millisecond = millisecond + 250;
-        if (millisecond >= 1000) {
-            millisecond = 0;
-            second = second + 1;
-        }
+        second++
         if (second >= 60) {
             second = 0;
             minute = minute + 1;
@@ -732,8 +638,7 @@ function startCountdown(interval) {
         let arr = [hour, minute, second];
         arr = arr.map((val) => getZero(val));
         e('.timer').innerHTML = arr[0] + '时' + arr[1] + '分' + arr[2] + '秒';
-
         // 下一次倒计时
-        startCountdown(timeout - deviation);
+        startCountdown()
     }, interval);
 }
