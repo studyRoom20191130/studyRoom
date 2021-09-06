@@ -55,7 +55,6 @@ const processMembers = (studyDataList) => {
 }
 
 const renderNavHero = (studyDataList) => {
-    console.log("studyDataList", studyDataList)
     let members = processMembers(studyDataList)
     let [left_members, right_members] = splitMembers(members)
     renderLeftNav(left_members)

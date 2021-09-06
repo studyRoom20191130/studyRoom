@@ -45,69 +45,6 @@ const getstudyDataList = () => {
   });
 };
 
-const autoRefresh = () => {
-  let 每十五分钟自动刷新一次 = 1000 * 60 * 15;
-  setInterval(() => dataInit(), 每十五分钟自动刷新一次);
-};
-
-const dataInit = () => {
-  // 第一次创建当天记录文件的时候会清空在线人员名单，但是无法保证清空和写入的先后顺序
-  getstudyDataList();
-
-  // 所以用延时来确保先清空后写入
-  // setTimeout(() => {
-  //   getOnlineUser();
-  // }, 50);
-};
-
-const getOnlineUser = () => {
-  let user = getLocalStorage('userInfo').split('-')[0];
-  let data = {
-    user,
-  };
-  ajax(data, '/getOnlineUser', (res) => {
-    let onlineUserList = res || [];
-    addOnlineUser(onlineUserList);
-  });
-};
-
-const removeOfflineUser = () => {
-  window.onbeforeunload = () => {
-    let user = getLocalStorage('userInfo').split('-')[0];
-    let data = {
-      user,
-    };
-    ajax(data, '/removeOfflineUser', (res) => {});
-  };
-};
-
-const showTips = () => {
-  let shouldShowTips = getLocalStorage('showTips5') || 'show';
-  if (shouldShowTips === 'show') {
-    let html = `
-        <br>
-        <div style="text-align: left">
-
-            <hr>
-            <p>在在线名单或中间表格点击名字，进入个人主页</p>
-            <p>如果使用了 axe - 作业， 重写guagame - 视频1这种格式</p>
-            <p>那么可以看到进入自习室至今在 axe 和 重写guagame 投入的总时长</p>
-            <hr>
-            <p>右侧 todo 事项，单击、双击、三击黄色常用事项，分别对应添加、编辑和删除</p>
-            <hr>
-            <p>新增了预期字段，输入预期完成时间，比如 30</p>
-            <hr>
-            <p>新增了补录功能</p>
-            <p>输入了补录的结束时间后直接按回车或点击输入框外完成补录</p>
-            <hr>
-            <p class="tips" style="text-decoration: underline;cursor: pointer">不再提示</p>
-        </div>
-        <br><br><br><br><br><br><br>`;
-    let div = e(`.right`);
-    div.insertAdjacentHTML('beforeend', html);
-  }
-};
-
 const calculateTimeGoesBy = () => {
   let year = new Date().getFullYear()
   let remaing = getBeforeDate(`${year},12,31`)
@@ -139,17 +76,12 @@ const addMailBtn = () => {
 
 const __main = () => {
   // 数据初始化
-  dataInit();
+  getstudyDataList();
   // 右侧 todo 数据初始化
   todoInit();
-  // 轮询
-  // autoRefresh()
-  // 关闭页面回调，移除在线
-  // removeOfflineUser();
+
   // 绑定页面所需的所有事件
   bindEvents();
-  //展现更新提示
-  showTips();
   // 显示年度进度条
   calculateTimeGoesBy()
 

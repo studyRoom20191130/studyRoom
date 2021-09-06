@@ -37,21 +37,28 @@ const count = () => {
     let userList = [ '点点',
         'LD',
         'Sean',
+        'momo',
         'life',
         '亭川',
-        '荒',
+        '卓卓',
         'Ly',
+        '麻瓜',
     ]
 
 
     for (const user of userList) {
-        let fileName = `./static/json/count2020/${user}.json`
+        let fileName = `./static/json/2021/user-data/${user}.json`
         let data = fs.readFileSync(fileName,'utf-8');
         let dataArray = JSON.parse(data)
         let [totalHourObj, d] = showTotalHour(dataArray)
-        let wr = `./static/json/2020/todo-count/${user}.json`
+        console.log("111111111", 111111111)
+        console.log("user", user)
         let o = JSON.stringify(totalHourObj, null, '    ')
-        writeFile(wr, o)
+        console.log("totalHourObj", o)
+        console.log("111111111", 111111111)
+        // let wr = `./static/json/2021/todo-count/${user}.json`
+
+        // writeFile(wr, o)
     }
 
 

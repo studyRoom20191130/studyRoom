@@ -1,10 +1,16 @@
 const timeTemplate = (array, hasExpectationTime) => {
   let learns = array;
-
+  let summarys = []
   let r = '';
   let afternoonTr = true
   let nightTr = true
-  learns.forEach((l) => {
+
+  for (const l of learns) {
+    let c = l.studyContent
+    if ((c.slice(0, 2) === '总结' && c[2] === ' ' && c[3] === '-')  || (c.slice(0, 2) === '总结' && c[2] === '-')) {
+      summarys.push(c)
+      continue
+    }
     let expectation = '';
     if (l.expectation) {
       expectation = l.expectation + ' min';
@@ -21,7 +27,7 @@ const timeTemplate = (array, hasExpectationTime) => {
       r += emptyTr('晚上', expectationTr)
       nightTr = false
     }
-    let bgColor = addBgColor(l.studyContent)
+    let bgColor = addBgColor(c)
     let t = `
         <tr style="background: ${bgColor}">
             <td class="td-time">
@@ -29,12 +35,12 @@ const timeTemplate = (array, hasExpectationTime) => {
             </td>
             <td class="td-hour">${l.minuteDuration} min</td>
             ${expectationTr}
-            <td class="td-width">${l.studyContent}</td>
+            <td class="td-width">${c}</td>
         </tr>
         `;
     r += t;
-  });
-  return r;
+  }
+  return [r, summarys]
 };
 
 const timelineTemplate = (object) => {
@@ -51,12 +57,14 @@ const timelineTemplate = (object) => {
     totalHour = totalHour.toFixed(1);
     let hasExpectationTime = hasExpectation(o.table)
     let trHead = resetTr(hasExpectationTime)
+    let today = o.today.replace('年', '-').replace('月', '-').replace('日', ' 日报')
+    var [all, summarys]  = timeTemplate(o.table, hasExpectationTime)
 
-    let all = timeTemplate(o.table, hasExpectationTime);
 
+    let itemHtml = generateItemHtml(o.table)
     t = `
         
-            <div class="timeline-item" date-is='${o.today}&nbsp;&nbsp;&nbsp;&nbsp;当天总共学习：${totalMinitue} min (${totalHour} h)'>
+            <div class="timeline-item" date-is='${today}&nbsp;&nbsp;&nbsp;&nbsp; 记录时长：${totalHour} h ${itemHtml}'>
                 <div class="study-record">
                     <table class="table table-bordered">
                         ${trHead}
@@ -65,16 +73,36 @@ const timelineTemplate = (object) => {
                 </div>
             </div>
         `;
-  } else {
-    t = `
-            <div class="timeline-item" date-is='${o.date}&nbsp;&nbsp;&nbsp;&nbsp;${o.blessing}'>
-              
-            </div>
-        `;
   }
+  
+  t += summaryHtml(summarys)
 
   return t;
-};
+}
+
+
+
+
+const summaryHtml = (summarys) => {
+  let h = ``
+  if (!summarys) {
+    return h
+  }
+  let len = summarys.length
+  if (len === 0) {
+      return h
+  }
+  for (let i = 0; i < len; i++) {
+    let summary = summarys[i].split('-')[1].trim()
+    console.log("summary", summary)
+    h += `<div class="summary-content">${i + 1}. ${summary}</div>`
+  }
+
+  return `<div class="summary">
+    <div class="font-bold bottom-border">总结</div>
+        ${h}
+  </div>`
+}
 
 const getPersonalStudyData = () => {
   let data = {
@@ -462,6 +490,20 @@ const chooseHero = () => {
 
 const heroImgListHardCode = () => {
   const heroImgList = [
+    'dmdm.jpg',
+    'LD.jpg',
+    'clement.jpg',
+    'momo.jpg',
+    'muuj.jpg',
+    'Yan.png',
+    'tyir.jpg',
+    'vovo.png',
+    'life.jpg',
+    'zelda.jpg',
+      'sans.jpg',
+      'shui.jpg',
+    'yoking.png',
+    'magw.jpg',
     'blhu.jpg',
     'baihu2.jpg',
     'blhu3.png',

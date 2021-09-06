@@ -1,7 +1,12 @@
 const fs = require('fs')
 const moment = require('moment')
 const writeFile = (fileName, content) => {
-    fs.writeFile(fileName, content, {flag: "w"}, function (err) {
+    // fs.writeFile(fileName, content, {flag: "w"}, function (err) {
+    //     if (err) {
+    //         return console.log(err);
+    //     }
+    // })
+    fs.writeFileSync(fileName, content, {flag: "w"}, function (err) {
         if (err) {
             return console.log(err);
         }
@@ -10,6 +15,7 @@ const writeFile = (fileName, content) => {
 
 const jsonFilePath = './static/json'
 const nodemailer = require('nodemailer')
+global.year = new Date().getFullYear()
 
 // 邮件功能
 const showTotalHour = (list) => {
@@ -37,7 +43,10 @@ const showTotalHour = (list) => {
 const createMailContent = (mailUsers) => {
     let users = mailUsers
     let html = `<div style="display: flex;flex-wrap: wrap">`
-    for (const user of users) {
+    for (let user of users) {
+        if (user.includes('Clement')) {
+            user = 'Clement'
+        }
         let fileName = `${jsonFilePath}/${global.year}/user-data/${user}.json`
 
         let dataArray = fs.readFileSync(fileName, 'utf-8');
@@ -82,17 +91,17 @@ const sendMail = (mailUsers, mailAddress) => {
         auth: {
             user: '2518921392@qq.com',
             // 这里密码不是qq密码，是你设置的smtp授权码
-            pass: 'odowqlojztaqebji',
+            pass: 'zjlnnwvhkjefebdd',
         }
     })
 
     let html = createMailContent(mailUsers)
-
     let mailOptions = {
         from: ' "自习室统计周报" <2518921392@qq.com>', // sender address
         to: mailAddress,
         // to: '2518921392@qq.com', // list of receivers
-        subject: '自习室统计周报(过去168小时中的学习记录)', // Subject line
+        // subject: '自习室统计周报(过去168小时中的学习记录)', // Subject line
+        subject: '自习室统计周报', // Subject line
         // 发送text或者html格式
         // text: 'Hello world?', // plain text body
 
@@ -123,6 +132,9 @@ const getAvatarOrWeapon = (user, directoryName) => {
 
 
 const getTotalHourObj = (user) => {
+    if (user.includes('Clement')) {
+        user = 'Clement'
+    }
     let path = `${jsonFilePath}/todo-count/${user}.json`
     let list = fs.readdirSync(`${jsonFilePath}/todo-count`, 'utf-8')
     let fileNotExist = !(list.includes(user + '.json'))
@@ -151,6 +163,9 @@ const processPersonalStudyData = (dataArray, num) => {
 }
 
 const updateUserInfo = (user, userObj, yearlyObj) => {
+    if (user.includes('Clement')) {
+        user = 'Clement'
+    }
     let signature = fs.readFileSync(`${jsonFilePath}/signature/${user}.txt`, 'utf-8')
     let hero = getAvatarOrWeapon(user, 'hero')
     let weapon = getAvatarOrWeapon(user, 'weapon')
@@ -238,10 +253,17 @@ const minuteDurationInvalid = (minuteDuration) => {
 }
 
 const updateUserData = (requestObj, response) => {
-    let fileName = `${jsonFilePath}/${global.year}/user-data/${requestObj.user}.json`
+    let user = requestObj.user
+    if (requestObj.user.includes('Clement')) {
+        user = 'Clement'
+    }
+    // console.log("global.year", global.year)
+    let fileName = `${jsonFilePath}/${global.year}/user-data/${user}.json`
     let data = fs.readFileSync(fileName, 'utf-8')
 
     let [recordObj, currentRecord] = processCurrentRecord(requestObj)
+    // console.log("recordObj2", recordObj)
+    // console.log("currentRecord", currentRecord)
     let [invalid, errMsg] = minuteDurationInvalid(currentRecord.minuteDuration)
     if (invalid) {
         response.send({errMsg})
@@ -252,12 +274,11 @@ const updateUserData = (requestObj, response) => {
         dataList = JSON.parse(data)
     }
     let init = dataList.length === 0
-
     if (init) {
+
         dataList.unshift(recordObj)
     } else {
         let todayObj = dataList[0]
-
         if (todayObj.today === recordObj.today) {
             todayObj.table.push(currentRecord)
             dataList[0] = todayObj
@@ -292,6 +313,9 @@ const makeSureTodayFileExist = () => {
 const updateWeapon = (data, user) => {
     data = JSON.parse(data)
     let weapon = getAvatarOrWeapon(user, 'weapon')
+    if (user.includes('Clement')) {
+        user = 'Clement'
+    }
     let signature = fs.readFileSync(`${jsonFilePath}/signature/${user}.txt`, 'utf-8')
 
     for (const datum of data) {
@@ -357,6 +381,76 @@ const updateRecordData = (requestObj, todayObj, yearlyObj, response) => {
     response.send(a)
 }
 
+const deleteTodoCount = (oldContent, s, user) => {
+    if (oldContent.includes('-')) {
+        let totalObj = getTotalHourObj(user)
+        let todoObj = totalObj[global.year] || {}
+        let index = oldContent.indexOf('-')
+        let key = oldContent.slice(0, index).trim()
+        if (key in todoObj) {
+            todoObj[key] -= s.hourDuration
+        }
+        totalObj[global.year] = todoObj
+        let path = `${jsonFilePath}/todo-count/${user}.json`
+        writeFile(path, JSON.stringify(totalObj, null, '    '))
+    }
+}
+
+const updateEditData = (body) => {
+    // 到个人文件里面修改
+    let {user, oldContent, newContent} = body
+    if (user.includes('Clement')) {
+        user = 'Clement'
+    }
+    let fileName = `${jsonFilePath}/${global.year}/user-data/${user}.json`
+    let data = fs.readFileSync(fileName, 'utf-8')
+    data = JSON.parse(data)
+    let obj = data[0]
+    let table = obj.table
+    for (let i = 0; i < table.length; i++) {
+        let s = table[i]
+        if (oldContent === s.studyContent) {
+            if (newContent === '') {
+                table.splice(i, 1)
+                //    去 todocount 删除对应时间
+                deleteTodoCount(oldContent, s, user)
+            } else {
+                s.studyContent = newContent
+            }
+        }
+    }
+    let newData = [
+        obj,
+        ...data.slice(1)
+    ]
+
+    let t = JSON.stringify(newData, null, '    ')
+    writeFile(fileName, t)
+    return [obj, user]
+}
+
+const updateTodayData = (obj, user, response) => {
+    let today = moment().format('YYYY年MM月DD日')
+    let dayFileName = `${jsonFilePath}/${global.year}/study-record-data/${today}.json`
+
+    let dataArray = fs.readFileSync(dayFileName, 'utf-8')
+    dataArray = JSON.parse(dataArray)
+
+    let a = []
+    for (const index in dataArray) {
+        let o = dataArray[index]
+        let u = o.user
+        if (u.includes('Clement')) {
+            u = 'Clement'
+        }
+        u === user ? a.push(obj) : a.push(o)
+
+    }
+
+    let d = JSON.stringify(a, null, '    ')
+    writeFile(dayFileName, d)
+    response.send('')
+}
 
 const updateTotalHour = (requestObj) => {
     let latestRecord = requestObj.table[0]
@@ -374,7 +468,11 @@ const updateTotalHour = (requestObj) => {
             obj[key] = hourDuration
         }
         totalObj[global.year] = obj
-        let path = `${jsonFilePath}/todo-count/${requestObj.user}.json`
+        let user = requestObj.user
+        if (user.includes('Clement')) {
+            user = 'Clement'
+        }
+        let path = `${jsonFilePath}/todo-count/${user}.json`
         writeFile(path, JSON.stringify(totalObj, null, '    '))
     }
     return obj
@@ -392,4 +490,6 @@ module.exports = {
     getTodayAllData,
     updateRecordData,
     updateTotalHour,
+    updateEditData,
+    updateTodayData,
 }

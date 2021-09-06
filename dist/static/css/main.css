@@ -402,8 +402,9 @@ textarea {
     .title,
     .online,
     #shop,
+    .show-code-mirror,
     .right{
-        display: none;
+        display: none !important;
     }
 
     .main-container {
@@ -677,6 +678,7 @@ div#id-div-share-wrapper #id-img-share.active {
     height: 30px;
     margin-right: 10px;
     margin-bottom: 5px;
+    border-radius: 4px;
 }
 
 
@@ -765,9 +767,14 @@ div#id-div-share-wrapper #id-img-share.active {
     text-decoration: none;
 }
 
-#introduce {
+#introduce{
     left: 80px;
 }
+
+#help {
+      left: 320px;
+    color: lightcoral;
+  }
 
 .code-mirror-div {
     transition: bottom 0.3s;
@@ -785,6 +792,23 @@ div#id-div-share-wrapper #id-img-share.active {
 .show-code-mirror {
     bottom: 0;
 }
+
+.th-left {
+    text-align: left !important;
+    padding-left: 10px !important;
+}
+
+
+.font-bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.head-tr {
+    text-align: center;
+    background: #EAEAEF !important;
+}
+
 
 
 

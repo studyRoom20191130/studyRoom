@@ -1,146 +1,148 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7b3df07d-9555-4a56-9728-44104935cd1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/json/online-list/user.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express_demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/express_demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/personal.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/personal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/i.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/i.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/ali.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/qq.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/weibo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/weixin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index_center_area_events.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index_center_area_events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index_left_area_events.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index_left_area_events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index_right_area_events.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index_right_area_events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/personal.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/personal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/spanEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/spanEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/vendor/modernizr-3.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/online-list/user.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/personal.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/personal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/study-record-data/2020年01月19日.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/study-record-data/2020年02月22日.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/user-data/风行.json" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="577314822">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="md" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/package.json" />
-    </packageJsonPaths>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1445" />
-    <option name="height" value="996" />
-  </component>
   <component name="ProjectId" id="1Y9q6nFxgS92HIo9ZIMuPv4rv6v" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="新增" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/json/2021/user-data" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\studyRoom\node版本\studyRoom\dist\static\html" />
-      <recent name="C:\Users\Administrator\Desktop\studyRoom\node版本\studyRoom\dist\static" />
-      <recent name="C:\Users\Administrator\Desktop\studyRoom\node版本\studyRoom\dist" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\studyRoom\node版本\studyRoom\dist\static\img" />
-      <recent name="C:\Users\Administrator\Desktop\studyRoom\node版本\studyRoom\dist\static" />
-      <recent name="C:\Users\Administrator\Desktop\studyRoom\node版本\studyRoom\dist\static\css" />
-      <recent name="C:\Users\Administrator\Desktop\studyRoom\node版本\studyRoom\dist" />
-      <recent name="C:\Users\Administrator\Desktop\studyRoom\node版本\studyRoom\dist\static\html" />
+      <recent name="C:\Users\windows\Desktop\studyroom\studyRoom\dist\static\json\2021\user-data" />
+      <recent name="C:\Users\windows\Desktop\studyroom\studyRoom\dist\static" />
+      <recent name="C:\Users\windows\Desktop\studyroom\studyRoom\dist\static\img\hero" />
+      <recent name="C:\Users\windows\Desktop\studyroom\studyRoom\dist\static\img\introduce" />
+      <recent name="C:\Users\windows\Desktop\studyroom\studyRoom\dist" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\windows\Desktop\studyroom\studyRoom\dist" />
+      <recent name="C:\Users\windows\Desktop\studyroom\studyRoom\dist\static\json" />
+      <recent name="C:\Users\windows\Desktop\studyroom\studyRoom\dist\static\img\hero" />
+      <recent name="C:\Users\windows\Desktop\studyroom\studyRoom\dist\static\js\vendor" />
+      <recent name="C:\Users\kyx201956\Desktop\studyroom\studyRoom\dist\static" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Grunt tasks" flag="true" />
+      <visibility group="Gulp tasks" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+      <visibility group="最近的项目" flag="true" />
+      <visibility group="运行配置" flag="true" />
+    </myKeys>
   </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Node.js.personal.js">
+    <configuration name="count.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/count.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="express_demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/express_demo.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="personal.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/static/js/personal.js" working-dir="$PROJECT_DIR$/static/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
@@ -153,21 +155,13 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="Node.js.personal.js" />
+        <item itemvalue="Node.js.express_demo.js" />
+        <item itemvalue="Node.js.count.js" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -186,71 +180,177 @@
       <workItem from="1579440786790" duration="3340000" />
       <workItem from="1582364986698" duration="4562000" />
       <workItem from="1582428199271" duration="694000" />
+      <workItem from="1590033515553" duration="609000" />
+      <workItem from="1590041479860" duration="1725000" />
+      <workItem from="1590043281892" duration="582000" />
+      <workItem from="1590110297213" duration="1847000" />
+      <workItem from="1592462763595" duration="24000" />
+      <workItem from="1593652525204" duration="247000" />
+      <workItem from="1593748814584" duration="764000" />
+      <workItem from="1594084205470" duration="232000" />
+      <workItem from="1602209739123" duration="1097000" />
+      <workItem from="1602946097492" duration="13360000" />
+      <workItem from="1603107877948" duration="1996000" />
+      <workItem from="1603110518330" duration="1806000" />
+      <workItem from="1603159333878" duration="13175000" />
+      <workItem from="1603281963666" duration="5738000" />
+      <workItem from="1603436759311" duration="2425000" />
+      <workItem from="1603465599141" duration="7757000" />
+      <workItem from="1603710297027" duration="1289000" />
+      <workItem from="1603798622489" duration="6760000" />
+      <workItem from="1604402655458" duration="1433000" />
+      <workItem from="1604848231982" duration="542000" />
+      <workItem from="1605750751552" duration="22028000" />
+      <workItem from="1606093834120" duration="10478000" />
+      <workItem from="1606121090649" duration="599000" />
+      <workItem from="1606266622389" duration="6836000" />
+      <workItem from="1606700335016" duration="3101000" />
+      <workItem from="1606713369231" duration="593000" />
+      <workItem from="1606725245960" duration="1909000" />
+      <workItem from="1606791529512" duration="3539000" />
+      <workItem from="1606807033281" duration="4343000" />
+      <workItem from="1606873292524" duration="15000" />
+      <workItem from="1607304043143" duration="246000" />
+      <workItem from="1607305316472" duration="1428000" />
+      <workItem from="1607475814418" duration="489000" />
+      <workItem from="1607497548634" duration="593000" />
+      <workItem from="1607907795611" duration="1790000" />
+      <workItem from="1607946509079" duration="3155000" />
+      <workItem from="1608017825333" duration="21137000" />
+      <workItem from="1608512671662" duration="36433000" />
+      <workItem from="1608706961364" duration="598000" />
+      <workItem from="1608727543300" duration="4247000" />
+      <workItem from="1608780025985" duration="737000" />
+      <workItem from="1608788813267" duration="483000" />
+      <workItem from="1609118149899" duration="77000" />
+      <workItem from="1609377267509" duration="245000" />
+      <workItem from="1609809866387" duration="4798000" />
+      <workItem from="1609997714864" duration="3565000" />
+      <workItem from="1610592565611" duration="44753000" />
+      <workItem from="1610800714530" duration="11129000" />
+      <workItem from="1610932208727" duration="15969000" />
+      <workItem from="1611278922190" duration="2050000" />
+      <workItem from="1611538388572" duration="899000" />
+      <workItem from="1611802097277" duration="2885000" />
+      <workItem from="1611883666734" duration="2986000" />
+      <workItem from="1612142821596" duration="1236000" />
+      <workItem from="1612318605269" duration="2056000" />
+      <workItem from="1612401295433" duration="698000" />
+      <workItem from="1612515564336" duration="599000" />
+      <workItem from="1612842014818" duration="554000" />
+      <workItem from="1614565684356" duration="332000" />
+      <workItem from="1615046665194" duration="1965000" />
+      <workItem from="1615269227350" duration="1872000" />
+      <workItem from="1615772637286" duration="280000" />
+      <workItem from="1615773224103" duration="89000" />
+      <workItem from="1616033422874" duration="686000" />
+      <workItem from="1616461001298" duration="861000" />
+      <workItem from="1616721679700" duration="1322000" />
+      <workItem from="1616744010442" duration="22635000" />
+      <workItem from="1617004154082" duration="8308000" />
+      <workItem from="1617587593004" duration="6410000" />
+      <workItem from="1617674561186" duration="5681000" />
+      <workItem from="1618191916544" duration="1030000" />
+      <workItem from="1618564902020" duration="1422000" />
+      <workItem from="1618740178702" duration="376000" />
+      <workItem from="1618795971341" duration="685000" />
+      <workItem from="1619054784806" duration="950000" />
+      <workItem from="1619401102629" duration="863000" />
+      <workItem from="1619424137898" duration="2601000" />
+      <workItem from="1620264102808" duration="327000" />
+      <workItem from="1621214430914" duration="725000" />
+      <workItem from="1621821434853" duration="957000" />
+      <workItem from="1621913119002" duration="8153000" />
+      <workItem from="1622087013712" duration="2214000" />
+      <workItem from="1622423718847" duration="1673000" />
+      <workItem from="1623041062452" duration="1435000" />
+      <workItem from="1623721607912" duration="1137000" />
+      <workItem from="1623905540381" duration="1393000" />
+      <workItem from="1624239373610" duration="212000" />
+      <workItem from="1624842729648" duration="1196000" />
+      <workItem from="1625013993086" duration="4486000" />
+      <workItem from="1625022762759" duration="764000" />
+      <workItem from="1626839771108" duration="676000" />
+      <workItem from="1627262428090" duration="1877000" />
+      <workItem from="1627347393354" duration="4815000" />
+      <workItem from="1627453609116" duration="737000" />
+      <workItem from="1627546697908" duration="54000" />
+      <workItem from="1627613869523" duration="2759000" />
+      <workItem from="1627624375488" duration="1333000" />
+      <workItem from="1627866137821" duration="4975000" />
+      <workItem from="1628471618403" duration="311000" />
+      <workItem from="1628495269062" duration="1375000" />
+      <workItem from="1629079578877" duration="1124000" />
+      <workItem from="1629084590302" duration="3423000" />
+      <workItem from="1629681271557" duration="140000" />
+      <workItem from="1630285790793" duration="57000" />
+      <workItem from="1630890318329" duration="376000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="694000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="174" key="GridCell.Tab.0.bottom" timestamp="1582368564946">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state width="1515" height="103" key="GridCell.Tab.0.bottom" timestamp="1630890696453">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1419" height="174" key="GridCell.Tab.0.bottom/0.23.1440.838@0.23.1440.838" timestamp="1582368564946" />
-    <state width="1419" height="174" key="GridCell.Tab.0.center" timestamp="1582368564945">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state width="1515" height="103" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1630890696453" />
+    <state width="1362" height="95" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629084701997" />
+    <state width="1515" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1627869427358" />
+    <state width="1515" height="103" key="GridCell.Tab.0.center" timestamp="1630890696453">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1419" height="174" key="GridCell.Tab.0.center/0.23.1440.838@0.23.1440.838" timestamp="1582368564945" />
-    <state width="1419" height="174" key="GridCell.Tab.0.left" timestamp="1582368564944">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state width="1515" height="103" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1630890696453" />
+    <state width="1362" height="95" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629084701997" />
+    <state width="1515" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1627869427358" />
+    <state width="1515" height="103" key="GridCell.Tab.0.left" timestamp="1630890696453">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1419" height="174" key="GridCell.Tab.0.left/0.23.1440.838@0.23.1440.838" timestamp="1582368564944" />
-    <state width="1419" height="174" key="GridCell.Tab.0.right" timestamp="1582368564946">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state width="1515" height="103" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1630890696453" />
+    <state width="1362" height="95" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629084701996" />
+    <state width="1515" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1627869427357" />
+    <state width="1515" height="103" key="GridCell.Tab.0.right" timestamp="1630890696453">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1419" height="174" key="GridCell.Tab.0.right/0.23.1440.838@0.23.1440.838" timestamp="1582368564946" />
-    <state x="229" y="81" key="SettingsEditor" timestamp="1582365083957">
-      <screen x="0" y="23" width="1440" height="838" />
+    <state width="1515" height="103" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1630890696453" />
+    <state width="1362" height="95" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1629084701997" />
+    <state width="1515" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1627869427358" />
+    <state x="314" y="74" width="970" height="642" key="find.popup" timestamp="1629085291726">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="229" y="81" key="SettingsEditor/0.23.1440.838@0.23.1440.838" timestamp="1582365083957" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
+    <state x="314" y="74" width="970" height="642" key="find.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1629085291726" />
+    <state x="381" y="183" width="672" height="677" key="run.anything.popup" timestamp="1625015686607">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="381" y="183" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1625015686607" />
+    <state x="389" y="55" width="756" height="768" key="search.everywhere.popup" timestamp="1625015398106">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="389" y="55" width="756" height="768" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1625015398106" />
   </component>
 </project>

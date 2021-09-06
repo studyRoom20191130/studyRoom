@@ -42,7 +42,6 @@ const sendComment = (target, reply) => {
         user = 'life'
     }
     let fromIndexPage = true
-    let commentTime = moment().format('YYYY-MM-DD HH:mm')
     let comment = reply + $(target).prev()[0].value
     let commenter = getLocalStorage('userInfo').split('-')[0]
     let replyer = div.dataset.replyer
@@ -51,7 +50,6 @@ const sendComment = (target, reply) => {
         user,
         commenter,
         fromIndexPage,
-        commentTime,
         replyer,
     }
     ajax(data, "/sendComment", (res) => {

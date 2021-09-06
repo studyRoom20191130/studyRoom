@@ -8,7 +8,7 @@ const log = console.log.bind(console)
 const bodyParser = require('body-parser')
 
 const {updateUserData, updateUserInfo, processPersonalStudyData, sendMail, writeFile, getAvatarOrWeapon, getTotalHourObj,
-    updateTotalHour, updateRecordData, getTodayAllData, makeSureTodayFileExist} = require("./back_end_utils");
+    updateTotalHour, updateRecordData, getTodayAllData, makeSureTodayFileExist, updateEditData, updateTodayData} = require("./back_end_utils");
 
 const app = express()
 
@@ -54,7 +54,7 @@ app.post('/sendMail', (request, response) => {
     let mailUsers = request.body.mailUsers
     let mailAddress = request.body.mailAddress
     sendMail(mailUsers, mailAddress)
-    response.send("邮件已发送")
+    response.send("邮件已发送！")
 })
 
 app.post('/getPersonalStudyData', (request, response) => {
@@ -72,6 +72,10 @@ app.post('/getPersonalStudyData', (request, response) => {
         return
 
     }
+    if (user.includes('Clement')) {
+        user = 'Clement'
+    }
+
     let fileName = `${jsonFilePath}/${year}/user-data/${user}.json`
     let dataArray = []
     let data = fs.readFileSync(fileName, 'utf-8')
@@ -117,9 +121,22 @@ app.post('/endCountTime', (request, response) => {
     updateRecordData(requestObj, todayObj, yearlyObj, response)
 })
 
+app.post('/updateContent', (request, response) => {
+    // 到当天文件里面修改
+    // 如果是删除,还要去 todocount 里面删除对应的时间
+    let [obj, user] = updateEditData(request.body)
+
+    updateTodayData(obj, user, response)
+})
+
 app.post('/sendComment', (request, response) => {
     let requestObj = request.body
-    let fileName = `${jsonFilePath}/${global.year}/user-data/${requestObj.user}.json`
+    let user = requestObj.user
+    if (requestObj.user.includes('Clement')) {
+        user = 'Clement'
+    }
+    // console.log("requestObj", requestObj)
+    let fileName = `${jsonFilePath}/${global.year}/user-data/${user}.json`
     fs.readFile(fileName, 'utf-8', function (err, data) {
         if (err) {
             console.log(err);
@@ -142,6 +159,7 @@ app.post('/sendComment', (request, response) => {
             // let today = s[0] + '年' + s[1] + '月' + s[2] + '日'
             // 如果没有当天的文件，新建一个
             makeSureTodayFileExist()
+            let today = moment().format('YYYY年MM月DD日')
             let path = `${jsonFilePath}/${global.year}/study-record-data/${today}.json`
             fs.readFile(path, 'utf-8', function (err, data) {
                 if (err) {
@@ -179,6 +197,10 @@ app.post('/getStudyDataList', (request, response) => {
         }
     })
 
+    if (user.includes('Clement')) {
+        user = 'Clement'
+    }
+
     fs.readdir(`${jsonFilePath}/signature`, function (err, data) {
         let fileName = `${jsonFilePath}/signature/${user}.txt`
         let uesrNotExist = !(data.includes(user + '.txt'))
@@ -205,6 +227,7 @@ app.post('/updatePlan', (request, response) => {
 
 app.post('/getPlan', (request, response) => {
     let body = request.body
+    console.log("body", body)
     let {
         type,
         user,
@@ -229,12 +252,16 @@ app.post('/saveSignature', (request, response) => {
             response.send(err)
             return;
         } else {
+            if (user.includes('Clement')) {
+                user = 'Clement'
+            }
             let fileName = `${jsonFilePath}/signature/${user}.txt`
             // let uesrNotExist = !(data.includes(today+'.json'))
             // if (uesrNotExist) {
             //     writeFile(fileName, signature)
             // }
             writeFile(fileName, signature)
+            response.send('')
         }
     })
 })
@@ -272,6 +299,9 @@ app.post('/chooseWeapon', (request, response) => {
 
 app.post('/dailyReport', (request, response) => {
     let user = request.body.user
+    if (user.includes('Clement')) {
+        user = 'Clement'
+    }
     let fileName = `${jsonFilePath}/${global.year}/user-data/${user}.json`
     fs.readFile(fileName, 'utf-8', function (err, data) {
         if (err) {

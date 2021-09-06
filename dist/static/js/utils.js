@@ -347,16 +347,20 @@ const addBgColor = (studyContent) => {
         mo: 'lightseagreen',
         摸鱼: 'lightseagreen',
     }
-
+    // 赏心悦目的背景色由 LD 聚聚提供
     let colorMapper2 = {
         tf: '#FAF9DE',
+        挖煤: '#FAF9DE',
+        work: '#FAF9DE',
         工作: '#FAF9DE',
         work: '#FAF9DE',
         axe: '#E9EBFE',
         fep: '#E9EBFE',
+        study: '#E9EBFE',
         斧头: '#E9EBFE',
         mo: '#FDE6E0',
         摸鱼: '#FDE6E0',
+        fish: '#FDE6E0',
     }
     for (const key in colorMapper2) {
         if (studyContent.includes(key)) {
@@ -367,12 +371,10 @@ const addBgColor = (studyContent) => {
 }
 
 
-const emptyTr = (s, expectationTr) => {
-    return `<tr style="background: #EAEAEF">
-                    <td class="td-time">${s}</td>
-                    <td class="td-hour"></td>
-                    ${expectationTr}
-                    <td class="td-width"></td>
+const emptyTr = (s) => {
+    // <tr style="background: #EAEAEF">
+    return `<tr>
+                    <td class="td-time font-bold">${s}</td>
                 </tr>`
 }
 
@@ -388,11 +390,74 @@ const hasExpectation = (list) => {
 const resetTr = (hasExpectationTime) => {
     let expectationTr = hasExpectationTime ? `<th>预期</th>` : ''
     let s = `
-        <tr class="success head-tr">
-            <th>时间段</th>
+        <tr class="sccess head-tr">
+            <th>时段</th>
             <th>时长</th>
             ${expectationTr}
-            <th>内容/备注</th>
+            <th class="th-left">内容</th>
         </tr>`;
     return s
+}
+
+String.prototype.replaceAll = function (s1, s2) {
+    return this.replace(new RegExp(s1, "gm"), s2);
+};
+
+
+// 把带 - 的数据找出来，拼成对象
+const getprograssObj = (list) => {
+    let prograssObj = {};
+    for (const obj of list) {
+        let s = obj.studyContent
+        let index = s.indexOf('-');
+        if (index < 0) {
+            continue
+        }
+        let key = s.slice(0, index).trim();// tf
+        let time = obj.minuteDuration // 1-0
+        if (key in prograssObj) {
+            prograssObj[key] += time
+        } else {
+            prograssObj[key] = time
+        }
+    }
+    return prograssObj
+}
+
+// 获取直观的事项时间
+const countItemTime = (list) => {
+    // {axe: 180, tf: 150, mo: 130}
+    let l = getprograssObj(list)
+    let o = {}
+    for (const key in l) {
+        let v = l[key]
+        o[v] = key
+    }
+
+    //o {130: "mo", 150: "tf", 180: "axe"}
+    return o
+}
+
+// 生成记录项目的单独时长
+const generateItemHtml= (table) => {
+    let itemObj = countItemTime(table)
+    let itemTimeList = Object.keys(itemObj).sort(function (a, b) {
+        return Number(a) - Number(b)
+    }).reverse()
+    let len = itemTimeList.length
+    if (len == 0) {
+        return ''
+    }
+    let itemHtml = '( '
+    for (let i = 0; i < len; i++) {
+        if (i === 4) {
+            break
+        }
+        let time = itemTimeList[i]
+        let item = itemObj[time]
+        time = (itemTimeList[i] / 60).toFixed(1)
+        itemHtml += `${item} - ${time} h, `
+    }
+    itemHtml = itemHtml.slice(0, -2) + ' )'
+    return itemHtml
 }

@@ -74,7 +74,7 @@ p {
 
 
 .timeline-item {
-  padding: 3em 2em 0.5em 2em;
+  padding: 3em 2em 0 2em;
   position: relative;
   color: rgba(0, 0, 0, 0.7);
   border-left: 2px solid rgba(0, 0, 0, 0.3);
@@ -91,7 +91,7 @@ p {
   display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .timeline-item::after {
@@ -129,18 +129,25 @@ table {
 
 .head-tr {
   background: #dff0d8;
+
+}
+
+.head-tr th {
+  text-align: left;
 }
 
 .td-time {
-  width: 70px;
+  width: 50px !important;
+  vertical-align: middle !important;
 }
 
 .td-hour {
-  width: 50px;
+  width: 36px !important;
+  vertical-align: middle !important;
 }
 
 th {
-  text-align: center;
+  text-align: center !important;
 }
 td {
   width: 200px;
@@ -306,6 +313,22 @@ td {
 }
 
 .td-content, .td-width {text-align: left}
+
+.summary {
+  padding: 0 2em 0 2em;
+  position: relative;
+  color: rgba(0, 0, 0, 0.7);
+  bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.summary-content {
+  margin: 10px 0;
+}
+
+.bottom-border {
+  border-bottom: 2px solid rgba(233, 233, 233, 0.5) ;
+}
 
 
 

@@ -66,10 +66,14 @@
 
 .table .td-time {
     width: 120px;
+    /*width: 80px;*/
+    vertical-align: middle;
 }
 
 .td-hour {
     width: 75px;
+    /*width: 50px;*/
+    vertical-align: middle !important;
 }
 
 .table th {
@@ -114,6 +118,7 @@
 .td-width {
     width: 400px;
     text-align: left;
+    padding-left: 10px !important;
 }
 
 .inline-block {
@@ -365,6 +370,8 @@ html {
 .inline {
     display: inline-block;
 }
+
+
 
 
 
